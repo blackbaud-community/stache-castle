@@ -1,0 +1,23 @@
+{
+  "name": "stache-castle",
+  "version": "1.0.0",
+  "description": "Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackbaud/stache-castle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blackbaud/stache-castle/issues"
+  },
+  "homepage": "https://github.com/blackbaud/stache-castle#readme",
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-convert": "^0.1.12"
+  }
+}
