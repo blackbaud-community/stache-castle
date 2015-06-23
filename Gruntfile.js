@@ -35,19 +35,26 @@ module.exports = function(grunt) {
 		
 		var isData = false;
 		
+		var hasParam = false;
+		
 		for(var i = 0; i < xml_contents.length; i++){
 		
 			//if a type is closed out, i.e.: </bracket>.
 			if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '/') {
 			
 				//If we're closing out an entire level, rather than content
-				if(!isData)
+				if(!isData){
 					json_results += "},";
+				}
 				else { //If we're closing out content, such as text, numbers, etc.
 					json_results += "\"";
+					if(hasParam)
+						json_results += "},";
+					else 
+						json_results += ",";
 					isData = false;
 				}
-				
+
 				var check = "";
 				
 				//skip over the text portion of a closing bracket so it doesn't print out
@@ -56,6 +63,25 @@ module.exports = function(grunt) {
 					check = xml_contents.charAt(i);
 					i++;
 				}
+				
+				var copy_contents = xml_contents;
+				var j = i;
+				while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
+				copy_contents.charAt(j+1) == ' ') {
+				
+					
+					j++;
+				}
+				
+				if(copy_contents.charAt(j + 1) == "<" && copy_contents.charAt(j + 2) == "/") {
+				
+					json_results = json_results.substr(0, json_results.length - 1);
+						
+				}
+				else {
+					
+				}
+				
 			
 			} //if we're opening up a new bracket, write out a " or check for params
 			else if(xml_contents.charAt(i) == '<') {
@@ -63,7 +89,7 @@ module.exports = function(grunt) {
 				json_results += "\"";
 				
 				var check = xml_contents.charAt(i);
-				var hasParam = false;
+				hasParam = false;
 				
 				while(check != ">") {
 					
@@ -106,7 +132,14 @@ module.exports = function(grunt) {
 					}
 
 					if(copy_contents.charAt(j + 1) == "<") {
-					json_results += ",";
+						
+						if(copy_contents.charAt(j + 2) == "/"){
+						
+						
+						}
+						else {
+							json_results += ",";
+						}
 					}
 					else {
 					isData = true;
@@ -136,13 +169,23 @@ module.exports = function(grunt) {
 			}
 			else {
 			
-				json_results += xml_contents.charAt(i);
+				if(xml_contents.charAt(i) != '\r' && xml_contents.charAt(i) != '\n'){
+					if(xml_contents.charAt(i) == '"'){
+						json_results += '\'';
+					}
+					else if(xml_contents.charAt(i) == "\\") {
+						json_results += "\\\\";
+					}
+					else {
+						json_results += xml_contents.charAt(i);
+					}
+				}
 			
 			}
 		
 		}
 			
-		grunt.file.write(dest, json_results);
+		grunt.file.write(dest, json_results.substr(0, json_results.length - 1) + "}");
 		
 		});
 
