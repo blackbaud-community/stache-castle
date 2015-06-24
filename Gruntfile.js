@@ -39,8 +39,32 @@ module.exports = function(grunt) {
 		
 		for(var i = 0; i < xml_contents.length; i++){
 		
-			//if a type is closed out, i.e.: </bracket>.
-			if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '/') {
+			if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '?') {
+			
+				while(xml_contents.charAt(i) + xml_contents.charAt(i + 1) != "?>"){
+				
+					i++;
+				
+				}
+				
+				i += 4;
+			
+			}
+			//If we are hitting a comment, this will pass over it
+			if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '!' &&
+				xml_contents.charAt(i + 2) == '-' && xml_contents.charAt(i + 3) == '-') {
+				
+				
+				
+				while((xml_contents.charAt(i) + xml_contents.charAt(i + 1) +
+					xml_contents.charAt(i + 2)) != '-->') {
+					
+					i++;
+				}
+				grunt.log.writeln(xml_contents.charAt(i) + xml_contents.charAt(i+1) + xml_contents.charAt(i+2));
+				i += 3;
+			}//if a type is closed out, i.e.: </bracket>.
+			else if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '/') {
 			
 				//If we're closing out an entire level, rather than content
 				if(!isData){
@@ -84,17 +108,18 @@ module.exports = function(grunt) {
 				
 			
 			} //if we're opening up a new bracket, write out a " or check for params
-			else if(xml_contents.charAt(i) == '<') {
+			else if(xml_contents.charAt(i) == '<' && !isData) {
 			
 				json_results += "\"";
 				
 				var check = xml_contents.charAt(i);
 				hasParam = false;
-				
+				var paramCount = 0;
 				while(check != ">") {
 					
 					if(check == "="){
 						hasParam = true;
+						paramCount++;
 						var checkspace = "";
 						var j = 1;
 						json_results = json_results.substr(0, json_results.length - 1);
@@ -107,7 +132,10 @@ module.exports = function(grunt) {
 						}
 					
 						json_results = json_results.substr(0, json_results.length - 1);
-						json_results += ("\": {\r\n            \"" + checkspace + "\": ");
+						if(paramCount == 1)
+							json_results += ("\": {\r\n            \"" + checkspace + "\": ");
+						else
+							json_results += (",\r\n            \"" + checkspace + "\": ");
 						
 					}
 					
@@ -147,7 +175,7 @@ module.exports = function(grunt) {
 					}					
 				}
 			}
-			else if(xml_contents.charAt(i) == '>') {
+			else if(xml_contents.charAt(i) == '>' && !isData) {
 				
 				var copy_contents = xml_contents;
 				var j = i;
@@ -168,8 +196,8 @@ module.exports = function(grunt) {
 			
 			}
 			else {
-			
-				if(xml_contents.charAt(i) != '\r' && xml_contents.charAt(i) != '\n'){
+
+			if(xml_contents.charAt(i) != '\r' && xml_contents.charAt(i) != '\n') {
 					if(xml_contents.charAt(i) == '"'){
 						json_results += '\'';
 					}
@@ -179,7 +207,7 @@ module.exports = function(grunt) {
 					else {
 						json_results += xml_contents.charAt(i);
 					}
-				}
+					}
 			
 			}
 		

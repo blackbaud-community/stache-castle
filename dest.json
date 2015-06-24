@@ -1,6 +1,6 @@
-{"?xml": {
-            "version": "1.0"?,"doc": {    "assembly": {        "name": "Blueshirt.Core"    },    "members": {        "member": {
+{"doc": {    "assembly": {        "name": "Blueshirt.Core"    },    "members": {        "member": {
             "name": "T:Blueshirt.Core.Base.BaseComponent",            "summary": "            Base functionality that applies to entire BBCRM and BBIS products for automation.            "        },        "member": {
+            "id": "dsdfssfsdf",
             "name": "M:Blueshirt.Core.Base.BaseComponent.getXButton(System.String)",            "summary": "            Format an XPath to find a button.  Adds no additional constraints other than            the caption of the button equalling the provided value.            ",            "param": {
             "name": "caption",
             "_": "The caption of the button."}        },        "member": {
@@ -1147,21 +1147,21 @@
             "name": "M:Blueshirt.Core.Crm.ConstituentPanel.IsConstituentPanelHeader(System.String)",            "summary": "            Check if the Constituent panel header has the expected text.            ",            "param": {
             "name": "expectedText",
             "_": "The expected text of the header to check for."},            "returns": "True if the header has the expected text, false otherwise."        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.ConstituencyExists(TechTalk.SpecFlow.TableRow)",            "summary": "            Check if a constituency exists on the 'Personal Info' =": " 'Constituencies' tab.            ",            "param": {
+            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.ConstituencyExists(TechTalk.SpecFlow.TableRow)",            "summary": "            Check if a constituency exists on the 'Personal Info' => 'Constituencies' tab.            ",            "param": {
             "name": "values",
             "_": "Mapping of column captions to a row's values."},            "returns": "True if the constituency exists, false otherwise."        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddConstituency(System.String,TechTalk.SpecFlow.TableRow)",            "summary": "            Add a constituency under the 'Personal Info' =": " 'Constituencies' tab.            ",            "param": {
+            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddConstituency(System.String,TechTalk.SpecFlow.TableRow)",            "summary": "            Add a constituency under the 'Personal Info' => 'Constituencies' tab.            ",            "param": {
             "name": "constituency",
             "_": "The type of constituency to add (i.e. 'Staff')"},            "param": {
             "name": "values",
             "_": "Mapping of the field captions and desired values to set on the 'Add constituency' dialog.              Defaults to null where no values are set."}        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddNote(TechTalk.SpecFlow.TableRow)",            "summary": "            Add a Note in the 'Documentation and Interactions' =": " 'Constituent Documentation' tab            ",            "param": {
+            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddNote(TechTalk.SpecFlow.TableRow)",            "summary": "            Add a Note in the 'Documentation and Interactions' => 'Constituent Documentation' tab            ",            "param": {
             "name": "note",
             "_": "Mapping of the field captions for the 'Add a note' dialog to their desired values."}        },        "member": {
             "name": "M:Blueshirt.Core.Crm.ConstituentPanel.SelectNote(System.String)",            "summary": "            Select a Note.            ",            "param": {
             "name": "noteTitle",
             "_": "The value of the 'Title' column for the desired row."}        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddNotification(System.String,TechTalk.SpecFlow.TableRow)",            "summary": "            Add a Notification to the specified Note in the 'Documentation and Interactions' =": " 'Constituent Documentation' tab.            ",            "param": {
+            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddNotification(System.String,TechTalk.SpecFlow.TableRow)",            "summary": "            Add a Notification to the specified Note in the 'Documentation and Interactions' => 'Constituent Documentation' tab.            ",            "param": {
             "name": "noteTitle",
             "_": "The 'Title' of the Note to add a notification to."},            "param": {
             "name": "notification",
@@ -1175,7 +1175,7 @@
             "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddTeamRole(System.String)",            "summary": "            Add Team Member Role through the 'Add a prospect team member' dialog.            ",            "param": {
             "name": "teamRole",
             "_": "The name of the team role to add."}        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddTeamMember(TechTalk.SpecFlow.TableRow)",            "summary": "            Add a prospect team member from the 'Prospect' =": " 'Prospect Team' tab.                        Constituent may need to have the 'Prospect' constituency for this tab to be displayed.            ",            "param": {
+            "name": "M:Blueshirt.Core.Crm.ConstituentPanel.AddTeamMember(TechTalk.SpecFlow.TableRow)",            "summary": "            Add a prospect team member from the 'Prospect' => 'Prospect Team' tab.                        Constituent may need to have the 'Prospect' constituency for this tab to be displayed.            ",            "param": {
             "name": "teamMember",
             "_": "Mapping of the field captions for the 'Add a prospect team member' dialog to their desired values."}        },        "member": {
             "name": "M:Blueshirt.Core.Crm.ConstituentPanel.TeamMemberExists(TechTalk.SpecFlow.TableRow)",            "summary": "            Check if a prospect team member exists.            ",            "param": {
@@ -1415,7 +1415,7 @@
             "name": "M:Blueshirt.Core.Crm.Panels.QueryPanel.getXQuery(System.String)",            "summary": "            Returns an Xpath for a Query in a results row on a QueryPanel.                        ",            "param": {
             "name": "text",
             "_": "The text of the Query."},            "returns": {}        },        "member": {
-            "name": "M:Blueshirt.Core.BBIS.BBISHomePage.Logon",            "summary": "            Logon with the credentials specified in the config file.            "        },        "!-- Badly formed XML comment ignored for member "M:Blueshirt.Core.BBIS.BBISHomePage.LogonAs(System.String)" --": {        "member": {
+            "name": "M:Blueshirt.Core.BBIS.BBISHomePage.Logon",            "summary": "            Logon with the credentials specified in the config file.            "        },                "member": {
             "name": "T:Blueshirt.Core.Crm.BBCRMHomePage",            "summary": "            A class for handling interactions and actions on the main BBCRM page.                        "        },        "member": {
             "name": "F:Blueshirt.Core.Crm.BBCRMHomePage.getXMenuMore",            "summary": "            Returns an Xpath for the more button icon on the toolbar.            "        },        "member": {
             "name": "M:Blueshirt.Core.Crm.BBCRMHomePage.getXTask(System.String)",            "summary": "            Format an xPath to find a task in the left explorer bar.            ",            "param": {
@@ -1441,7 +1441,7 @@
             "name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenFunctionalArea(System.String)",            "summary": "            Open a Functional Area by caption.            ",            "param": {
             "name": "caption",
             "_": "The caption(name) of the Functional Area to open."}        },        "member": {
-            "name": "M:Blueshirt.Core.Crm.BBCRMHomePage.Logon",            "summary": "            Logon with the credentials specified in the config file.            "        },        "!-- Badly formed XML comment ignored for member "M:Blueshirt.Core.Crm.BBCRMHomePage.LogonAs(System.String)" --": {        "member": {
+            "name": "M:Blueshirt.Core.Crm.BBCRMHomePage.Logon",            "summary": "            Logon with the credentials specified in the config file.            "        },                "member": {
             "name": "T:Blueshirt.Core.Crm.ReceiptsPanel",            "summary": "            Class to handle interactions for the 'Receipts' panel.            "        },        "member": {
             "name": "M:Blueshirt.Core.Crm.ReceiptsPanel.AddReceipt(TechTalk.SpecFlow.TableRow)",            "summary": "            Add a receipt process.            ",            "param": {
             "name": "receipt",

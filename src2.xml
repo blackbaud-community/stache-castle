@@ -9,7 +9,7 @@
             Base functionality that applies to entire BBCRM and BBIS products for automation.
             </summary>
         </member>
-        <member name="M:Blueshirt.Core.Base.BaseComponent.getXButton(System.String)">
+        <member id="dsdfssfsdf" name="M:Blueshirt.Core.Base.BaseComponent.getXButton(System.String)">
             <summary>
             Format an XPath to find a button.  Adds no additional constraints other than
             the caption of the button equalling the provided value.
