@@ -194,21 +194,21 @@ module.exports = function(grunt) {
 				
 				outsideTag = false;
 			}
-			else if(xml_contents.charAt(i) == '>' && !isData) {
+			else if(xml_contents.charAt(i) == '>' && !isData) { //if exiting a tag, which implies either we're entering content
 				
 				var copy_contents = xml_contents;
 				var j = i;
 				while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
 				copy_contents.charAt(j+1) == ' ') {
 				
-					
+					//skip over any formatting
 					j++;
 				}
 				
-				if(copy_contents.charAt(j + 1) == "<") {
+				if(copy_contents.charAt(j + 1) == "<") { //if next character is a "<" than there was no data to be printed but there may be inner tags
 				json_results += "\": {";
 				}
-				else {
+				else { //if we hit anything else we can make the assumption that there is inner text
 					isData = true;
 					json_results += "\": \"";
 				}
@@ -216,8 +216,7 @@ module.exports = function(grunt) {
 			}
 			else {
 
-			var reg = /\W/;
-			var reg2 = / /;
+			//this last block handles printing out any actual text that doesn't have special meaning in XML.
 			if(xml_contents.charAt(i) != '\r' && xml_contents.charAt(i) != '\n' && !outsideTag) {
 					if(xml_contents.charAt(i) == '"'){
 						json_results += '\'';
