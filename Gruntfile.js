@@ -117,6 +117,7 @@ module.exports = function(grunt) {
 				var paramCount = 0;
 				while(check != ">") {
 					
+					
 					if(check == "="){
 						hasParam = true;
 						paramCount++;
