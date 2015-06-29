@@ -1,3 +1,6 @@
+var html_file = require('fs');
+var cheerio = require('cheerio');
+
 module.exports = function(grunt) {
 
 	grunt.initConfig({
@@ -5,31 +8,32 @@ module.exports = function(grunt) {
 		"./final.json": "./index.html" 
 	  }
 	});
-
-
-	grunt.registerTask('gyzoomz', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', function(src1, src2, dest) {
+	
+	/*******************************************************************************************
+	*
+	* Convenience Functions
+	*
+	********************************************************************************************/
+	function check_forward(copy_contents, i) {
+	
+		var j = i;
+		while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
+		copy_contents.charAt(j+1) == ' ') {
 		
-		//if files do not exist, warn the user and exit
-		if(!grunt.file.exists("./" + src1) || !grunt.file.exists("./" + src2) || !grunt.file.exists("./" + dest)){
-		
-			grunt.fail.warn("\nOne or more files do not exist!");
-		
+			//skip over any formatting
+			j++;
 		}
+	
+		return j;
+	}	
+
+	grunt.registerTask('gyzoomz', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', function(directory) {
+	
+
+		var src_html = grunt.file.expand(directory + "/*.xml");
+		var xml_contents = grunt.file.read(src_html[0]);
+
 		
-		//check to make sure the extensions are of the type that this parser can support
-		var extension_src1 = src1.slice(src1.indexOf('.') + 1, src1.length);
-		var extension_src2 = src2.slice(src2.indexOf('.') + 1, src2.length);
-		var extension_dest = dest.slice(dest.indexOf('.') + 1, dest.length);
-		
-				
-		if((extension_src1 !== "xml" && extension_src1 !== "html") &&
-			(extension_src2 !== "html" && extension_src2 !== "xml")){
-		
-			grunt.fail.warn("\n This tool only works for .xml and .html source files.");
-		
-		}
-		
-		var xml_contents = grunt.file.read(src2);
 		
 		//begin json output
 		var json_results = "{";
@@ -72,7 +76,8 @@ module.exports = function(grunt) {
 				}
 				grunt.log.writeln(xml_contents.charAt(i) + xml_contents.charAt(i+1) + xml_contents.charAt(i+2));
 				i += 3;
-			}//if a type is closed out, i.e.: </bracket>.
+			}
+			//if a type is closed out, i.e.: </bracket>.
 			else if(xml_contents.charAt(i) == '<' && xml_contents.charAt(i + 1) == '/') {
 			
 				//If we're closing out an entire level, rather than content
@@ -97,16 +102,9 @@ module.exports = function(grunt) {
 					i++;
 				}
 				
-				var copy_contents = xml_contents;
-				var j = i;
-				while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
-				copy_contents.charAt(j+1) == ' ') {
-					
-					//This loop moves through all formatting in a copy of the XML.
-					j++;
-				}
+				var j = check_forward(xml_contents, i);
 				
-				if(copy_contents.charAt(j + 1) == "<" && copy_contents.charAt(j + 2) == "/") {
+				if(xml_contents.charAt(j + 1) == "<" && xml_contents.charAt(j + 2) == "/") {
 					//if the next bracket after the current closed bracket is also a closed bracket
 					//then we need to remove the ','.  This was easier than having a more complicated if/else at the start
 					//of the block
@@ -125,7 +123,14 @@ module.exports = function(grunt) {
 				json_results += "\"";
 				
 				var check = xml_contents.charAt(i);
+				
+				var checkspace = "";
+				
 				hasParam = false;
+				
+				//the name attr.  Will be used to open html file.
+				var title = "";
+				
 				var paramCount = 0;
 				
 				while(check != ">") {
@@ -135,7 +140,6 @@ module.exports = function(grunt) {
 					
 						hasParam = true;
 						paramCount++;
-						var checkspace = ""; //will be the param name
 						var j = 1;
 						json_results = json_results.substr(0, json_results.length - 1); //move JSON output back to last letter of param name
 						
@@ -158,27 +162,177 @@ module.exports = function(grunt) {
 					
 					i++; //these few lines basically take care of printing the parameter text
 					check = xml_contents.charAt(i);
+					if(hasParam && check != '"' && check != '>')
+						title += check;
 					json_results += check;
 				}
 				
 				json_results = json_results.substr(0, json_results.length - 1); //gets rid of the ">" that gets added in the final loop around
+
+				
+				//if there's an attribute, and it's a name.  Assumption is sandcastle output will always have a name attr. if it coordinates
+				//with an html file.  If not, it's just a meaningless bracket with regards to the html files.
+				if(checkspace == 'name') {
+				
+					title = title.replace(/[.:]/gi, "_");
+					grunt.log.writeln(title);
+					var $ = cheerio.load(html_file.readFileSync(directory + '/html/' + title + '.htm'));
+					
+					json_results += ",\"params\": {\"summary\": \"";					
+					json_results += ($('.topicContent').children('.summary').text()).replace(/\r\n/gi, "") + "\",";
+					
+					json_results += "\"inheritance\": {";
+					$('#ID0RBSection').find('a').each(function() {
+						$(this).find('script').remove();
+						json_results += "\"" + $(this).attr('href') + "\":\"" + $(this).text() + "\",";
+						console.log($(this).attr('href') + " " + $(this).text());
+					});
+					json_results = json_results.substr(0, json_results.length - 1);
+										
+					//close inheritance
+					json_results += "},";
+					
+					json_results += "\"namespace\": {";
+					
+					json_results += "\"" + $("strong:contains('Namespace:')").next("a").attr('href') + "\": \"" + $("strong:contains('Namespace:')").next("a").text() + "\"},";
+										
+					json_results += "\"assembly\": \"?\",";
+					
+					json_results += "\"syntax\": {";
+					
+					//gets all content in the Syntax block.
+					$('.codeSnippetContainerCode').each(function() {
+						var id = $(this).attr('id');
+						grunt.log.writeln(id);
+						switch(id.substr(id.indexOf("_Div"), id.length)) {
+						
+							case "_Div1":
+								json_results += "\"C#\": \"";
+								break;
+							case "_Div2":
+								json_results += "\"VB\": \"";
+								break;
+							case "_Div3":
+								json_results += "\"C++\": \"";
+								break;
+						
+						}
+						
+						$(this).find('pre span').each(function() {
+						
+						
+							json_results += $(this).text() + " ";
+						
+						});
+						
+						json_results = json_results.trim();
+						
+						json_results += "\",";
+					});
+					
+					json_results = json_results.substr(0, json_results.length - 1);
+					
+					//close syntax
+					json_results += "},";
+					
+					//sentence below syntax box
+					json_results += "\"lower_syntax_text\": \"" + $('#ID2RBSection').next('p').text() + "\",";
+					
+					//adds constructor data for all constructors
+					json_results += "\"constructors\": {";
+					
+					$('#ID3RBSection table').find('tr[data]').each(function() {
+					
+						json_results += "\"" + $(this).find('td a').text() + "\": {";
+						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
+						json_results += "\"description\":\"" + $(this).find('td div').text() + "\",";
+						
+						var visibility = $(this).attr('data');
+						var visibility = visibility.split(";");
+						
+						for (type of visibility) {
+						
+							if(type != "")
+								json_results += "\"" + type + "\": \"\",";
+						}
+					
+						json_results = json_results.substr(0, json_results.length - 1) + "},";
+					});
+					
+					json_results = json_results.substr(0, json_results.length - 1);
+					
+					//close constructor block
+					json_results += "},";
+					json_results += "\"methods\": {";
+					
+					//adds Method data for all methods
+					$('#ID4RBSection table').find('tr[data]').each(function() {
+					
+						json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {";
+						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
+						
+						json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",";
+						
+						var visibility = $(this).attr('data');
+						var visibility = visibility.split(";");
+						
+						for (type of visibility) {
+						
+							if(type != "")
+								json_results += "\"" + type + "\": \"\",";
+						}
+					
+						json_results = json_results.substr(0, json_results.length - 1) + "},";
+					});
+					
+					json_results = json_results.substr(0, json_results.length - 1);
+					
+					//close methods block
+					json_results += "},";
+					json_results += "\"properties\": {";
+					
+					//add all property data for class
+					$('#ID5RBSection table').find('tr[data]').each(function() {
+					
+						json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {";
+						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
+						
+						json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",";
+						
+						var visibility = $(this).attr('data');
+						var visibility = visibility.split(";");
+						
+						for (type of visibility) {
+						
+							if(type != "")
+								json_results += "\"" + type + "\": \"\",";
+						}
+					
+						json_results = json_results.substr(0, json_results.length - 1) + "},";
+					});
+					
+					json_results = json_results.substr(0, json_results.length - 1);					
+					
+					//close properties
+					
+					json_results += "}";
+					
+					//close params
+					json_results += "},";
+					
+					grunt.file.write("dest.json", json_results);
+				}
+				
 				if(!hasParam) {
 					i--; //if there wasn't a parameter there's no special JSON output that is needed, so move index to right before the ">"
 				}
 				else {
 
-					var copy_contents = xml_contents;
-					var j = i;
-					while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
-					copy_contents.charAt(j+1) == ' ') {
+					var j = check_forward(xml_contents, i);
 
-						//if there is a parameter, search ahead in the XML to see what the next set of brackets are
-						j++;
-					}
-
-					if(copy_contents.charAt(j + 1) == "<") {
+					if(xml_contents.charAt(j + 1) == "<") {
 						
-						if(copy_contents.charAt(j + 2) == "/"){
+						if(xml_contents.charAt(j + 2) == "/"){
 						
 							//if there's another set of closing brackets than don't print out a comma
 						}
@@ -196,16 +350,9 @@ module.exports = function(grunt) {
 			}
 			else if(xml_contents.charAt(i) == '>' && !isData) { //if exiting a tag, which implies either we're entering content
 				
-				var copy_contents = xml_contents;
-				var j = i;
-				while(copy_contents.charAt(j + 1) == '\r' || copy_contents.charAt(j + 1) == '\n' ||
-				copy_contents.charAt(j+1) == ' ') {
+				var j = check_forward(xml_contents, i);
 				
-					//skip over any formatting
-					j++;
-				}
-				
-				if(copy_contents.charAt(j + 1) == "<") { //if next character is a "<" than there was no data to be printed but there may be inner tags
+				if(xml_contents.charAt(j + 1) == "<") { //if next character is a "<" than there was no data to be printed but there may be inner tags
 				json_results += "\": {";
 				}
 				else { //if we hit anything else we can make the assumption that there is inner text
@@ -233,7 +380,7 @@ module.exports = function(grunt) {
 		
 		}
 			
-		grunt.file.write(dest, json_results.substr(0, json_results.length - 1) + "}");
+		grunt.file.write("dest.json", json_results.substr(0, json_results.length - 1) + "}");
 		
 		});
 
