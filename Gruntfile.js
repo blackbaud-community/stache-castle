@@ -26,8 +26,232 @@ module.exports = function(grunt) {
 	
 		return j;
 	}	
+	
+	function check_and_write_params($, filename) {
+	
+		var json_results = "";
+		var isClass = false;
+		
+		json_results += ",\"params\": {\"summary\": \"";					
+		json_results += ($('.topicContent').children('.summary').text()).replace(/\r\n/gi, "") + "\",";
+		
+		if(filename.indexOf('T_') == 0)
+			isClass = true;
+		//change later, just for testing
+		if(!isClass){
+			json_results += "\"inheritance\": {";
+			$('#ID0RBSection').find('a').each(function() {
+				$(this).find('script').remove();
+				json_results += "\"" + $(this).attr('href') + "\":\"" + $(this).text() + "\",";
+			});
+			json_results = json_results.substr(0, json_results.length - 1);
+								
+			//close inheritance
+			json_results += "},";
+		}
+		
+		json_results += "\"namespace\": {";
+		
+		json_results += "\"" + $("strong:contains('Namespace:')").next("a").attr('href') + "\": \"" + $("strong:contains('Namespace:')").next("a").text() + "\"},";
+							
+		json_results += "\"assembly\": \"?\",";
+		
+		json_results += "\"syntax\": {";
+		
+		//gets all content in the Syntax block.
+		$('.codeSnippetContainerCode').each(function() {
+			var id = $(this).attr('id');
+			grunt.log.writeln(id);
+			switch(id.substr(id.indexOf("_Div"), id.length)) {
+			
+				case "_Div1":
+					json_results += "\"C#\": \"";
+					break;
+				case "_Div2":
+					json_results += "\"VB\": \"";
+					break;
+				case "_Div3":
+					json_results += "\"C++\": \"";
+					break;
+			
+			}
+			
+			$(this).find('pre').each(function() {
+			
+			
+				json_results += $(this).text().replace(/\r\n/g, " ").replace(/\t/g, " ") + " ";
+				
+			});
+			
+			json_results = json_results.trim();
+			
+			json_results += "\",";
+		});
+		
+		json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
+		
+		//close syntax
+		json_results += "},\r\n";
+		
+		//sentence below syntax box
+		if(!isClass)
+			json_results += "\"lower_syntax_text\": \"" + $('#ID2RBSection').next('p').text() + "\",\r\n";
+		
+		if(!isClass){
+			//adds constructor data for all constructors
+			json_results += "\"constructors\": {\r\n";
+			
+			$('#ID3RBSection table').find('tr[data]').each(function() {
+			
+				json_results += "\"" + $(this).find('td a').text() + "\": {";
+				json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
+				json_results += "\"description\":\"" + $(this).find('td div').text() + "\",\r\n";
+				
+				var visibility = $(this).attr('data');
+				var visibility = visibility.split(";");
+				
+				for (type of visibility) {
+				
+					if(type != "")
+						json_results += "\"" + type + "\": \"\",\r\n";
+				}
+			
+				json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+			});
+			
+			json_results = json_results.substr(0, json_results.length - 1);
+			
+			//close constructor block
+			json_results += "},";
+		
+			json_results += "\"methods\": {\r\n";
+			
+			//adds Method data for all methods
+			$('#ID4RBSection table').find('tr[data]').each(function() {
+			
+				json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {\r\n";
+				json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
+				
+				json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",\r\n";
+				
+				var visibility = $(this).attr('data');
+				var visibility = visibility.split(";");
+				
+				for (type of visibility) {
+				
+					if(type != "")
+						json_results += "\"" + type + "\": \"\",\r\n";
+				}
+			
+				json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+			});
+			
+			json_results = json_results.substr(0, json_results.length - 1);
+			
+			//close methods block
+			json_results += "},\r\n";
+			
+		}
+		
+		if(!isClass){
+			var property = false;
+			for(var k = 0; k < 2; k++) {
+				if($("div span[onclick*='ID5RB']").text() == "Properties" && !property){
+					json_results += "\"properties\": {\r\n";
+					property = true;
+				}
+				else{
+					json_results += "\"fields\": {\r\n";
+				}
+				
+				//add all property/field data for class
+				$("#ID" + (5 + k) + "RBSection table").find('tr[data]').each(function() {
+				
+					json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {\r\n";
+					json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
+					
+					json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",\r\n";
+					
+					var visibility = $(this).attr('data');
+					var visibility = visibility.split(";");
+					
+					for (type of visibility) {
+					
+						if(type != "")
+							json_results += "\"" + type + "\": \"\",\r\n";
+					}
+				
+					json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+				});
+				
+				json_results = json_results.substr(0, json_results.length - 1);					
+				
+				
+				if(property)
+					k++;		
 
-	grunt.registerTask('gyzoomz', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', function(directory) {
+				//close properties/fields
+				json_results += "},";
+			}
+			
+			
+		}
+		
+		if($("h4:contains('Parameters')").length){
+		
+			json_results += "\"arguments\": {\r\n";
+		
+			$("h4:contains('Parameters')").next('dl').find('dt').each(function() {
+			
+				json_results += "\"" + $(this).children('.parameter').text() + "\" {\r\n";
+				var type = $(this).next('dd').children('.nolink').text();
+				if(type == ""){
+					$(this).next('dd').children('a').find('script').remove();
+					type = $(this).next('dd').children('a').text();
+				}
+				json_results += "\"type\": \"" + type + "\",";
+				
+				$(this).next('dd').find('a').remove(); //narrows down the content to just the description text
+				var descr_text = $(this).next('dd').html();
+				descr_text = descr_text.split("<br>")[1];
+				json_results += "\"description\": \"" + descr_text + "\"},";
+			
+			
+			});
+			
+			json_results = json_results.substr(0, json_results.length - 1);
+			//close argument bracket
+			json_results += "},";
+		}
+		
+		if($("h4:contains('Return Value')").length) {
+		
+			json_results += "\"return_val\": {\r\n";
+		
+			json_results += "\"type\": \"" + $("h4:contains('Return Value')").next('a').text() + "\",";
+			
+			$('#ID1RBSection').children().each(function() {
+
+				$(this).empty();
+
+
+			})	
+			json_results += "\"description\": \"" + $('#ID1RBSection').text().split("Type:")[1] + "\"}},";
+		
+			
+		}
+		
+		json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+		
+		json_results = json_results.substr(0, json_results.length - 1);	
+		
+		//close params
+		json_results += "}";
+		
+		return json_results;
+	}
+
+	grunt.registerTask('cash_stache', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', function(directory) {
 	
 
 		var src_html = grunt.file.expand(directory + "/*.xml");
@@ -133,7 +357,10 @@ module.exports = function(grunt) {
 				
 				var paramCount = 0;
 				
+				var tagName = "";
+								
 				while(check != ">") {
+					
 					
 					
 					if(check == "="){ //basically have we found a param within the tag
@@ -149,6 +376,15 @@ module.exports = function(grunt) {
 							json_results = json_results.substr(0, json_results.length - 1); //move back another index
 							j++;
 						}
+						
+						//gets the name of the tag for HTML purposes
+						while(xml_contents.charAt(i - j) != "<") { //loop back untill we've read the whole param name
+						
+							tagName = xml_contents.charAt(i - j).concat(tagName);  //add letter to front of checkspace
+							j++;
+						}
+						tagName = tagName.trim();
+
 					
 						//moves JSON output back to the space before the param name
 						json_results = json_results.substr(0, json_results.length - 1);
@@ -172,155 +408,23 @@ module.exports = function(grunt) {
 				
 				//if there's an attribute, and it's a name.  Assumption is sandcastle output will always have a name attr. if it coordinates
 				//with an html file.  If not, it's just a meaningless bracket with regards to the html files.
-				if(checkspace == 'name') {
+				if(checkspace == 'name' && tagName == 'member') {
 				
+					if(title.indexOf('(') != -1)
+					title = title.slice(0, title.indexOf('(')); //remove parameters from title to better find HTML file
+					console.log("Title: " + title);
 					title = title.replace(/[.:]/gi, "_");
-					grunt.log.writeln(title);
-					var $ = cheerio.load(html_file.readFileSync(directory + '/html/' + title + '.htm'));
-					
-					json_results += ",\"params\": {\"summary\": \"";					
-					json_results += ($('.topicContent').children('.summary').text()).replace(/\r\n/gi, "") + "\",";
-					
-					json_results += "\"inheritance\": {";
-					$('#ID0RBSection').find('a').each(function() {
-						$(this).find('script').remove();
-						json_results += "\"" + $(this).attr('href') + "\":\"" + $(this).text() + "\",";
-						console.log($(this).attr('href') + " " + $(this).text());
-					});
-					json_results = json_results.substr(0, json_results.length - 1);
-										
-					//close inheritance
-					json_results += "},";
-					
-					json_results += "\"namespace\": {";
-					
-					json_results += "\"" + $("strong:contains('Namespace:')").next("a").attr('href') + "\": \"" + $("strong:contains('Namespace:')").next("a").text() + "\"},";
-										
-					json_results += "\"assembly\": \"?\",";
-					
-					json_results += "\"syntax\": {";
-					
-					//gets all content in the Syntax block.
-					$('.codeSnippetContainerCode').each(function() {
-						var id = $(this).attr('id');
-						grunt.log.writeln(id);
-						switch(id.substr(id.indexOf("_Div"), id.length)) {
-						
-							case "_Div1":
-								json_results += "\"C#\": \"";
-								break;
-							case "_Div2":
-								json_results += "\"VB\": \"";
-								break;
-							case "_Div3":
-								json_results += "\"C++\": \"";
-								break;
-						
-						}
-						
-						$(this).find('pre span').each(function() {
-						
-						
-							json_results += $(this).text() + " ";
-						
-						});
-						
-						json_results = json_results.trim();
-						
-						json_results += "\",";
-					});
-					
-					json_results = json_results.substr(0, json_results.length - 1);
-					
-					//close syntax
-					json_results += "},";
-					
-					//sentence below syntax box
-					json_results += "\"lower_syntax_text\": \"" + $('#ID2RBSection').next('p').text() + "\",";
-					
-					//adds constructor data for all constructors
-					json_results += "\"constructors\": {";
-					
-					$('#ID3RBSection table').find('tr[data]').each(function() {
-					
-						json_results += "\"" + $(this).find('td a').text() + "\": {";
-						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
-						json_results += "\"description\":\"" + $(this).find('td div').text() + "\",";
-						
-						var visibility = $(this).attr('data');
-						var visibility = visibility.split(";");
-						
-						for (type of visibility) {
-						
-							if(type != "")
-								json_results += "\"" + type + "\": \"\",";
-						}
-					
-						json_results = json_results.substr(0, json_results.length - 1) + "},";
-					});
-					
-					json_results = json_results.substr(0, json_results.length - 1);
-					
-					//close constructor block
-					json_results += "},";
-					json_results += "\"methods\": {";
-					
-					//adds Method data for all methods
-					$('#ID4RBSection table').find('tr[data]').each(function() {
-					
-						json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {";
-						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
-						
-						json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",";
-						
-						var visibility = $(this).attr('data');
-						var visibility = visibility.split(";");
-						
-						for (type of visibility) {
-						
-							if(type != "")
-								json_results += "\"" + type + "\": \"\",";
-						}
-					
-						json_results = json_results.substr(0, json_results.length - 1) + "},";
-					});
-					
-					json_results = json_results.substr(0, json_results.length - 1);
-					
-					//close methods block
-					json_results += "},";
-					json_results += "\"properties\": {";
-					
-					//add all property data for class
-					$('#ID5RBSection table').find('tr[data]').each(function() {
-					
-						json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {";
-						json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",";
-						
-						json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",";
-						
-						var visibility = $(this).attr('data');
-						var visibility = visibility.split(";");
-						
-						for (type of visibility) {
-						
-							if(type != "")
-								json_results += "\"" + type + "\": \"\",";
-						}
-					
-						json_results = json_results.substr(0, json_results.length - 1) + "},";
-					});
-					
-					json_results = json_results.substr(0, json_results.length - 1);					
-					
-					//close properties
-					
-					json_results += "}";
-					
-					//close params
-					json_results += "},";
-					
-					grunt.file.write("dest.json", json_results);
+					if(grunt.file.exists(directory + '/html/' + title + '.htm')){
+						var $ = cheerio.load(html_file.readFileSync(directory + '/html/' + "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox" + '.htm'));
+					}
+					else{
+						grunt.file.write('dest.json', json_results);
+						grunt.fail.fatal("File does not exist!");
+					}
+
+					json_results += check_and_write_params($, title);
+					grunt.file.write('dest.json', json_results);
+					grunt.fail.fatal('FAIL');
 				}
 				
 				if(!hasParam) {
