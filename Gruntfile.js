@@ -35,14 +35,20 @@ module.exports = function(grunt) {
 		json_results += ",\"params\": {\"summary\": \"";					
 		json_results += ($('.topicContent').children('.summary').text()).replace(/\r\n/gi, "") + "\",";
 		
-		if(filename.indexOf('T_') == 0)
+		if(filename.indexOf("T_") == 0)
 			isClass = true;
 		//change later, just for testing
-		if(!isClass){
+		if(isClass){
 			json_results += "\"inheritance\": {";
 			$('#ID0RBSection').find('a').each(function() {
 				$(this).find('script').remove();
 				json_results += "\"" + $(this).attr('href') + "\":\"" + $(this).text() + "\",";
+				if($(this).next('br').next('span').length != 0) {
+				
+					$(this).next('br').next('span').first().find('script').remove();
+					json_results += "\"#\": \"" + $(this).next('br').next('span').first().text() + "\",";
+				
+				}
 			});
 			json_results = json_results.substr(0, json_results.length - 1);
 								
@@ -91,13 +97,13 @@ module.exports = function(grunt) {
 		json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
 		
 		//close syntax
-		json_results += "},\r\n";
+		json_results += "},";
 		
 		//sentence below syntax box
-		if(!isClass)
+		if(isClass)
 			json_results += "\"lower_syntax_text\": \"" + $('#ID2RBSection').next('p').text() + "\",\r\n";
 		
-		if(!isClass){
+		if(isClass){
 			//adds constructor data for all constructors
 			json_results += "\"constructors\": {\r\n";
 			
@@ -113,13 +119,13 @@ module.exports = function(grunt) {
 				for (type of visibility) {
 				
 					if(type != "")
-						json_results += "\"" + type + "\": \"\",\r\n";
+						json_results += "\"" + type + "\": \"\",";
 				}
 			
-				json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+				json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
 			});
 			
-			json_results = json_results.substr(0, json_results.length - 1);
+			json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
 			
 			//close constructor block
 			json_results += "},";
@@ -140,23 +146,23 @@ module.exports = function(grunt) {
 				for (type of visibility) {
 				
 					if(type != "")
-						json_results += "\"" + type + "\": \"\",\r\n";
+						json_results += "\"" + type + "\": \"\",";
 				}
 			
-				json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+				json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
 			});
 			
-			json_results = json_results.substr(0, json_results.length - 1);
+			json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
 			
 			//close methods block
 			json_results += "},\r\n";
 			
 		}
 		
-		if(!isClass){
+		if(isClass){
 			var property = false;
 			for(var k = 0; k < 2; k++) {
-				if($("div span[onclick*='ID5RB']").text() == "Properties" && !property){
+				if($("div span[onclick*='ID" + (5 + k) + "RB']").text() == "Properties" && !property){
 					json_results += "\"properties\": {\r\n";
 					property = true;
 				}
@@ -167,7 +173,7 @@ module.exports = function(grunt) {
 				//add all property/field data for class
 				$("#ID" + (5 + k) + "RBSection table").find('tr[data]').each(function() {
 				
-					json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {\r\n";
+					json_results += "\"" + $(this).find('td a').first().text().replace(/\r\n/, "") + "\": {\r\n";
 					json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
 					
 					json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",\r\n";
@@ -178,13 +184,13 @@ module.exports = function(grunt) {
 					for (type of visibility) {
 					
 						if(type != "")
-							json_results += "\"" + type + "\": \"\",\r\n";
+							json_results += "\"" + type + "\": \"\",";
 					}
 				
-					json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+					json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
 				});
 				
-				json_results = json_results.substr(0, json_results.length - 1);					
+				json_results = json_results.substr(0, json_results.length - 1) + "\r\n";					
 				
 				
 				if(property)
@@ -241,7 +247,7 @@ module.exports = function(grunt) {
 			
 		}
 		
-		json_results = json_results.substr(0, json_results.length - 1) + "},\r\n";
+		json_results = json_results.substr(0, json_results.length - 1) + "\r\n},\r\n";
 		
 		json_results = json_results.substr(0, json_results.length - 1);	
 		
@@ -415,14 +421,14 @@ module.exports = function(grunt) {
 					console.log("Title: " + title);
 					title = title.replace(/[.:]/gi, "_");
 					if(grunt.file.exists(directory + '/html/' + title + '.htm')){
-						var $ = cheerio.load(html_file.readFileSync(directory + '/html/' + "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox" + '.htm'));
+						var $ = cheerio.load(html_file.readFileSync(directory + '/html/' + "T_Blueshirt_Core_Base_BaseComponent" + '.htm'));
 					}
 					else{
 						grunt.file.write('dest.json', json_results);
 						grunt.fail.fatal("File does not exist!");
 					}
 
-					json_results += check_and_write_params($, title);
+					json_results += check_and_write_params($, "T_Blueshirt_Core_Base_BaseComponent");
 					grunt.file.write('dest.json', json_results);
 					grunt.fail.fatal('FAIL');
 				}
