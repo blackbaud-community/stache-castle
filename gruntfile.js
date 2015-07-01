@@ -55,11 +55,19 @@ module.exports = function(grunt) {
         var $ = cheerio.load(grunt.file.read(filename));
 
         // TODO: Inheritance
-        // TODO: Syntax
         // TODO: References
 
         // Replace the summary
         v.summary = cleanText($('.summary').eq(0).text());
+
+        // Grab the syntax
+        v.syntax = [];
+        $('.codeSnippetContainerTab').each(function (k) {
+          v.syntax.push({
+            type: $(this).children('a').text(),
+            code: $('.codeSnippetContainerCode').eq(k).children('pre').html()
+          });
+        });
 
         // Namespaces, Classes, Methods, Properties
         $('.collapsibleAreaRegion').each(function () {
