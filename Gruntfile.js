@@ -19,6 +19,12 @@ module.exports = function(grunt) {
 			dest: './dest.json'
 			}
 		},
+		cash_stache: {
+		
+			dir: '.',
+			dest: 'dest.json',
+		
+		},
 
 
 	});
@@ -28,205 +34,111 @@ module.exports = function(grunt) {
 	* Convenience Functions
 	*
 	********************************************************************************************/
-	grunt.registerTask('cash-stache', "inserts HTML data into the JSON object", function(json) {
+	function log_lists(tableIndex, $, member, choice) {
 	
-		var directory = '.';
-		var $;
+		$("#ID" + tableIndex + "RBSection table").find('tr[data]').each(function() {
 		
-		for(member of json.members) {
-			console.log(member.name);
-			if(member.name.indexOf('(') != -1)
-				member.name = member.name.slice(0, title.indexOf('(')); //remove parameters from title to better find HTML file
-				console.log("Title: " + title);
-				member.name = member.name.replace(/[.:]/gi, "_");
-				
-			if(grunt.file.exists(directory + '/html/' + member.name + '.htm')){
-				$ = cheerio.load(html_file.readFileSync(directory + '/html/' + member.name + '.htm'));
-			}
+			var key = $(this).find('td a').text();
+			member.params[choice][key] =  {"link": $(this).find('td a').attr('href'), "description": $(this).find('td div').text()};
 
+			var visibility = $(this).attr('data');
+			var visibility = visibility.split(";");
 			
-		}
-		var json_results = "";
+			for (type of visibility) {
+			
+				if(type != "")
+					member.params[choice][key][type] = "";
+			}
+			
+		});
+	
+	}
+	
+	function process_html(member, index, json, $) {	
+			
 		var isClass = false;
+		member.params = {};
 		
-		json_results += ",\"params\": {\"summary\": \"";					
-		json_results += ($('.topicContent').children('.summary').text()).replace(/\r\n/gi, "") + "\",";
-		
-		if(filename.indexOf("T_") == 0)
+		if(member.name.indexOf("T_") == 0)
 			isClass = true;
 		//change later, just for testing
 		if(isClass){
-			json_results += "\"inheritance\": {";
+		
+			member.params.inheritance = {};
 			$('#ID0RBSection').find('a').each(function() {
+			
 				$(this).find('script').remove();
-				json_results += "\"" + $(this).attr('href') + "\":\"" + $(this).text() + "\",";
+				member.params.inheritance[$(this).attr('href')] =  $(this).text();
+				
 				if($(this).next('br').next('span').length != 0) {
 				
 					$(this).next('br').next('span').first().find('script').remove();
-					json_results += "\"#\": \"" + $(this).next('br').next('span').first().text() + "\",";
+					member.params.inheritance['#'] = $(this).next('br').next('span').first().text();
 				
 				}
 			});
-			json_results = json_results.substr(0, json_results.length - 1);
-								
-			//close inheritance
-			json_results += "},";
+
 		}
 		
-		json_results += "\"namespace\": {";
+		member.params.namespace = {};
 		
-		json_results += "\"" + $("strong:contains('Namespace:')").next("a").attr('href') + "\": \"" + $("strong:contains('Namespace:')").next("a").text() + "\"},";
+		member.params.namespace[$("strong:contains('Namespace:')").next("a").attr('href')] = $("strong:contains('Namespace:')").next("a").text();
 							
-		json_results += "\"assembly\": \"?\",";
+		member.params.assembly = "?";
 		
-		json_results += "\"syntax\": {";
+		member.params.syntax = {};
 		
 		//gets all content in the Syntax block.
 		$('.codeSnippetContainerCode').each(function() {
-			var id = $(this).attr('id');
-			grunt.log.writeln(id);
-			switch(id.substr(id.indexOf("_Div"), id.length)) {
-			
-				case "_Div1":
-					json_results += "\"C#\": \"";
-					break;
-				case "_Div2":
-					json_results += "\"VB\": \"";
-					break;
-				case "_Div3":
-					json_results += "\"C++\": \"";
-					break;
-			
-			}
-			
-			$(this).find('pre').each(function() {
+
+			var pos = $(this).attr('id').charAt($(this).attr('id').length - 1);
 			
 			
-				json_results += $(this).text().replace(/\r\n/g, " ").replace(/\t/g, " ") + " ";
-				
-			});
+			member.params.syntax[$("div[id*='_tab" + pos + "']").text()] = $(this).find('pre').text().trim();
 			
-			json_results = json_results.trim();
-			
-			json_results += "\",";
+
 		});
 		
-		json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
-		
-		//close syntax
-		json_results += "},";
-		
+
+				
 		//sentence below syntax box
 		if(isClass)
-			json_results += "\"lower_syntax_text\": \"" + $('#ID2RBSection').next('p').text() + "\",\r\n";
+			member.params.lower_syntax_text = $('#ID2RBSection').next('p').text();
 		
 		if(isClass){
 			//adds constructor data for all constructors
-			json_results += "\"constructors\": {\r\n";
-			
-			$('#ID3RBSection table').find('tr[data]').each(function() {
-			
-				json_results += "\"" + $(this).find('td a').text() + "\": {";
-				json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
-				json_results += "\"description\":\"" + $(this).find('td div').text() + "\",\r\n";
-				
-				var visibility = $(this).attr('data');
-				var visibility = visibility.split(";");
-				
-				for (type of visibility) {
-				
-					if(type != "")
-						json_results += "\"" + type + "\": \"\",";
-				}
-			
-				json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
-			});
-			
-			json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
-			
-			//close constructor block
-			json_results += "},";
-		
-			json_results += "\"methods\": {\r\n";
-			
-			//adds Method data for all methods
-			$('#ID4RBSection table').find('tr[data]').each(function() {
-			
-				json_results += "\"" + $(this).find('td a').text().replace(/\r\n/, "") + "\": {\r\n";
-				json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
-				
-				json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",\r\n";
-				
-				var visibility = $(this).attr('data');
-				var visibility = visibility.split(";");
-				
-				for (type of visibility) {
-				
-					if(type != "")
-						json_results += "\"" + type + "\": \"\",";
-				}
-			
-				json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
-			});
-			
-			json_results = json_results.substr(0, json_results.length - 1) + "\r\n";
-			
-			//close methods block
-			json_results += "},\r\n";
-			
-		}
-		
-		if(isClass){
+			member.params.constructors = {};
+			log_lists(3, $, member, "constructors");
+					
+			member.params.methods = {};
+			log_lists(4, $, member, "methods");
+								
 			var property = false;
 			for(var k = 0; k < 2; k++) {
+			
 				if($("div span[onclick*='ID" + (5 + k) + "RB']").text() == "Properties" && !property){
-					json_results += "\"properties\": {\r\n";
+					member.params.properties = {};
 					property = true;
+					log_lists(5 + k, $, member, "properties");
 				}
 				else{
-					json_results += "\"fields\": {\r\n";
+					member.params.fields = {};
+					log_lists(5 + k, $, member, "fields");
 				}
-				
-				//add all property/field data for class
-				$("#ID" + (5 + k) + "RBSection table").find('tr[data]').each(function() {
-				
-					json_results += "\"" + $(this).find('td a').first().text().replace(/\r\n/, "") + "\": {\r\n";
-					json_results += "\"link\":\"" + $(this).find('td a').attr('href') + "\",\r\n";
-					
-					json_results += "\"description\":\"" + $(this).find('td div').text().trim().replace("\r\n", " ") + "\",\r\n";
-					
-					var visibility = $(this).attr('data');
-					var visibility = visibility.split(";");
-					
-					for (type of visibility) {
-					
-						if(type != "")
-							json_results += "\"" + type + "\": \"\",";
-					}
-				
-					json_results = json_results.substr(0, json_results.length - 1) + "\r\n},";
-				});
-				
-				json_results = json_results.substr(0, json_results.length - 1) + "\r\n";					
-				
 				
 				if(property)
 					k++;		
-
-				//close properties/fields
-				json_results += "},";
-			}
-			
+			}		
 			
 		}
 		
+		
 		if($("h4:contains('Parameters')").length){
 		
-			json_results += "\"arguments\": {\r\n";
+			member.params.arguments = {};
 		
 			$("h4:contains('Parameters')").next('dl').find('dt').each(function() {
 			
-				json_results += "\"" + $(this).children('.parameter').text() + "\" {\r\n";
 				var type = "";
 				$(this).next('dd').children().each(function() {
 				
@@ -238,71 +150,94 @@ module.exports = function(grunt) {
 					else {
 						type += $(this).text();
 						
-						}
+					}
 				
 				});
-				json_results += "\"type\": \"" + type + "\",";
-				
+								
 				$(this).next('dd').find('a').remove(); //narrows down the content to just the description text
 				var descr_text = $(this).next('dd').html();
 				descr_text = descr_text.split("<br>")[1];
-				json_results += "\"description\": \"" + descr_text + "\"},";
 			
-			
+				member.params.arguments[$(this).children('.parameter').text()] = {"type": type, "description": descr_text};
+
 			});
 			
-			json_results = json_results.substr(0, json_results.length - 1);
-			//close argument bracket
-			json_results += "},";
 		}
 		
 		if($("h4:contains('Return Value')").length) {
-		
-			json_results += "\"return_val\": {\r\n";
-		
-			json_results += "\"type\": \"" + $("h4:contains('Return Value')").next('a').text() + "\",";
-			
+				
+			member.params.return_val = {};
+			member.params.return_val["type"] = $("h4:contains('Return Value')").next('a').text();
+
+
 			$('#ID1RBSection').children().each(function() {
 
 				$(this).empty();
 
 
-			})	
-			json_results += "\"description\": \"" + $('#ID1RBSection').text().split("Type:")[1] + "\"}},";
-		
+			});
 			
+			member.params.return_val["description"] = $('#ID1RBSection').text().split("Type:")[1];
+
+
 		}
 		
 		
 		if($("h4:contains('Field Value')").length) {
 		
-			
-			json_results += "\"type\": \"";
-			
+						
+			var field_val = "";
 			
 			$("h4:contains('Field Value')").nextUntil('div', ":not('script')").each(function() {
 
-					json_results += $(this).text();
+					field_val += $(this).text();
 			
 				
 			});
 			
-			json_results += "\",";
-		
+			member.params.type = field_val;
 		}
 		
-		json_results = json_results.substr(0, json_results.length - 1) + "\r\n},\r\n";
+		json.doc.members.member[index] = member;
+		return json;
+	
+	}
+	
+	grunt.registerTask('cash_stache', "inserts HTML data into the JSON object", function() {
+	
+		grunt.task.requires('convert');
+	
+		var dir = grunt.config.get('cash_stache.dir');
+	
+		var t = grunt.file.readJSON(dir + "/" + grunt.config.get('cash_stache.dest'));
+		var $;
 		
-		json_results = json_results.substr(0, json_results.length - 1);	
 		
-		//close params
-		json_results += "}";
+		t.doc.members.member.forEach(function(val, ind, arr) {
 		
+			if(val.name.indexOf('(') != -1)
+				val.name = val.name.slice(0, val.name.indexOf('(')); //remove parameters from title to better find HTML file
+			console.log("Title: " + val.name);
+			val.name = val.name.replace(/[.:]/gi, "_");
+				
+			if(grunt.file.exists(dir + '/html/' + val.name + '.htm')){
+				$ = cheerio.load(html_file.readFileSync(dir + '/html/' + val.name + '.htm'));
+			}
+			else {
+			
+				grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t));
+				grunt.fail.fatal("File Does Not Exist! --> " + val.name);
+			
+			}
+			
+			t = process_html(val, ind, t, $);
+
+		});
+
 	});
 	
 	grunt.loadNpmTasks('grunt-convert');
 
-	var t = JSON.parse(grunt.file.read('dest.json'));
-	grunt.registerTask('default', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', ['convert', 'cash-stache:'+ t]);
+	grunt.registerTask('default', 'Converting HTML/XML Sandcastle product into JSON files to be used in \'Stache', ['convert', 'cash_stache']);
 
 };
