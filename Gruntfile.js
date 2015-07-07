@@ -36,21 +36,36 @@ module.exports = function(grunt) {
 	********************************************************************************************/
 	function log_lists(tableIndex, $, member, choice) {
 	
-		$("#ID" + tableIndex + "RBSection table").find('tr[data]').each(function() {
-		
-			var key = $(this).find('td a').text();
-			member.params[choice][key] =  {"link": $(this).find('td a').attr('href'), "description": $(this).find('td div').text()};
+		if(choice != "members"){
+			$("#ID" + tableIndex + "RBSection table").find('tr[data]').each(function() {
+			
+				var key = $(this).find('td a').text();
+				member.params[choice][key] =  {"link": $(this).find('td a').attr('href'), "description": $(this).find('td div').text()};
 
-			var visibility = $(this).attr('data');
-			var visibility = visibility.split(";");
+				var visibility = $(this).attr('data');
+				var visibility = visibility.split(";");
+				
+				for (type of visibility) {
+				
+					if(type != "")
+						member.params[choice][key][type] = "";
+				}
+				
+			});
+		}
+		else {
+		
+			$("#ID" + tableIndex + "RBSection table").find('tr').first().remove();
+			$("#ID" + tableIndex + "RBSection table").find('tr').each(function() {
 			
-			for (type of visibility) {
+				$(this).find('td').first().remove();
+				member.params[choice][$(this).find('td').first().text()] = {"value": $(this).find('td').first().next().text(), "description": $(this).find('td').last().text()};
+				
 			
-				if(type != "")
-					member.params[choice][key][type] = "";
-			}
 			
-		});
+			});
+		
+		}
 	
 	}
 	
@@ -84,7 +99,7 @@ module.exports = function(grunt) {
 		
 		member.params.namespace[$("strong:contains('Namespace:')").next("a").attr('href')] = $("strong:contains('Namespace:')").next("a").text();
 							
-		member.params.assembly = "?";
+		member.params.assembly = $('.topicContent').text().split("Assembly:")[1].split("Syntax")[0];
 		
 		member.params.syntax = {};
 		
@@ -102,10 +117,10 @@ module.exports = function(grunt) {
 
 				
 		//sentence below syntax box
-		if(isClass)
+		if(isClass && $('#enumerationSection').length == 0)
 			member.params.lower_syntax_text = $('#ID2RBSection').next('p').text();
 		
-		if(isClass){
+		if(isClass && $('#enumerationSection').length == 0){
 			//adds constructor data for all constructors
 			member.params.constructors = {};
 			log_lists(3, $, member, "constructors");
@@ -131,6 +146,12 @@ module.exports = function(grunt) {
 			}		
 			
 		}
+		else if(isClass && $('#enumerationSection').length){
+		
+			member.params.members = {};
+			log_lists(2, $, member, "members");
+		
+		}
 		
 		
 		if($("h4:contains('Parameters')").length){
@@ -139,20 +160,18 @@ module.exports = function(grunt) {
 		
 			$("h4:contains('Parameters')").next('dl').find('dt').each(function() {
 			
-				var type = "";
-				$(this).next('dd').children().each(function() {
-				
-					if($(this).children().length){
+					var type = "";
+					if($(this).next('dd').children().length) {
 					
-						type += $(this).children(":not('script')").text();
+						$(this).next('dd').find('script').remove();
+						type += $(this).next('dd').children().text();
 					
 					}
 					else {
-						type += $(this).text();
-						
+					
+						type += $(this).next('dd').children('span').text();
+					
 					}
-				
-				});
 								
 				$(this).next('dd').find('a').remove(); //narrows down the content to just the description text
 				var descr_text = $(this).next('dd').html();
@@ -167,17 +186,24 @@ module.exports = function(grunt) {
 		if($("h4:contains('Return Value')").length) {
 				
 			member.params.return_val = {};
-			member.params.return_val["type"] = $("h4:contains('Return Value')").next('a').text();
+			$('#ID1RBSection').find('script').remove();
+			var stuff = $('#ID1RBSection').html().split("Type:");
 
-
-			$('#ID1RBSection').children().each(function() {
-
-				$(this).empty();
-
-
-			});
+			stuff = stuff[stuff.length - 1];
 			
-			member.params.return_val["description"] = $('#ID1RBSection').text().split("Type:")[1];
+			stuff = stuff.split("<br>")[0];
+			stuff = "<html><body>" + stuff + "</body></html>";
+			
+			member.params.return_val["type"] = $(stuff).text();
+			
+			var split = $('#ID1RBSection').html().split("<br>");
+			
+			split = split[split.length - 1];
+			
+			split = "<html><body>" + split + "</body></html>";
+			
+			
+			member.params.return_val["description"] = $(split).text();
 
 
 		}
@@ -196,6 +222,12 @@ module.exports = function(grunt) {
 			});
 			
 			member.params.type = field_val;
+		}
+		
+		if($("h4:contains('Property Value')").length) {
+		
+			member.params.type = $('#ID1RBSection').text().split("Type:")[1];
+		
 		}
 		
 		json.doc.members.member[index] = member;
