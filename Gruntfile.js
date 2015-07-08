@@ -72,10 +72,14 @@ module.exports = function(grunt) {
 	function process_html(member, index, json, $) {	
 			
 		var isClass = false;
+		var isNameSpace = false;
 		member.params = {};
 		
 		if(member.name.indexOf("T_") == 0)
 			isClass = true;
+		else if(member.name.indexOf("N_") == 0)
+			isNameSpace = true;
+		
 		//change later, just for testing
 		if(isClass){
 		
@@ -258,7 +262,7 @@ module.exports = function(grunt) {
 			else {
 			
 				grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t));
-				grunt.fail.fatal("File Does Not Exist! --> " + val.name);
+				grunt.log.error("File Does Not Exist! --> " + val.name);
 			
 			}
 			
