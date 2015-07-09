@@ -22,7 +22,10 @@ module.exports = function(grunt) {
 		cash_stache: {
 		
 			dir: '.',
+			html_dir: 'html/',
 			dest: 'dest.json',
+			has_url: false,
+			url_attr: 'Url',
 		
 		},
 
@@ -36,55 +39,143 @@ module.exports = function(grunt) {
 	********************************************************************************************/
 	function log_lists(tableIndex, $, member, choice) {
 	
-		if(choice != "members"){
-			$("#ID" + tableIndex + "RBSection table").find('tr[data]').each(function() {
+		var large_t = false;
+		var find = 'tr';
+		if($("#ID" + tableIndex + "RBSection table").find('tr[data]').length)
+			find += '[data]';
 			
-				var key = $(this).find('td a').text();
-				member.params[choice][key] =  {"link": $(this).find('td a').attr('href'), "description": $(this).find('td div').text()};
-
-				var visibility = $(this).attr('data');
-				var visibility = visibility.split(";");
-				
-				for (type of visibility) {
-				
-					if(type != "")
-						member.params[choice][key][type] = "";
-				}
-				
-			});
-		}
-		else {
-		
+		if($("#ID" + tableIndex + "RBSection table").find('tr').last().find('td').length > 2){
 			$("#ID" + tableIndex + "RBSection table").find('tr').first().remove();
-			$("#ID" + tableIndex + "RBSection table").find('tr').each(function() {
+			large_t = true;
+		}
 			
+		$("#ID" + tableIndex + "RBSection table").find(find).each(function() {
+		
+			if(large_t){
 				$(this).find('td').first().remove();
 				member.params[choice][$(this).find('td').first().text()] = {"value": $(this).find('td').first().next().text(), "description": $(this).find('td').last().text()};
+			}
+			else {
+				var key = $(this).find('td a').first().text();
+				member.params[choice][key] =  {"link": $(this).find('td a').first().attr('href'), "description": $(this).find('td').last().text()};
+
+				var visibility = $(this).attr('data');
 				
+				if(visibility){
+					var visibility = visibility.split(";");
+					
+					for (type of visibility) {
+					
+						if(type != "")
+							member.params[choice][key][type] = "";
+					}
+				}
+			}
 			
-			
-			});
+		});
+	
+	}
+	
+	function read_files(t) {
+	
+		var $;
 		
+		if(t instanceof Object && Object.keys(t).length >= 1) {
+		
+			for(key in t){
+				var lowest = read_files(t[key]);
+				if(grunt.config.get('cash_stache.has_url') && lowest) {
+				
+					var url = grunt.config.get('cash_stache.url_attr');
+					console.log(t[url]);
+					if(grunt.file.exists(grunt.config.get('cash_stache.dir') + '/' + t[url])){
+						$ = cheerio.load(html_file.readFileSync(grunt.config.get('cash_stache.dir') + '/' + t[url]));
+						process_html(t, t[url], $);
+
+					}
+					else {
+					
+						grunt.log.error("File Does Not Exist! --> " + t[url]);
+					
+					}	
+					
+
+				}
+				else if(!grunt.config.get('cash_stache.has_url') && lowest){
+					
+					if(t.name.indexOf('(') != -1)
+						t.name = t.name.slice(0, t.name.indexOf('(')); //remove parameters from title to better find HTML file
+					t.name = t.name.replace(/[.:]/gi, "_");
+					console.log("Title: " + t.name);
+
+					
+					var file = grunt.config.get('cash_stache.dir')  + '/' + grunt.config.get('cash_stache.html_dir') + t.name + '.htm';
+					
+					if(grunt.file.exists(file)){
+						$ = cheerio.load(html_file.readFileSync(file));
+						process_html(t, t.name, $);
+					}
+					else {
+					
+						grunt.log.error("File Does Not Exist! --> " + file);
+					
+					}
+				}
+				
+			}
+			
+			return false;
+		}
+		else if(t instanceof Object && t.isArray()) {
+		
+			for(obj in t) {
+			
+				read_files(obj);
+				
+			}
+			
+				return false;
+
+		
+		}
+		else {
+			//console.log(t);
+			return true;
 		}
 	
 	}
 	
-	function process_html(member, index, json, $) {	
+	function process_html(member, name, $) {	
 			
 		var isClass = false;
-		var isNameSpace = false;
+		var isSpecial = false;
+		var other = false;
+		
+		if(name.indexOf("html/") == 0)
+			name = name.split("html/")[1];
 		member.params = {};
 		
-		if(member.name.indexOf("T_") == 0)
+		if(name.indexOf("T_") == 0)
 			isClass = true;
-		else if(member.name.indexOf("N_") == 0)
-			isNameSpace = true;
-		
-		//change later, just for testing
+		else if(name.indexOf("_") == 1 && name.indexOf("N_") != 0)
+			other = true;
+		else if(name.indexOf("_") > 1 || name.indexOf("N_") == 0)
+			isSpecial = true;
+
+
+		//only classes list a heirarchy
 		if(isClass){
 		
+			var extended = false;
 			member.params.inheritance = {};
 			$('#ID0RBSection').find('a').each(function() {
+			
+				if(($(this).attr('href')).indexOf('fullInheritance') != -1) {
+				
+					extended = true;
+					return;
+				
+				}
 			
 				$(this).find('script').remove();
 				member.params.inheritance[$(this).attr('href')] =  $(this).text();
@@ -96,28 +187,67 @@ module.exports = function(grunt) {
 				
 				}
 			});
+			
+			if(extended) {
+				var count = $("div[id*='RBSection']").length;
+				$("#ID" + count + "RBSection").find('a').each(function() {
+				
+					$(this).find('script').remove();
+					member.params.inheritance[$(this).attr('href')] =  $(this).text();
+					
+					if($(this).next('br').next('span').length != 0) {
+					
+						$(this).next('br').next('span').first().find('script').remove();
+						member.params.inheritance['#'] = $(this).next('br').next('span').first().text();
+					
+					}
+				
+				});
+			}
 
 		}
-		
-		member.params.namespace = {};
-		
-		member.params.namespace[$("strong:contains('Namespace:')").next("a").attr('href')] = $("strong:contains('Namespace:')").next("a").text();
-							
-		member.params.assembly = $('.topicContent').text().split("Assembly:")[1].split("Syntax")[0];
-		
-		member.params.syntax = {};
-		
-		//gets all content in the Syntax block.
-		$('.codeSnippetContainerCode').each(function() {
 
-			var pos = $(this).attr('id').charAt($(this).attr('id').length - 1);
-			
-			
-			member.params.syntax[$("div[id*='_tab" + pos + "']").text()] = $(this).find('pre').text().trim();
-			
+		//If it's none of the special case pages it will list the Namespace and the assembly/assemblies.
+		if(!isSpecial && !other) {
+			member.params.namespace = {};
+			member.params.namespace[$("strong:contains('Namespace:')").next("a").attr('href')] = $("strong:contains('Namespace:')").next("a").text();
+								
+			if($("strong:contains('Assembly')").length)
+				member.params.assembly = $('.topicContent').text().split("Assembly:")[1].split("Syntax")[0];
+			else
+				member.params.assembly = $('.topicContent').text().split("Assemblies:")[1].split("Syntax")[0];
 
-		});
+		}
+		//narrows down to other method, field, property files which start with a single character. 
+		//These contain syntax data, while other file types that aren't class pages do not (i.e.: Methods_, Fields_, etc.)
+		if(!isClass && other && $(".collapsibleAreaRegion:contains('Syntax')").length){
+			member.params.syntax = {};
+			
+			//gets all content in the Syntax block.
+			$('.codeSnippetContainerCode').each(function() {
+
+				var pos = $(this).attr('id').charAt($(this).attr('id').length - 1);
+				
+				
+				member.params.syntax[$("div[id*='_tab" + pos + "']").text()] = $(this).find('pre').text().trim();
+				
+
+			});
+			
+		}//If it's any of those pages that list all of one section under a class.  Files start with Methods_, Fields_, Overload_, N_, G_, R_, or Properties_. These only have collapsible regions.
+		else if(isSpecial || other){
 		
+			$(".collapsibleAreaRegion").each(function() {
+			
+			
+				member.params[$(this).text().trim()] = {};
+				log_lists($(this).next("div[id*='RBSection']").attr('id').split("RB")[0].split("ID")[1], $, member, $(this).text().trim());
+			
+			
+			});
+		
+		
+		}
 
 				
 		//sentence below syntax box
@@ -131,23 +261,17 @@ module.exports = function(grunt) {
 					
 			member.params.methods = {};
 			log_lists(4, $, member, "methods");
-								
-			var property = false;
-			for(var k = 0; k < 2; k++) {
-			
-				if($("div span[onclick*='ID" + (5 + k) + "RB']").text() == "Properties" && !property){
-					member.params.properties = {};
-					property = true;
-					log_lists(5 + k, $, member, "properties");
-				}
-				else{
-					member.params.fields = {};
-					log_lists(5 + k, $, member, "fields");
-				}
 				
-				if(property)
-					k++;		
-			}		
+			if($(".collapsibleAreaRegion:contains('Fields')").length){
+					member.params.fields = {};
+					log_lists($(".collapsibleAreaRegion:contains('Fields')").next("div[id*='RBSection']").attr('id').split("RB")[0].split("ID")[1], $, member, "fields");
+			}
+			
+			if($(".collapsibleAreaRegion:contains('Properties')").length){
+					member.params.properties = {};
+					log_lists($(".collapsibleAreaRegion:contains('Properties')").next("div[id*='RBSection']").attr('id').split("RB")[0].split("ID")[1], $, member, "properties");
+			}			
+
 			
 		}
 		else if(isClass && $('#enumerationSection').length){
@@ -228,14 +352,25 @@ module.exports = function(grunt) {
 			member.params.type = field_val;
 		}
 		
-		if($("h4:contains('Property Value')").length) {
 		
+		if($("h4:contains('Property Value')").length || $('h4').filter(function() {return $(this).text() == 'Value';})) {
+		
+			$('#ID1RBSection').find('script').remove();
 			member.params.type = $('#ID1RBSection').text().split("Type:")[1];
 		
 		}
 		
-		json.doc.members.member[index] = member;
-		return json;
+		if($("h4:contains('Reference')").length){
+		
+			member.params.references = {};
+			
+			$("h4:contains('Reference')").parent().children('div').each(function() {
+			
+				member.params.references[$(this).children('a').attr('href')] = $(this).children('a').text();
+			
+			});
+		
+		}
 	
 	}
 	
@@ -244,31 +379,14 @@ module.exports = function(grunt) {
 		grunt.task.requires('convert');
 	
 		var dir = grunt.config.get('cash_stache.dir');
+		var htmldir = grunt.config.get('cash_stache.html_dir');
 	
 		var t = grunt.file.readJSON(dir + "/" + grunt.config.get('cash_stache.dest'));
+
 		var $;
 		
-		
-		t.doc.members.member.forEach(function(val, ind, arr) {
-		
-			if(val.name.indexOf('(') != -1)
-				val.name = val.name.slice(0, val.name.indexOf('(')); //remove parameters from title to better find HTML file
-			console.log("Title: " + val.name);
-			val.name = val.name.replace(/[.:]/gi, "_");
-				
-			if(grunt.file.exists(dir + '/html/' + val.name + '.htm')){
-				$ = cheerio.load(html_file.readFileSync(dir + '/html/' + val.name + '.htm'));
-			}
-			else {
-			
-				grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t));
-				grunt.log.error("File Does Not Exist! --> " + val.name);
-			
-			}
-			
-			t = process_html(val, ind, t, $);
-
-		});
+		read_files(t);
+		grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t));
 
 	});
 	
