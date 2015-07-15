@@ -15,16 +15,16 @@ module.exports = function(grunt) {
 			header: true
 			}
 			},
-			src: ['./src2.xml'],
-			dest: './dest.json'
+			src: ['sandcastle-output-bbis/WebKI.xml'],
+			dest: 'sandcastle-output-bbis/dest.json'
 			}
 		},
 		cash_stache: {
 		
-			dir: '.',
+			dir: 'sandcastle-output-bbis',
 			html_dir: 'html/',
 			dest: 'dest.json',
-			has_url: false,
+			has_url: true,
 			url_attr: 'Url',
 		
 		},
@@ -40,19 +40,23 @@ module.exports = function(grunt) {
 	function log_lists(tableIndex, $, member, choice) {
 	
 		var large_t = false;
-		var find = 'tr';
+		var find = 'tr'; //some tables do not have data, so i wanted to start with the basic type. Add data if it exists.
 		if($("#ID" + tableIndex + "RBSection table").find('tr[data]').length)
 			find += '[data]';
+		else
+			$("#ID" + tableIndex + "RBSection table").find(find).first().remove();
+
 			
-		if($("#ID" + tableIndex + "RBSection table").find('tr').last().find('td').length > 2){
-			$("#ID" + tableIndex + "RBSection table").find('tr').first().remove();
-			large_t = true;
+		if($("#ID" + tableIndex + "RBSection table").find("tr:not([data])").last().find('td').length > 2){
+			large_t = true; //there are tables (that don't have data) that have extra spaces in the first column.  this removes them.
 		}
 			
 		$("#ID" + tableIndex + "RBSection table").find(find).each(function() {
 		
 			if(large_t){
 				$(this).find('td').first().remove();
+				$(this).find('td').last().find('script').remove();
+				$(this).find('td').first().next().find('script').remove();
 				member.params[choice][$(this).find('td').first().text()] = {"value": $(this).find('td').first().next().text(), "description": $(this).find('td').last().text()};
 			}
 			else {
@@ -101,7 +105,7 @@ module.exports = function(grunt) {
 					
 
 				}
-				else if(!grunt.config.get('cash_stache.has_url') && lowest){
+				/*else if(!grunt.config.get('cash_stache.has_url') && lowest){
 					
 					if(t.name.indexOf('(') != -1)
 						t.name = t.name.slice(0, t.name.indexOf('(')); //remove parameters from title to better find HTML file
@@ -120,7 +124,7 @@ module.exports = function(grunt) {
 						grunt.log.error("File Does Not Exist! --> " + file);
 					
 					}
-				}
+				}*/
 				
 			}
 			
@@ -155,9 +159,9 @@ module.exports = function(grunt) {
 			name = name.split("html/")[1];
 		member.params = {};
 		
-		if(name.indexOf("T_") == 0)
+		if(name.indexOf("T_") == 0){
 			isClass = true;
-		else if(name.indexOf("_") == 1 && name.indexOf("N_") != 0)
+		}else if(name.indexOf("_") == 1 && name.indexOf("N_") != 0)
 			other = true;
 		else if(name.indexOf("_") > 1 || name.indexOf("N_") == 0)
 			isSpecial = true;
@@ -384,9 +388,49 @@ module.exports = function(grunt) {
 		var t = grunt.file.readJSON(dir + "/" + grunt.config.get('cash_stache.dest'));
 
 		var $;
+		if(grunt.config.get('cash_stache.has_url')){
 		
-		read_files(t);
-		grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t));
+			read_files(t);
+		}
+		else {
+		
+			var names = {};
+		
+			t.doc.members.member.forEach(function(val, ind, arr) {
+			
+				if(val.name.indexOf('(') != -1)
+					val.name = val.name.slice(0, val.name.indexOf('(')); //remove parameters from title to better find HTML file
+				names[val.name.replace(/[.:]/gi, "")] = ind;
+
+			
+			});
+		
+			grunt.file.recurse(dir + "/" + htmldir, function(abspath, rootdir, subdir, filename) {
+			
+				var newFile = filename.replace(/[_]/gi, "");
+				newFile = newFile.split(".htm")[0];
+				if(names.hasOwnProperty(newFile)) {
+				
+					$ = cheerio.load(html_file.readFileSync(abspath));
+					process_html(t.doc.members.member[names[newFile]], filename.split(".htm")[0], $);
+				
+				}
+				else {
+					console.log(filename);
+					if(grunt.file.exists(abspath) && filename.indexOf("_") != -1){
+						$ = cheerio.load(html_file.readFileSync(abspath));
+						var one = {};
+						one.name = filename.split(".htm")[0];
+						process_html(one, filename.split(".htm")[0], $);					
+						t.doc.members.member.push(one);
+					}
+				}
+					
+			
+			});
+		
+		}
+		grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t, null, '\t'));
 
 	});
 	
