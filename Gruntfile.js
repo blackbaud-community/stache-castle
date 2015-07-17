@@ -15,16 +15,16 @@ module.exports = function(grunt) {
 			header: true
 			}
 			},
-			src: ['sandcastle-output-bbis/WebKI.xml'],
-			dest: 'sandcastle-output-bbis/dest.json'
+			src: ['./src2.xml'],
+			dest: './dest.json'
 			}
 		},
 		cash_stache: {
 		
-			dir: 'sandcastle-output-bbis',
+			dir: '.',
 			html_dir: 'html/',
 			dest: 'dest.json',
-			has_url: true,
+			has_url: false,
 			url_attr: 'Url',
 		
 		},
@@ -60,7 +60,19 @@ module.exports = function(grunt) {
 				member.params[choice][$(this).find('td').first().text()] = {"value": $(this).find('td').first().next().text(), "description": $(this).find('td').last().text()};
 			}
 			else {
-				var key = $(this).find('td a').first().text();
+				var key = $(this).find('td a').first();
+				if($(key).children().length){
+				
+					$(key).find('script').remove();
+					key = $(key).html();
+				
+				}
+				else {
+				
+					key = $(key).text();
+				
+				}
+				$(this).find('td').last().find('script').remove();
 				member.params[choice][key] =  {"link": $(this).find('td a').first().attr('href'), "description": $(this).find('td').last().text()};
 
 				var visibility = $(this).attr('data');
@@ -91,7 +103,6 @@ module.exports = function(grunt) {
 				if(grunt.config.get('cash_stache.has_url') && lowest) {
 				
 					var url = grunt.config.get('cash_stache.url_attr');
-					console.log(t[url]);
 					if(grunt.file.exists(grunt.config.get('cash_stache.dir') + '/' + t[url])){
 						$ = cheerio.load(html_file.readFileSync(grunt.config.get('cash_stache.dir') + '/' + t[url]));
 						process_html(t, t[url], $);
@@ -164,6 +175,8 @@ module.exports = function(grunt) {
 		}else if(name.indexOf("_") == 1 && name.indexOf("N_") != 0)
 			other = true;
 		else if(name.indexOf("_") > 1 || name.indexOf("N_") == 0)
+			isSpecial = true;
+		else
 			isSpecial = true;
 
 
@@ -293,10 +306,18 @@ module.exports = function(grunt) {
 			$("h4:contains('Parameters')").next('dl').find('dt').each(function() {
 			
 					var type = "";
-					if($(this).next('dd').children().length) {
+					if($(this).next('dd').children('a').length) {
 					
 						$(this).next('dd').find('script').remove();
-						type += $(this).next('dd').children().text();
+						$(this).next('dd').children().each(function() {
+						
+							if($(this).is('span')){
+								type += $(this);
+							}
+							else
+								type += $(this).text();
+						
+						});
 					
 					}
 					else {
@@ -381,7 +402,7 @@ module.exports = function(grunt) {
 	grunt.registerTask('cash_stache', "inserts HTML data into the JSON object", function() {
 	
 		grunt.task.requires('convert');
-	
+
 		var dir = grunt.config.get('cash_stache.dir');
 		var htmldir = grunt.config.get('cash_stache.html_dir');
 	
@@ -398,38 +419,90 @@ module.exports = function(grunt) {
 		
 			t.doc.members.member.forEach(function(val, ind, arr) {
 			
-				if(val.name.indexOf('(') != -1)
-					val.name = val.name.slice(0, val.name.indexOf('(')); //remove parameters from title to better find HTML file
-				names[val.name.replace(/[.:]/gi, "")] = ind;
-
-			
-			});
+				
+				var params = "";
+				if(val.name.indexOf("(") != -1)
+					params = val.name.substr(val.name.indexOf("("), val.name.length);
+				params = params.replace(/[{}]/g, ",");
+				params = params.split(",");
+				for(item of params){
+					var index = params.indexOf(item);
+					item = item.split(".");
+					item = item[item.length	- 1];
+					params[index] = item;
+				}
+				var name = val.name.split("(")[0];
+				for(item of params){
+					name += item;
+				}
+				names[name.replace(/[)(.:,}{ ]/g, "")] = ind; //remove parameters from title to better find HTML file
+			}); 
 		
 			grunt.file.recurse(dir + "/" + htmldir, function(abspath, rootdir, subdir, filename) {
 			
-				var newFile = filename.replace(/[_]/gi, "");
+				var newFile = filename;
 				newFile = newFile.split(".htm")[0];
+
+				if(newFile.substr(newFile.length - 2, newFile.length - 1).match(/(_[0-9])/g) != null){
+					newFile = newFile.substr(0, newFile.length - 2);
+
+				}
+				
+				if(grunt.file.exists(abspath))
+					$ = cheerio.load(html_file.readFileSync(abspath));
+				else
+					grunt.fail.fatal("FILE DOES NOT EXIST");
+				
+				if($("h4:contains('Parameters')").length){			
+					$("h4:contains('Parameters')").next('dl').find('dd').each(function() {
+				
+						if($(this).children('a').length) {
+
+							var param = "";
+							
+							$(this).children(":not('p'):not('script')").each(function() {
+							
+								$(this).html($(this).html().split("</script>")[1]);
+								param += $(this).text();
+
+							});
+							newFile += param;
+
+						}
+						else {
+						
+							newFile += $(this).children('span').text();
+						}
+						
+					});
+				}
+				
+			   newFile = newFile.replace(/[_.:, ]/gi, "");
+
 				if(names.hasOwnProperty(newFile)) {
 				
-					$ = cheerio.load(html_file.readFileSync(abspath));
 					process_html(t.doc.members.member[names[newFile]], filename.split(".htm")[0], $);
-				
 				}
 				else {
-					console.log(filename);
-					if(grunt.file.exists(abspath) && filename.indexOf("_") != -1){
-						$ = cheerio.load(html_file.readFileSync(abspath));
 						var one = {};
 						one.name = filename.split(".htm")[0];
 						process_html(one, filename.split(".htm")[0], $);					
 						t.doc.members.member.push(one);
-					}
 				}
 					
 			
 			});
 		
 		}
+		
+		var scripts = [];
+		$('head script').each(function() {
+		
+			scripts.push({"src": $(this).attr('src')});
+		
+		});
+		t.doc.members.scripts = scripts;
+		
 		grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t, null, '\t'));
 
 	});
