@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        In this walkthrough you'll learn how to use Selenium's WebDriver and Wait pattern to drive browser interactions.
+      </para>
+    </introduction>
+
+    <prerequisites>
+      <content>
+        <list class="ordered">
+          <listItem>
+            <para>A unit test project with the UAT SDK (Project Blue) NuGet package installed.</para>
+          </listItem>
+          <listItem>
+            <para>An Enterprise CRM application is accessible and tests can be run against this application.</para>
+          </listItem>
+          <listItem>
+            <para>Familiarity with:</para>
+            <list class="bullet">
+              <listItem>
+                <para>Using the UAT SDK (Project Blue) Custom SpecFlow Plugin for Visual Studio.</para>
+              </listItem>
+              <listItem>
+                <para>Creating new feature files.</para>
+              </listItem>
+              <listItem>
+                <para>Generating step classes bound to feature files.</para>
+              </listItem>
+              <listItem>
+                <para>Accessing the UAT SDK (Blueshirt) Core API.</para>
+              </listItem>
+            </list>
+          </listItem>
+        </list>
+      </content>
+    </prerequisites>
+
+    <!-- Optional additional procedure or section with procedure -->
+    <section address="WalkthroughSection">
+      <title>Create a Custom Interaction Using the WebDriver.</title>
+      <content>
+        <procedure>
+          <title>Navigate to a Functional Area.</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>Create the Gherkin test and Step method.</para>
+                <mediaLink>
+                  <caption placement="before">Create an unimplemented feature test requiring navigation between functional areas.</caption>
+                  <image placement="near" xlink:href="CreateNotImplementedGherkin"/>
+                </mediaLink>
+                <code language="c#" source=".\CodeExamples\FailingTestSteps.cs" title="Generate the failing step class methods.">
+                </code>
+                <code language="c#" source=".\CodeExamples\FailingStepMethod.cs" title="Unimplemented custom class.  Build should fail 
+                      at this point.">
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Create custom class inheriting BBCRMHomePage</para>
+                <code language="c#" source=".\CodeExamples\CustomBBCrmHomePageClass.cs"
+                      title="Create the new custom class and method.  Have the new method throw a NotImplementedException.  
+                      The build should succeed now.">
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Implement the custom method. The common pattern employed in the UAT SDK is to wait until a certain condition has been met before proceeding with the next action. The Selenium Webdriver is what allows us to interact with the browser in order to determine whether or not our desired condition has been met.
+                </para>
+                <code language="c#" source=".\CodeExamples\EmptyWaiter.cs"
+                      title="Be sure to add the 'OpenQA.Selenium' and 'OpenQA.Selenium.Support.UI' namespace references at the top of your file.">
+                </code>
+                <para>
+                  In the above code, we have essentially created a while loop that waits for 'True' to be returned before exiting the loop. Any time 'False' is returned, the loop starts over. We can specify an amount of time that should expire in the loop until a WebDriverTimeoutException will be thrown. Finally we can specify Exception types to ignore in the loop. If exceptions of the specified types are thrown, the resulting action is the equivalent of 'False' being returned at that moment.
+                </para>
+                <code language="c#" source=".\CodeExamples\FindElement.cs"
+                      title="Example of using the WebDriver to find a web element, check a condition on it, and execute a step if the condition has been met.">
+                </code>
+                <para>
+                  Above we used the WebDriver (referenced as 'driver' in our lambda method) to find an element on our application and checked a condition on the element. In this instance, we want to check if the element is 'Displayed' before proceeding. If we found the element but it is not visible yet, we can immediately return false because our desired condition has not been met. This will cause the loop to start over, and the web driver will attempt to get a refreshed version of the element. If the element is visible, then we use the WebDriver to send a 'Click' action on it and return true to exit the loop so that the next step method call can begin.
+                </para>
+                <para>
+                  An immediate question might be "How did the WebDriver find the element we wanted?" The WebDriver has an API with different selection methods in order to find elements in your browser application. The UAT SDK (Project Blue) relies on XPaths to parse the HTML elements and find the desired element. More details about XPaths and best practices can be found in the reference links at the end of this article. Suggested Enterprise CRM XPath patterns and examples will be discussed in a later walkthrough. For the moment, update the code driver.FindElement line to the following:
+                </para>
+                <code language="c#" source=".\CodeExamples\FindElementWithXPath.cs"
+                      title="WebDriver FindElement using an XPath for the selector.">
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Finish Implementing Step Methods</para>
+                <code language="c#" source=".\CodeExamples\ImplementedStepMethods.cs"
+                      title="Fully implemented step methods.">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    Make sure your app.config is set to run on your accessible application, build the solution,
+                    and run the test.
+                  </caption>
+                  <image placement="near" xlink:href="RunSelectedTests"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    The test should pass!
+                  </caption>
+                  <image placement="near" xlink:href="SelectedTestsPass"/>
+                </mediaLink>
+                <alert class="tip">
+                  <para>
+                    The UAT SDK (Project Blue) API provides lots browser interactions that encapsulate different WebDriver logic. Before creating new WebDriver logic, first look into the API to see what functionality is already provided. Hopefully the desired WebDriver logic and XPath constructor are already available from the API.
+                  </para>
+                </alert>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+
+    <relatedTopics>
+      <link xlink:href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">Enterprise CRM XPath Best Practices</link>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID">Link text</link>
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerWalkthroughDocument>
+</topic>

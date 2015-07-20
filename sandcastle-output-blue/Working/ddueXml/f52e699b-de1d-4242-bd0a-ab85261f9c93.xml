@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="f52e699b-de1d-4242-bd0a-ab85261f9c93" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+    <!-- http://ewsoftware.github.io/SHFB/html/3d4edd2d-7883-4508-b9d2-bd7b4d848b0d.htm-->   
+    
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+       
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!--<autoOutline />-->
+
+      <para>Learn to quickly create a Blackbaud CRM GUI test suite using the Blackbaud UAT SDK.</para>
+    </introduction>
+    
+    <prerequisites>
+      <content>
+         <list class="bullet">
+          <listItem>
+            <para>Visual Studio 2013 Community</para>
+          </listItem>
+          <listItem>
+            <para>NuGet Plugin</para>
+          </listItem>
+          <listItem>
+            <para>SpecFlow Pugin</para>
+          </listItem>
+        </list>
+        <alert class="note">
+          <para>
+              You can find details on how to install these at
+              <externalLink>
+                <linkText>Visual Studio</linkText>
+                <linkUri>https://www.visualstudio.com/en-us/products/free-developer-offers-vs.aspx</linkUri>
+              </externalLink>
+             ,  
+              <externalLink>
+                <linkText>NuGet</linkText>
+                <linkUri>https://www.nuget.org/</linkUri>
+              </externalLink>
+             and  
+              <externalLink>
+                <linkText>SpecFlow</linkText>
+                <linkUri>http://www.specflow.org/</linkUri>
+              </externalLink>
+          </para>
+        </alert>                      
+      </content>     
+    </prerequisites>    
+    
+    <!-- One or more procedure or section with procedure -->
+    <section address="CreateTestProject">
+      <title>Creating a Blackbaud UAT Test Project.</title>
+      <content>
+    <procedure>
+      <!--<title>Creating a Blue Test Project.</title>-->
+      <steps class="ordered">
+        
+        <step>          
+          <content>            
+            <para>Create a new Unit Test Project.</para>
+            <para>
+              <ui>File | New | Project | Unit Test Project</ui>
+            </para>
+            <mediaLink>
+              <caption placement="before">
+              New Project wizard
+              </caption>
+              <image placement="near" xlink:href="NewBSProject"/>
+            </mediaLink>                          
+          </content>
+        </step>
+        
+        <step>
+          <content>
+            <para>Add the <application>Blackbaud UAT SpecFlow Plugin</application> and <application>Blackbaud UAT Core Classes</application> packages to your project.</para>
+            <para>Right-click on your solution in the solution explorer and choose <ui>Manage NuGet Packages for solution</ui> </para>
+            <mediaLink>
+              <caption placement="before">
+              Package manager wizard
+              </caption>
+              <image placement="near" xlink:href="AddBSNuGetPackages"/>
+            </mediaLink>           
+            <alert class="note">
+              <para>
+              The Blackbaud UAT packages will normally be available from the public nuget.org package repository. If you have stand alone nupkg files you can add their location as a package source in the nuget settings.
+              </para>
+            </alert>
+          </content>
+        </step>
+
+        <step>
+          <content>
+            <para>Add target Environment Urls to your <quoteInline>app.config</quoteInline>.</para>
+            <code language="xml" source=".\CodeExamples\appSettingsUrl.xml"
+                  title="Example appSettings section">
+            </code>
+          </content>
+        </step>
+
+        <step>
+          <content>
+            <para>Add a new SpecFlow feature file.</para>
+            <mediaLink>
+              <caption placement="before">
+              New Item wizard
+              </caption>
+              <image placement="near" xlink:href="AddAFeatureFile"/>
+            </mediaLink>
+          </content>
+        </step>
+
+        <step>
+          <content>
+            <para>Populate your feature file.</para>
+            <code language="xml" source=".\CodeExamples\ConstituentSearch.feature"
+                  title="Example Feature File">
+            </code>
+          </content>
+        </step>
+
+
+        <step>
+          <content>
+            <para>Generate a step file.</para>
+            <para>Right-Click on the feature file and choose <ui>Generate Step Definitions</ui></para>
+            <mediaLink>
+              <caption placement="before">
+              Step File wizard
+              </caption>
+              <image placement="near" xlink:href="GenerateSteps"/>
+            </mediaLink>
+          </content>
+        </step>
+        
+        <step>
+          <content>
+            <para>Populate the Steps.</para>
+            <code language="c#" source=".\CodeExamples\ConstituentSearchSteps.cs"
+                  title="Example Steps File">
+            </code>
+          </content>
+        </step>
+
+        <step>
+          <content>
+            <para>Ensure ChromeDriver is on your path.</para>             
+          </content>
+          <alert class="note">
+           Adding it to your project and setting it <ui>copy to Output Directory</ui> property it to <ui>Copy always</ui> is one way to ensure this.
+          </alert>
+          <alert class="warning">
+            At the moment you will need to manually download the latest <externalLink><linkText>ChromeDriver</linkText>
+            <linkUri>https://sites.google.com/a/chromium.org/chromedriver/downloads</linkUri></externalLink>, copy it to 
+            your project's directory, and add it as an existing item to your project. 
+            Future versions of Specflow.Blackbaud.UAT intend to have ChromeDriver included in the NuGet package.
+          </alert>
+        <alert class="warning">
+            If you are getting a Dictionary Key error for the Driver, then you may need to delete your WebDriver project 
+            reference. You will then need to create a new WebDriver reference by browsing to 
+            "packages\Blackbaud.SpecFlow.Selenium.UAT[version here]\lib\net40\WebDriver.dll" and adding this reference. 
+            This additional step should be resolved with future versions of ChromeDriver.
+          </alert>
+        </step>      
+
+        <step>
+          <content>
+            <para>Build and Run your tests.</para>
+            <mediaLink>
+              <caption>
+                For example using the Visual Studio Test Explorer
+              </caption>
+              <image placement="near" xlink:href="ConstituentSearchResults"/>
+            </mediaLink>
+          </content>
+        </step>
+      
+      </steps>
+      
+      <!--<conclusion>Optional conclusion</conclusion>-->
+      
+    </procedure>
+      </content>
+    </section>
+    
+    <!-- Optional additional procedure or section with procedure -->
+    <!--
+    <section address="Section2">
+      <title>Optional section title</title>
+      <content>
+        <procedure>
+          <title>Procedure #2</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>First step</para>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Second step</para>
+              </content>
+            </step>
+          </steps>
+          <conclusion>Optional conclusion</conclusion>
+        </procedure>
+      </content>
+    </section>
+    -->
+
+    <!-- Optional next steps info
+    <nextSteps>
+      <content><para>Next steps info goes here</para></content>
+    </nextSteps>
+    -->
+
+    <relatedTopics>
+      <!--
+       One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference       
+
+      <link xlink:href="Other Topic's ID">Link text</link>
+      -->
+
+      <externalLink>
+        <linkText>NuGet</linkText>
+        <linkUri>https://www.nuget.org/</linkUri>
+      </externalLink>
+      <externalLink>
+        <linkText>SpecFlow</linkText>
+        <linkUri>http://www.specflow.org/</linkUri>
+      </externalLink>
+
+      <!--
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+      
+    </relatedTopics>
+    
+  </developerWalkthroughDocument>
+</topic>

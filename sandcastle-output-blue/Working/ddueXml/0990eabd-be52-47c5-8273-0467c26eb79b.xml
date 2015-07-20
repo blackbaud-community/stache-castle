@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="0990eabd-be52-47c5-8273-0467c26eb79b" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        In this walkthrough you will get experience with handling SpecFlow's Table and TableRow objects with the UAT SDK (Project Blue) API.
+      </para>
+    </introduction>
+
+    <prerequisites>
+      <content>
+        <list class="bullet">
+          <listItem>
+            <para>You have completed the "Using the Selenium WebDriver" walkthrough and have access to an Enterprise CRM application.</para>
+          </listItem>
+          <listItem>
+            <para>You are comfortable adding tests and step implementations to existing feature and step files.</para>
+          </listItem>
+          <listItem>
+            <para>You are comfortable accessing the existing UAT SDK (Project Blue) Core API.</para>
+          </listItem>
+          <listItem>
+            <para>You are comfortable modifying the app.config to change which application the tests run against.</para>
+          </listItem>
+          <listItem>
+            <para>
+              You are comfortable identifying the unique attribute values for the XPath constructors in the Core API
+              and have completed the "XPath Guidelines" walkthrough.
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </prerequisites>
+
+    <section>
+      <title>From Feature File to Step File - The Old Approach To Tables</title>
+      <content>
+        <mediaLink>
+          <caption placement="before">
+            SpecFlow feature files support Tables for passing in variables to the .NET step methods.  Here is a test 
+            example for adding an address to a constituent
+          </caption>
+          <image placement="near" xlink:href="OldTableFeature"/>
+        </mediaLink>
+        <mediaLink>
+          <caption placement="before">
+            At some point the test attempts to set the fields on the 'Add an address' dialog.
+          </caption>
+          <image placement="near" xlink:href="AddAddressDialog"/>
+        </mediaLink>
+        <para>
+          Specflow creates bindings between the test cases and the step methods.  The field variables for
+          the address dialog are passed through the Table parameter.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\OldTables\EmptySteps.cs"
+                      title="Step method with a Table parameter.">
+        </code>
+        <para>
+          Here is an implementation of the step methods.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\OldTables\ImplementedSteps.cs"
+                     title="Implemented steps">
+        </code>
+        <para>
+          AddressDialog is not a class in the UAT SDK (Project Blue). At this point your build should be failing. Let's create an AddressDialog class and implement the SetAddressFields() method.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\OldTables\EmptySetAddressFields.cs"
+                     title="AddressDialog Class with empty method.">
+        </code>
+        <para>
+          First we ensure that we are on the 'Address' tab.  Then we parse through every row in the Table.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\OldTables\ForEachTable.cs"
+                     title="For each TableRow in Table">
+        </code>
+        <para>
+          Each iteration through the loop gives us a new row from the Table. We need to use the TableRow object to find a field with an XPath selector and set the field's value. How we construct the XPath, what variables we pass to the XPath constructor, and what type of field setter we use are all determined by the specific field represented as the TableRow object. This logic must be defined for each possible value of row["Field"].
+        </para>
+        <para>
+          To handle this, we create a switch on the caption value. The caption dictates what type of field we want to set and how to set its value.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\OldTables\AddressDialog.cs"
+                     title="Implemented AddressDialog">
+        </code>
+        <alert class="note">
+          <para>
+            If you do not understand where the variables for the XPath constructors come from, please review the 
+            <link xlink:href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">XPath Guidelines</link> walkthrough.
+          </para>
+        </alert>
+        <para>
+          This approach will handle the desired logic and UI interactions, but the code itself is bulky and unpleasant. The next section shows how manipulating the format of your table can lead to cleaner, more adaptable code.
+        </para>
+      </content>
+    </section>
+
+    <section>
+      <title>Table Guidelines</title>
+      <content>
+        <quote>
+          <externalLink>
+            <linkText>
+              "Table headers are no longer required to be 'Field' and 'Value'"
+            </linkText>
+            <linkUri>https://github.com/techtalk/SpecFlow/wiki/SpecFlow-Assist-Helpers</linkUri>
+          </externalLink>
+        </quote>
+        <para>
+          By changing the format of our feature file tables and how we pass variables to a step method, 
+          we can take advantage of more functionality in the UAT SDK.
+        </para>
+        <mediaLink>
+          <caption>
+            Here is the same test from the previous section with a different format for the Tables.
+          </caption>
+          <image xlink:href="NewTableFeature"/>
+        </mediaLink>
+        <para>
+          Changing the table's headers from "Field" and "Value" to the dialog's 
+          field captions forces a change to the code and how it handles the 
+          Table object.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\ImplementedSteps.cs"
+                     title="Edited step definitions.">
+        </code>
+        <para>
+          Instead of passing the whole table to the SetMethod, we loop through the rows in the Table and pass in a single TableRow.
+        </para>
+        <para>
+          We only want to pass to the SetAddressFields() method an object that contains the relevant address dialog values. In the previous method, the entire Table object contained these values. In this situation, only a TableRow is needed to gather the necessary values.
+        </para>
+        <para>
+          Let's implement the method for handling a single TableRow.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\AddressDialog.cs"
+                     title="Edited AddressDialog class.">
+        </code>
+        <alert class="note">
+          <para>
+            Note there is also support in CrmFields for setting fields through a search dialog. Refer to the CrmField and FieldType API documentation to get a better understanding of the CrmField constructors.
+          </para>
+        </alert>
+        <para>
+          With a TableRow whose Keys represent the dialog's field captions, we can now utilize the API's Dialog.SetFields() method. Instead of creating a switch on the field caption value, we can create a dictionary mapping the supported field captions to the relevant variables needed to set the field's value. These variables are encapsulated in the CrmField class.
+        </para>
+        <para>
+          Now when we want to add support for a new field, we define the logic in a single line for the SupportedFields dictionary instead of a switch-case handler.
+        </para>
+        <para>
+          Let's examine the 'Then' step again. By changing the table format here, we no longer need to convert the Table to a Dictionary. Instead we can directly pass the TableRows of the Table to Panel.SectionDatalistRowExists().
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\EditedThen.cs"
+                     title="Edited 'Then' Step">
+        </code>
+        <para>
+          BUT WAIT THERE'S MORE!!!!!
+        </para>
+        <para>
+          With this format, we now also have the ability to add multiple addresses and validate multiple addresses simply by 
+          adding rows to the table.  No additional code required.
+        </para>
+        <mediaLink>
+          <caption>
+            Modify your test case to contain multiple rows.
+          </caption>
+          <image xlink:href="NewTableMultipleRowsFeature"/>
+        </mediaLink>
+        <para>
+          The foreach loop in the step methods breaks down the Table to TableRows allowing us to reliably add and validate each address.
+        </para>
+        <alert class="note">
+          <para>
+            Empty table cells are treated as empty strings.
+          </para>
+          <para>
+            Leaving a cell as empty will result in the an attempt to set the field's value to an empty string. If you wish to skip setting the field, you must remove the key from the TableRow or set the value to null.
+          </para>
+          <para>
+            if (row.ContainsKey("Country") &amp;&amp; row["Country"] == String.Empty) row["Country"] = null;
+          </para>
+          <para>
+            Empty table cells for a datalist select or validation are skipped and no code edits are necessary.
+          </para>
+        </alert>
+      </content>
+    </section>
+
+    <section>
+      <title>Supporting Multiple Dialog Ids</title>
+      <content>
+        <para>
+          Continuing from the previous section, let's create a test that edits an existing address.
+        </para>
+        <mediaLink>
+          <caption>
+            Test case adding and editing an address.
+          </caption>
+          <image xlink:href="NewTableEditAddressFeature"/>
+        </mediaLink>
+        <para>
+          Here are implementations for the new step methods.  Because of our table format, we can use TableRows to find and 
+          select our desired address row before clicking Edit.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\EditAddressSteps.cs"
+                     title="New step methods for editing and address">
+        </code>
+        <alert class="note">
+          <para>
+            Notice that you can call step methods from within step methods as done in GivenIAddAnAddressToTheCurrentConstiteunt().
+          </para>
+        </alert>
+        <para>
+          The above code will compile but fail against the application.  The implementation of SetAddressFields(TableRow addressFields) 
+          statically enters "AddressAddForm2" as the dialog's unique if for the XPath constructors.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\StaticDialogId.cs"
+                     title="Static dialog id">
+        </code>
+        <para>
+          Instead of creating a separate method or class, we can create a list of supported dialog ids.
+        </para>
+        <code language="c#" source=".\CodeExamples\SpecFlowTables\NewTables\AddressDialogSupportedDialogIds.cs"
+                     title="AddressDialog with supported dialog ids.">
+        </code>
+      </content>
+    </section>
+    
+    <relatedTopics>
+      <externalLink>
+        <linkText>
+          SpecFlow Tables and TableRows
+        </linkText>
+        <linkUri>https://github.com/techtalk/SpecFlow/wiki/SpecFlow-Assist-Helpers</linkUri>
+      </externalLink>
+    </relatedTopics>
+  </developerWalkthroughDocument>
+</topic>

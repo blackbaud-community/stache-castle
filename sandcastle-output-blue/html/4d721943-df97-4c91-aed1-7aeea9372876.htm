@@ -1,0 +1,370 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Setting Custom Fields</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="4d721943-df97-4c91-aed1-7aeea9372876" /><meta name="Description" content="In this walkthrough you'll gain experience setting a custom field on a dialog and overriding a default implementations." /><meta name="Microsoft.Help.ContentType" content="How To" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Blackbaud UAT Kit<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="f52e699b-de1d-4242-bd0a-ab85261f9c93.htm" title="Blackbaud UAT Kit" tocid="roottoc">Blackbaud UAT Kit</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!"></a><a data-tochassubtree="true" href="d48ef890-924b-44ec-8ce1-856896c0abec.htm" title="Delving Deeper" tocid="d48ef890-924b-44ec-8ce1-856896c0abec">Delving Deeper</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0.htm" title="Using the Selenium WebDriver" tocid="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0">Using the Selenium WebDriver</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33.htm" title="XPath Guidelines" tocid="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">XPath Guidelines</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="0990eabd-be52-47c5-8273-0467c26eb79b.htm" title="SpecFlow's Table and TableRow Guidelines" tocid="0990eabd-be52-47c5-8273-0467c26eb79b">SpecFlow's Table and TableRow Guidelines</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="4d721943-df97-4c91-aed1-7aeea9372876.htm" title="Setting Custom Fields" tocid="4d721943-df97-4c91-aed1-7aeea9372876">Setting Custom Fields</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize"><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize"></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="logoColumn"><img src="../icons/blueshirt_ico.png" /></td><td class="titleColumn">Setting Custom Fields</td></tr></table><span class="introStyle"></span><div class="introduction"><p>
+        In this walkthrough you'll gain experience setting a custom field on a dialog and overriding 
+        a default implementations.
+      </p><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Caution note" /> Caution</th></tr><tr><td><p>
+          Examples follow customizations that you likely will not have on your application.  Either follow along
+          against your own customizations and modify steps accordingly, or follow the screenshots below.
+        </p></td></tr></table></div></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Prerequisites</span></div><div id="ID0RBSection" class="collapsibleSection"><ul><li><p>You have completed the "Using the Selenium WebDriver" walkthrough and have access to an Enterprise CRM application.</p></li><li><p>You have completed the "SpecFlow's Table and TableRow Guidelines" walkthrough.</p></li><li><p>You are comfortable adding tests and step implementations to existing feature and step files.</p></li><li><p>You are comfortable accessing the existing UAT SDK (Project Blue) Core API.</p></li><li><p>You are comfortable modifying the app.config to change which application the tests run against.</p></li><li><p>You are comfortable identifying the unique attribute values for the XPath constructors in the Core API 
+             and have completed the "XPath Guidelines" walkthrough.</p></li></ul></div><div class="collapsibleAreaRegion" id="WalkthroughSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Adding Support For Custom Fields</span></div><div id="ID2RBSection" class="collapsibleSection"><h3 class="procedureSubHeading">Adding Support For Custom Fields - Overload Approach</h3><div class="subSection"><ol><li><p>Identify Need for Custom Support</p><div class="mediaNear"><div class="caption">
+                    This is the Enterprise CRM standard "Add an individual" dialog.
+                  </div><img alt="Original Add Individual" src="../media/OriginalAddIndividual.PNG" /></div><div class="mediaNear"><div class="caption">
+                    Here is a customized "Add an individual" dialog containing new fields.
+                  </div><img alt="Custom Add Individual" src="../media/CustomAddIndividual.PNG" /></div><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>Notice that there are also custom required fields as well.  We need to consider that when 
+                  setting the fields for adding an individual on this application.</p></td></tr></table></div><div class="mediaNear"><div class="caption">
+                    In our test project, if we create a scenario outlined and implemented like this...
+                  </div><img alt="Feature Gherkin" src="../media/FeatureGherkin.PNG" /></div><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACAEABACAAA_tab1" class="codeSnippetContainerTabSingle">Core API used to implement steps.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACAEABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACAEABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACAEABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Base;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+<span class="highlight-keyword">using</span> TechTalk.SpecFlow;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    [Binding]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> SampleTestsSteps : BaseSteps
+    {
+
+        [Given(<span class="highlight-literal">@"I have logged into BBCRM"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> GivenIHaveLoggedIntoBBCRM()
+        {
+            BBCRMHomePage.Logon();
+        }
+
+        [When(<span class="highlight-literal">@"I add constituent"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIAddConstituent(Table constituents)
+        {
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> constituent <span class="highlight-keyword">in</span> constituents.Rows)
+            {
+                BBCRMHomePage.OpenConstituentsFA();
+                ConstituentsFunctionalArea.AddAnIndividual(groupCaption: <span class="highlight-literal">"Add Records"</span>);
+                IndividualDialog.SetIndividualFields(constituent);
+                IndividualDialog.Save();
+            }
+        }
+
+        [Then(<span class="highlight-literal">@"a constituent is created"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ThenAConstituentIsCreated()
+        {
+            <span class="highlight-keyword">if</span> (!BaseComponent.Exists(Panel.getXPanelHeader(<span class="highlight-literal">"individual"</span>))) FailTest(<span class="highlight-literal">"A constituent panel did not load."</span>);
+        }
+
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACAEABACAAA");</script><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>The application with the custom field also had a custom group caption for the "Add an individual" task.  This 
+                  is why the ConstituentsFunctionalArea.AddAnIndividual() call overloads the 'groupCaption' parameter.</p></td></tr></table></div><div class="mediaNear"><div class="caption">
+                    ...and run the test against the application with the new custom field, then we get an error indicating a need to add 
+                    custom support for the new field.
+                  </div><img alt="Not Implemeted Field Add Individual" src="../media/NotImplemetedFieldAddIndividual.PNG" /></div></li><li><p>Create Class Inheriting Core Class</p><p>To resolve this failure, we need to add support for the additional custom fields.  
+                Create a new class in your project.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAAADABACAAA_tab1" class="codeSnippetContainerTabSingle">Custom Individual Dialog Class Inheriting IndividualDialog</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAADABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAADABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAADABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> CustomIndividualDialog : IndividualDialog
+    {
+
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAADABACAAA");</script></li><li><p>Create Custom Supported Fields Mapping</p><p>
+                  We need to map the custom field captions to their relevant XPath and Field Setter values.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABACABACAAA_tab1" class="codeSnippetContainerTabSingle">Custom Individual Dialog Class with mapped custom fields.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABACABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABACABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABACABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Base;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> CustomIndividualDialog : IndividualDialog
+    {
+        <span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">readonly</span> IDictionary&lt;<span class="highlight-keyword">string</span>, CrmField&gt; CustomSupportedFields = <span class="highlight-keyword">new</span> Dictionary&lt;<span class="highlight-keyword">string</span>, CrmField&gt;
+        {
+            {<span class="highlight-literal">"Country of Origin"</span>, <span class="highlight-keyword">new</span> CrmField(<span class="highlight-literal">"_ATTRIBUTECATEGORYVALUE0_value"</span>, FieldType.Dropdown)},
+            {<span class="highlight-literal">"Matriculation Year (Use)"</span>, <span class="highlight-keyword">new</span> CrmField(<span class="highlight-literal">"_ATTRIBUTECATEGORYVALUE1_value"</span>, FieldType.Dropdown)}
+        };
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABACABACAAA");</script><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Important note" /> Important</th></tr><tr><td><p>
+                    You should be comfortable understanding how the unique id attributes for the fields
+                    were gathered from the UI.  These values are used for the XPath constructors that locate and interact with the fields.
+                    Review the <a href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33.htm">XPath Guidelines</a> if you do not follow where 
+                    the values "_ATTRIBUTECATEGORYVALUE0_value" and "_ATTRIBUTECATEGORYVALUE1_value" come from.
+                  </p></td></tr></table></div></li><li><p>Pass Custom Supported Fields To Base.</p><p>
+                  We need to map the custom field captions to their relevant XPath and Field Setter values.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACABABACAAA_tab1" class="codeSnippetContainerTabSingle">Custom SetIndividualFields()</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACABABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetIndividualFields(TableRow fields)
+{
+    SetFields(GetDialogId(DialogIds), fields, SupportedFields, CustomSupportedFields);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABABACAAA");</script><p>
+                  The custom class uses its inherited IndividualDialog values to pass the required values to the Dialog's SetFields() method. SetFields has an overload that takes in a second IDictionary mapping of field captions to CrmFields. We can pass our dictionary of custom fields to add additional support for custom fields.
+                </p><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>
+                    If a mapping exists in our CustomSupportedFields where the string key is an already existing key for SupportedFields, 
+                    the mapped values for CustomSupportedFields is used.
+                  </p></td></tr></table></div></li><li><p>Modify Your Step Implementation.</p><p>Modify your step definition to use the new CustomIndividualDIalog's SetIndividualFields() method.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACAAABACAAA_tab1" class="codeSnippetContainerTabSingle">Modified Step Implementation</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACAAABACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACAAABACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACAAABACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"I add constituent"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIAddConstituent(Table constituents)
+{
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> constituent <span class="highlight-keyword">in</span> constituents.Rows)
+    {
+        BBCRMHomePage.OpenConstituentsFA();
+        constituent[<span class="highlight-literal">"Last name"</span>] += uniqueStamp;
+        ConstituentsFunctionalArea.AddAnIndividual(groupCaption: <span class="highlight-literal">"Add Records"</span>);
+        CustomIndividualDialog.SetIndividualFields(constituent);
+        IndividualDialog.Save();
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACAAABACAAA");</script><div class="alert"><table><tr><th><img src="../icons/AlertCaution.png" alt="Caution note" /> Caution</th></tr><tr><td><p>Depending on your application, the Save step may cause a duplicate entry or error 
+                  dialog to appear in the application.  If this occurs, we advise adding a unique stamp to the last name of your 
+                  constituent's values as shown above.</p></td></tr></table></div><div class="mediaNear"><div class="caption">
+                    The test passes now!
+                  </div><img alt="Passing Test" src="../media/PassingTest.PNG" /></div></li></ol></div><h3 class="procedureSubHeading">Adding Support For Custom Fields - Custom Method Approach</h3><div class="subSection"><ol><li><p>Alternative Gherkin Syntax</p><div class="mediaNear"><div class="caption">
+                    An alternative Gherkin approach that drives a need for an entirely custom method.
+                  </div><img alt="2nd Feature Gherkin" src="../media/2ndFeatureGherkin.PNG" /></div></li><li><p>Add Method to Custom Class</p><p>
+                  In this approach we describe setting a single field's value for a step.  Add the following method to your 
+                  CustomIndividualDialog class.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABABAAACAAA_tab1" class="codeSnippetContainerTabSingle">Custom method.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABABAAACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABABAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABABAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetCustomField(<span class="highlight-keyword">string</span> fieldCaption, <span class="highlight-keyword">string</span> <span class="highlight-keyword">value</span>)
+{
+    <span class="highlight-comment">//Use the same IDictionary&lt;string, CrmField&gt; CustomSupportedFields from the Overload Approach</span>
+    SetField(GetDialogId(DialogIds), fieldCaption, <span class="highlight-keyword">value</span>, CustomSupportedFields);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABABAAACAAA");</script><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>
+                    Notice how the custom method did not need the "new" attribute in the method declaration.  "new" is only needed when 
+                    overriding an inherited method.
+                  </p></td></tr></table></div></li><li><p>Implement The New Step Methods</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACAAAAACAAA_tab1" class="codeSnippetContainerTabSingle">Implemetation of new steps.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACAAAAACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACAAAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACAAAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"I start to add a constituent"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIStartToAddAConstituent(Table constituents)
+{
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> constituent <span class="highlight-keyword">in</span> constituents.Rows)
+    {
+        BBCRMHomePage.OpenConstituentsFA();
+        constituent[<span class="highlight-literal">"Last name"</span>] += uniqueStamp;
+        ConstituentsFunctionalArea.AddAnIndividual(groupCaption: <span class="highlight-literal">"Add Records"</span>);
+        IndividualDialog.SetIndividualFields(constituent);
+    }
+}
+
+[When(<span class="highlight-literal">@"I set the custom constituent field "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">" to "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">""</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenISetTheCustomConstituentFieldTo(<span class="highlight-keyword">string</span> fieldCaption, <span class="highlight-keyword">string</span> <span class="highlight-keyword">value</span>)
+{
+    CustomIndividualDialog.SetCustomField(fieldCaption, <span class="highlight-keyword">value</span>);
+}
+
+[When(<span class="highlight-literal">@"I save the add an individual dialog"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenISaveTheAddAnIndividualDialog()
+{
+    IndividualDialog.Save();
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACAAAAACAAA");</script><div class="mediaNear"><div class="caption">
+                    The test passes now!
+                  </div><img alt="2nd Passing Test" src="../media/2ndPassingTest.PNG" /></div><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>
+                    There are many ways to use the UAT SDK (Project Blue) API in order to achieve the same result. Above are two potential implementations to handle a dialog with a custom field, but these are not the only approaches. The methods and their underlying logic are totally defined by the user. You are free to create whatever helper methods you see fit. Look into the API documentation and see if you can come up with a different solution.
+                  </p></td></tr></table></div></li></ol></div></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Overriding And Overloading Implementations</span></div><div id="ID3RBSection" class="collapsibleSection"><h3 class="procedureSubHeading">Overloading An Implementation</h3><div class="subSection"><ol><li><p>Identify Need To Overload Implementation</p><div class="mediaNear"><div class="caption">
+                    Let's start with the following test case.
+                  </div><img alt="Override Test Case" src="../media/OverrideTestCase.PNG" /></div><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAJACABABAAA_tab1" class="codeSnippetContainerTabSingle">Implemetation of steps.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAJACABABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAJACABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAJACABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"I open the constituent search dialog"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIOpenTheConstituentSearchDialog()
+{
+    BBCRMHomePage.OpenConstituentsFA();
+    FunctionalArea.OpenLink(<span class="highlight-literal">"Constituents"</span>, <span class="highlight-literal">"Constituent search"</span>);
+}
+
+[When(<span class="highlight-literal">@"set the Last/Org/Group name field value to "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">""</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenSetTheLastOrgGroupNameFieldValueTo(<span class="highlight-keyword">string</span> fieldValue)
+{
+    SearchDialog.SetTextField(Dialog.getXInput(<span class="highlight-literal">"ConstituentSearchbyNameorLookupID"</span>, <span class="highlight-literal">"KEYNAME"</span>), fieldValue);
+}
+
+[Then(<span class="highlight-literal">@"the Last/Org/Group name field is "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">""</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ThenTheLastOrgGroupNameFieldIs(<span class="highlight-keyword">string</span> expectedValue)
+{
+    SearchDialog.ElementValueIsSet(Dialog.getXInput(<span class="highlight-literal">"ConstituentSearchbyNameorLookupID"</span>, <span class="highlight-literal">"KEYNAME"</span>), expectedValue);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAJACABABAAA");</script><div class="mediaNear"><div class="caption">
+                    When run against the standard CRM application, the test passes.
+                  </div><img alt="Passing Default Constituent Search" src="../media/PassingDefaultConstituentSearch.PNG" /></div><div class="mediaNear"><div class="caption">
+                    The steps navigate to the Constituents functional area and click the "Constituent search" task.
+                  </div><img alt="Default Constituent Search Task" src="../media/DefaultConstituentSearchTask.PNG" /></div><div class="mediaNear"><div class="caption">
+                    The "Last/Org/Group name" field is set and validated as containing the desired value.
+                  </div><img alt="Default Constituent Search Dialog" src="../media/DefaultConstituentSearchDialog.PNG" /></div><div class="mediaNear"><div class="caption">
+                    If we run the test against a custom application whose Constituent functional area looks like this...
+                  </div><img alt="Custom Constituent Search Task" src="../media/CustomConstituentSearchTask.PNG" /></div><div class="mediaNear"><div class="caption">
+                    ...we get the following error.
+                  </div><img alt="Default On Custom Search Dialog Error" src="../media/DefaultOnCustomSearchDialogError.PNG" /></div><p>This is resolved with the following code edit.</p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACACABABAAA_tab1" class="codeSnippetContainerTabSingle">Edited step</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACACABABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACACABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACACABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"I open the constituent search dialog"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIOpenTheConstituentSearchDialog()
+{
+    BBCRMHomePage.OpenConstituentsFA();
+    FunctionalArea.OpenLink(<span class="highlight-literal">"Searching"</span>, <span class="highlight-literal">"Constituent search"</span>);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACACABABAAA");</script><div class="mediaNear"><div class="caption">
+                    Running the test now we get a new error.
+                  </div><img alt="Default On Custom Search Dialog Field Error" src="../media/DefaultOnCustomSearchDialogFieldError.PNG" /></div><div class="mediaNear"><div class="caption">
+                    Another must customization exist.  The error stack trace indicates that the XPath constructor
+                    for the "Last/Org/Group name" field is not compatible with this application.  NoSuchElementExceptions are thrown when
+                    Selenium's WebDriver times out looking for a web element using the XPath.  
+                  </div><img alt="Custom Constituent Search Dialog" src="../media/CustomConstituentSearchDialog.PNG" /></div></li><li><p>
+                  Identify The Customization
+                </p><div class="mediaNear"><div class="caption">
+                    Let's take a look at the search dialogs between the default and custom applications.  
+                    Comparing the dialogs, clearly the dialog on the right has been customized.  Inspecting the "Last/Org/Group name" field
+                    between the two applications, we can see they share the same unique field id.
+                  </div><img alt="Comparing Field Id Search Dialog" src="../media/ComparingFieldIdSearchDialog.PNG" /></div><div class="alert"><table><tr><th><img src="../icons/AlertNote.png" alt="Note" /> Note</th></tr><tr><td><p>
+                    If you do not know how to identify the field's unique id, please review the
+                    <a href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33.htm">XPath Guidelines</a></p></td></tr></table></div><div class="mediaNear"><div class="caption">
+                    Inspecting the unique dialog ids, we can see that they are different.  The supported XPath constructs an XPath using the
+                    dialog id "ConstituentSearchbyNameorLookupID".  We need to modify the dialog id to use the custom dialog id.
+                  </div><img alt="Comparing Dialog Ids Search Dialog" src="../media/ComparingDialogIdsSearchDialog.PNG" /></div></li><li><p>
+                  Edit Steps
+                </p><p>
+                  Update the step code so the XPath constructors use the custom dialog id.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABAAABABAAA_tab1" class="codeSnippetContainerTabSingle">Edited steps for custom dialog id</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABAAABABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABAAABABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABAAABABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"set the Last/Org/Group name field value to "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">""</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenSetTheLastOrgGroupNameFieldValueTo(<span class="highlight-keyword">string</span> fieldValue)
+{
+    SearchDialog.SetTextField(Dialog.getXInput(<span class="highlight-literal">"UniversityofOxfordConstituentSearch"</span>, <span class="highlight-literal">"KEYNAME"</span>), fieldValue);
+}
+
+[Then(<span class="highlight-literal">@"the Last/Org/Group name field is "</span><span class="highlight-literal">"(.*)"</span><span class="highlight-literal">""</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ThenTheLastOrgGroupNameFieldIs(<span class="highlight-keyword">string</span> expectedValue)
+{
+    SearchDialog.ElementValueIsSet(Dialog.getXInput(<span class="highlight-literal">"UniversityofOxfordConstituentSearch"</span>, <span class="highlight-literal">"KEYNAME"</span>), expectedValue);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABAAABABAAA");</script><div class="mediaNear"><div class="caption">
+                    The test passes now on the custom application.
+                  </div><img alt="Passing Default Constituent Search" src="../media/PassingDefaultConstituentSearch.PNG" /></div></li></ol></div><h3 class="procedureSubHeading">Overriding An Implementation</h3><div class="subSection"><ol><li><p>
+                  Identify Need For Overriding Implementation
+                </p><div class="mediaNear"><div class="caption">
+                    Let's start with the following test case that works against the standard CRM application.
+                  </div><img alt="Override Working Feature Test" src="../media/OverrideWorkingFeatureTest.PNG" /></div><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACACAAABAAA_tab1" class="codeSnippetContainerTabSingle">Implemetation of steps.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACACAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACACAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACACAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Base;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+<span class="highlight-keyword">using</span> TechTalk.SpecFlow;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    [Binding]
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> SampleTestsSteps : BaseSteps
+    {
+        [Given(<span class="highlight-literal">@"I have logged into BBCRM"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> GivenIHaveLoggedIntoBBCRM()
+        {
+            BBCRMHomePage.Logon();
+        }
+
+        [Then(<span class="highlight-literal">@"a constituent is created"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> ThenAConstituentIsCreated()
+        {
+            <span class="highlight-keyword">if</span> (!BaseComponent.Exists(Panel.getXPanelHeader(<span class="highlight-literal">"individual"</span>))) FailTest(<span class="highlight-literal">"A constituent panel did not load."</span>);
+        }
+
+        [When(<span class="highlight-literal">@"I start to add a constituent"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenIStartToAddAConstituent(Table constituents)
+        {
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> constituent <span class="highlight-keyword">in</span> constituents.Rows)
+            {
+                BBCRMHomePage.OpenConstituentsFA();
+                constituent[<span class="highlight-literal">"Last name"</span>] += uniqueStamp;
+                ConstituentsFunctionalArea.AddAnIndividual();
+                IndividualDialog.SetIndividualFields(constituent);
+            }
+        }
+
+        [When(<span class="highlight-literal">@"I save the add an individual dialog"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenISaveTheAddAnIndividualDialog()
+        {
+            IndividualDialog.Save();
+        }
+
+        [Given(<span class="highlight-literal">@"a constituent exists"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> GivenAConstituentExists(Table constituents)
+        {
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> constituent <span class="highlight-keyword">in</span> constituents.Rows)
+            {
+                BBCRMHomePage.OpenConstituentsFA();
+                constituent[<span class="highlight-literal">"Last name"</span>] += uniqueStamp;
+                ConstituentsFunctionalArea.AddAnIndividual(constituent);
+            }
+        }
+
+        [When(<span class="highlight-literal">@"set the household fields"</span>)]
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenSetTheHouseholdFields(Table fieldsTable)
+        {
+            <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> fieldValues <span class="highlight-keyword">in</span> fieldsTable.Rows)
+            {
+                IndividualDialog.SetHouseholdFields(fieldValues);
+            }
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACACAAABAAA");</script><div class="mediaNear"><div class="caption">
+                    At some point in the test, the 'Related individual' field on the Add an individual dialog is set 
+                    by using the associated searchlist.
+                  </div><img alt="Record Search" src="../media/RecordSearch.PNG" /></div><div class="mediaNear"><div class="caption">
+                    What if we wanted to set the field through the add button?  This would require us to override the default 
+                    implementation for how the 'Related individual' field is set.
+                  </div><img alt="Add Icon" src="../media/AddIcon.PNG" /></div></li><li><p>
+                  Create A Custom Method
+                </p><p>
+                  If you do not have a CustomIndividualDialog class created yet, add a new class to your project and implement it as 
+                  follows.
+                </p><p>
+                  First we make sure to select the 'Household' tab.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAJABAAABAAA_tab1" class="codeSnippetContainerTabSingle">Selecting the right tab</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAJABAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAJABAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAJABAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Base;
+<span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+<span class="highlight-keyword">using</span> TechTalk.SpecFlow;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> CustomIndividualDialog : IndividualDialog
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetHouseholdFields(TableRow fields)
+        {
+            OpenTab(<span class="highlight-literal">"Household"</span>);
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAJABAAABAAA");</script><p>
+                  Next we specify custom logic if a value for the 'Related individual' field has been provided.  If a value has been 
+                  provided for this field, we click the button that brings up the add dialog.  Be sure to read the API documentation for 
+                  the XPath constructors.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAHABAAABAAA_tab1" class="codeSnippetContainerTabSingle">Click the add button for the field</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAHABAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAHABAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAHABAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetHouseholdFields(TableRow fields)
+{
+    OpenTab(<span class="highlight-literal">"Household"</span>);
+    <span class="highlight-keyword">if</span> (fields.ContainsKey(<span class="highlight-literal">"Related individual"</span>))
+    {
+        WaitClick(getXInputNewFormTrigger(getXInput(GetDialogId(DialogIds), <span class="highlight-literal">"_SPOUSEID_value"</span>)));
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAHABAAABAAA");</script><div class="mediaNear"><div class="caption">
+                    The resuling dialog from clicking the add button on the 'Related individual' field.
+                  </div><img alt="Trigger Dialog" src="../media/TriggerDialog.PNG" /></div><p>
+                  We then set the 'Last name' field value to the value provided for 'Related individual' before hitting Ok.  We could have 
+                  defined any logic and interactions involving this dialog, but let's keep it simple.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAEABAAABAAA_tab1" class="codeSnippetContainerTabSingle">Set the 'Last name' field</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAEABAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAEABAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAEABAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetHouseholdFields(TableRow fields)
+{
+    OpenTab(<span class="highlight-literal">"Household"</span>);
+    <span class="highlight-keyword">if</span> (fields.ContainsKey(<span class="highlight-literal">"Related individual"</span>))
+    {
+        WaitClick(getXInputNewFormTrigger(getXInput(GetDialogId(DialogIds), <span class="highlight-literal">"_SPOUSEID_value"</span>)));
+        SetTextField(getXInput(<span class="highlight-literal">"IndividualSpouseBusinessSpouseForm"</span>, <span class="highlight-literal">"_SPOUSE_LASTNAME_value"</span>), fields[<span class="highlight-literal">"Related individual"</span>]);
+        OK();
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAEABAAABAAA");</script><p>
+                  Before we call the base implementation to handle setting the rest of the fields, we set 
+                  fields["Related individual"] to equal null.  We do this because we want the base SetHouseholdFields to skip 
+                  it's handling of the 'Related individual' field.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EACABAAABAAA_tab1" class="codeSnippetContainerTabSingle">Set 'Related individual' to null and çall the base method.</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EACABAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EACABAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EACABAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Blueshirt.Core.Crm;
+<span class="highlight-keyword">using</span> TechTalk.SpecFlow;
+
+<span class="highlight-keyword">namespace</span> Delving_Deeper
+{
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> CustomIndividualDialog : IndividualDialog
+    {
+        <span class="highlight-keyword">public</span> <span class="highlight-keyword">new</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">void</span> SetHouseholdFields(TableRow fields)
+        {
+            OpenTab(<span class="highlight-literal">"Household"</span>);
+            <span class="highlight-keyword">if</span> (fields.ContainsKey(<span class="highlight-literal">"Related individual"</span>))
+            {
+                WaitClick(getXInputNewFormTrigger(getXInput(dialogId, <span class="highlight-literal">"_SPOUSEID_value"</span>)));
+                SetTextField(getXInput(<span class="highlight-literal">"IndividualSpouseBusinessSpouseForm"</span>, <span class="highlight-literal">"_SPOUSE_LASTNAME_value"</span>), fields[<span class="highlight-literal">"Related individual"</span>]);
+                OK();
+                fields[<span class="highlight-literal">"Related individual"</span>] = <span class="highlight-keyword">null</span>;
+            }
+            IndividualDialog.SetHouseholdFields(fields);
+        }
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EACABAAABAAA");</script><p>
+                  Another solution would have been to remove the 'Related individual' key from the fields object.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAAABAAABAAA_tab1" class="codeSnippetContainerTabSingle">Remove the 'Related individual' key</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAAABAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAAABAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAAABAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">fields.Keys.Remove(<span class="highlight-literal">"Related individual"</span>);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAAABAAABAAA");</script></li><li><p>
+                  Update The Steps
+                </p><p>
+                  Change the step setting the household tab fields.
+                </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABAAAAABAAA_tab1" class="codeSnippetContainerTabSingle">Updated step</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABAAAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABAAAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABAAAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">[When(<span class="highlight-literal">@"set the household fields"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">void</span> WhenSetTheHouseholdFields(Table fieldsTable)
+{
+    <span class="highlight-keyword">foreach</span> (<span class="highlight-keyword">var</span> fieldValues <span class="highlight-keyword">in</span> fieldsTable.Rows)
+    {
+        CustomIndividualDialog.SetHouseholdFields(fieldValues);
+    }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABAAAAABAAA");</script><p>
+                  The test now sets the 'Related individual' field through the add button and not the search dialog.
+                </p></li></ol></div></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Other Resources</h4><div class="seeAlsoStyle"><a href="https://github.com/techtalk/SpecFlow/wiki/SpecFlow-Assist-Helpers" target="_blank">SpecFlow's Tables and TableRows</a></div></div></div></div><div id="pageFooter" class="pageFooter" /></body></html>

@@ -1,0 +1,1 @@
+﻿IWebElement functionalAreaElement = driver.FindElement(By.XPath(String.Format("//button[text()='{0}']", caption)));

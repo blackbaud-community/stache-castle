@@ -11,7 +11,7 @@ module.exports = function(grunt) {
   // Config the convert task
   grunt.config.init({
     stacheCastle: {
-      sandcastleOutput: 'sandcastle-output/',
+      sandcastleOutput: 'sandcastle-output-blue/',
       sandcastleHtml: '<%= stacheCastle.sandcastleOutput %>html/',
       jsonConverted: 'converted.json',
       jsonMerged: 'converted_merged.json',
@@ -48,16 +48,25 @@ module.exports = function(grunt) {
     json.doc.members.member.forEach(function (v, i, a) {
 
       // See if a file exists for this entry
-      var filename = grunt.config.get('stacheCastle.sandcastleHtml') + convertToFilename(v.name);
-      if (grunt.file.exists(filename)) {
+      var key = nameToKey(v.name);
+      var filename = key + '.htm';
+      var filenameWithLocation = grunt.config.get('stacheCastle.sandcastleHtml') + filename;
+      if (grunt.file.exists(filenameWithLocation)) {
 
         // Load the files contents into cheerio
-        var $ = cheerio.load(grunt.file.read(filename));
+        var $ = cheerio.load(grunt.file.read(filenameWithLocation));
+
+        // Store the filename so internal links will continue to work when rendered
+        v.key = key;
+        v.filename = filename;
 
         // TODO: Inheritance
         // TODO: References
 
-        // Replace the summary
+        // Grab the title
+        v.title = $('title').text();
+
+        // Summary already exists but we can use this opportunity to clean it
         v.summary = cleanText($('.summary').eq(0).text());
 
         // Grab the syntax
@@ -82,7 +91,7 @@ module.exports = function(grunt) {
 
       // Log the files we weren't able to locate
       } else {
-        grunt.log.warn('Not Found: ' + filename);
+        grunt.log.warn('Not Found: ' + filenameWithLocation);
         grunt.log.warn('(' + v.name + ')');
         grunt.log.writeln('');
       }
@@ -94,17 +103,17 @@ module.exports = function(grunt) {
 
   /**
   * Converts Sandcastle name to it's equivalent filename
-  * @method convertToFilename
+  * @method nameToKey
   * @param {String} name Name to convert
   * @returns {String} Converted filename
   **/
-  function convertToFilename (name) {
+  function nameToKey (name) {
     var r = name.replace(/[:.]/g, '_');
     var parenthesis = r.indexOf('(');
     if (parenthesis > -1) {
       r = r.substring(0, parenthesis);
     }
-    return r + '.htm';
+    return r;
   }
 
   /**

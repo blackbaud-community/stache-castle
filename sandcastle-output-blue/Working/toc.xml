@@ -1,0 +1,1065 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topics>
+  <topic id="f52e699b-de1d-4242-bd0a-ab85261f9c93" file="f52e699b-de1d-4242-bd0a-ab85261f9c93" sortOrder="0" />
+  <topic id="d48ef890-924b-44ec-8ce1-856896c0abec" file="d48ef890-924b-44ec-8ce1-856896c0abec">
+    <topic id="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0" file="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0" />
+    <topic id="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33" file="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33" />
+    <topic id="0990eabd-be52-47c5-8273-0467c26eb79b" file="0990eabd-be52-47c5-8273-0467c26eb79b" />
+    <topic id="4d721943-df97-4c91-aed1-7aeea9372876" file="4d721943-df97-4c91-aed1-7aeea9372876" />
+  </topic>
+  <topic id="48fdba0e-bf5f-4870-9c25-746bd3cedcb3" file="48fdba0e-bf5f-4870-9c25-746bd3cedcb3">
+    <topic id="83e4ed97-1714-41f0-a719-94ba1bf767dc" file="83e4ed97-1714-41f0-a719-94ba1bf767dc" />
+  </topic>
+  <topic id="R:Project_Blackbaud.UAT.Doc" project="" file="R_Project_Blackbaud_UAT_Doc" sortOrder="3">
+    <topic id="N:Blackbaud.UAT.Base" project="_Namespaces" file="N_Blackbaud_UAT_Base">
+      <topic id="T:Blackbaud.UAT.Base.BaseComponent" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Base_BaseComponent">
+        <topic id="M:Blackbaud.UAT.Base.BaseComponent.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Base.BaseComponent" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Base_BaseComponent">
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.ClickButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_ClickButton" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.ConvertToBool(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_ConvertToBool" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.CopyToClipBoard(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_CopyToClipBoard" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.ElementValueIsNotNullOrEmpty(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsNotNullOrEmpty" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.ElementValueIsSet(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsSet" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.Exists(System.String,System.Double)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_Exists" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.ExistsNow(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_ExistsNow" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.GetDatalistColumnIndex(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_GetDatalistColumnIndex" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.GetDisplayedElement(System.String,System.Double)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_GetDisplayedElement" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.GetEnabledElement(System.String,System.Double)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_GetEnabledElement" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.getXButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_getXButton" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.getXMenuItem(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_getXMenuItem" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.MapColumnCaptionsToIndex(System.Collections.Generic.ICollection{System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_MapColumnCaptionsToIndex" />
+          <topic id="Overload:Blackbaud.UAT.Base.BaseComponent.SetCheckbox" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Base_BaseComponent_SetCheckbox">
+            <topic id="M:Blackbaud.UAT.Base.BaseComponent.SetCheckbox(System.String,System.Boolean)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_SetCheckbox" />
+            <topic id="M:Blackbaud.UAT.Base.BaseComponent.SetCheckbox(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_SetCheckbox_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.SetCredentailsField(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_SetCredentailsField" />
+          <topic id="M:Blackbaud.UAT.Base.BaseComponent.SetTextField(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_SetTextField" />
+          <topic id="Overload:Blackbaud.UAT.Base.BaseComponent.WaitClick" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Base_BaseComponent_WaitClick">
+            <topic id="M:Blackbaud.UAT.Base.BaseComponent.WaitClick(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_WaitClick" />
+            <topic id="M:Blackbaud.UAT.Base.BaseComponent.WaitClick(System.String,System.Double)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_BaseComponent_WaitClick_1" />
+          </topic>
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Base.BaseComponent" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Base_BaseComponent">
+          <topic id="P:Blackbaud.UAT.Base.BaseComponent.Driver" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Base_BaseComponent_Driver" />
+          <topic id="P:Blackbaud.UAT.Base.BaseComponent.TimeoutSecs" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Base_BaseComponent_TimeoutSecs" />
+          <topic id="P:Blackbaud.UAT.Base.BaseComponent.Title" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Base_BaseComponent_Title" />
+        </topic>
+      </topic>
+      <topic id="T:Blackbaud.UAT.Base.CrmField" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Base_CrmField">
+        <topic id="Overload:Blackbaud.UAT.Base.CrmField.#ctor" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Base_CrmField__ctor">
+          <topic id="M:Blackbaud.UAT.Base.CrmField.#ctor(System.String,Blackbaud.UAT.Base.FieldType)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_CrmField__ctor" />
+          <topic id="M:Blackbaud.UAT.Base.CrmField.#ctor(System.String,Blackbaud.UAT.Base.FieldType,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Base_CrmField__ctor_1" />
+        </topic>
+        <topic id="Fields.T:Blackbaud.UAT.Base.CrmField" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Base_CrmField">
+          <topic id="F:Blackbaud.UAT.Base.CrmField.CellType" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Base_CrmField_CellType" />
+          <topic id="F:Blackbaud.UAT.Base.CrmField.Id" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Base_CrmField_Id" />
+          <topic id="F:Blackbaud.UAT.Base.CrmField.SearchDialogFieldId" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Base_CrmField_SearchDialogFieldId" />
+          <topic id="F:Blackbaud.UAT.Base.CrmField.SearchDialogId" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Base_CrmField_SearchDialogId" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Base.CrmField" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Base_CrmField" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Base.FieldType" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Base_FieldType" />
+    </topic>
+    <topic id="N:Blackbaud.UAT.Core.Base" project="_Namespaces" file="N_Blackbaud_UAT_Core_Base">
+      <topic id="T:Blackbaud.UAT.Core.Base.BaseSteps" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Base_BaseSteps">
+        <topic id="M:Blackbaud.UAT.Core.Base.BaseSteps.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Base_BaseSteps__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Base.BaseSteps" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Base_BaseSteps">
+          <topic id="F:Blackbaud.UAT.Core.Base.BaseSteps.testStamp" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Base_BaseSteps_testStamp" />
+          <topic id="F:Blackbaud.UAT.Core.Base.BaseSteps.uniqueStamp" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Base_BaseSteps_uniqueStamp" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Base.BaseSteps" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Base_BaseSteps">
+          <topic id="M:Blackbaud.UAT.Core.Base.BaseSteps.FailTest(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Base_BaseSteps_FailTest" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="N:Blackbaud.UAT.Core.Bbis.Pages" project="_Namespaces" file="N_Blackbaud_UAT_Core_Bbis_Pages">
+      <topic id="T:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage">
+        <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage">
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXFilterByNameButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameButton" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXFilterByNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXLayoutGridNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutGridNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXLayoutSearchResultsLine" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutSearchResultsLine" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXLoginButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLoginButton" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXNewLayoutButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutButton" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXNewLayoutLayoutDescription" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutDescription" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXNewLayoutLayoutName" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutName" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXNewLayoutNextButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutNextButton" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXNewLayoutSaveButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutSaveButton" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXPasswordField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXPasswordField" />
+          <topic id="F:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.getXUserNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXUserNameField" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage">
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.CheckLayoutSearchResultsContain(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_CheckLayoutSearchResultsContain" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.DeleteLayout(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_DeleteLayout" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.FilterLayoutByName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_FilterLayoutByName" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.Login" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Login" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.LoginAs(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_LoginAs" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.NewLayout(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_NewLayout" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.OpenImageLibrary" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenImageLibrary" />
+          <topic id="M:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.OpenLayoutGallery" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenLayoutGallery" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage">
+          <topic id="P:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.BaseUrl" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_BaseUrl" />
+          <topic id="P:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.Title" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Title" />
+          <topic id="P:Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage.VirtualPath" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_VirtualPath" />
+        </topic>
+      </topic>
+    </topic>
+    <topic id="N:Blackbaud.UAT.Core.Crm" project="_Namespaces" file="N_Blackbaud_UAT_Core_Crm">
+      <topic id="T:Blackbaud.UAT.Core.Crm.AdHocQueryDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.AdHocQueryDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.AdHocQueryDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.AddFilterField(System.String,TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddFilterField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.AddOutputField(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddOutputField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.ApplyCriteria(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ApplyCriteria" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.ExpandNode(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ExpandNode" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.FilterBy(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_FilterBy" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.SaveAndClose" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SaveAndClose" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryDialog.SetSaveOptions(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SetSaveOptions" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.AdHocQueryDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.AdHocQueryPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.AdHocQueryPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.AdHocQueryPanel.IsPanelHeader(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel_IsPanelHeader" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.AdHocQueryPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea.InformationLibrary(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_InformationLibrary" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea.OpenQueryPanel" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.BatchDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_BatchDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.BatchDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.BatchDialog.BatchDialogGridId" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogGridId" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.BatchDialog.BatchDialogId" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogId" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.BatchDialog.ColumnToBatchColumn" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BatchDialog_ColumnToBatchColumn" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.BatchDialog.getXBatchGridHeaders" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BatchDialog_getXBatchGridHeaders" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.BatchDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_BatchDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.EditConstituent(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_EditConstituent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.GetColumnIndexByCaption(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexByCaption" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.GetColumnIndexById(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexById" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.GetGridCellValue(System.String,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_GetGridCellValue" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.SaveAndClose" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_SaveAndClose" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.SetGridCell(System.String,System.String,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridCell" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.SetGridRow(TechTalk.SpecFlow.TableRow,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.SetGridRows(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRows" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchDialog.Validate" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchDialog_Validate" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.BatchDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_BatchDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.BatchEntryPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_BatchEntryPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.BatchEntryPanel" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel">
+          <topic id="F:Blackbaud.UAT.Core.Crm.BatchEntryPanel.getXSearchInput" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BatchEntryPanel_getXSearchInput" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.BatchEntryPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel">
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.BatchEntryPanel.AddBatch" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch">
+            <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.AddBatch(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.AddBatch(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.CommitSelectedBatch" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_CommitSelectedBatch" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.SelectUncommittedBatch(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_SelectUncommittedBatch" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BatchEntryPanel.UncommittedBatchExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_UncommittedBatchExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.BatchEntryPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.BBCRMHomePage" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_BBCRMHomePage">
+        <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.BBCRMHomePage" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage">
+          <topic id="F:Blackbaud.UAT.Core.Crm.BBCRMHomePage.getXMenuMore" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXMenuMore" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.BBCRMHomePage.getXWaitBar" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXWaitBar" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.BBCRMHomePage" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage">
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.getXExtMenuTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtMenuTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.getXExtTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.getXTask(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXTask" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.Login" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_Login" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.LoginAs(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_LoginAs" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenAnalysisFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenAnalysisFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenConstituentsFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenConstituentsFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenEventsFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenEventsFA" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenFunctionalArea" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea">
+            <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenFunctionalArea(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenFunctionalArea(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenFundraisingFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFundraisingFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenMarketingAndCommunicationsFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenMembershipsFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMembershipsFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenProspectsFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenProspectsFA" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BBCRMHomePage.OpenRevenueFA" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenRevenueFA" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.BBCRMHomePage" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage">
+          <topic id="P:Blackbaud.UAT.Core.Crm.BBCRMHomePage.BaseUrl" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_BaseUrl" />
+          <topic id="P:Blackbaud.UAT.Core.Crm.BBCRMHomePage.VirtualPath" project="Blackbaud.UAT.Core" file="P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_VirtualPath" />
+        </topic>
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.BusinessProcess" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_BusinessProcess">
+        <topic id="M:Blackbaud.UAT.Core.Crm.BusinessProcess.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BusinessProcess__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.BusinessProcess" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_BusinessProcess">
+          <topic id="F:Blackbaud.UAT.Core.Crm.BusinessProcess.getXCommitStatus" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXCommitStatus" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.BusinessProcess.getXRecordsProcessed" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXRecordsProcessed" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.BusinessProcess" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_BusinessProcess">
+          <topic id="M:Blackbaud.UAT.Core.Crm.BusinessProcess.IsCompleted" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsCompleted" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.BusinessProcess.IsNumRecordsProcessed(System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsNumRecordsProcessed" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.BusinessProcess" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_BusinessProcess" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.CommitmentsDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_CommitmentsDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.CommitmentsDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_CommitmentsDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.CommitmentsDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.CommitmentsDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.CommitmentsDialog.SupportedAddtionalApplicationsGridFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.CommitmentsDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.CommitmentsDialog.SetAdditionalApplicationsGridRows(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.CommitmentsDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.ConstituentPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_ConstituentPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.ConstituentPanel" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_ConstituentPanel">
+          <topic id="F:Blackbaud.UAT.Core.Crm.ConstituentPanel.getXYesReallyDelete" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXYesReallyDelete" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.ConstituentPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_ConstituentPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddConstituency(System.String,TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddConstituency" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddMajorGivingPlan(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddMajorGivingPlan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddNote(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNote" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddNotification(System.String,TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNotification" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddTeamMember(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamMember" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.AddTeamRole(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamRole" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.ClickConstituentLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ClickConstituentLink" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.ConstituencyExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ConstituencyExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.DeleteConstituency(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_DeleteConstituency" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.GetConstituentTypeText" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GetConstituentTypeText" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.getXNotification(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXNotification" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.GoToPlan(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GoToPlan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.IsBirthDate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsBirthDate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.IsConstituentPanelHeader(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsConstituentPanelHeader" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.IsLastName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsLastName" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.IsStateAddress(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsStateAddress" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.IsTitle(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsTitle" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.NotificationExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_NotificationExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.PlanExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_PlanExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.SelectInfoTab" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectInfoTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.SelectNote(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectNote" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.StartToAddAPlan(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_StartToAddAPlan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.TeamMemberExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamMemberExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentPanel.TeamRoleExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamRoleExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.ConstituentPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_ConstituentPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea">
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.AddAnIndividual" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual">
+            <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.AddAnIndividual(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.AddAnIndividual(TechTalk.SpecFlow.TableRow,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.ConstituentExists(System.String,System.String,System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.ConstituentSearch(System.String,System.String,System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea.OpenConstituentSearchDialog" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_OpenConstituentSearchDialog" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.DesignationsDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_DesignationsDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.DesignationsDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_DesignationsDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.DesignationsDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_DesignationsDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.DesignationsDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_DesignationsDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.DesignationsDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_DesignationsDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.DesignationsDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_DesignationsDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.DesignationsDialog.SplitDesignations(TechTalk.SpecFlow.Table,System.Boolean)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignations" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.DesignationsDialog.SplitDesignationsEvenly(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignationsEvenly" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.DesignationsDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_DesignationsDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.Dialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_Dialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.Dialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_Dialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXCancelButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXCancelButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXDropdownList" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownList" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXDropdownListItems" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownListItems" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXGridEditCell" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCell" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXGridEditCellDropdownArrow" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellDropdownArrow" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXGridEditCellSearchlist" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellSearchlist" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXGridFocusedEditCell" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXGridFocusedEditCell" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXIFrameHtmlBodyP" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXIFrameHtmlBodyP" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXOKButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXOKButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXSaveAndCloseButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveAndCloseButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXSaveButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXTabStrip" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXTabStrip" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialog.getXYesButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialog_getXYesButton" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.Dialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_Dialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.Cancel" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_Cancel" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.ClickButton" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_ClickButton">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.ClickButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.ClickButton(System.String,System.Double)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton_1" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.ClickButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton_2" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.CloseDialog" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_CloseDialog" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.DropdownValueExists(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_DropdownValueExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.GetDialogId(System.Collections.Generic.IEnumerable{System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_GetDialogId" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXCloseX" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXCloseX" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.getXDialogButton" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDialogButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDialogButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDialogByClass(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogByClass" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDialogById(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogById" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDiv(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDiv" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDropdownArrow(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownArrow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXDropdownItem(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownItem" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXEntireDialogButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXEntireDialogButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXGridCell(System.String,System.String,System.Int32,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXGridCell" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXGridHeaders(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXGridHeaders" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXGridRow(System.String,System.String,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXGridRowSelector(System.String,System.String,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRowSelector" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXIFrame(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXIFrame" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXInput(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXInput" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXInputNewFormTrigger(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXInputNewFormTrigger" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXInputSearchTrigger(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXInputSearchTrigger" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXLinkByAction(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByAction" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXLinkByCaption(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByCaption" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXSpan(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXSpan" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.getXTab" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_getXTab">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXTab" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXTab(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXTab_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXTextArea(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXTextArea" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.getXVisibleDialog" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_getXVisibleDialog" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.OK" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_OK" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.OpenTab" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_OpenTab">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.OpenTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_OpenTab" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.OpenTab(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_OpenTab_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.Save" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_Save" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetDropDown(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetDropDown" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetField(System.String,System.String,System.String,System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetField" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.SetFields" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_SetFields">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetFields(System.String,TechTalk.SpecFlow.TableRow,System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetFields" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetFields(System.String,TechTalk.SpecFlow.TableRow,System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetFields_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridDropDown(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridDropDown" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.SetGridRow" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridRow(System.String,System.String,TechTalk.SpecFlow.TableRow,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridRow(System.String,System.String,TechTalk.SpecFlow.TableRow,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow_1" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Dialog.SetGridRows" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridRows(System.String,System.String,TechTalk.SpecFlow.Table,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridRows(System.String,System.String,TechTalk.SpecFlow.Table,System.Int32,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField},System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridSearchList(System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridSearchList" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetGridTextField(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetGridTextField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetHtmlField(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetHtmlField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.SetSearchList(System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_SetSearchList" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialog.Yes" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialog_Yes" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.Dialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_Dialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog.Apply(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_Apply" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog.SplitDesignations(TechTalk.SpecFlow.Table,System.Boolean)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog.UpdateProjectedTotals" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.EventDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_EventDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.EventDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.EventDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_EventDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.EventDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_EventDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.EventDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_EventDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.EventDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_EventDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventDialog.SetFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventDialog_SetFields" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.EventDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_EventDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel.AddTemplate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_AddTemplate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel.TemplateExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_TemplateExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.EventPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_EventPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.EventPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_EventPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddCoordinator(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddCoordinator" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddExpense(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddExpense" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddPreference(System.String,TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddPreference" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddRegistrant" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrant" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddRegistrationOption(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrationOption" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.AddTaskDialog" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_AddTaskDialog" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.CoordinatorExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_CoordinatorExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.CopyRegistrationOptions(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_CopyRegistrationOptions" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.EditTask(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_EditTask" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.ExpenseExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_ExpenseExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.IsEventName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_IsEventName" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.IsLocation(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_IsLocation" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.IsStartDate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_IsStartDate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.PreferenceExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_PreferenceExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.RegistrationOptionExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_RegistrationOptionExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventPanel.ReminderExists(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventPanel_ReminderExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.EventPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_EventPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.EventsFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.EventsFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea">
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.AddEvent" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent">
+            <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.AddEvent" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.AddEvent(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.AddMultiEvent" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddMultiEvent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.CollapseCalendar" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_CollapseCalendar" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.EventManagementTemplates(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventManagementTemplates" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.EventSearch(System.String,System.String,System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventSearch" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.EventsFunctionalArea.Locations(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_Locations" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.EventsFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.FunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_FunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.FunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_FunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.getXAddMenu(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXAddMenu" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.getXFaLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFaLink" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.FunctionalArea.getXFunctionalAreaTask" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask">
+            <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.getXFunctionalAreaTask(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.getXFunctionalAreaTask(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask_1" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.FunctionalArea.OpenLink" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink">
+            <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.OpenLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.OpenLink(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.FunctionalArea.OpenLinkToPanel(System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLinkToPanel" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.FunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_FunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea.DesignationExists(System.String,System.String,System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea_DesignationExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.HomeFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.HomeFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_HomeFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.HomeFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea" />
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.HomeFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.IndividualDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_IndividualDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.IndividualDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_IndividualDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.IndividualDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_IndividualDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.IndividualDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_IndividualDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.IndividualDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_IndividualDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.Save" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog_Save" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.SetHouseholdFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetHouseholdFields" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.IndividualDialog.SetIndividualFields" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields">
+            <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.SetIndividualFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.SetIndividualFields(TechTalk.SpecFlow.TableRow,System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.IndividualDialog.SetLastName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetLastName" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.IndividualDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_IndividualDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.InformationLibraryPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.InformationLibraryPanel" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel">
+          <topic id="F:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXAllQueriesTreeRoot" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXAllQueriesTreeRoot" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXDeleteQuery" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDeleteQuery" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXFilterQueryField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXFilterQueryField" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.InformationLibraryPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.AddAdHocQuery(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_AddAdHocQuery" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.CopyQueryAsStaticSelection(System.String,System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.DeleteQuery" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery">
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.DeleteQuery(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.DeleteQuery(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXDataListColumnValue(System.Int32,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDataListColumnValue" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXQuery(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXQuery" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.getXSectionDatalistRow(System.String,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.QueryExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.QueryExists(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.QueryExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists_1" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SectionDatalistRowExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SectionDatalistRowExists(System.Collections.Generic.IDictionary{System.String,System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SectionDatalistRowExists(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists_1" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SelectSectionDatalistRow" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow">
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SelectSectionDatalistRow(System.Collections.Generic.IDictionary{System.String,System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SelectSectionDatalistRow(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.InformationLibraryPanel.SetFilter(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SetFilter" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.InformationLibraryPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.LocationsPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_LocationsPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.LocationsPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_LocationsPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.LocationsPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_LocationsPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.LocationsPanel.AddLocation(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_LocationsPanel_AddLocation" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.LocationsPanel.LocationExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.LocationsPanel.LocationExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.LocationsPanel.LocationExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists_1" />
+          </topic>
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.LocationsPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_LocationsPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.AddDialogId" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_AddDialogId" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.InsertStep(TechTalk.SpecFlow.TableRow,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_InsertStep" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.Save" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_Save" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SelectStepRow(System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SelectStepRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetDetails(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetDetails" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetOutline(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetOutline" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetParticipants(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetParticipants" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetPlanStartDate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetPrimaryManagerStartDate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetSecondaryManagerStartDate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog.SetStepRow(TechTalk.SpecFlow.TableRow,System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetStepRow" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel.AddPlanOutline(System.String,TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_AddPlanOutline" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel.PlanOutlineExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess.IsCompleted" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess.IsNumRecordsProcessed(System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog.Save(System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_Save" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog.SetDetailsTabFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel.AddTemplate" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel.DeleteTemplate(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel.TemplateExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel.AddAcknowledgementRule" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel.ProcessAcknowledgement" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea.MarketingAcknowledgements(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea.Packages(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Packages" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea.Receipts(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Receipts" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea.Segments(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Segments" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MultiEventPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MultiEventPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MultiEventPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiEventPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MultiEventPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MultiEventPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiEventPanel.IsHierarchy(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsHierarchy" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiEventPanel.IsMultiEventName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsMultiEventName" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MultiEventPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MultiEventPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_DialogIds" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.AddChildEvent(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddChildEvent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.AddExistingEvent(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddExistingEvent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.CopyFrom(System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_CopyFrom" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.getXAddedEvent(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_getXAddedEvent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog.SetTemplate(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_SetTemplate" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.MultiLevelEventDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXAddFilterArrow" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXAddOutputFieldArrow" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXFindField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFindField" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.ApplyCriteria(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_ApplyCriteria" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXCriteriaInput(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXFieldResult(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFieldResult" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXSaveOptionsInput(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXSaveOptionsTextArea(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.getXTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.IncludeDisplayField(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeDisplayField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.IncludeRecordCriteria(System.String,TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeRecordCriteria" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.SetFindField(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetFindField" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog.SetSaveOptions(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetSaveOptions" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PackageDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PackageDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PackageDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackageDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.PackageDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_PackageDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.PackageDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PackageDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.PackageDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PackageDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PackageDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PackageDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PackageDialog.SetFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackageDialog_SetFields" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PackageDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PackageDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PackagesPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PackagesPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PackagesPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PackagesPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.AddMailPackage" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel_AddMailPackage" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.PackagesPanel.DeletePackage" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage">
+            <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.DeletePackage(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.DeletePackage(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage_1" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.PackagesPanel.PackageExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.PackageExists(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.PackagesPanel.PackageExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists_1" />
+          </topic>
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PackagesPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PackagesPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.Panel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_Panel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.Panel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.Panel" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_Panel">
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getxEventSearchResultsBar" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getxEventSearchResultsBar" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXEventSearchresultsGridNameFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXEventSearchresultsGridNameFields" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXInnerTabsBar" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXInnerTabsBar" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXSearchResultsGrid" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXSearchResultsGrid" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXTabsBar" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBar" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXTabsBarActiveTab" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarActiveTab" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panel.getXTabsBarRightScroller" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarRightScroller" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.Panel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_Panel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.AdditionalDatalistPagesExist(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_AdditionalDatalistPagesExist" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.CheckGridResultsContain(System.String,System.String,System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_CheckGridResultsContain" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.ClickSectionAddButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_ClickSectionAddButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.CollapseSection(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_CollapseSection" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.ExpandRow(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_ExpandRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXDataListColumnValue(System.Int32,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXDataListColumnValue" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXDatalistRowLinkByActionAndCaption(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXDatalistSpan(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistSpan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXDiv(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXDiv" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXDuplicateSectionDatalistColumnHeaders(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXGrid(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXGrid" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXGridHeaders(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXGridHeaders" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXGridRow(System.String,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXGridRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXGridRows(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXGridRows" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXInnerTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXInnerTab" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeader" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeader" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeader(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeaderByText(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderByText" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeaderLink" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeaderLink" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelHeaderLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXPanelTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXPanelTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSection(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSection" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionAddButton(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionAddButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionDatalistColumnHeaders(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistColumnHeaders" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionDatalistCurrentPageIndex(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionDatalistPageIndexButtons(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistPageIndexButtons" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionDatalistRow(System.String,System.Collections.Generic.IDictionary{System.String,System.Int32},System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRow" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionDatalistRows(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRows" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionExpandButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionExpandButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionViewForm(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewForm" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionViewFormSpan(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewFormSpan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSectionWidget(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSectionWidget" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSelectedDatalistRowButton(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowButton" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSelectedDatalistRowLinkByAction(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSelectedDatalistRowLinkByCaption(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSelectedDatalistRowLinkById(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkById" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXSpan(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXSpan" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.getXViewForm(System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_getXViewForm" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.GridRowExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_GridRowExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.GridRowExists(System.Collections.Generic.IDictionary{System.String,System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_GridRowExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.GridRowExists(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_GridRowExists_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.IsPanelHeader(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_IsPanelHeader" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.IsPanelType(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_IsPanelType" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.OpenTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_OpenTab" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.SectionDatalistRowExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionDatalistRowExists(System.Collections.Generic.IDictionary{System.String,System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionDatalistRowExists(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_2" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionDatalistRowExists(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Collections.Generic.IDictionary{System.String,System.Int32})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_1" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionDatalistRowExists(TechTalk.SpecFlow.TableRow,System.String,System.Collections.Generic.IDictionary{System.String,System.Int32})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_3" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.SectionViewFormExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionViewFormExists(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SectionViewFormExists(TechTalk.SpecFlow.TableRow,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectInnerTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectInnerTab" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panel.SelectSectionDatalistRow" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectSectionDatalistRow(System.Collections.Generic.IDictionary{System.String,System.String},System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectSectionDatalistRow(TechTalk.SpecFlow.TableRow,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_2" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectSectionDatalistRow(System.Collections.Generic.IDictionary{System.String,System.String},System.String,System.Collections.Generic.IDictionary{System.String,System.Int32})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_1" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectSectionDatalistRow(TechTalk.SpecFlow.TableRow,System.String,System.Collections.Generic.IDictionary{System.String,System.Int32})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_3" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.SelectTab(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_SelectTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.WaitForPanelHeaderNotContain(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelHeaderNotContain" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panel.WaitForPanelType(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelType" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.Panel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_Panel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PaymentDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PaymentDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PaymentDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PaymentDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.PaymentDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_PaymentDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.PaymentDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PaymentDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.PaymentDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PaymentDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PaymentDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PaymentDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PaymentDialog.AddApplication(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PaymentDialog_AddApplication" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PaymentDialog.SetFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PaymentDialog_SetFields" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PaymentDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PaymentDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PlanPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PlanPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PlanPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PlanPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PlanPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PlanPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PlanPanel.AddCompletedStep(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PlanPanel_AddCompletedStep" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PlanPanel.CompletedStepExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PlanPanel_CompletedStepExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PlanPanel.EditSteps" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PlanPanel_EditSteps" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PlanPanel.PlannedStepExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PlanPanel_PlannedStepExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PlanPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PlanPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PledgeDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PledgeDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.PledgeDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_PledgeDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.PledgeDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PledgeDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.PledgeDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_PledgeDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PledgeDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PledgeDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.EditInstallmentDesignations" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog_EditInstallmentDesignations" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.SetAccountSystem(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetAccountSystem" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.PledgeDialog.SetFields" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields">
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.SetFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.SetFields(TechTalk.SpecFlow.TableRow,System.Collections.Generic.IDictionary{System.String,Blackbaud.UAT.Base.CrmField})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgeDialog.SplitDesignationsEvenly(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeDialog_SplitDesignationsEvenly" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PledgeDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PledgeDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PledgePanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PledgePanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PledgePanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgePanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PledgePanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PledgePanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgePanel.DesignationExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgePanel_DesignationExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgePanel.IsPledgeAmount(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeAmount" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgePanel.IsPledgeConstituent(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeConstituent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.PledgePanel.IsPledgeSubtype(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeSubtype" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PledgePanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PledgePanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel">
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.AddSubtype" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype">
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.AddSubtype(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype_1" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.AddSubtype(System.String,System.Boolean)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype" />
+          </topic>
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.SubtypeExists" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists">
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.SubtypeExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel.SubtypeExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists_1" />
+          </topic>
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.PledgeSubtypePanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea.CollapseResearchLists" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea.MajorGivingSetup(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog.getXRecordTypeField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeField" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog.getXRecordTypeNameColumn(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog.SelectRecordTypeName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog.SetRecordType(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SetRecordType" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.QuerySourceViewDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess">
+        <topic id="M:Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess">
+          <topic id="M:Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess.IsCompleted" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess_IsCompleted" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.ReceiptsPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_ReceiptsPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.ReceiptsPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ReceiptsPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.ReceiptsPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.ReceiptsPanel.AddReceipt(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_AddReceipt" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.ReceiptsPanel.RunReceiptProcess(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_RunReceiptProcess" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.ReceiptsPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.RecurringGiftPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.RecurringGiftPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.RecurringGiftPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.RecurringGiftPanel.DesignationExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel_DesignationExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.RecurringGiftPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.RegistrantDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_RegistrantDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.RegistrantDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_RegistrantDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.RegistrantDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_RegistrantDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.RegistrantDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_RegistrantDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.RegistrantDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_RegistrantDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantDialog.SetRegistrant(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrant" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantDialog.SetRegistrants(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrants" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.RegistrantDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_RegistrantDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.RegistrantPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_RegistrantPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.RegistrantPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_RegistrantPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantPanel.IsEvent(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsEvent" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantPanel.IsNumGuests(System.Int32)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsNumGuests" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RegistrantPanel.IsRegistrant(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsRegistrant" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.RegistrantPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_RegistrantPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea">
+        <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea">
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.AddAPayment(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPayment" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.AddAPledge" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge">
+            <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.AddAPledge(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.AddAPledge(TechTalk.SpecFlow.TableRow,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.BatchEntry(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_BatchEntry" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.PledgeSubtypes(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_PledgeSubtypes" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea.TransactionSearchByConstituent(System.String,System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.RevenueFunctionalArea" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.RevenueRecordPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.RevenueRecordPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.RevenueRecordPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueRecordPanel.IsAcknowledged" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsAcknowledged" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueRecordPanel.IsReceipted" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsReceipted" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueRecordPanel.IsSubtype(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsSubtype" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.RevenueRecordPanel.PaymentExists(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_PaymentExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.RevenueRecordPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.SearchDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_SearchDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.SearchDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_SearchDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXFirstNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXFirstNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXGridNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXGridNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXLastNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXLastNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXNoRecordsFound" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXNoRecordsFound" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXResultsBar" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXResultsBar" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXSearchButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXSearchResultsGrid" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchResultsGrid" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXSelectButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SearchDialog.getXSelectedResultsRow" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectedResultsRow" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.SearchDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_SearchDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.CheckConstituentSearchResultsContain(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.CheckConstituentSearchResultsToolbarContains(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.Search" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_Search" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.Select" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_Select" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.SelectFirstResult" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_SelectFirstResult" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.SetFirstNameToSearch(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_SetFirstNameToSearch" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SearchDialog.SetLastNameToSearch(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SearchDialog_SetLastNameToSearch" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.SearchDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_SearchDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.SegmentDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_SegmentDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.SegmentDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.SegmentDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_SegmentDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.SegmentDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SegmentDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.SegmentDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_SegmentDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.SegmentDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_SegmentDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentDialog.AddSelection(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentDialog_AddSelection" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentDialog.SetDetailsFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentDialog_SetDetailsFields" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.SegmentDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_SegmentDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.SegmentPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_SegmentPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.SegmentPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.SegmentPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_SegmentPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentPanel.ActivatedMarketingEffortExists(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentPanel.DeleteActivatedMarketingEffort(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentPanel.DeleteSegment" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteSegment" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.SegmentPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_SegmentPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.SegmentsPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_SegmentsPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.SegmentsPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentsPanel__ctor" />
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.SegmentsPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_SegmentsPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentsPanel.AddSegment(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentsPanel_AddSegment" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentsPanel.DeleteSegment(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentsPanel_DeleteSegment" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentsPanel.GoToSegment(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentsPanel_GoToSegment" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.SegmentsPanel.SegmentExists(System.Collections.Generic.IDictionary{System.String,System.String})" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_SegmentsPanel_SegmentExists" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.SegmentsPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_SegmentsPanel" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.TaskDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_TaskDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.TaskDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_TaskDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.TaskDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_TaskDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.TaskDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_TaskDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.TaskDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedFields" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.TaskDialog.SupportedRemindersGridFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedRemindersGridFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.TaskDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_TaskDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.TaskDialog.SetFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_TaskDialog_SetFields" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.TaskDialog.SetReminders(TechTalk.SpecFlow.Table)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_TaskDialog_SetReminders" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.TaskDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_TaskDialog" />
+      </topic>
+    </topic>
+    <topic id="N:Blackbaud.UAT.Core.Crm.Dialogs" project="_Namespaces" file="N_Blackbaud_UAT_Core_Crm_Dialogs">
+      <topic id="T:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXAddMembershipButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXAddMembershipNextButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipNextButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXBenefitsCardFormatDropDown" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXBenefitsCardFormatDropDown" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXDuesInstallments" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDuesInstallments" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXHeaderPanel" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXHeaderPanel" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXMembershipProgramButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipProgramButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXMembershipTerm" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipTerm" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramKindAnnual" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramKindAnnual" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramLevelCurrentEdit" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelCurrentEdit" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramLevelNameHeader" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelNameHeader" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramLevelPriceHeader" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelPriceHeader" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramNameField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramNameField" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramObtainDues" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramObtainDues" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXReviewSave" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXReviewSave" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXYesReallyDelete" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXYesReallyDelete" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.ProgramLevelCurrentEditElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelCurrentEditElement" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.ProgramLevelNameHeaderElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelNameHeaderElement" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.ProgramLevelPriceHeaderElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelPriceHeaderElement" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.ProgramLinkElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLinkElement" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CheckMembershipProgramExists(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CheckMembershipProgramExists" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgram(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgram" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramAnnual" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramAnnual" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramBenefitsOptionsFormat(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramBenefitsOptionsFormat" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramDues" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDues" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramDuesOptionsInstallments" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDuesOptionsInstallments" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramLevelName(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelName" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramLevelPrice(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelPrice" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramNext" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramNext" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramRenewalOptionsTerm(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramRenewalOptionsTerm" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.CreateMembershipProgramReviewSave" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramReviewSave" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.DeleteMembershipProgram(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_DeleteMembershipProgram" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXDeleteProgramLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDeleteProgramLink" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.getXProgramLink(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLink" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog.MembershipPrograms" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_MembershipPrograms" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog" />
+      </topic>
+      <topic id="T:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog">
+        <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog">
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.DialogIds" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.SupportedFields" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog">
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.IncludeAllRecords" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.SetActivationTabFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.SetGeneralTabFields(TechTalk.SpecFlow.TableRow)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.SetSourceCode(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog" />
+      </topic>
+    </topic>
+    <topic id="N:Blackbaud.UAT.Core.Crm.Panels" project="_Namespaces" file="N_Blackbaud_UAT_Core_Crm_Panels">
+      <topic id="T:Blackbaud.UAT.Core.Crm.Panels.QueryPanel" project="Blackbaud.UAT.Core" file="T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel">
+        <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.#ctor" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel__ctor" />
+        <topic id="Fields.T:Blackbaud.UAT.Core.Crm.Panels.QueryPanel" project="Blackbaud.UAT.Core" file="Fields_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel">
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.DeleteQueryLinkElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQueryLinkElement" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.getXAddButton" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAddButton" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.getXAdhocQuery" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAdhocQuery" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.getXFilterQueryField" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXFilterQueryField" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.QueryLinkElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_QueryLinkElement" />
+          <topic id="F:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.YesReallyDeleteElement" project="Blackbaud.UAT.Core" file="F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_YesReallyDeleteElement" />
+        </topic>
+        <topic id="Methods.T:Blackbaud.UAT.Core.Crm.Panels.QueryPanel" project="Blackbaud.UAT.Core" file="Methods_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel">
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.AddQuery" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_AddQuery" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.CheckQueryPresent(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_CheckQueryPresent" />
+          <topic id="Overload:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.DeleteQuery" project="Blackbaud.UAT.Core" file="Overload_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery">
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.DeleteQuery(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery" />
+            <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.DeleteQuery(System.String,System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery_1" />
+          </topic>
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.getXDeleteQuery(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXDeleteQuery" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.getXQuery(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXQuery" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.OpenQueriesTab" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenQueriesTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.OpenSelectionsTab" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenSelectionsTab" />
+          <topic id="M:Blackbaud.UAT.Core.Crm.Panels.QueryPanel.SetFilter(System.String)" project="Blackbaud.UAT.Core" file="M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_SetFilter" />
+        </topic>
+        <topic id="Properties.T:Blackbaud.UAT.Core.Crm.Panels.QueryPanel" project="Blackbaud.UAT.Core" file="Properties_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel" />
+      </topic>
+    </topic>
+  </topic>
+</topics>

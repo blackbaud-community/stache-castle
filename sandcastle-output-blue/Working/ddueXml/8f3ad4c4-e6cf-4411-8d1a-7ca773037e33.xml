@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!--
+    <summary>
+      <para>Optional summary abstract</para>
+    </summary>
+    -->
+
+    <introduction>
+      <!-- Uncomment this to generate an outline of the section and sub-section
+           titles.  Specify a numeric value as the inner text to limit it to
+           a specific number of sub-topics when creating the outline.  Specify
+           zero (0) to limit it to top-level sections only.  -->
+      <!-- <autoOutline /> -->
+
+      <para>
+        In this walkthrough you'll gain experience creating XPaths to find elements consistently and uniquely within
+        the Enterprise CRM application..
+      </para>
+    </introduction>
+
+    <prerequisites>
+      <content>
+        <list class="bullet">
+          <listItem>
+            <para>You have completed the "Using the Selenium WebDriver" walkthrough and have access to an Enterprise CRM application.</para>
+          </listItem>
+          <listItem>
+            <para>You understand XML syntax.</para>
+          </listItem>
+          <listItem>
+            <para>
+              You have read through and familiarized yourself with the concepts at <externalLink>
+                <linkText>"Choosing Effective XPaths"</linkText>
+                <linkUri>http://www.toolsqa.com/selenium-webdriver/choosing-effective-xpath/</linkUri>
+              </externalLink>
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </prerequisites>
+
+    <!-- Optional additional procedure or section with procedure -->
+    <section address="WalkthroughSection">
+      <title>Introduction to XPaths</title>
+      <content>
+        <procedure>
+          <title>Introduction to XPaths</title>
+          <steps class="bullet">
+            <step>
+              <content>
+                <para>Selenium's WebDriver is what the UAT SDK (Project Blue) uses to interact with the web browser, and XPath is the selection methology for finding elements in the browser.</para>
+                <code language="c#" title="WebDriver search using an XPath selector condition." 
+                      source=".\CodeExamples\MultipleResultsXPath.cs">
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Web browsers such as Google Chrome provide an ability to view the HTML elements and their heirarchy.</para>
+              <mediaLink>
+                <caption placement="before">
+                  In Chrome right-clicking on a button, link, image, etc. will bring up an options menu with the option to "Inspect element".
+                </caption>
+                <image placement="near" xlink:href="InspectElement"/>
+              </mediaLink>
+              <mediaLink>
+                <caption placement="before">
+                  This will show you the HTML element type, attribute values, and location in the DOM.
+                </caption>
+                <image placement="near" xlink:href="HighlightedElement"/>
+              </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  XPaths specify a selector condition that parses the entire DOM returning all matching elements.  While in the Elements
+                  Panel of Chrome's Developer Tools, you can bring up a search (Ctrl+F) input to enter an XPath and see the results of an 
+                  XPath selector.
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    Entering the XPath "//button[contains(@class,'linkbutton')]/div[text()='Constituent search']" looks for all [div] elements with the text 'Constituent search' that
+                    are direct descendants of a [button] element with a class attribute containing 'linkbutton'.
+                  </caption>
+                  <image placement="near" xlink:href=  "XPathMultipleResults"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  The above XPath returned multiple matching elements based on the XPath selector condition. The existing API methods of the UAT SDK (Project Blue) accepting an XPath parameter assume the provided XPaths will return a single element. If you provide a custom or static XPath returning multiple results, it is advised to modify the XPath until a single element is consistently returned. Common Enterprise CRM XPath selector patterns to aide in finding a single element are discussed in the next section of this walkthrough.
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    By modifying the XPath selector to "//div[contains(@id,'contentpanel')]/div[contains(@id,'contentpanel') and not(contains(@class, 'hide-display'))]//button[contains(@class,'task-link')]/div[text()='Constituent search']", we can reduce our matching results to a single element.
+                  </caption>
+                  <image placement="near" xlink:href=  "XPathSingleResult"/>
+                </mediaLink>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+        
+      </content>
+    </section>
+
+    <section>
+      <title>Enterprise CRM Patterns - Panels</title>
+      <content>
+        <procedure>
+          <title>Enterprise CRM Patterns - Panels</title>
+          <steps class="bullet">
+            <step>
+              <content>
+                <para>
+                  In the above section we used an original and modified XPath to change our matching results. Let's look at how the modified XPath narrowed our search criteria and understand the differences between the original and modified XPaths.
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    To see how the modified XPath narrows its selection critieria, let's start with the first component of the XPath "//div[contains(@id,'contentpanel')]" and enter that into the search input. This XPath returns any [div] whose id attribute contains the text 'contentpanel'. In the image below, we can see that 4 matches are found with the first match highlighted.
+                  </caption>
+                  <image placement="near" xlink:href=  "CRMRootXPath"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Look through the matching elements or at the below image. We can see a single parent div with the id containing 'contentpanel'. We can also see several immediate children elements also containing 'contentpanel' in the id. Hover your mouse over each matching element to what gets highlighted in the browser.
+                  </caption>
+                  <image placement="near" xlink:href=  "CRMContentPanel"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    When navigating between different areas in the application, CRM stores previous pages in the HTML but marks them as hidden. If the user tries to navigate back to a previously visited panel, the load will be much faster because the panel's components are already stored in the browser. Notice how only one child 'contentpanel' results in the browser highlighting an element. The contentpanels not resulting a browser highlight have the 'x-hide-display' test in their class attribute and are not displayed in the browser.
+                  </caption>
+                  <image placement="near" xlink:href=  "CRMContentPanelHiddenPanels"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    If we add the second component of the modified XPath to our search so that it reads as "//div[contains(@id,'contentpanel')]/div[contains(@id,'contentpanel') and not(contains(@class, 'hide-display'))]", we only get one result. Note the single '/' between the first and second components of our XPath selector. This specifies an immediate child instead of any descendant. Also note how can add as much selection criteria as want to to any given element search criteria.
+                  </caption>
+                  <image placement="near" xlink:href=  "CRMRootPlusOneXPath"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Whenever you are trying to find an element within the panel window of the application, it is best practice to add a search criteria at the beginning of your XPath that narrows the search to the visible 'contentpanel'. From the visible panel, you can search through descendants to find elements such as a button.
+                </para>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+
+    <section>
+      <title>Enterprise CRM Patterns - Dialogs</title>
+      <content>
+        <procedure>
+          <title>Enterprise CRM Patterns - Dialogs</title>
+          <steps class="bullet">
+            <step>
+              <content>
+                <para>
+                  The DOM is a quicksand of ever-changing components, but even complicated navigations with multiple dialogs open can be broken down with proper XPath syntax and selection criteria. Let's look at a bit more seemingly complex of a situation. In your application start to add a pledge. If you cannot do so in your application, follow along with the screenshots below.
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    In this initial dialog, we can create a simple enough XPath "//button[text()='Save']" to find the Save button.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogPledgeSave"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Let's make things interesting.  In the Constituent dialog, click the search button.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogConstituentSearch"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    In the search dialog, click the button to add a new individual.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogSearchAddIndividual"/>
+                </mediaLink>
+                <mediaLink>
+                  <image placement="near" xlink:href=  "DialogFirstSave"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    If you use the same XPath "//button[text()='Save']" to search for the save button on the individual add dialog, then two
+                    results should now be returned.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogSecondSave"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    We have to modify our XPath so that only descendant buttons of the top-most dialog will be matched. To do this we have to find something unique about a parent element of the add an individual save button. Right-click inspect the Save button element and follow the heirarchy tree up until the selected element highlights the entire dialog.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogEntireAddDialog"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    The [div] containing all elements in the individual add dialog contains two immediate children.
+                    One child [div] contains the Save button we want to click
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogSaveBarAddDialog"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    The other child [div] contains the fields of the dialog.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogFieldInputsAddDialog"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Digging into the [div] containing the dialog input fields, we come across a [div] with a unique identifier in its id
+                    attribute.
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogUniqueId"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Using this unique id, we can construct an XPath "//div[contains(@class,'bbui-dialog') and contains(@style,'visible')]//div[contains(@id,'individualRecordAddDataForm')]" to find the div with this id. ![DialogXPathDialogUniqueId]/assets/img/XPaths/(DialogXPathDialogUniqueId)
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogXPathDialogUniqueId"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Then we can add additional search criteria to the XPath to find a button with the text "Save" relative to the [div] with the unique id. Search using the XPath "//div[contains(@class,'bbui-dialog') and contains(@style,'visible')]//div[contains(@id,'individualRecordAddDataForm')] /../../../../../../../..//*[text()="Save"]" Only 1 match is found!
+                  </caption>
+                  <image placement="near" xlink:href=  "DialogFinalXPath"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  The API of the UAT SDK (Project Blue) provides many XPath constructors for various application components like Panels and Dialogs. Refer to our API documentation to see exactly what existing XPath constructors are available, what parameters they require, and what type of elements they try and uniquely locate.
+                </para>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+    <relatedTopics>
+      <externalLink>
+        <linkText>Introduction to XPaths</linkText>
+        <linkUri>http://www.toolsqa.com/selenium-webdriver/choosing-effective-xpath/</linkUri>
+      </externalLink>
+    </relatedTopics>
+  </developerWalkthroughDocument>
+</topic>

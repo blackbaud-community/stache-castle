@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stockSharedContentDefinitions>
+  <item id="2ndFeatureGherkin">
+    <image file="2ndFeatureGherkin.PNG">
+      <altText>2nd Feature Gherkin</altText>
+    </image>
+  </item>
+  <item id="2ndPassingTest">
+    <image file="2ndPassingTest.PNG">
+      <altText>2nd Passing Test</altText>
+    </image>
+  </item>
+  <item id="AddAddressDialog">
+    <image file="AddAddressDialog.PNG">
+      <altText>Add Address Dialog</altText>
+    </image>
+  </item>
+  <item id="AddIcon">
+    <image file="AddIcon.PNG">
+      <altText>Add Icon</altText>
+    </image>
+  </item>
+  <item id="AddAFeatureFile">
+    <image file="AddAFeatureFile.PNG">
+      <altText>AddAFeature File</altText>
+    </image>
+  </item>
+  <item id="AddBSNuGetPackages">
+    <image file="AddBSNuGetPackages.PNG">
+      <altText>AddBSNu Get Packages</altText>
+    </image>
+  </item>
+  <item id="ComparingDialogIdsSearchDialog">
+    <image file="ComparingDialogIdsSearchDialog.PNG">
+      <altText>Comparing Dialog Ids Search Dialog</altText>
+    </image>
+  </item>
+  <item id="ComparingFieldIdSearchDialog">
+    <image file="ComparingFieldIdSearchDialog.PNG">
+      <altText>Comparing Field Id Search Dialog</altText>
+    </image>
+  </item>
+  <item id="ConstituentSearchResults">
+    <image file="ConstituentSearchResults.PNG">
+      <altText>Constituent Search Results</altText>
+    </image>
+  </item>
+  <item id="CreateNotImplementedGherkin">
+    <image file="CreateNotImplementedGherkin.PNG">
+      <altText>Create Not Implemented Gherkin</altText>
+    </image>
+  </item>
+  <item id="CRMContentPanel">
+    <image file="CRMContentPanel.PNG">
+      <altText>CRMContent Panel</altText>
+    </image>
+  </item>
+  <item id="CRMContentPanelHiddenPanels">
+    <image file="CRMContentPanelHiddenPanels.PNG">
+      <altText>CRMContent Panel Hidden Panels</altText>
+    </image>
+  </item>
+  <item id="CRMRootPlusOneXPath">
+    <image file="CRMRootPlusOneXPath.PNG">
+      <altText>CRMRoot Plus OneXPath</altText>
+    </image>
+  </item>
+  <item id="CRMRootXPath">
+    <image file="CRMRootXPath.PNG">
+      <altText>CRMRootXPath</altText>
+    </image>
+  </item>
+  <item id="CustomAddIndividual">
+    <image file="CustomAddIndividual.PNG">
+      <altText>Custom Add Individual</altText>
+    </image>
+  </item>
+  <item id="CustomConstituentSearchDialog">
+    <image file="CustomConstituentSearchDialog.PNG">
+      <altText>Custom Constituent Search Dialog</altText>
+    </image>
+  </item>
+  <item id="CustomConstituentSearchTask">
+    <image file="CustomConstituentSearchTask.PNG">
+      <altText>Custom Constituent Search Task</altText>
+    </image>
+  </item>
+  <item id="DefaultConstituentSearchDialog">
+    <image file="DefaultConstituentSearchDialog.PNG">
+      <altText>Default Constituent Search Dialog</altText>
+    </image>
+  </item>
+  <item id="DefaultConstituentSearchTask">
+    <image file="DefaultConstituentSearchTask.PNG">
+      <altText>Default Constituent Search Task</altText>
+    </image>
+  </item>
+  <item id="DefaultOnCustomSearchDialogError">
+    <image file="DefaultOnCustomSearchDialogError.PNG">
+      <altText>Default On Custom Search Dialog Error</altText>
+    </image>
+  </item>
+  <item id="DefaultOnCustomSearchDialogFieldError">
+    <image file="DefaultOnCustomSearchDialogFieldError.PNG">
+      <altText>Default On Custom Search Dialog Field Error</altText>
+    </image>
+  </item>
+  <item id="DialogConstituentSearch">
+    <image file="DialogConstituentSearch.PNG">
+      <altText>Dialog Constituent Search</altText>
+    </image>
+  </item>
+  <item id="DialogEntireAddDialog">
+    <image file="DialogEntireAddDialog.PNG">
+      <altText>Dialog Entire Add Dialog</altText>
+    </image>
+  </item>
+  <item id="DialogFieldInputsAddDialog">
+    <image file="DialogFieldInputsAddDialog.PNG">
+      <altText>Dialog Field Inputs Add Dialog</altText>
+    </image>
+  </item>
+  <item id="DialogFinalXPath">
+    <image file="DialogFinalXPath.PNG">
+      <altText>Dialog FinalXPath</altText>
+    </image>
+  </item>
+  <item id="DialogFirstSave">
+    <image file="DialogFirstSave.PNG">
+      <altText>Dialog First Save</altText>
+    </image>
+  </item>
+  <item id="DialogPledgeSave">
+    <image file="DialogPledgeSave.PNG">
+      <altText>Dialog Pledge Save</altText>
+    </image>
+  </item>
+  <item id="DialogSaveBarAddDialog">
+    <image file="DialogSaveBarAddDialog.PNG">
+      <altText>Dialog Save Bar Add Dialog</altText>
+    </image>
+  </item>
+  <item id="DialogSearchAddIndividual">
+    <image file="DialogSearchAddIndividual.PNG">
+      <altText>Dialog Search Add Individual</altText>
+    </image>
+  </item>
+  <item id="DialogSecondSave">
+    <image file="DialogSecondSave.PNG">
+      <altText>Dialog Second Save</altText>
+    </image>
+  </item>
+  <item id="DialogUniqueId">
+    <image file="DialogUniqueId.PNG">
+      <altText>Dialog Unique Id</altText>
+    </image>
+  </item>
+  <item id="DialogXPathDialogUniqueId">
+    <image file="DialogXPathDialogUniqueId.PNG">
+      <altText>DialogXPath Dialog Unique Id</altText>
+    </image>
+  </item>
+  <item id="FeatureGherkin">
+    <image file="FeatureGherkin.PNG">
+      <altText>Feature Gherkin</altText>
+    </image>
+  </item>
+  <item id="GenerateSteps">
+    <image file="GenerateSteps.PNG">
+      <altText>Generate Steps</altText>
+    </image>
+  </item>
+  <item id="HighlightedElement">
+    <image file="HighlightedElement.PNG">
+      <altText>Highlighted Element</altText>
+    </image>
+  </item>
+  <item id="InspectElement">
+    <image file="InspectElement.PNG">
+      <altText>Inspect Element</altText>
+    </image>
+  </item>
+  <item id="NewTableEditAddressFeature">
+    <image file="NewTableEditAddressFeature.PNG">
+      <altText>New Table Edit Address Feature</altText>
+    </image>
+  </item>
+  <item id="NewTableFeature">
+    <image file="NewTableFeature.PNG">
+      <altText>New Table Feature</altText>
+    </image>
+  </item>
+  <item id="NewTableMultipleRowsFeature">
+    <image file="NewTableMultipleRowsFeature.PNG">
+      <altText>New Table Multiple Rows Feature</altText>
+    </image>
+  </item>
+  <item id="NewBSProject">
+    <image file="NewBSProject.PNG">
+      <altText>NewBSProject</altText>
+    </image>
+  </item>
+  <item id="NotImplemetedFieldAddIndividual">
+    <image file="NotImplemetedFieldAddIndividual.PNG">
+      <altText>Not Implemeted Field Add Individual</altText>
+    </image>
+  </item>
+  <item id="OldTableFeature">
+    <image file="OldTableFeature.PNG">
+      <altText>Old Table Feature</altText>
+    </image>
+  </item>
+  <item id="OriginalAddIndividual">
+    <image file="OriginalAddIndividual.PNG">
+      <altText>Original Add Individual</altText>
+    </image>
+  </item>
+  <item id="OverrideTestCase">
+    <image file="OverrideTestCase.PNG">
+      <altText>Override Test Case</altText>
+    </image>
+  </item>
+  <item id="OverrideWorkingFeatureTest">
+    <image file="OverrideWorkingFeatureTest.PNG">
+      <altText>Override Working Feature Test</altText>
+    </image>
+  </item>
+  <item id="PassingDefaultConstituentSearch">
+    <image file="PassingDefaultConstituentSearch.PNG">
+      <altText>Passing Default Constituent Search</altText>
+    </image>
+  </item>
+  <item id="PassingTest">
+    <image file="PassingTest.PNG">
+      <altText>Passing Test</altText>
+    </image>
+  </item>
+  <item id="RecordSearch">
+    <image file="RecordSearch.PNG">
+      <altText>Record Search</altText>
+    </image>
+  </item>
+  <item id="RunSelectedTests">
+    <image file="RunSelectedTests.PNG">
+      <altText>Run Selected Tests</altText>
+    </image>
+  </item>
+  <item id="SelectedTestsPass">
+    <image file="SelectedTestsPass.PNG">
+      <altText>Selected Tests Pass</altText>
+    </image>
+  </item>
+  <item id="TriggerDialog">
+    <image file="TriggerDialog.PNG">
+      <altText>Trigger Dialog</altText>
+    </image>
+  </item>
+  <item id="XPathMultipleResults">
+    <image file="XPathMultipleResults.PNG">
+      <altText>XPath Multiple Results</altText>
+    </image>
+  </item>
+  <item id="XPathSingleResult">
+    <image file="XPathSingleResult.PNG">
+      <altText>XPath Single Result</altText>
+    </image>
+  </item>
+</stockSharedContentDefinitions>

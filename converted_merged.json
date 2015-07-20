@@ -8,6 +8,9 @@
 				{
 					"name": "T:Blueshirt.Core.Base.BaseComponent",
 					"summary": "Base functionality that applies to entire BBCRM and BBIS products for automation.",
+					"key": "T_Blueshirt_Core_Base_BaseComponent",
+					"filename": "T_Blueshirt_Core_Base_BaseComponent.htm",
+					"title": "BaseComponent Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -425,6 +428,9 @@
 						"_": "The caption of the button.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_getXButton",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_getXButton.htm",
+					"title": "BaseComponent.getXButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -447,6 +453,9 @@
 						"_": "The caption of the functional area.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_getXMenuItem",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_getXMenuItem.htm",
+					"title": "BaseComponent.getXMenuItem Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -470,6 +479,9 @@
 						"name": "value"
 					},
 					"returns": "A bool if successfully converted.  Unrecognized values throw a NotSupportedException",
+					"key": "M_Blueshirt_Core_Base_BaseComponent_ConvertToBool",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_ConvertToBool.htm",
+					"title": "BaseComponent.ConvertToBool Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -498,6 +510,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox.htm",
+					"title": "BaseComponent.SetCheckbox Method (String, Boolean)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -526,6 +541,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_SetCheckbox.htm",
+					"title": "BaseComponent.SetCheckbox Method (String, Boolean)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -548,6 +566,9 @@
 						"_": "The xPath to use for finding an element.",
 						"name": "xPath"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_ElementValueIsNotNullOrEmpty",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_ElementValueIsNotNullOrEmpty.htm",
+					"title": "BaseComponent.ElementValueIsNotNullOrEmpty Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -576,6 +597,9 @@
 							"name": "expectedvalue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_ElementValueIsSet",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_ElementValueIsSet.htm",
+					"title": "BaseComponent.ElementValueIsSet Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -599,6 +623,9 @@
 						"name": "xPath"
 					},
 					"returns": "True if a valid element is found immediately, false otherwise.",
+					"key": "M_Blueshirt_Core_Base_BaseComponent_ExistsNow",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_ExistsNow.htm",
+					"title": "BaseComponent.ExistsNow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -628,6 +655,9 @@
 						}
 					],
 					"returns": "True if a valid element is found within the time to wait, false otherwise.",
+					"key": "M_Blueshirt_Core_Base_BaseComponent_Exists",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_Exists.htm",
+					"title": "BaseComponent.Exists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -657,6 +687,9 @@
 						}
 					],
 					"returns": "An IWebElement if a valid element is found. A WebDriverTimeoutException is thrown is no element is found.",
+					"key": "M_Blueshirt_Core_Base_BaseComponent_GetDisplayedElement",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_GetDisplayedElement.htm",
+					"title": "BaseComponent.GetDisplayedElement Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -686,6 +719,9 @@
 						}
 					],
 					"returns": "Mapping of column captions to an index.",
+					"key": "M_Blueshirt_Core_Base_BaseComponent_MapColumnCaptionsToIndex",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_MapColumnCaptionsToIndex.htm",
+					"title": "BaseComponent.MapColumnCaptionsToIndex Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -714,6 +750,9 @@
 							"name": "columnCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_GetDatalistColumnIndex",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_GetDatalistColumnIndex.htm",
+					"title": "BaseComponent.GetDatalistColumnIndex Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -742,6 +781,9 @@
 							"name": "waitTime"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_GetEnabledElement",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_GetEnabledElement.htm",
+					"title": "BaseComponent.GetEnabledElement Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -763,6 +805,9 @@
 					"param": {
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_ClickButton",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_ClickButton.htm",
+					"title": "BaseComponent.ClickButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -791,6 +836,9 @@
 							"name": "timeout"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_WaitClick",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_WaitClick.htm",
+					"title": "BaseComponent.WaitClick Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -813,6 +861,9 @@
 						"_": "The xPath to find the element by.",
 						"name": "xPath"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_WaitClick",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_WaitClick.htm",
+					"title": "BaseComponent.WaitClick Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -835,6 +886,9 @@
 						"_": "The value to copy to the clipboard.",
 						"name": "value"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseComponent_CopyToClipBoard",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_CopyToClipBoard.htm",
+					"title": "BaseComponent.CopyToClipBoard Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -863,6 +917,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Base_BaseComponent_SetTextField",
+					"filename": "M_Blueshirt_Core_Base_BaseComponent_SetTextField.htm",
+					"title": "BaseComponent.SetTextField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -881,6 +938,9 @@
 				{
 					"name": "P:Blueshirt.Core.Base.BaseComponent.TimeoutSecs",
 					"summary": "The default WebDriver timeout value represented in seconds.",
+					"key": "P_Blueshirt_Core_Base_BaseComponent_TimeoutSecs",
+					"filename": "P_Blueshirt_Core_Base_BaseComponent_TimeoutSecs.htm",
+					"title": "BaseComponent.TimeoutSecs Property ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -899,6 +959,9 @@
 				{
 					"name": "P:Blueshirt.Core.Base.BaseComponent.Driver",
 					"summary": "Selenium WebDriver used to interact with the web browser.",
+					"key": "P_Blueshirt_Core_Base_BaseComponent_Driver",
+					"filename": "P_Blueshirt_Core_Base_BaseComponent_Driver.htm",
+					"title": "BaseComponent.Driver Property ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -917,6 +980,9 @@
 				{
 					"name": "T:Blueshirt.Core.Base.FieldType",
 					"summary": "Represents the various type of fields with supported setter utility methods.",
+					"key": "T_Blueshirt_Core_Base_FieldType",
+					"filename": "T_Blueshirt_Core_Base_FieldType.htm",
+					"title": "FieldType Enumeration",
 					"syntax": [
 						{
 							"type": "C#",
@@ -959,6 +1025,9 @@
 				{
 					"name": "T:Blueshirt.Core.Base.CrmField",
 					"summary": "Wrapper class to encapsulate a field caption with a field type, unique element id, and search dialog ids when required.",
+					"key": "T_Blueshirt_Core_Base_CrmField",
+					"filename": "T_Blueshirt_Core_Base_CrmField.htm",
+					"title": "CrmField Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1057,6 +1126,9 @@
 				{
 					"name": "F:Blueshirt.Core.Base.CrmField.Id",
 					"summary": "The unique Id contained in the id attribute. i.e. '_CONSTITUENTID_value'",
+					"key": "F_Blueshirt_Core_Base_CrmField_Id",
+					"filename": "F_Blueshirt_Core_Base_CrmField_Id.htm",
+					"title": "CrmField.Id Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1075,6 +1147,9 @@
 				{
 					"name": "F:Blueshirt.Core.Base.CrmField.CellType",
 					"summary": "The type of field. Used to associate the field with a setter utility method.",
+					"key": "F_Blueshirt_Core_Base_CrmField_CellType",
+					"filename": "F_Blueshirt_Core_Base_CrmField_CellType.htm",
+					"title": "CrmField.CellType Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1093,6 +1168,9 @@
 				{
 					"name": "F:Blueshirt.Core.Base.CrmField.SearchDialogId",
 					"summary": "The unique id of the search dialog that would appear upon clicking the search icon of the associated grid cell. i.e. 'DesignationSearch' Used for fields associated with 'BatchGridCellType.Searchlist'.",
+					"key": "F_Blueshirt_Core_Base_CrmField_SearchDialogId",
+					"filename": "F_Blueshirt_Core_Base_CrmField_SearchDialogId.htm",
+					"title": "CrmField.SearchDialogId Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1111,6 +1189,9 @@
 				{
 					"name": "F:Blueshirt.Core.Base.CrmField.SearchDialogFieldId",
 					"summary": "The unique id of the search dialog field that would appear upon clicking the search icon of the associated grid cell. i.e. 'COMBINEDSEARCH' Used for fields associated with 'BatchGridCellType.Searchlist'.",
+					"key": "F_Blueshirt_Core_Base_CrmField_SearchDialogFieldId",
+					"filename": "F_Blueshirt_Core_Base_CrmField_SearchDialogFieldId.htm",
+					"title": "CrmField.SearchDialogFieldId Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1165,6 +1246,9 @@
 				{
 					"name": "T:Blueshirt.Core.Base.BaseSteps",
 					"summary": "Base class for Specflow Step classes. Provides access to common functionality in step classes.",
+					"key": "T_Blueshirt_Core_Base_BaseSteps",
+					"filename": "T_Blueshirt_Core_Base_BaseSteps.htm",
+					"title": "BaseSteps Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1278,6 +1362,9 @@
 				{
 					"name": "F:Blueshirt.Core.Base.BaseSteps.uniqueStamp",
 					"summary": "Time stamp that should be static for all test step definitions in a single test",
+					"key": "F_Blueshirt_Core_Base_BaseSteps_uniqueStamp",
+					"filename": "F_Blueshirt_Core_Base_BaseSteps_uniqueStamp.htm",
+					"title": "BaseSteps.uniqueStamp Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1300,6 +1387,9 @@
 						"_": "The message to output with the SpecFlowException",
 						"name": "errorMessage"
 					},
+					"key": "M_Blueshirt_Core_Base_BaseSteps_FailTest",
+					"filename": "M_Blueshirt_Core_Base_BaseSteps_FailTest.htm",
+					"title": "BaseSteps.FailTest Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1318,6 +1408,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.CommitmentsDialog",
 					"summary": "Class to handle the interactions for adding/editing a commitments dialog.",
+					"key": "T_Blueshirt_Core_Crm_CommitmentsDialog",
+					"filename": "T_Blueshirt_Core_Crm_CommitmentsDialog.htm",
+					"title": "CommitmentsDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -1459,6 +1552,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.Dialog",
 					"summary": "Base class to handle the interactions for dialogs.",
+					"key": "T_Blueshirt_Core_Crm_Dialog",
+					"filename": "T_Blueshirt_Core_Crm_Dialog.htm",
+					"title": "Dialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2320,6 +2416,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXTabStrip",
 					"summary": "Constant xPath for the tab strip of a dialog.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXTabStrip",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXTabStrip.htm",
+					"title": "Dialog.getXTabStrip Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2338,6 +2437,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXGridEditCellSearchlist",
 					"summary": "Constant xPath for the searchlist icon of a grid's edit cell.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCellSearchlist",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCellSearchlist.htm",
+					"title": "Dialog.getXGridEditCellSearchlist Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2356,6 +2458,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXGridEditCellDropdownArrow",
 					"summary": "Constant xPath for the dropdown arrow of a grid's edit cell.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCellDropdownArrow",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCellDropdownArrow.htm",
+					"title": "Dialog.getXGridEditCellDropdownArrow Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2374,6 +2479,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXGridEditCell",
 					"summary": "The unique xPath for the input of the currently selected cell in a Grid. When a grid cell is selected, an HTML edit input is created where the actual value should be set.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCell",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXGridEditCell.htm",
+					"title": "Dialog.getXGridEditCell Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2392,6 +2500,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXGridFocusedEditCell",
 					"summary": "The unique xPath for the input of the currently selected cell in a Grid adding the 'focused' criteria NOTE: this is risky to use because the focus attribute is unreliably set and can cause MANY race conditions. The 'focused' criteria is also not always set on the edit cell depending on the approach you went to select a grid cell. When a grid cell is selected, an HTML edit input is created where the actual value should be set.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXGridFocusedEditCell",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXGridFocusedEditCell.htm",
+					"title": "Dialog.getXGridFocusedEditCell Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2410,6 +2521,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXIFrameHtmlBodyP",
 					"summary": "Constant xPath for the 'mceContentBody' of an HTML element. This is generally in an IFrame field.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXIFrameHtmlBodyP",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXIFrameHtmlBodyP.htm",
+					"title": "Dialog.getXIFrameHtmlBodyP Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2428,6 +2542,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXSaveAndCloseButton",
 					"summary": "Constant xPath value for finding a 'Save and close' button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXSaveAndCloseButton",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXSaveAndCloseButton.htm",
+					"title": "Dialog.getXSaveAndCloseButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2446,6 +2563,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXYesButton",
 					"summary": "Constant xPath value for finding a 'Yes' button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXYesButton",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXYesButton.htm",
+					"title": "Dialog.getXYesButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2464,6 +2584,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXOKButton",
 					"summary": "Constant xPath value for finding an OK button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXOKButton",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXOKButton.htm",
+					"title": "Dialog.getXOKButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2482,6 +2605,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXCancelButton",
 					"summary": "Constant xPath value for finding a Cancel button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXCancelButton",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXCancelButton.htm",
+					"title": "Dialog.getXCancelButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2500,6 +2626,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXSaveButton",
 					"summary": "Constant xPath value for finding a Save button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXSaveButton",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXSaveButton.htm",
+					"title": "Dialog.getXSaveButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2518,6 +2647,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXDropdownList",
 					"summary": "Constant xPath for the entire visible dropdown list.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXDropdownList",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXDropdownList.htm",
+					"title": "Dialog.getXDropdownList Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2536,6 +2668,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialog.getXDropdownListItems",
 					"summary": "Constant xPath for all items in the visible dropdown list.",
+					"key": "F_Blueshirt_Core_Crm_Dialog_getXDropdownListItems",
+					"filename": "F_Blueshirt_Core_Crm_Dialog_getXDropdownListItems.htm",
+					"title": "Dialog.getXDropdownListItems Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2558,6 +2693,9 @@
 						"_": "The caption of the tab.",
 						"name": "tabCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXTab",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXTab.htm",
+					"title": "Dialog.getXTab Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2586,6 +2724,9 @@
 							"name": "dialogId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXTab",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXTab.htm",
+					"title": "Dialog.getXTab Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2608,6 +2749,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_OpenTab",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_OpenTab.htm",
+					"title": "Dialog.OpenTab Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2636,6 +2780,9 @@
 							"name": "dialogId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_OpenTab",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_OpenTab.htm",
+					"title": "Dialog.OpenTab Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2654,6 +2801,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.getXCloseX",
 					"summary": "Returns an xPath for the close Window [X] on the Dialog.",
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXCloseX",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXCloseX.htm",
+					"title": "Dialog.getXCloseX Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2676,6 +2826,9 @@
 						"_": "The text of the required button.",
 						"name": "buttonText"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDialogButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDialogButton.htm",
+					"title": "Dialog.getXDialogButton Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2704,6 +2857,9 @@
 							"name": "dialogId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXEntireDialogButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXEntireDialogButton.htm",
+					"title": "Dialog.getXEntireDialogButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2732,6 +2888,9 @@
 							"name": "dialogId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDialogButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDialogButton.htm",
+					"title": "Dialog.getXDialogButton Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2768,6 +2927,9 @@
 							"name": "columnIndex"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXGridCell",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXGridCell.htm",
+					"title": "Dialog.getXGridCell Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2800,6 +2962,9 @@
 							"name": "row"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXGridRow",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXGridRow.htm",
+					"title": "Dialog.getXGridRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2832,6 +2997,9 @@
 							"name": "row"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXGridRowSelector",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXGridRowSelector.htm",
+					"title": "Dialog.getXGridRowSelector Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2860,6 +3028,9 @@
 							"name": "gridId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXGridHeaders",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXGridHeaders.htm",
+					"title": "Dialog.getXGridHeaders Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2888,6 +3059,9 @@
 							"name": "divId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXIFrame",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXIFrame.htm",
+					"title": "Dialog.getXIFrame Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2916,6 +3090,9 @@
 							"name": "linkId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXLinkByAction",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXLinkByAction.htm",
+					"title": "Dialog.getXLinkByAction Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2944,6 +3121,9 @@
 							"name": "caption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXLinkByCaption",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXLinkByCaption.htm",
+					"title": "Dialog.getXLinkByCaption Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -2972,6 +3152,9 @@
 							"name": "divId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDiv",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDiv.htm",
+					"title": "Dialog.getXDiv Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3000,6 +3183,9 @@
 							"name": "textAreaId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXTextArea",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXTextArea.htm",
+					"title": "Dialog.getXTextArea Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3028,6 +3214,9 @@
 							"name": "buttonCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXButton.htm",
+					"title": "Dialog.getXButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3056,6 +3245,9 @@
 							"name": "spanId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXSpan",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXSpan.htm",
+					"title": "Dialog.getXSpan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3084,6 +3276,9 @@
 							"name": "inputId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXInput",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXInput.htm",
+					"title": "Dialog.getXInput Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3106,6 +3301,9 @@
 						"_": "The unique xPath of the dialog input.  Likely will have used Dialog.getXInput() to format\r\n            the xPath.",
 						"name": "dialogInputXPath"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXInputSearchTrigger",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXInputSearchTrigger.htm",
+					"title": "Dialog.getXInputSearchTrigger Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3128,6 +3326,9 @@
 						"_": "The unique xPath of the dialog input.  Likely will have used Dialog.getXInput() to format\r\n            the xPath.",
 						"name": "dialogInputXPath"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXInputNewFormTrigger",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXInputNewFormTrigger.htm",
+					"title": "Dialog.getXInputNewFormTrigger Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3146,6 +3347,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.getXVisibleDialog",
 					"summary": "Format an xPath to get a visible dialog.",
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXVisibleDialog",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXVisibleDialog.htm",
+					"title": "Dialog.getXVisibleDialog Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3168,6 +3372,9 @@
 						"_": "The dialog's unique id identifier - i.e. 'FundraisingSearch'",
 						"name": "dialogId"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDialogById",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDialogById.htm",
+					"title": "Dialog.getXDialogById Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3190,6 +3397,9 @@
 						"_": "The value to see if contained in the class attribute.",
 						"name": "classValue"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDialogByClass",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDialogByClass.htm",
+					"title": "Dialog.getXDialogByClass Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3208,6 +3418,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.Yes",
 					"summary": "Click the 'Yes' button",
+					"key": "M_Blueshirt_Core_Crm_Dialog_Yes",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_Yes.htm",
+					"title": "Dialog.Yes Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3226,6 +3439,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.OK",
 					"summary": "Click the 'OK' button",
+					"key": "M_Blueshirt_Core_Crm_Dialog_OK",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_OK.htm",
+					"title": "Dialog.OK Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3244,6 +3460,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.Cancel",
 					"summary": "Click the 'Cancel' button",
+					"key": "M_Blueshirt_Core_Crm_Dialog_Cancel",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_Cancel.htm",
+					"title": "Dialog.Cancel Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3262,6 +3481,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialog.Save",
 					"summary": "Click the 'Save' button",
+					"key": "M_Blueshirt_Core_Crm_Dialog_Save",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_Save.htm",
+					"title": "Dialog.Save Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3284,6 +3506,9 @@
 						"_": "The caption value of the dropdown list item.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDropdownItem",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDropdownItem.htm",
+					"title": "Dialog.getXDropdownItem Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3306,6 +3531,9 @@
 						"_": "The xPath of the dropdown.  Advised to use Dialog.getXInput()",
 						"name": "dropdownxPath"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_getXDropdownArrow",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_getXDropdownArrow.htm",
+					"title": "Dialog.getXDropdownArrow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3335,6 +3563,9 @@
 						}
 					],
 					"returns": "True if the value is an option, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Dialog_DropdownValueExists",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_DropdownValueExists.htm",
+					"title": "Dialog.DropdownValueExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3363,6 +3594,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetHtmlField",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetHtmlField.htm",
+					"title": "Dialog.SetHtmlField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3391,6 +3625,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetDropDown",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetDropDown.htm",
+					"title": "Dialog.SetDropDown Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3423,6 +3660,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridSearchList",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridSearchList.htm",
+					"title": "Dialog.SetGridSearchList Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3451,6 +3691,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridDropDown",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridDropDown.htm",
+					"title": "Dialog.SetGridDropDown Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3479,6 +3722,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridTextField",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridTextField.htm",
+					"title": "Dialog.SetGridTextField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3511,6 +3757,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetSearchList",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetSearchList.htm",
+					"title": "Dialog.SetSearchList Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3539,6 +3788,9 @@
 							"name": "dialogId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_ClickButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_ClickButton.htm",
+					"title": "Dialog.ClickButton Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3567,6 +3819,9 @@
 							"name": "timeout"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_ClickButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_ClickButton.htm",
+					"title": "Dialog.ClickButton Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3589,6 +3844,9 @@
 						"_": "The caption of the dialog button.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialog_ClickButton",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_ClickButton.htm",
+					"title": "Dialog.ClickButton Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3612,6 +3870,9 @@
 						"name": "supportedIds"
 					},
 					"returns": "The first found matching id for a dialog that is visible with that id.\r\n            If no id is found, a WebDriverTimeoutException is eventually thrown.",
+					"key": "M_Blueshirt_Core_Crm_Dialog_GetDialogId",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_GetDialogId.htm",
+					"title": "Dialog.GetDialogId Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3648,6 +3909,9 @@
 							"name": "supportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetField",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetField.htm",
+					"title": "Dialog.SetField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3680,6 +3944,9 @@
 							"name": "supportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetFields.htm",
+					"title": "Dialog.SetFields Method (String, TableRow, IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3716,6 +3983,9 @@
 							"name": "customSupportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetFields.htm",
+					"title": "Dialog.SetFields Method (String, TableRow, IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3760,6 +4030,9 @@
 							"name": "supportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridRow",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridRow.htm",
+					"title": "Dialog.SetGridRow Method (String, String, TableRow, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3808,6 +4081,9 @@
 							"name": "customSupportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridRow",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridRow.htm",
+					"title": "Dialog.SetGridRow Method (String, String, TableRow, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3852,6 +4128,9 @@
 							"name": "supportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridRows",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridRows.htm",
+					"title": "Dialog.SetGridRows Method (String, String, Table, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3900,6 +4179,9 @@
 							"name": "customSupportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Dialog_SetGridRows",
+					"filename": "M_Blueshirt_Core_Crm_Dialog_SetGridRows.htm",
+					"title": "Dialog.SetGridRows Method (String, String, Table, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3918,6 +4200,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.CommitmentsDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_CommitmentsDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_CommitmentsDialog_DialogIds.htm",
+					"title": "CommitmentsDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3936,6 +4221,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.CommitmentsDialog.SupportedAddtionalApplicationsGridFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields",
+					"filename": "F_Blueshirt_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields.htm",
+					"title": "CommitmentsDialog.SupportedAddtionalApplicationsGridFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3958,6 +4246,9 @@
 						"_": "Table where each TableRow corresponds to a grid row's values.\r\n            A TableRow is a mapping of the column captions to a single row's desired values",
 						"name": "applications"
 					},
+					"key": "M_Blueshirt_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows",
+					"filename": "M_Blueshirt_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows.htm",
+					"title": "CommitmentsDialog.SetAdditionalApplicationsGridRows Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -3976,6 +4267,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.DesignationsDialog",
 					"summary": "Class to handle the interactions for adding/editing a designations dialog.",
+					"key": "T_Blueshirt_Core_Crm_DesignationsDialog",
+					"filename": "T_Blueshirt_Core_Crm_DesignationsDialog.htm",
+					"title": "DesignationsDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4132,6 +4426,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.DesignationsDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_DesignationsDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_DesignationsDialog_DialogIds.htm",
+					"title": "DesignationsDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4154,6 +4451,9 @@
 						"_": "Table where each TableRow corresponds to a grid row's values.\r\n            A TableRow is a mapping of the column captions to a single row's desired values",
 						"name": "designations"
 					},
+					"key": "M_Blueshirt_Core_Crm_DesignationsDialog_SplitDesignationsEvenly",
+					"filename": "M_Blueshirt_Core_Crm_DesignationsDialog_SplitDesignationsEvenly.htm",
+					"title": "DesignationsDialog.SplitDesignationsEvenly Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4182,6 +4482,9 @@
 							"name": "evenly"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_DesignationsDialog_SplitDesignations",
+					"filename": "M_Blueshirt_Core_Crm_DesignationsDialog_SplitDesignations.htm",
+					"title": "DesignationsDialog.SplitDesignations Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4200,6 +4503,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.EventDialog",
 					"summary": "Class to handle the interactions for adding/editing an event dialog.",
+					"key": "T_Blueshirt_Core_Crm_EventDialog",
+					"filename": "T_Blueshirt_Core_Crm_EventDialog.htm",
+					"title": "EventDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4341,6 +4647,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.EventDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_EventDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_EventDialog_DialogIds.htm",
+					"title": "EventDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4359,6 +4668,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.EventDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_EventDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_EventDialog_SupportedFields.htm",
+					"title": "EventDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4381,6 +4693,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_EventDialog_SetFields.htm",
+					"title": "EventDialog.SetFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4399,6 +4714,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PledgeDialog",
 					"summary": "Class to handle the interactions for adding/editing pledge dialog.",
+					"key": "T_Blueshirt_Core_Crm_PledgeDialog",
+					"filename": "T_Blueshirt_Core_Crm_PledgeDialog.htm",
+					"title": "PledgeDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4600,6 +4918,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PledgeDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_PledgeDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_PledgeDialog_DialogIds.htm",
+					"title": "PledgeDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4618,6 +4939,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PledgeDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_PledgeDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_PledgeDialog_SupportedFields.htm",
+					"title": "PledgeDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4640,6 +4964,9 @@
 						"_": "Table where each row represents a designation to add.  \r\n            A row is a mapping of the 'Split designations' grid's column captions to the row's values.",
 						"name": "designations"
 					},
+					"key": "M_Blueshirt_Core_Crm_PledgeDialog_SplitDesignationsEvenly",
+					"filename": "M_Blueshirt_Core_Crm_PledgeDialog_SplitDesignationsEvenly.htm",
+					"title": "PledgeDialog.SplitDesignationsEvenly Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4662,6 +4989,9 @@
 						"_": "The account system to use.",
 						"name": "system"
 					},
+					"key": "M_Blueshirt_Core_Crm_PledgeDialog_SetAccountSystem",
+					"filename": "M_Blueshirt_Core_Crm_PledgeDialog_SetAccountSystem.htm",
+					"title": "PledgeDialog.SetAccountSystem Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4680,6 +5010,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.PledgeDialog.EditInstallmentDesignations",
 					"summary": "Click the 'Edit installment designations' button and load the associated dialog.",
+					"key": "M_Blueshirt_Core_Crm_PledgeDialog_EditInstallmentDesignations",
+					"filename": "M_Blueshirt_Core_Crm_PledgeDialog_EditInstallmentDesignations.htm",
+					"title": "PledgeDialog.EditInstallmentDesignations Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4702,6 +5035,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fieldValues"
 					},
+					"key": "M_Blueshirt_Core_Crm_PledgeDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_PledgeDialog_SetFields.htm",
+					"title": "PledgeDialog.SetFields Method (TableRow)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4730,6 +5066,9 @@
 							"name": "customSupportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_PledgeDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_PledgeDialog_SetFields.htm",
+					"title": "PledgeDialog.SetFields Method (TableRow)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -4748,6 +5087,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.Dialogs.AddMembershipProgramDialog",
 					"summary": "Class to handle the unique fields and actions for filling out an 'Add Membership Program' dialog.",
+					"key": "T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog",
+					"filename": "T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm",
+					"title": "AddMembershipProgramDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5099,6 +5441,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.BatchDialog",
 					"summary": "Base class to handle the interactions for adding/editing a batch dialog.",
+					"key": "T_Blueshirt_Core_Crm_BatchDialog",
+					"filename": "T_Blueshirt_Core_Crm_BatchDialog.htm",
+					"title": "BatchDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5360,6 +5705,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BatchDialog.getXBatchGridHeaders",
 					"summary": "Unique XPath to get the header columns TR element of a batch's grid.",
+					"key": "F_Blueshirt_Core_Crm_BatchDialog_getXBatchGridHeaders",
+					"filename": "F_Blueshirt_Core_Crm_BatchDialog_getXBatchGridHeaders.htm",
+					"title": "BatchDialog.getXBatchGridHeaders Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5378,6 +5726,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BatchDialog.ColumnToBatchColumn",
 					"summary": "Maps batch grid column captions to their required values in order to set their values in rows.",
+					"key": "F_Blueshirt_Core_Crm_BatchDialog_ColumnToBatchColumn",
+					"filename": "F_Blueshirt_Core_Crm_BatchDialog_ColumnToBatchColumn.htm",
+					"title": "BatchDialog.ColumnToBatchColumn Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5401,6 +5752,9 @@
 						"name": "caption"
 					},
 					"returns": "The index of the TD column element within the TR headers.",
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_GetColumnIndexByCaption",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_GetColumnIndexByCaption.htm",
+					"title": "BatchDialog.GetColumnIndexByCaption Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5424,6 +5778,9 @@
 						"name": "columnId"
 					},
 					"returns": "The index of the TD column element within the TR headers.",
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_GetColumnIndexById",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_GetColumnIndexById.htm",
+					"title": "BatchDialog.GetColumnIndexById Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5453,6 +5810,9 @@
 						}
 					],
 					"returns": "The value of the cell.",
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_GetGridCellValue",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_GetGridCellValue.htm",
+					"title": "BatchDialog.GetGridCellValue Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5485,6 +5845,9 @@
 							"name": "row"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_SetGridCell",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_SetGridCell.htm",
+					"title": "BatchDialog.SetGridCell Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5507,6 +5870,9 @@
 						"_": "Table where each TableRow represents a grid row to set.\r\n            A TableRow is a mapping of the batch column captions to a single row's desired values.",
 						"name": "batchRows"
 					},
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_SetGridRows",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_SetGridRows.htm",
+					"title": "BatchDialog.SetGridRows Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5535,6 +5901,9 @@
 							"name": "row"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_SetGridRow",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_SetGridRow.htm",
+					"title": "BatchDialog.SetGridRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5553,6 +5922,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BatchDialog.Validate",
 					"summary": "Click the 'Validate' button and click Ok on the confirmation button.",
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_Validate",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_Validate.htm",
+					"title": "BatchDialog.Validate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5571,6 +5943,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BatchDialog.SaveAndClose",
 					"summary": "Click the 'Save and close' button.",
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_SaveAndClose",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_SaveAndClose.htm",
+					"title": "BatchDialog.SaveAndClose Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5593,6 +5968,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fieldValues"
 					},
+					"key": "M_Blueshirt_Core_Crm_BatchDialog_EditConstituent",
+					"filename": "M_Blueshirt_Core_Crm_BatchDialog_EditConstituent.htm",
+					"title": "BatchDialog.EditConstituent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5611,6 +5989,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.EnhancedRevenueBatchDialog",
 					"summary": "Class to handle the interactions for adding/editing an enhanced revenue batch dialog.",
+					"key": "T_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog",
+					"filename": "T_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog.htm",
+					"title": "EnhancedRevenueBatchDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5782,6 +6163,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EnhancedRevenueBatchDialog.UpdateProjectedTotals",
 					"summary": "Click the 'Update projected totals' and click Ok on the confirmation button.",
+					"key": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals",
+					"filename": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals.htm",
+					"title": "EnhancedRevenueBatchDialog.UpdateProjectedTotals Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5810,6 +6194,9 @@
 							"name": "evenly"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations",
+					"filename": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations.htm",
+					"title": "EnhancedRevenueBatchDialog.SplitDesignations Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5832,6 +6219,9 @@
 						"_": "Table where each row represents an application to add.\r\n            A row is a mapping of the column captions to a single row's desired values.",
 						"name": "applications"
 					},
+					"key": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_Apply",
+					"filename": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_Apply.htm",
+					"title": "EnhancedRevenueBatchDialog.Apply Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -5850,6 +6240,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.IndividualDialog",
 					"summary": "Class to handle the interactions for adding/editing an individual dialog.",
+					"key": "T_Blueshirt_Core_Crm_IndividualDialog",
+					"filename": "T_Blueshirt_Core_Crm_IndividualDialog.htm",
+					"title": "IndividualDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6051,6 +6444,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.IndividualDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_IndividualDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_IndividualDialog_DialogIds.htm",
+					"title": "IndividualDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6069,6 +6465,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.IndividualDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_IndividualDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_IndividualDialog_SupportedFields.htm",
+					"title": "IndividualDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6091,6 +6490,9 @@
 						"_": "Mapping of the field captions to their desired values.  \r\n            Empty strings will be considered values and set the field to a blank value.  Null values will be skipped.",
 						"name": "fieldValues"
 					},
+					"key": "M_Blueshirt_Core_Crm_IndividualDialog_SetHouseholdFields",
+					"filename": "M_Blueshirt_Core_Crm_IndividualDialog_SetHouseholdFields.htm",
+					"title": "IndividualDialog.SetHouseholdFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6113,6 +6515,9 @@
 						"_": "Mapping of the field captions to their desired values.  \r\n            Empty strings will be considered values and set the field to a blank value.  Null values will be skipped.",
 						"name": "fieldValues"
 					},
+					"key": "M_Blueshirt_Core_Crm_IndividualDialog_SetIndividualFields",
+					"filename": "M_Blueshirt_Core_Crm_IndividualDialog_SetIndividualFields.htm",
+					"title": "IndividualDialog.SetIndividualFields Method (TableRow)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6141,6 +6546,9 @@
 							"name": "CustomSupportedFields"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_IndividualDialog_SetIndividualFields",
+					"filename": "M_Blueshirt_Core_Crm_IndividualDialog_SetIndividualFields.htm",
+					"title": "IndividualDialog.SetIndividualFields Method (TableRow)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6163,6 +6571,9 @@
 						"_": "The desired value of the field.",
 						"name": "lastName"
 					},
+					"key": "M_Blueshirt_Core_Crm_IndividualDialog_SetLastName",
+					"filename": "M_Blueshirt_Core_Crm_IndividualDialog_SetLastName.htm",
+					"title": "IndividualDialog.SetLastName Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6181,6 +6592,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.IndividualDialog.Save",
 					"summary": "Save the dialog.",
+					"key": "M_Blueshirt_Core_Crm_IndividualDialog_Save",
+					"filename": "M_Blueshirt_Core_Crm_IndividualDialog_Save.htm",
+					"title": "IndividualDialog.Save Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6199,6 +6613,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MarketingAcknowledgementRuleDialog",
 					"summary": "Class to handle the interactions for adding/editing a marketing acknowledgement template rule dialog.",
+					"key": "T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog",
+					"filename": "T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog.htm",
+					"title": "MarketingAcknowledgementRuleDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6355,6 +6772,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.MarketingAcknowledgementRuleDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds.htm",
+					"title": "MarketingAcknowledgementRuleDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6373,6 +6793,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.MarketingAcknowledgementRuleDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields.htm",
+					"title": "MarketingAcknowledgementRuleDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6395,6 +6818,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields.htm",
+					"title": "MarketingAcknowledgementRuleDialog.SetDetailsTabFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6417,6 +6843,9 @@
 						"_": "The number of expected confirmation dialogs to accept.",
 						"name": "numOfApprovedChanges"
 					},
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_Save",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_Save.htm",
+					"title": "MarketingAcknowledgementRuleDialog.Save Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6435,6 +6864,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog",
 					"summary": "Class to handle the interactions for adding/editing a marketing acknowledgement template dialog.",
+					"key": "T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog",
+					"filename": "T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm",
+					"title": "MarketingAcknowledgementTemplateDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6621,6 +7053,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6639,6 +7074,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6661,6 +7099,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields",
+					"filename": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.SetGeneralTabFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6683,6 +7124,9 @@
 						"_": "The desired value of the field.",
 						"name": "sourceCode"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode",
+					"filename": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.SetSourceCode Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6701,6 +7145,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog.IncludeAllRecords",
 					"summary": "Select the 'Include all records' box on the 'Universe' tab.",
+					"key": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords",
+					"filename": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.IncludeAllRecords Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6723,6 +7170,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields",
+					"filename": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields.htm",
+					"title": "MarketingAcknowledgementTemplateDialog.SetActivationTabFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -6741,6 +7191,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.NewAdhocQueryDialog",
 					"summary": "Add Ad-hoc Query Dialog functions and interactions in BBCRM.",
+					"key": "T_Blueshirt_Core_Crm_NewAdhocQueryDialog",
+					"filename": "T_Blueshirt_Core_Crm_NewAdhocQueryDialog.htm",
+					"title": "NewAdhocQueryDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7021,6 +7474,9 @@
 						"_": "The Id of the input field.",
 						"name": "inputId"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput.htm",
+					"title": "NewAdhocQueryDialog.getXSaveOptionsInput Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7043,6 +7499,9 @@
 						"_": "The id of the TextArea.",
 						"name": "AreaId"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea.htm",
+					"title": "NewAdhocQueryDialog.getXSaveOptionsTextArea Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7061,6 +7520,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.NewAdhocQueryDialog.getXFindField",
 					"summary": "Constant XPath for the 'Find' Field of an NewAdhocQueryDialog.",
+					"key": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXFindField",
+					"filename": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXFindField.htm",
+					"title": "NewAdhocQueryDialog.getXFindField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7083,6 +7545,9 @@
 						"_": "The text of the Result Field.",
 						"name": "text"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXFieldResult",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXFieldResult.htm",
+					"title": "NewAdhocQueryDialog.getXFieldResult Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7105,6 +7570,9 @@
 						"_": "The ID of the input.",
 						"name": "inputId"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput.htm",
+					"title": "NewAdhocQueryDialog.getXCriteriaInput Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7123,6 +7591,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.NewAdhocQueryDialog.getXAddFilterArrow",
 					"summary": "Constant XPath for the Add Filter Arrow on a NewAdhocQueryDialog.",
+					"key": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow",
+					"filename": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow.htm",
+					"title": "NewAdhocQueryDialog.getXAddFilterArrow Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7141,6 +7612,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.NewAdhocQueryDialog.getXAddOutputFieldArrow",
 					"summary": "Constant XPath for the Add Filter Arrow on a NewAdhocQueryDialog.",
+					"key": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow",
+					"filename": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow.htm",
+					"title": "NewAdhocQueryDialog.getXAddOutputFieldArrow Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7163,6 +7637,9 @@
 						"_": "The caption of the tab.",
 						"name": "tabCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXTab",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXTab.htm",
+					"title": "NewAdhocQueryDialog.getXTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7185,6 +7662,9 @@
 						"_": "Dictionary mapping of the field captions to their desired values",
 						"name": "options"
 					},
+					"key": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_SetSaveOptions",
+					"filename": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_SetSaveOptions.htm",
+					"title": "NewAdhocQueryDialog.SetSaveOptions Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7203,6 +7683,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PackageDialog",
 					"summary": "Class to handle the interactions for adding/editing a package dialog.",
+					"key": "T_Blueshirt_Core_Crm_PackageDialog",
+					"filename": "T_Blueshirt_Core_Crm_PackageDialog.htm",
+					"title": "PackageDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7344,6 +7827,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PackageDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_PackageDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_PackageDialog_DialogIds.htm",
+					"title": "PackageDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7362,6 +7848,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PackageDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_PackageDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_PackageDialog_SupportedFields.htm",
+					"title": "PackageDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7384,6 +7873,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_PackageDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_PackageDialog_SetFields.htm",
+					"title": "PackageDialog.SetFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7402,6 +7894,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PaymentDialog",
 					"summary": "Class to handle the interactions for adding/editing a payment dialog.",
+					"key": "T_Blueshirt_Core_Crm_PaymentDialog",
+					"filename": "T_Blueshirt_Core_Crm_PaymentDialog.htm",
+					"title": "PaymentDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7558,6 +8053,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PaymentDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_PaymentDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_PaymentDialog_DialogIds.htm",
+					"title": "PaymentDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7576,6 +8074,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.PaymentDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_PaymentDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_PaymentDialog_SupportedFields.htm",
+					"title": "PaymentDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7602,6 +8103,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_PaymentDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_PaymentDialog_SetFields.htm",
+					"title": "PaymentDialog.SetFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7624,6 +8128,9 @@
 						"_": "Mapping of the field captions to their desired values in the various application types.",
 						"name": "application"
 					},
+					"key": "M_Blueshirt_Core_Crm_PaymentDialog_AddApplication",
+					"filename": "M_Blueshirt_Core_Crm_PaymentDialog_AddApplication.htm",
+					"title": "PaymentDialog.AddApplication Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7642,6 +8149,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MajorGivingPlanDialog",
 					"summary": "Class to handle the interactions for adding/editing a major giving plan dialog",
+					"key": "T_Blueshirt_Core_Crm_MajorGivingPlanDialog",
+					"filename": "T_Blueshirt_Core_Crm_MajorGivingPlanDialog.htm",
+					"title": "MajorGivingPlanDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7918,6 +8428,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.MajorGivingPlanDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_MajorGivingPlanDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_MajorGivingPlanDialog_DialogIds.htm",
+					"title": "MajorGivingPlanDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7936,6 +8449,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.MajorGivingPlanDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_MajorGivingPlanDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_MajorGivingPlanDialog_SupportedFields.htm",
+					"title": "MajorGivingPlanDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7958,6 +8474,9 @@
 						"_": "The date to set the 'Start date' to.",
 						"name": "startDate"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate.htm",
+					"title": "MajorGivingPlanDialog.SetPlanStartDate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -7980,6 +8499,9 @@
 						"_": "The date to set the 'Start date' to.",
 						"name": "startDate"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate.htm",
+					"title": "MajorGivingPlanDialog.SetPrimaryManagerStartDate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8002,6 +8524,9 @@
 						"_": "The date to set the 'Start date' to.",
 						"name": "startDate"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate.htm",
+					"title": "MajorGivingPlanDialog.SetSecondaryManagerStartDate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8024,6 +8549,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "details"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetDetails",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetDetails.htm",
+					"title": "MajorGivingPlanDialog.SetDetails Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8046,6 +8574,9 @@
 						"_": "Table where each row represents a participant to add.\r\n            A row is a mapping of the column captions to a single row's values.",
 						"name": "participants"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetParticipants",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetParticipants.htm",
+					"title": "MajorGivingPlanDialog.SetParticipants Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8068,6 +8599,9 @@
 						"_": "The type of outline to use.",
 						"name": "outline"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetOutline",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetOutline.htm",
+					"title": "MajorGivingPlanDialog.SetOutline Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8090,6 +8624,9 @@
 						"_": "The index of the row to select.  The first row's index is 1.",
 						"name": "index"
 					},
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SelectStepRow",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SelectStepRow.htm",
+					"title": "MajorGivingPlanDialog.SelectStepRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8118,6 +8655,9 @@
 							"name": "index"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetStepRow",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_SetStepRow.htm",
+					"title": "MajorGivingPlanDialog.SetStepRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8146,6 +8686,9 @@
 							"name": "index"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_InsertStep",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_InsertStep.htm",
+					"title": "MajorGivingPlanDialog.InsertStep Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8164,6 +8707,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.MajorGivingPlanDialog.Save",
 					"summary": "Save the dialog.",
+					"key": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_Save",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog_Save.htm",
+					"title": "MajorGivingPlanDialog.Save Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8196,6 +8742,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.QuerySourceViewDialog",
 					"summary": "Base object for QuerySourceViewDialog functionality and interactions in BBCRM. Inherits the Dialog base class.",
+					"key": "T_Blueshirt_Core_Crm_QuerySourceViewDialog",
+					"filename": "T_Blueshirt_Core_Crm_QuerySourceViewDialog.htm",
+					"title": "QuerySourceViewDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8367,6 +8916,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.QuerySourceViewDialog.getXRecordTypeField",
 					"summary": "Constant XPath for the Record Field of a QuerySourceViewDialog.",
+					"key": "F_Blueshirt_Core_Crm_QuerySourceViewDialog_getXRecordTypeField",
+					"filename": "F_Blueshirt_Core_Crm_QuerySourceViewDialog_getXRecordTypeField.htm",
+					"title": "QuerySourceViewDialog.getXRecordTypeField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8389,6 +8941,9 @@
 						"_": "The Name of the Column.",
 						"name": "name"
 					},
+					"key": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn",
+					"filename": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn.htm",
+					"title": "QuerySourceViewDialog.getXRecordTypeNameColumn Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8411,6 +8966,9 @@
 						"_": "The type to select.",
 						"name": "type"
 					},
+					"key": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_SetRecordType",
+					"filename": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_SetRecordType.htm",
+					"title": "QuerySourceViewDialog.SetRecordType Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8433,6 +8991,9 @@
 						"_": "The type to be selected.",
 						"name": "type"
 					},
+					"key": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName",
+					"filename": "M_Blueshirt_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName.htm",
+					"title": "QuerySourceViewDialog.SelectRecordTypeName Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8451,6 +9012,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.RegistrantDialog",
 					"summary": "Class to handle the interactions for adding/editing an event registrant dialog.",
+					"key": "T_Blueshirt_Core_Crm_RegistrantDialog",
+					"filename": "T_Blueshirt_Core_Crm_RegistrantDialog.htm",
+					"title": "RegistrantDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8607,6 +9171,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.RegistrantDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_RegistrantDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_RegistrantDialog_DialogIds.htm",
+					"title": "RegistrantDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8625,6 +9192,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.RegistrantDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_RegistrantDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_RegistrantDialog_SupportedFields.htm",
+					"title": "RegistrantDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8646,6 +9216,9 @@
 					"param": {
 						"name": "registrant"
 					},
+					"key": "M_Blueshirt_Core_Crm_RegistrantDialog_SetRegistrant",
+					"filename": "M_Blueshirt_Core_Crm_RegistrantDialog_SetRegistrant.htm",
+					"title": "RegistrantDialog.SetRegistrant Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8668,6 +9241,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "registrants"
 					},
+					"key": "M_Blueshirt_Core_Crm_RegistrantDialog_SetRegistrants",
+					"filename": "M_Blueshirt_Core_Crm_RegistrantDialog_SetRegistrants.htm",
+					"title": "RegistrantDialog.SetRegistrants Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8686,6 +9262,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.SegmentDialog",
 					"summary": "Class to handle the interactions for adding/editing a segment dialog.",
+					"key": "T_Blueshirt_Core_Crm_SegmentDialog",
+					"filename": "T_Blueshirt_Core_Crm_SegmentDialog.htm",
+					"title": "SegmentDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8842,6 +9421,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SegmentDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_SegmentDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_SegmentDialog_DialogIds.htm",
+					"title": "SegmentDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8860,6 +9442,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SegmentDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_SegmentDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_SegmentDialog_SupportedFields.htm",
+					"title": "SegmentDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8882,6 +9467,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentDialog_SetDetailsFields",
+					"filename": "M_Blueshirt_Core_Crm_SegmentDialog_SetDetailsFields.htm",
+					"title": "SegmentDialog.SetDetailsFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8904,6 +9492,9 @@
 						"_": "The selection to add.",
 						"name": "selection"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentDialog_AddSelection",
+					"filename": "M_Blueshirt_Core_Crm_SegmentDialog_AddSelection.htm",
+					"title": "SegmentDialog.AddSelection Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -8922,6 +9513,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.SearchDialog",
 					"summary": "Base class to handle the interactions for search dialogs. Inherits the Dialog base class.",
+					"key": "T_Blueshirt_Core_Crm_SearchDialog",
+					"filename": "T_Blueshirt_Core_Crm_SearchDialog.htm",
+					"title": "SearchDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9153,6 +9747,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXFirstNameField",
 					"summary": "Returns an Xpath for the FirstName Field on a SerachDialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXFirstNameField",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXFirstNameField.htm",
+					"title": "SearchDialog.getXFirstNameField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9171,6 +9768,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXResultsBar",
 					"summary": "Returns an Xpath for the Results Tool bar on a SerachDialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXResultsBar",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXResultsBar.htm",
+					"title": "SearchDialog.getXResultsBar Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9189,6 +9789,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXLastNameField",
 					"summary": "Returns an Xpath for the LastName Field on a SerachDialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXLastNameField",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXLastNameField.htm",
+					"title": "SearchDialog.getXLastNameField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9207,6 +9810,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXGridNameField",
 					"summary": "Returns an Xpath for the Grid Name Field on a SerachDialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXGridNameField",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXGridNameField.htm",
+					"title": "SearchDialog.getXGridNameField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9225,6 +9831,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXSelectedResultsRow",
 					"summary": "ConstantXPath value for finding a search dialog's selected row in the results pane.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXSelectedResultsRow",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXSelectedResultsRow.htm",
+					"title": "SearchDialog.getXSelectedResultsRow Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9243,6 +9852,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXNoRecordsFound",
 					"summary": "Constant XPath value for checking if no search results were found on a search dialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXNoRecordsFound",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXNoRecordsFound.htm",
+					"title": "SearchDialog.getXNoRecordsFound Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9261,6 +9873,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXSearchButton",
 					"summary": "Constant XPath value for finding a Search button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXSearchButton",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXSearchButton.htm",
+					"title": "SearchDialog.getXSearchButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9279,6 +9894,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXSelectButton",
 					"summary": "Constant XPath value for finding a Select button WebElement.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXSelectButton",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXSelectButton.htm",
+					"title": "SearchDialog.getXSelectButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9297,6 +9915,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.SearchDialog.getXSearchResultsGrid",
 					"summary": "Returns an Xpath for the Search Results Grid on a SerachDialog.",
+					"key": "F_Blueshirt_Core_Crm_SearchDialog_getXSearchResultsGrid",
+					"filename": "F_Blueshirt_Core_Crm_SearchDialog_getXSearchResultsGrid.htm",
+					"title": "SearchDialog.getXSearchResultsGrid Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9315,6 +9936,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.SearchDialog.Search",
 					"summary": "Press search on the SearchDialog.",
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_Search",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_Search.htm",
+					"title": "SearchDialog.Search Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9333,6 +9957,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.SearchDialog.Select",
 					"summary": "Click the 'Select' button",
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_Select",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_Select.htm",
+					"title": "SearchDialog.Select Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9355,6 +9982,9 @@
 						"_": "The string to check for.",
 						"name": "expected"
 					},
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains.htm",
+					"title": "SearchDialog.CheckConstituentSearchResultsToolbarContains Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9377,6 +10007,9 @@
 						"_": "The text to set.",
 						"name": "name"
 					},
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_SetFirstNameToSearch",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_SetFirstNameToSearch.htm",
+					"title": "SearchDialog.SetFirstNameToSearch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9399,6 +10032,9 @@
 						"_": "The text to set.",
 						"name": "name"
 					},
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_SetLastNameToSearch",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_SetLastNameToSearch.htm",
+					"title": "SearchDialog.SetLastNameToSearch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9417,6 +10053,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.SearchDialog.SelectFirstResult",
 					"summary": "Select the first result returned. If no results are returned, Cancel is clicked and an Exception is thrown.",
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_SelectFirstResult",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_SelectFirstResult.htm",
+					"title": "SearchDialog.SelectFirstResult Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9439,6 +10078,9 @@
 						"_": "The string to check for.",
 						"name": "expected"
 					},
+					"key": "M_Blueshirt_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain",
+					"filename": "M_Blueshirt_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain.htm",
+					"title": "SearchDialog.CheckConstituentSearchResultsContain Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9457,6 +10099,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.AdHocQueryDialog",
 					"summary": "Class to handle the interactions for adding/editing an ad-hoc query dialog.",
+					"key": "T_Blueshirt_Core_Crm_AdHocQueryDialog",
+					"filename": "T_Blueshirt_Core_Crm_AdHocQueryDialog.htm",
+					"title": "AdHocQueryDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9688,6 +10333,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.AdHocQueryDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_AdHocQueryDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_AdHocQueryDialog_DialogIds.htm",
+					"title": "AdHocQueryDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9706,6 +10354,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.AdHocQueryDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_AdHocQueryDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_AdHocQueryDialog_SupportedFields.htm",
+					"title": "AdHocQueryDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9724,6 +10375,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.AdHocQueryDialog.ExpandNode(System.String)",
 					"summary": "Expand a tree node if it is collapsed.",
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_ExpandNode",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_ExpandNode.htm",
+					"title": "AdHocQueryDialog.ExpandNode Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9746,6 +10400,9 @@
 						"_": "The complete filter path.  Nested filters should be provided as a complete\r\n            path (i.e. 'Revenue\\Constituent\\Spouse'",
 						"name": "filter"
 					},
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_FilterBy",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_FilterBy.htm",
+					"title": "AdHocQueryDialog.FilterBy Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9768,6 +10425,9 @@
 						"_": "Mapping of the unique field ids to their desired values.",
 						"name": "criteria"
 					},
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_ApplyCriteria",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_ApplyCriteria.htm",
+					"title": "AdHocQueryDialog.ApplyCriteria Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9796,6 +10456,9 @@
 							"name": "criteria"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_AddFilterField",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_AddFilterField.htm",
+					"title": "AdHocQueryDialog.AddFilterField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9818,6 +10481,9 @@
 						"_": "The field to add.",
 						"name": "fieldCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_AddOutputField",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_AddOutputField.htm",
+					"title": "AdHocQueryDialog.AddOutputField Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9840,6 +10506,9 @@
 						"_": "Dictionary mapping of the field captions to their desired values",
 						"name": "options"
 					},
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_SetSaveOptions",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_SetSaveOptions.htm",
+					"title": "AdHocQueryDialog.SetSaveOptions Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9858,6 +10527,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.AdHocQueryDialog.SaveAndClose",
 					"summary": "Click the 'Save and close' button",
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryDialog_SaveAndClose",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryDialog_SaveAndClose.htm",
+					"title": "AdHocQueryDialog.SaveAndClose Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -9876,6 +10548,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MultiLevelEventDialog",
 					"summary": "Class to handle the interactions for adding/editing an add a multi-level event dialog.",
+					"key": "T_Blueshirt_Core_Crm_MultiLevelEventDialog",
+					"filename": "T_Blueshirt_Core_Crm_MultiLevelEventDialog.htm",
+					"title": "MultiLevelEventDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10077,6 +10752,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.MultiLevelEventDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_MultiLevelEventDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_MultiLevelEventDialog_DialogIds.htm",
+					"title": "MultiLevelEventDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10095,6 +10773,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.MultiLevelEventDialog.getXAddedEvent(System.String)",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_getXAddedEvent",
+					"filename": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_getXAddedEvent.htm",
+					"title": "MultiLevelEventDialog.getXAddedEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10117,6 +10798,9 @@
 						"_": "The name of the template to set.",
 						"name": "templateName"
 					},
+					"key": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_SetTemplate",
+					"filename": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_SetTemplate.htm",
+					"title": "MultiLevelEventDialog.SetTemplate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10139,6 +10823,9 @@
 						"_": "The name of the event to add.",
 						"name": "eventName"
 					},
+					"key": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_AddExistingEvent",
+					"filename": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_AddExistingEvent.htm",
+					"title": "MultiLevelEventDialog.AddExistingEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10167,6 +10854,9 @@
 							"name": "parentEventName"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_AddChildEvent",
+					"filename": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_AddChildEvent.htm",
+					"title": "MultiLevelEventDialog.AddChildEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10199,6 +10889,9 @@
 							"name": "newEventName"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_CopyFrom",
+					"filename": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_CopyFrom.htm",
+					"title": "MultiLevelEventDialog.CopyFrom Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10217,6 +10910,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.TaskDialog",
 					"summary": "Class to handle the interactions for adding/editing a task dialog.",
+					"key": "T_Blueshirt_Core_Crm_TaskDialog",
+					"filename": "T_Blueshirt_Core_Crm_TaskDialog.htm",
+					"title": "TaskDialog Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10373,6 +11069,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.TaskDialog.DialogIds",
 					"summary": "Static list of supported unique dialog id.",
+					"key": "F_Blueshirt_Core_Crm_TaskDialog_DialogIds",
+					"filename": "F_Blueshirt_Core_Crm_TaskDialog_DialogIds.htm",
+					"title": "TaskDialog.DialogIds Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10391,6 +11090,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.TaskDialog.SupportedFields",
 					"summary": "Static mapping of supported field captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_TaskDialog_SupportedFields",
+					"filename": "F_Blueshirt_Core_Crm_TaskDialog_SupportedFields.htm",
+					"title": "TaskDialog.SupportedFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10409,6 +11111,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.TaskDialog.SupportedRemindersGridFields",
 					"summary": "Static mapping of supported Grid column captions to CrmField objects encapsulating all relevant variables needed to set the field's value.",
+					"key": "F_Blueshirt_Core_Crm_TaskDialog_SupportedRemindersGridFields",
+					"filename": "F_Blueshirt_Core_Crm_TaskDialog_SupportedRemindersGridFields.htm",
+					"title": "TaskDialog.SupportedRemindersGridFields Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10431,6 +11136,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "fields"
 					},
+					"key": "M_Blueshirt_Core_Crm_TaskDialog_SetFields",
+					"filename": "M_Blueshirt_Core_Crm_TaskDialog_SetFields.htm",
+					"title": "TaskDialog.SetFields Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10453,6 +11161,9 @@
 						"_": "Table where each row represents a reminder to add.  \r\n            A row is a mapping of the 'Reminders' grid's column captions to the row's values.  ",
 						"name": "reminders"
 					},
+					"key": "M_Blueshirt_Core_Crm_TaskDialog_SetReminders",
+					"filename": "M_Blueshirt_Core_Crm_TaskDialog_SetReminders.htm",
+					"title": "TaskDialog.SetReminders Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10471,6 +11182,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.AnalysisFunctionalArea",
 					"summary": "Class to handle interactions for the 'Analysis' functional area.",
+					"key": "T_Blueshirt_Core_Crm_AnalysisFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_AnalysisFunctionalArea.htm",
+					"title": "AnalysisFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10614,6 +11328,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.FunctionalArea",
 					"summary": "Utility methods for operations on a functional area.",
+					"key": "T_Blueshirt_Core_Crm_FunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_FunctionalArea.htm",
+					"title": "FunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10822,6 +11539,9 @@
 						"name": "linkText"
 					},
 					"returns": "",
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_getXFaLink",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_getXFaLink.htm",
+					"title": "FunctionalArea.getXFaLink Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10850,6 +11570,9 @@
 							"name": "caption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_getXAddMenu",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_getXAddMenu.htm",
+					"title": "FunctionalArea.getXAddMenu Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10878,6 +11601,9 @@
 							"name": "taskName"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_getXFunctionalAreaTask",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm",
+					"title": "FunctionalArea.getXFunctionalAreaTask Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10900,6 +11626,9 @@
 						"_": "The name/caption of the task.",
 						"name": "taskName"
 					},
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_getXFunctionalAreaTask",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm",
+					"title": "FunctionalArea.getXFunctionalAreaTask Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10922,6 +11651,9 @@
 						"_": "The caption of the task link.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_OpenLink",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_OpenLink.htm",
+					"title": "FunctionalArea.OpenLink Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10950,6 +11682,9 @@
 							"name": "linkCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_FunctionalArea_OpenLink",
+					"filename": "M_Blueshirt_Core_Crm_FunctionalArea_OpenLink.htm",
+					"title": "FunctionalArea.OpenLink Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10968,6 +11703,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.AnalysisFunctionalArea.OpenQueryPanel",
 					"summary": "TODO - THIS IS A CUSTOMIZATION IMPLEMENTATION FOR BHF AND SHOULD BE MOVED TO THEIR TEST SOLUTION",
+					"key": "M_Blueshirt_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel",
+					"filename": "M_Blueshirt_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel.htm",
+					"title": "AnalysisFunctionalArea.OpenQueryPanel Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -10996,6 +11734,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_AnalysisFunctionalArea_InformationLibrary",
+					"filename": "M_Blueshirt_Core_Crm_AnalysisFunctionalArea_InformationLibrary.htm",
+					"title": "AnalysisFunctionalArea.InformationLibrary Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11014,6 +11755,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.ConstituentsFunctionalArea",
 					"summary": "Class to handle interactions for the 'Constituents' functional area.",
+					"key": "T_Blueshirt_Core_Crm_ConstituentsFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_ConstituentsFunctionalArea.htm",
+					"title": "ConstituentsFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11225,6 +11969,9 @@
 						}
 					],
 					"returns": "True if at least one matching element is found, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_ConstituentExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_ConstituentExists.htm",
+					"title": "ConstituentsFunctionalArea.ConstituentExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11253,6 +12000,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm",
+					"title": "ConstituentsFunctionalArea.AddAnIndividual Method (String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11285,6 +12035,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm",
+					"title": "ConstituentsFunctionalArea.AddAnIndividual Method (String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11325,6 +12078,9 @@
 							"name": "fieldId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch.htm",
+					"title": "ConstituentsFunctionalArea.ConstituentSearch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11343,6 +12099,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.EventsFunctionalArea",
 					"summary": "Class to handle interactions for the 'Events' functional area.",
+					"key": "T_Blueshirt_Core_Crm_EventsFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_EventsFunctionalArea.htm",
+					"title": "EventsFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11561,6 +12320,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EventsFunctionalArea.AddEvent",
 					"summary": "Open the dialog to add an event.",
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddEvent",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddEvent.htm",
+					"title": "EventsFunctionalArea.AddEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11583,6 +12345,9 @@
 						"_": "Dictionary mapping field caption keys to their values.",
 						"name": "eventValue"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddEvent",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddEvent.htm",
+					"title": "EventsFunctionalArea.AddEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11601,6 +12366,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EventsFunctionalArea.AddMultiEvent",
 					"summary": "Open the dialog for adding a 'Multi-level event'.",
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddMultiEvent",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddMultiEvent.htm",
+					"title": "EventsFunctionalArea.AddMultiEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11641,6 +12409,9 @@
 							"name": "fieldId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_EventSearch",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_EventSearch.htm",
+					"title": "EventsFunctionalArea.EventSearch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11669,6 +12440,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_Locations",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_Locations.htm",
+					"title": "EventsFunctionalArea.Locations Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11697,6 +12471,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_EventManagementTemplates",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_EventManagementTemplates.htm",
+					"title": "EventsFunctionalArea.EventManagementTemplates Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11715,6 +12492,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EventsFunctionalArea.CollapseCalendar",
 					"summary": "Collapse the Event Calendar if it is expanded and wait for the collapse to complete.",
+					"key": "M_Blueshirt_Core_Crm_EventsFunctionalArea_CollapseCalendar",
+					"filename": "M_Blueshirt_Core_Crm_EventsFunctionalArea_CollapseCalendar.htm",
+					"title": "EventsFunctionalArea.CollapseCalendar Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11733,6 +12513,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.FundraisingFunctionalArea",
 					"summary": "Class to handle interactions for the 'Fundraising' functional area.",
+					"key": "T_Blueshirt_Core_Crm_FundraisingFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_FundraisingFunctionalArea.htm",
+					"title": "FundraisingFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11884,6 +12667,9 @@
 						}
 					],
 					"returns": "True if the designation exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_FundraisingFunctionalArea_DesignationExists",
+					"filename": "M_Blueshirt_Core_Crm_FundraisingFunctionalArea_DesignationExists.htm",
+					"title": "FundraisingFunctionalArea.DesignationExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -11902,6 +12688,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.HomeFunctionalArea",
 					"summary": "Class to handle interactions for the 'Home' functional area.",
+					"key": "T_Blueshirt_Core_Crm_HomeFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_HomeFunctionalArea.htm",
+					"title": "HomeFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12015,6 +12804,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MarketingAndCommFunctionalArea",
 					"summary": "Class to handle interactions for the 'Marketing and Communications' functional area.",
+					"key": "T_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea.htm",
+					"title": "MarketingAndCommFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12198,6 +12990,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Receipts",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Receipts.htm",
+					"title": "MarketingAndCommFunctionalArea.Receipts Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12226,6 +13021,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements.htm",
+					"title": "MarketingAndCommFunctionalArea.MarketingAcknowledgements Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12254,6 +13052,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Segments",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Segments.htm",
+					"title": "MarketingAndCommFunctionalArea.Segments Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12282,6 +13083,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Packages",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea_Packages.htm",
+					"title": "MarketingAndCommFunctionalArea.Packages Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12300,6 +13104,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.ProspectsFunctionalArea",
 					"summary": "Class to handle interactions for the 'Prospects' functional area.",
+					"key": "T_Blueshirt_Core_Crm_ProspectsFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_ProspectsFunctionalArea.htm",
+					"title": "ProspectsFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12453,6 +13260,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup",
+					"filename": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup.htm",
+					"title": "ProspectsFunctionalArea.MajorGivingSetup Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12471,6 +13281,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.ProspectsFunctionalArea.CollapseResearchLists",
 					"summary": "Collapse the Research Lists Calendar if it is expanded and wait for the collapse to complete.",
+					"key": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists",
+					"filename": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists.htm",
+					"title": "ProspectsFunctionalArea.CollapseResearchLists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12489,6 +13302,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.RevenueFunctionalArea",
 					"summary": "Class to handle interactions for the 'Revenue' functional area.",
+					"key": "T_Blueshirt_Core_Crm_RevenueFunctionalArea",
+					"filename": "T_Blueshirt_Core_Crm_RevenueFunctionalArea.htm",
+					"title": "RevenueFunctionalArea Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12702,6 +13518,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPayment",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPayment.htm",
+					"title": "RevenueFunctionalArea.AddAPayment Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12730,6 +13549,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPledge",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPledge.htm",
+					"title": "RevenueFunctionalArea.AddAPledge Method (String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12762,6 +13584,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPledge",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPledge.htm",
+					"title": "RevenueFunctionalArea.AddAPledge Method (String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12790,6 +13615,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_BatchEntry",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_BatchEntry.htm",
+					"title": "RevenueFunctionalArea.BatchEntry Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12818,6 +13646,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_PledgeSubtypes",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_PledgeSubtypes.htm",
+					"title": "RevenueFunctionalArea.PledgeSubtypes Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12850,6 +13681,9 @@
 							"name": "taskCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent",
+					"filename": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent.htm",
+					"title": "RevenueFunctionalArea.TransactionSearchByConstituent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12868,6 +13702,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.AdHocQueryPanel",
 					"summary": "Class to handle interactions for the 'Ad-hoc Query' panel.",
+					"key": "T_Blueshirt_Core_Crm_AdHocQueryPanel",
+					"filename": "T_Blueshirt_Core_Crm_AdHocQueryPanel.htm",
+					"title": "AdHocQueryPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -12996,6 +13833,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.Panel",
 					"summary": "Base class to handle interactions for panels.",
+					"key": "T_Blueshirt_Core_Crm_Panel",
+					"filename": "T_Blueshirt_Core_Crm_Panel.htm",
+					"title": "Panel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -13994,6 +14834,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panel.getXTabsBarRightScroller",
 					"summary": "Constant XPath for getting the right scroller on the top Tab bar.",
+					"key": "F_Blueshirt_Core_Crm_Panel_getXTabsBarRightScroller",
+					"filename": "F_Blueshirt_Core_Crm_Panel_getXTabsBarRightScroller.htm",
+					"title": "Panel.getXTabsBarRightScroller Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14012,6 +14855,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panel.getXTabsBar",
 					"summary": "Constant XPath for getting an element that indicates the top Tab bar has loaded an active Tab.",
+					"key": "F_Blueshirt_Core_Crm_Panel_getXTabsBar",
+					"filename": "F_Blueshirt_Core_Crm_Panel_getXTabsBar.htm",
+					"title": "Panel.getXTabsBar Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14030,6 +14876,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panel.getXTabsBarActiveTab",
 					"summary": "Constant XPath for getting an element corresponds to the currently active Tab in the top Tab bar.",
+					"key": "F_Blueshirt_Core_Crm_Panel_getXTabsBarActiveTab",
+					"filename": "F_Blueshirt_Core_Crm_Panel_getXTabsBarActiveTab.htm",
+					"title": "Panel.getXTabsBarActiveTab Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14048,6 +14897,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panel.getXInnerTabsBar",
 					"summary": "Constant XPath for getting an element that indicates an inner Tab bar has loaded an active Tab.",
+					"key": "F_Blueshirt_Core_Crm_Panel_getXInnerTabsBar",
+					"filename": "F_Blueshirt_Core_Crm_Panel_getXInnerTabsBar.htm",
+					"title": "Panel.getXInnerTabsBar Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14076,6 +14928,9 @@
 							"name": "spanId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSpan",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSpan.htm",
+					"title": "Panel.getXSpan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14104,6 +14959,9 @@
 							"name": "divId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXDiv",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXDiv.htm",
+					"title": "Panel.getXDiv Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14126,6 +14984,9 @@
 						"_": "The caption of the section.",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistPageIndexButtons",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistPageIndexButtons.htm",
+					"title": "Panel.getXSectionDatalistPageIndexButtons Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14148,6 +15009,9 @@
 						"_": "The caption of the section",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex.htm",
+					"title": "Panel.getXSectionDatalistCurrentPageIndex Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14170,6 +15034,9 @@
 						"_": "The caption of the button.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowButton",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowButton.htm",
+					"title": "Panel.getXSelectedDatalistRowButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14192,6 +15059,9 @@
 						"_": "The tooltip caption of the action displayed when hovering over the link. i.e. 'Go to plan:'",
 						"name": "action"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction.htm",
+					"title": "Panel.getXSelectedDatalistRowLinkByAction Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14220,6 +15090,9 @@
 							"name": "caption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption.htm",
+					"title": "Panel.getXDatalistRowLinkByActionAndCaption Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14242,6 +15115,9 @@
 						"_": "The id of the link that is the value of the 'data-fieldid' attribute.  i.e. 'PLANNAME'",
 						"name": "id"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkById",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkById.htm",
+					"title": "Panel.getXSelectedDatalistRowLinkById Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14264,6 +15140,9 @@
 						"_": "The caption text of the link.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption.htm",
+					"title": "Panel.getXSelectedDatalistRowLinkByCaption Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14285,6 +15164,9 @@
 					"param": {
 						"name": "linkCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderLink",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderLink.htm",
+					"title": "Panel.getXPanelHeaderLink Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14303,6 +15185,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Panel.getXPanelHeaderLink",
 					"summary": "Format an XPath for finding a context link located in the header of a panel.",
+					"key": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderLink",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderLink.htm",
+					"title": "Panel.getXPanelHeaderLink Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14325,6 +15210,9 @@
 						"_": "Unique name of the image associated with the panel header.",
 						"name": "imageName"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXPanelHeader",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXPanelHeader.htm",
+					"title": "Panel.getXPanelHeader Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14343,6 +15231,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Panel.getXPanelHeader",
 					"summary": "Generic XPath to get the panel header.",
+					"key": "M_Blueshirt_Core_Crm_Panel_getXPanelHeader",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXPanelHeader.htm",
+					"title": "Panel.getXPanelHeader Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14365,6 +15256,9 @@
 						"_": "The value to check for in the panel header.",
 						"name": "text"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderByText",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXPanelHeaderByText.htm",
+					"title": "Panel.getXPanelHeaderByText Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14393,6 +15287,9 @@
 							"name": "columnValue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXDataListColumnValue",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXDataListColumnValue.htm",
+					"title": "Panel.getXDataListColumnValue Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14415,6 +15312,9 @@
 						"_": "The caption of the section that the datalist belongs to.",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistRows",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistRows.htm",
+					"title": "Panel.getXSectionDatalistRows Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14447,6 +15347,9 @@
 							"name": "columnCaptionToValue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistRow.htm",
+					"title": "Panel.getXSectionDatalistRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14479,6 +15382,9 @@
 							"name": "viewFormValues"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXViewForm",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXViewForm.htm",
+					"title": "Panel.getXViewForm Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14507,6 +15413,9 @@
 							"name": "value"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionViewFormSpan",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionViewFormSpan.htm",
+					"title": "Panel.getXSectionViewFormSpan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14535,6 +15444,9 @@
 							"name": "viewFormId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionViewForm",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionViewForm.htm",
+					"title": "Panel.getXSectionViewForm Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14557,6 +15469,9 @@
 						"_": "The caption of the section that the datalist belongs to.",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistColumnHeaders",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionDatalistColumnHeaders.htm",
+					"title": "Panel.getXSectionDatalistColumnHeaders Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14579,6 +15494,9 @@
 						"_": "The caption of the section that the datalist belongs to.",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders.htm",
+					"title": "Panel.getXDuplicateSectionDatalistColumnHeaders Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14608,6 +15526,9 @@
 						}
 					],
 					"returns": "",
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionAddButton",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionAddButton.htm",
+					"title": "Panel.getXSectionAddButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14630,6 +15551,9 @@
 						"_": "The caption header of the section to reference",
 						"name": "sectionName"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSection",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSection.htm",
+					"title": "Panel.getXSection Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14652,6 +15576,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXTab",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXTab.htm",
+					"title": "Panel.getXTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14674,6 +15601,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXInnerTab",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXInnerTab.htm",
+					"title": "Panel.getXInnerTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14696,6 +15626,9 @@
 						"_": "The caption of the section.",
 						"name": "sectionCaption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionExpandButton",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionExpandButton.htm",
+					"title": "Panel.getXSectionExpandButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14724,6 +15657,9 @@
 							"name": "widgetId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXSectionWidget",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXSectionWidget.htm",
+					"title": "Panel.getXSectionWidget Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14752,6 +15688,9 @@
 							"name": "widgetId"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_CollapseSection",
+					"filename": "M_Blueshirt_Core_Crm_Panel_CollapseSection.htm",
+					"title": "Panel.CollapseSection Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14784,6 +15723,9 @@
 							"name": "columnCaptionToIndex"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow.htm",
+					"title": "Panel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14816,6 +15758,9 @@
 							"name": "columnCaptionToIndex"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow.htm",
+					"title": "Panel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14844,6 +15789,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow.htm",
+					"title": "Panel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14872,6 +15820,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectSectionDatalistRow.htm",
+					"title": "Panel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14900,6 +15851,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectDuplicateSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectDuplicateSectionDatalistRow.htm",
+					"title": "Panel.SelectDuplicateSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14928,6 +15882,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectDuplicateSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectDuplicateSectionDatalistRow.htm",
+					"title": "Panel.SelectDuplicateSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14957,6 +15914,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists.htm",
+					"title": "Panel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -14986,6 +15946,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists.htm",
+					"title": "Panel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15019,6 +15982,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists.htm",
+					"title": "Panel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15052,6 +16018,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionDatalistRowExists.htm",
+					"title": "Panel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15085,6 +16054,9 @@
 						}
 					],
 					"returns": "True if the view form exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionViewFormExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionViewFormExists.htm",
+					"title": "Panel.SectionViewFormExists Method (IDictionary(String, String), String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15118,6 +16090,9 @@
 						}
 					],
 					"returns": "True if the view form exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_SectionViewFormExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SectionViewFormExists.htm",
+					"title": "Panel.SectionViewFormExists Method (IDictionary(String, String), String, String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15147,6 +16122,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_GridRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_GridRowExists.htm",
+					"title": "Panel.GridRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15176,6 +16154,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_GridRowExists",
+					"filename": "M_Blueshirt_Core_Crm_Panel_GridRowExists.htm",
+					"title": "Panel.GridRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15208,6 +16189,9 @@
 							"name": "columnCaptionToValue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_getXGridRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXGridRow.htm",
+					"title": "Panel.getXGridRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15230,6 +16214,9 @@
 						"_": "The unique id of the grid/datalist.  i.e. '_DESIGNATIONS_value'",
 						"name": "gridId"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXGridRows",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXGridRows.htm",
+					"title": "Panel.getXGridRows Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15252,6 +16239,9 @@
 						"_": "The unique id of the grid/datalist.  i.e. '_DESIGNATIONS_value'",
 						"name": "gridId"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXGridHeaders",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXGridHeaders.htm",
+					"title": "Panel.getXGridHeaders Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15274,6 +16264,9 @@
 						"_": "The unique id of the grid/datalist.  i.e. '_DESIGNATIONS_value'",
 						"name": "gridId"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_getXGrid",
+					"filename": "M_Blueshirt_Core_Crm_Panel_getXGrid.htm",
+					"title": "Panel.getXGrid Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15296,6 +16289,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectTab",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectTab.htm",
+					"title": "Panel.SelectTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15318,6 +16314,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_SelectInnerTab",
+					"filename": "M_Blueshirt_Core_Crm_Panel_SelectInnerTab.htm",
+					"title": "Panel.SelectInnerTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15346,6 +16345,9 @@
 							"name": "addButtonCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_Panel_ClickSectionAddButton",
+					"filename": "M_Blueshirt_Core_Crm_Panel_ClickSectionAddButton.htm",
+					"title": "Panel.ClickSectionAddButton Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15369,6 +16371,9 @@
 						"name": "expectedValue"
 					},
 					"returns": "True if the text of the header matches the provided expected value, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_IsPanelHeader",
+					"filename": "M_Blueshirt_Core_Crm_Panel_IsPanelHeader.htm",
+					"title": "Panel.IsPanelHeader Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15392,6 +16397,9 @@
 						"name": "panelImage"
 					},
 					"returns": "True if the panel header image contains the provided image type, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_IsPanelType",
+					"filename": "M_Blueshirt_Core_Crm_Panel_IsPanelType.htm",
+					"title": "Panel.IsPanelType Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15414,6 +16422,9 @@
 						"_": "The unique image name of the panel.  i.e. 'individual.png'",
 						"name": "panelImage"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_WaitForPanelType",
+					"filename": "M_Blueshirt_Core_Crm_Panel_WaitForPanelType.htm",
+					"title": "Panel.WaitForPanelType Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15436,6 +16447,9 @@
 						"_": "The value to wait until not displayed in the header.",
 						"name": "header"
 					},
+					"key": "M_Blueshirt_Core_Crm_Panel_WaitForPanelHeaderNotContain",
+					"filename": "M_Blueshirt_Core_Crm_Panel_WaitForPanelHeaderNotContain.htm",
+					"title": "Panel.WaitForPanelHeaderNotContain Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15454,6 +16468,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.Panel.ExpandRow(System.String)",
 					"summary": "Expand a row if it is not already expanded.",
+					"key": "M_Blueshirt_Core_Crm_Panel_ExpandRow",
+					"filename": "M_Blueshirt_Core_Crm_Panel_ExpandRow.htm",
+					"title": "Panel.ExpandRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15473,6 +16490,9 @@
 					"name": "M:Blueshirt.Core.Crm.Panel.AdditionalDatalistPagesExist(System.String)",
 					"summary": "Check if additional pages exist for a datalist to load. If so load the page.",
 					"returns": "Returns true if an additional page was found and clicked, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_Panel_AdditionalDatalistPagesExist",
+					"filename": "M_Blueshirt_Core_Crm_Panel_AdditionalDatalistPagesExist.htm",
+					"title": "Panel.AdditionalDatalistPagesExist Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15496,6 +16516,9 @@
 						"name": "queryName"
 					},
 					"returns": "True if the header contains the value, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_AdHocQueryPanel_IsPanelHeader",
+					"filename": "M_Blueshirt_Core_Crm_AdHocQueryPanel_IsPanelHeader.htm",
+					"title": "AdHocQueryPanel.IsPanelHeader Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15514,6 +16537,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.BatchEntryPanel",
 					"summary": "Class to handle interactions for the 'Batch Entry' panel.",
+					"key": "T_Blueshirt_Core_Crm_BatchEntryPanel",
+					"filename": "T_Blueshirt_Core_Crm_BatchEntryPanel.htm",
+					"title": "BatchEntryPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15706,6 +16732,9 @@
 						"_": "The template to use for the new batch.",
 						"name": "batchTemplate"
 					},
+					"key": "M_Blueshirt_Core_Crm_BatchEntryPanel_AddBatch",
+					"filename": "M_Blueshirt_Core_Crm_BatchEntryPanel_AddBatch.htm",
+					"title": "BatchEntryPanel.AddBatch Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15735,6 +16764,9 @@
 							"name": "description"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_BatchEntryPanel_AddBatch",
+					"filename": "M_Blueshirt_Core_Crm_BatchEntryPanel_AddBatch.htm",
+					"title": "BatchEntryPanel.AddBatch Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15758,6 +16790,9 @@
 						"name": "batch"
 					},
 					"returns": "True if the batch exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_BatchEntryPanel_UncommittedBatchExists",
+					"filename": "M_Blueshirt_Core_Crm_BatchEntryPanel_UncommittedBatchExists.htm",
+					"title": "BatchEntryPanel.UncommittedBatchExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15780,6 +16815,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "batchRow"
 					},
+					"key": "M_Blueshirt_Core_Crm_BatchEntryPanel_SelectUncommittedBatch",
+					"filename": "M_Blueshirt_Core_Crm_BatchEntryPanel_SelectUncommittedBatch.htm",
+					"title": "BatchEntryPanel.SelectUncommittedBatch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15798,6 +16836,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BatchEntryPanel.CommitSelectedBatch",
 					"summary": "Commit the currently selected batch.",
+					"key": "M_Blueshirt_Core_Crm_BatchEntryPanel_CommitSelectedBatch",
+					"filename": "M_Blueshirt_Core_Crm_BatchEntryPanel_CommitSelectedBatch.htm",
+					"title": "BatchEntryPanel.CommitSelectedBatch Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15816,6 +16857,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.BusinessProcess",
 					"summary": "Base class to handle interactions for the 'Business Process' panel.",
+					"key": "T_Blueshirt_Core_Crm_BusinessProcess",
+					"filename": "T_Blueshirt_Core_Crm_BusinessProcess.htm",
+					"title": "BusinessProcess Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15959,6 +17003,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BusinessProcess.getXCommitStatus",
 					"summary": "Get a formatted xPath for an element whose text represents the commit status of the business process.",
+					"key": "F_Blueshirt_Core_Crm_BusinessProcess_getXCommitStatus",
+					"filename": "F_Blueshirt_Core_Crm_BusinessProcess_getXCommitStatus.htm",
+					"title": "BusinessProcess.getXCommitStatus Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15977,6 +17024,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BusinessProcess.getXRecordsProcessed",
 					"summary": "Get a formatted xPath for an element whose test represents the number of records processed for the business process.",
+					"key": "F_Blueshirt_Core_Crm_BusinessProcess_getXRecordsProcessed",
+					"filename": "F_Blueshirt_Core_Crm_BusinessProcess_getXRecordsProcessed.htm",
+					"title": "BusinessProcess.getXRecordsProcessed Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -15996,6 +17046,9 @@
 					"name": "M:Blueshirt.Core.Crm.BusinessProcess.IsCompleted",
 					"summary": "Wait for the business process to complete and check if the status finished as 'Completed'.",
 					"returns": "True if the business process completes without errors or exceptions, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_BusinessProcess_IsCompleted",
+					"filename": "M_Blueshirt_Core_Crm_BusinessProcess_IsCompleted.htm",
+					"title": "BusinessProcess.IsCompleted Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16019,6 +17072,9 @@
 						"name": "numRecords"
 					},
 					"returns": "True if the posted number of total processed records equals the provided expected amount, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_BusinessProcess_IsNumRecordsProcessed",
+					"filename": "M_Blueshirt_Core_Crm_BusinessProcess_IsNumRecordsProcessed.htm",
+					"title": "BusinessProcess.IsNumRecordsProcessed Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16037,6 +17093,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MarketingAcknowledgementBusinessProcess",
 					"summary": "Class to handle interactions for the 'Marketing Acknowledgement Business Process' panel.",
+					"key": "T_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess",
+					"filename": "T_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess.htm",
+					"title": "MarketingAcknowledgementBusinessProcess Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16185,6 +17244,9 @@
 						"name": "numRecords"
 					},
 					"returns": "True if the provided number matches the listed amount of successfully processed records, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed.htm",
+					"title": "MarketingAcknowledgementBusinessProcess.IsNumRecordsProcessed Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16204,6 +17266,9 @@
 					"name": "M:Blueshirt.Core.Crm.MarketingAcknowledgementBusinessProcess.IsCompleted",
 					"summary": "Wait for the the business process to finish and validate if it finished with a \"Completed\" status.",
 					"returns": "True if the process completed without errors or exceptions, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted.htm",
+					"title": "MarketingAcknowledgementBusinessProcess.IsCompleted Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16222,6 +17287,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.ReceiptBusinessProcess",
 					"summary": "Class to handle interactions for the 'Receipt Business Process' panel.",
+					"key": "T_Blueshirt_Core_Crm_ReceiptBusinessProcess",
+					"filename": "T_Blueshirt_Core_Crm_ReceiptBusinessProcess.htm",
+					"title": "ReceiptBusinessProcess Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16351,6 +17419,9 @@
 					"name": "M:Blueshirt.Core.Crm.ReceiptBusinessProcess.IsCompleted",
 					"summary": "Wait for the the business process to finish and validate if it finished with a \"Completed\" status.",
 					"returns": "True if the process completed without errors or exceptions, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ReceiptBusinessProcess_IsCompleted",
+					"filename": "M_Blueshirt_Core_Crm_ReceiptBusinessProcess_IsCompleted.htm",
+					"title": "ReceiptBusinessProcess.IsCompleted Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16369,6 +17440,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.ConstituentPanel",
 					"summary": "Class to handle interactions for the 'Constituent' panel.",
+					"key": "T_Blueshirt_Core_Crm_ConstituentPanel",
+					"filename": "T_Blueshirt_Core_Crm_ConstituentPanel.htm",
+					"title": "ConstituentPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16786,6 +17860,9 @@
 						"_": "Part of the title that the notification must have.",
 						"name": "noteTitle"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_getXNotification",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_getXNotification.htm",
+					"title": "ConstituentPanel.getXNotification Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16809,6 +17886,9 @@
 						"name": "title"
 					},
 					"returns": "True if the provided value is the constituent's Title, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_IsTitle",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_IsTitle.htm",
+					"title": "ConstituentPanel.IsTitle Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16832,6 +17912,9 @@
 						"name": "state"
 					},
 					"returns": "True if the provided value is the constituent's state, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_IsStateAddress",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_IsStateAddress.htm",
+					"title": "ConstituentPanel.IsStateAddress Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16855,6 +17938,9 @@
 						"name": "birthDate"
 					},
 					"returns": "True if the provided value is the constituent's birth date, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_IsBirthDate",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_IsBirthDate.htm",
+					"title": "ConstituentPanel.IsBirthDate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16878,6 +17964,9 @@
 						"name": "lastName"
 					},
 					"returns": "True if the constituent has the provided last name, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_IsLastName",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_IsLastName.htm",
+					"title": "ConstituentPanel.IsLastName Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16901,6 +17990,9 @@
 						"name": "expectedText"
 					},
 					"returns": "True if the header has the expected text, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_IsConstituentPanelHeader",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_IsConstituentPanelHeader.htm",
+					"title": "ConstituentPanel.IsConstituentPanelHeader Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16924,6 +18016,9 @@
 						"name": "values"
 					},
 					"returns": "True if the constituency exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_ConstituencyExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_ConstituencyExists.htm",
+					"title": "ConstituentPanel.ConstituencyExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16952,6 +18047,9 @@
 							"name": "values"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddConstituency",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddConstituency.htm",
+					"title": "ConstituentPanel.AddConstituency Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16974,6 +18072,9 @@
 						"_": "Mapping of the field captions for the 'Add a note' dialog to their desired values.",
 						"name": "note"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddNote",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddNote.htm",
+					"title": "ConstituentPanel.AddNote Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -16996,6 +18097,9 @@
 						"_": "The value of the 'Title' column for the desired row.",
 						"name": "noteTitle"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_SelectNote",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_SelectNote.htm",
+					"title": "ConstituentPanel.SelectNote Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17024,6 +18128,9 @@
 							"name": "notification"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddNotification",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddNotification.htm",
+					"title": "ConstituentPanel.AddNotification Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17047,6 +18154,9 @@
 						"name": "noteTitle"
 					},
 					"returns": "True if the notification exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_NotificationExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_NotificationExists.htm",
+					"title": "ConstituentPanel.NotificationExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17070,6 +18180,9 @@
 						"name": "teamRole"
 					},
 					"returns": "True if the team role exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_TeamRoleExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_TeamRoleExists.htm",
+					"title": "ConstituentPanel.TeamRoleExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17092,6 +18205,9 @@
 						"_": "The name of the team role to add.",
 						"name": "teamRole"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddTeamRole",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddTeamRole.htm",
+					"title": "ConstituentPanel.AddTeamRole Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17114,6 +18230,9 @@
 						"_": "Mapping of the field captions for the 'Add a prospect team member' dialog to their desired values.",
 						"name": "teamMember"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddTeamMember",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddTeamMember.htm",
+					"title": "ConstituentPanel.AddTeamMember Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17137,6 +18256,9 @@
 						"name": "teamMember"
 					},
 					"returns": "True if the team member exists, false otherwise",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_TeamMemberExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_TeamMemberExists.htm",
+					"title": "ConstituentPanel.TeamMemberExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17165,6 +18287,9 @@
 							"name": "outline"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_AddMajorGivingPlan",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_AddMajorGivingPlan.htm",
+					"title": "ConstituentPanel.AddMajorGivingPlan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17187,6 +18312,9 @@
 						"_": "The name of the plan.",
 						"name": "planName"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_GoToPlan",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_GoToPlan.htm",
+					"title": "ConstituentPanel.GoToPlan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17210,6 +18338,9 @@
 						"name": "plan"
 					},
 					"returns": "True if the plan exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_PlanExists",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_PlanExists.htm",
+					"title": "ConstituentPanel.PlanExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17232,6 +18363,9 @@
 						"_": "The caption of the add menu item for the type of plan to add.",
 						"name": "planType"
 					},
+					"key": "M_Blueshirt_Core_Crm_ConstituentPanel_StartToAddAPlan",
+					"filename": "M_Blueshirt_Core_Crm_ConstituentPanel_StartToAddAPlan.htm",
+					"title": "ConstituentPanel.StartToAddAPlan Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17250,6 +18384,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.EventManagementTemplatesPanel",
 					"summary": "Class to handle interactions for the 'Event Management Templates' panel.",
+					"key": "T_Blueshirt_Core_Crm_EventManagementTemplatesPanel",
+					"filename": "T_Blueshirt_Core_Crm_EventManagementTemplatesPanel.htm",
+					"title": "EventManagementTemplatesPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17398,6 +18535,9 @@
 						"name": "templateName"
 					},
 					"returns": "True if the template exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel_TemplateExists",
+					"filename": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel_TemplateExists.htm",
+					"title": "EventManagementTemplatesPanel.TemplateExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17420,6 +18560,9 @@
 						"_": "The name of the template to add.",
 						"name": "templateName"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel_AddTemplate",
+					"filename": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel_AddTemplate.htm",
+					"title": "EventManagementTemplatesPanel.AddTemplate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17438,6 +18581,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.EventPanel",
 					"summary": "Class to handle interactions for the 'Event' panel.",
+					"key": "T_Blueshirt_Core_Crm_EventPanel",
+					"filename": "T_Blueshirt_Core_Crm_EventPanel.htm",
+					"title": "EventPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17795,6 +18941,9 @@
 						"_": "The last name of the constituent to add as a coordinator.",
 						"name": "constituentLastName"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddCoordinator",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddCoordinator.htm",
+					"title": "EventPanel.AddCoordinator Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17818,6 +18967,9 @@
 						"name": "coordinatorName"
 					},
 					"returns": "True if the coordinator exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_CoordinatorExists",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_CoordinatorExists.htm",
+					"title": "EventPanel.CoordinatorExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17841,6 +18993,9 @@
 						"name": "eventName"
 					},
 					"returns": "True if the event has the provided name, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_IsEventName",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_IsEventName.htm",
+					"title": "EventPanel.IsEventName Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17864,6 +19019,9 @@
 						"name": "startDate"
 					},
 					"returns": "True if the event starts on the start date, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_IsStartDate",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_IsStartDate.htm",
+					"title": "EventPanel.IsStartDate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17887,6 +19045,9 @@
 						"name": "location"
 					},
 					"returns": "True if the event occurs at the location, false otherwise",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_IsLocation",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_IsLocation.htm",
+					"title": "EventPanel.IsLocation Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17909,6 +19070,9 @@
 						"_": "Mapping of field captions to their desired values.",
 						"name": "option"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddRegistrationOption",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddRegistrationOption.htm",
+					"title": "EventPanel.AddRegistrationOption Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17932,6 +19096,9 @@
 						"name": "option"
 					},
 					"returns": "True if the registration option exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_RegistrationOptionExists",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_RegistrationOptionExists.htm",
+					"title": "EventPanel.RegistrationOptionExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17954,6 +19121,9 @@
 						"_": "The name of the event to copy the registration options from.",
 						"name": "copyFromEventName"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventPanel_CopyRegistrationOptions",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_CopyRegistrationOptions.htm",
+					"title": "EventPanel.CopyRegistrationOptions Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17976,6 +19146,9 @@
 						"_": "Mapping of the 'Add an expese' dialogs field captions to their desired values.",
 						"name": "expense"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddExpense",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddExpense.htm",
+					"title": "EventPanel.AddExpense Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -17999,6 +19172,9 @@
 						"name": "expense"
 					},
 					"returns": "True if the expense exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_ExpenseExists",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_ExpenseExists.htm",
+					"title": "EventPanel.ExpenseExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18017,6 +19193,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EventPanel.AddTaskDialog",
 					"summary": "Initiate the dialog for adding a task on the 'Tasks/Coordinators' tab. Note: This is technically a different dialog than the dialog for editing a task.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddTaskDialog",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddTaskDialog.htm",
+					"title": "EventPanel.AddTaskDialog Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18039,6 +19218,9 @@
 						"_": "The name of task to edit.",
 						"name": "taskName"
 					},
+					"key": "M_Blueshirt_Core_Crm_EventPanel_EditTask",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_EditTask.htm",
+					"title": "EventPanel.EditTask Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18068,6 +19250,9 @@
 						}
 					],
 					"returns": "True if the reminder exists on the task, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_ReminderExists",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_ReminderExists.htm",
+					"title": "EventPanel.ReminderExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18104,6 +19289,9 @@
 							"name": "preferences"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddPreference",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddPreference.htm",
+					"title": "EventPanel.AddPreference Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18127,6 +19315,9 @@
 						"name": "preference"
 					},
 					"returns": "True if the preference exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_PreferenceExists",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_PreferenceExists.htm",
+					"title": "EventPanel.PreferenceExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18145,6 +19336,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.EventPanel.AddRegistrant",
 					"summary": "Start to add a registrant by clicking the add button under the 'Registrations' tab.",
+					"key": "M_Blueshirt_Core_Crm_EventPanel_AddRegistrant",
+					"filename": "M_Blueshirt_Core_Crm_EventPanel_AddRegistrant.htm",
+					"title": "EventPanel.AddRegistrant Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18163,6 +19357,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.InformationLibraryPanel",
 					"summary": "Class to handle interactions for the 'Information Library' panel.",
+					"key": "T_Blueshirt_Core_Crm_InformationLibraryPanel",
+					"filename": "T_Blueshirt_Core_Crm_InformationLibraryPanel.htm",
+					"title": "InformationLibraryPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18490,6 +19687,9 @@
 						"_": "The type of query to add.",
 						"name": "type"
 					},
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_AddAdHocQuery",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_AddAdHocQuery.htm",
+					"title": "InformationLibraryPanel.AddAdHocQuery Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18508,6 +19708,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.InformationLibraryPanel.getXFilterQueryField",
 					"summary": "Return an Xpath for the Query Field on the InformationLibraryPanel.",
+					"key": "F_Blueshirt_Core_Crm_InformationLibraryPanel_getXFilterQueryField",
+					"filename": "F_Blueshirt_Core_Crm_InformationLibraryPanel_getXFilterQueryField.htm",
+					"title": "InformationLibraryPanel.getXFilterQueryField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18526,6 +19729,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.InformationLibraryPanel.getXDeleteQuery",
 					"summary": "Returns an Xpath for the Delete Query menu item on a InformationLibraryPanel.",
+					"key": "F_Blueshirt_Core_Crm_InformationLibraryPanel_getXDeleteQuery",
+					"filename": "F_Blueshirt_Core_Crm_InformationLibraryPanel_getXDeleteQuery.htm",
+					"title": "InformationLibraryPanel.getXDeleteQuery Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18549,6 +19755,9 @@
 						"name": "text"
 					},
 					"returns": "",
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXQuery",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXQuery.htm",
+					"title": "InformationLibraryPanel.getXQuery Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18577,6 +19786,9 @@
 							"name": "query"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection.htm",
+					"title": "InformationLibraryPanel.CopyQueryAsStaticSelection Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18600,6 +19812,9 @@
 						"name": "query"
 					},
 					"returns": "True if the query exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_QueryExists",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_QueryExists.htm",
+					"title": "InformationLibraryPanel.QueryExists Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18623,6 +19838,9 @@
 						"name": "query"
 					},
 					"returns": "True if the query exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_QueryExists",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_QueryExists.htm",
+					"title": "InformationLibraryPanel.QueryExists Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18645,6 +19863,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "query"
 					},
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_DeleteQuery",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_DeleteQuery.htm",
+					"title": "InformationLibraryPanel.DeleteQuery Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18667,6 +19888,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "query"
 					},
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_DeleteQuery",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_DeleteQuery.htm",
+					"title": "InformationLibraryPanel.DeleteQuery Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18695,6 +19919,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm",
+					"title": "InformationLibraryPanel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18723,6 +19950,9 @@
 							"name": "sectionCaption"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm",
+					"title": "InformationLibraryPanel.SelectSectionDatalistRow Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18752,6 +19982,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm",
+					"title": "InformationLibraryPanel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18781,6 +20014,9 @@
 						}
 					],
 					"returns": "True if the row exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm",
+					"title": "InformationLibraryPanel.SectionDatalistRowExists Method (IDictionary(String, String), String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18813,6 +20049,9 @@
 							"name": "columnCaptionToValue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow.htm",
+					"title": "InformationLibraryPanel.getXSectionDatalistRow Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18841,6 +20080,9 @@
 							"name": "columnValue"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXDataListColumnValue",
+					"filename": "M_Blueshirt_Core_Crm_InformationLibraryPanel_getXDataListColumnValue.htm",
+					"title": "InformationLibraryPanel.getXDataListColumnValue Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -18859,6 +20101,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.LocationsPanel",
 					"summary": "Class to handle interactions for the 'Locations' panel.",
+					"key": "T_Blueshirt_Core_Crm_LocationsPanel",
+					"filename": "T_Blueshirt_Core_Crm_LocationsPanel.htm",
+					"title": "LocationsPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19022,6 +20267,9 @@
 						"name": "locationName"
 					},
 					"returns": "True if the location exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_LocationsPanel_LocationExists",
+					"filename": "M_Blueshirt_Core_Crm_LocationsPanel_LocationExists.htm",
+					"title": "LocationsPanel.LocationExists Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19045,6 +20293,9 @@
 						"name": "location"
 					},
 					"returns": "True if the location exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_LocationsPanel_LocationExists",
+					"filename": "M_Blueshirt_Core_Crm_LocationsPanel_LocationExists.htm",
+					"title": "LocationsPanel.LocationExists Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19067,6 +20318,9 @@
 						"_": "The name of the location.",
 						"name": "locationName"
 					},
+					"key": "M_Blueshirt_Core_Crm_LocationsPanel_AddLocation",
+					"filename": "M_Blueshirt_Core_Crm_LocationsPanel_AddLocation.htm",
+					"title": "LocationsPanel.AddLocation Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19085,6 +20339,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MajorGivingSetupPanel",
 					"summary": "Class to handle interactions for the 'Major Giving Setup' panel.",
+					"key": "T_Blueshirt_Core_Crm_MajorGivingSetupPanel",
+					"filename": "T_Blueshirt_Core_Crm_MajorGivingSetupPanel.htm",
+					"title": "MajorGivingSetupPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19238,6 +20495,9 @@
 							"name": "steps"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel_AddPlanOutline",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel_AddPlanOutline.htm",
+					"title": "MajorGivingSetupPanel.AddPlanOutline Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19261,6 +20521,9 @@
 						"name": "plan"
 					},
 					"returns": "True if the plan exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists",
+					"filename": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists.htm",
+					"title": "MajorGivingSetupPanel.PlanOutlineExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19279,6 +20542,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MarketingAcknowledgementsPanel",
 					"summary": "Class to handle interactions for the 'Marketing Acknowledgements' panel.",
+					"key": "T_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel",
+					"filename": "T_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel.htm",
+					"title": "MarketingAcknowledgementsPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19437,6 +20703,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.MarketingAcknowledgementsPanel.AddTemplate",
 					"summary": "Start to add a new marketing acknowledgement template.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate.htm",
+					"title": "MarketingAcknowledgementsPanel.AddTemplate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19460,6 +20729,9 @@
 						"name": "template"
 					},
 					"returns": "True if the template exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists.htm",
+					"title": "MarketingAcknowledgementsPanel.TemplateExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19482,6 +20754,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "template"
 					},
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate.htm",
+					"title": "MarketingAcknowledgementsPanel.DeleteTemplate Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19500,6 +20775,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MarketingAcknowledgementTemplatePanel",
 					"summary": "Class to handle interactions for the 'Marketing Acknowledgement Template' panel.",
+					"key": "T_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel",
+					"filename": "T_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel.htm",
+					"title": "MarketingAcknowledgementTemplatePanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19643,6 +20921,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.MarketingAcknowledgementTemplatePanel.AddAcknowledgementRule",
 					"summary": "Start to add an acknowledgement rule to the template.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule.htm",
+					"title": "MarketingAcknowledgementTemplatePanel.AddAcknowledgementRule Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19661,6 +20942,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.MarketingAcknowledgementTemplatePanel.ProcessAcknowledgement",
 					"summary": "Start the process for the current acknowledgement template.",
+					"key": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement",
+					"filename": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement.htm",
+					"title": "MarketingAcknowledgementTemplatePanel.ProcessAcknowledgement Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19679,6 +20963,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.MultiEventPanel",
 					"summary": "Class to handle interactions for the 'Multi-Event' panel.",
+					"key": "T_Blueshirt_Core_Crm_MultiEventPanel",
+					"filename": "T_Blueshirt_Core_Crm_MultiEventPanel.htm",
+					"title": "MultiEventPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19827,6 +21114,9 @@
 						"name": "name"
 					},
 					"returns": "True if the multi event has the provided name, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MultiEventPanel_IsMultiEventName",
+					"filename": "M_Blueshirt_Core_Crm_MultiEventPanel_IsMultiEventName.htm",
+					"title": "MultiEventPanel.IsMultiEventName Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19850,6 +21140,9 @@
 						"name": "hierarchy"
 					},
 					"returns": "True if the multi-event has the provided hierarchy, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_MultiEventPanel_IsHierarchy",
+					"filename": "M_Blueshirt_Core_Crm_MultiEventPanel_IsHierarchy.htm",
+					"title": "MultiEventPanel.IsHierarchy Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -19876,6 +21169,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PackagesPanel",
 					"summary": "Class to handle interactions for the 'Packages' panel.",
+					"key": "T_Blueshirt_Core_Crm_PackagesPanel",
+					"filename": "T_Blueshirt_Core_Crm_PackagesPanel.htm",
+					"title": "PackagesPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20072,6 +21368,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "package"
 					},
+					"key": "M_Blueshirt_Core_Crm_PackagesPanel_DeletePackage",
+					"filename": "M_Blueshirt_Core_Crm_PackagesPanel_DeletePackage.htm",
+					"title": "PackagesPanel.DeletePackage Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20094,6 +21393,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "package"
 					},
+					"key": "M_Blueshirt_Core_Crm_PackagesPanel_DeletePackage",
+					"filename": "M_Blueshirt_Core_Crm_PackagesPanel_DeletePackage.htm",
+					"title": "PackagesPanel.DeletePackage Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20112,6 +21414,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.PackagesPanel.AddMailPackage",
 					"summary": "Start to add a mail package.",
+					"key": "M_Blueshirt_Core_Crm_PackagesPanel_AddMailPackage",
+					"filename": "M_Blueshirt_Core_Crm_PackagesPanel_AddMailPackage.htm",
+					"title": "PackagesPanel.AddMailPackage Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20135,6 +21440,9 @@
 						"name": "package"
 					},
 					"returns": "True if the package exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PackagesPanel_PackageExists",
+					"filename": "M_Blueshirt_Core_Crm_PackagesPanel_PackageExists.htm",
+					"title": "PackagesPanel.PackageExists Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20158,6 +21466,9 @@
 						"name": "package"
 					},
 					"returns": "True if the package exists, false otherwise",
+					"key": "M_Blueshirt_Core_Crm_PackagesPanel_PackageExists",
+					"filename": "M_Blueshirt_Core_Crm_PackagesPanel_PackageExists.htm",
+					"title": "PackagesPanel.PackageExists Method (IDictionary(String, String))",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20176,6 +21487,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PlanPanel",
 					"summary": "Class to handle interactions for the 'Plan' panel.",
+					"key": "T_Blueshirt_Core_Crm_PlanPanel",
+					"filename": "T_Blueshirt_Core_Crm_PlanPanel.htm",
+					"title": "PlanPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20353,6 +21667,9 @@
 						"_": "Mapping of the field captions for adding a step to their desired values.",
 						"name": "step"
 					},
+					"key": "M_Blueshirt_Core_Crm_PlanPanel_AddCompletedStep",
+					"filename": "M_Blueshirt_Core_Crm_PlanPanel_AddCompletedStep.htm",
+					"title": "PlanPanel.AddCompletedStep Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20376,6 +21693,9 @@
 						"name": "step"
 					},
 					"returns": "True if the step exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PlanPanel_CompletedStepExists",
+					"filename": "M_Blueshirt_Core_Crm_PlanPanel_CompletedStepExists.htm",
+					"title": "PlanPanel.CompletedStepExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20399,6 +21719,9 @@
 						"name": "step"
 					},
 					"returns": "True if the step exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PlanPanel_PlannedStepExists",
+					"filename": "M_Blueshirt_Core_Crm_PlanPanel_PlannedStepExists.htm",
+					"title": "PlanPanel.PlannedStepExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20417,6 +21740,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.PlanPanel.EditSteps",
 					"summary": "Click the 'Edit steps' button for the 'Planned and pending steps' section.",
+					"key": "M_Blueshirt_Core_Crm_PlanPanel_EditSteps",
+					"filename": "M_Blueshirt_Core_Crm_PlanPanel_EditSteps.htm",
+					"title": "PlanPanel.EditSteps Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20435,6 +21761,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PledgePanel",
 					"summary": "Class to handle interactions for the 'Pledge' panel.",
+					"key": "T_Blueshirt_Core_Crm_PledgePanel",
+					"filename": "T_Blueshirt_Core_Crm_PledgePanel.htm",
+					"title": "PledgePanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20613,6 +21942,9 @@
 						"name": "constituent"
 					},
 					"returns": "True if the pledge is associated with the provided constituent, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeConstituent",
+					"filename": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeConstituent.htm",
+					"title": "PledgePanel.IsPledgeConstituent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20636,6 +21968,9 @@
 						"name": "amount"
 					},
 					"returns": "True if the pledge is for the provided amount, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeAmount",
+					"filename": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeAmount.htm",
+					"title": "PledgePanel.IsPledgeAmount Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20659,6 +21994,9 @@
 						"name": "subtype"
 					},
 					"returns": "True if the pledge has the subtype, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeSubtype",
+					"filename": "M_Blueshirt_Core_Crm_PledgePanel_IsPledgeSubtype.htm",
+					"title": "PledgePanel.IsPledgeSubtype Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20682,6 +22020,9 @@
 						"name": "designation"
 					},
 					"returns": "True if the designation exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgePanel_DesignationExists",
+					"filename": "M_Blueshirt_Core_Crm_PledgePanel_DesignationExists.htm",
+					"title": "PledgePanel.DesignationExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20700,6 +22041,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.PledgeSubtypePanel",
 					"summary": "Class to handle interactions for the 'Pledge Subtype' panel.",
+					"key": "T_Blueshirt_Core_Crm_PledgeSubtypePanel",
+					"filename": "T_Blueshirt_Core_Crm_PledgeSubtypePanel.htm",
+					"title": "PledgeSubtypePanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20883,6 +22227,9 @@
 							"name": "postToGL"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_AddSubtype",
+					"filename": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_AddSubtype.htm",
+					"title": "PledgeSubtypePanel.AddSubtype Method (String, Boolean)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20905,6 +22252,9 @@
 						"_": "Mapping of the 'Add a pledge subtype' field captions to their values.",
 						"name": "subtype"
 					},
+					"key": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_AddSubtype",
+					"filename": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_AddSubtype.htm",
+					"title": "PledgeSubtypePanel.AddSubtype Method (String, Boolean)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20928,6 +22278,9 @@
 						"name": "name"
 					},
 					"returns": "True if the subtype exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_SubtypeExists",
+					"filename": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm",
+					"title": "PledgeSubtypePanel.SubtypeExists Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20951,6 +22304,9 @@
 						"name": "subtype"
 					},
 					"returns": "True if the subtype exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_SubtypeExists",
+					"filename": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm",
+					"title": "PledgeSubtypePanel.SubtypeExists Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -20969,6 +22325,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.Panels.QueryPanel",
 					"summary": "Class to handle interactions for the 'Query' panel.",
+					"key": "T_Blueshirt_Core_Crm_Panels_QueryPanel",
+					"filename": "T_Blueshirt_Core_Crm_Panels_QueryPanel.htm",
+					"title": "QueryPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21217,6 +22576,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panels.QueryPanel.getXAddButton",
 					"summary": "Returns an Xpath for the Add button on a QueryPanel.",
+					"key": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXAddButton",
+					"filename": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXAddButton.htm",
+					"title": "QueryPanel.getXAddButton Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21235,6 +22597,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panels.QueryPanel.getXAdhocQuery",
 					"summary": "Returns an Xpath for the Adhoc Query menu item on a QueryPanel.",
+					"key": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXAdhocQuery",
+					"filename": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXAdhocQuery.htm",
+					"title": "QueryPanel.getXAdhocQuery Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21253,6 +22618,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.Panels.QueryPanel.getXFilterQueryField",
 					"summary": "Returns an Xpath for the Query Filter field on a QueryPanel.",
+					"key": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXFilterQueryField",
+					"filename": "F_Blueshirt_Core_Crm_Panels_QueryPanel_getXFilterQueryField.htm",
+					"title": "QueryPanel.getXFilterQueryField Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21276,6 +22644,9 @@
 						"name": "text"
 					},
 					"returns": "",
+					"key": "M_Blueshirt_Core_Crm_Panels_QueryPanel_getXDeleteQuery",
+					"filename": "M_Blueshirt_Core_Crm_Panels_QueryPanel_getXDeleteQuery.htm",
+					"title": "QueryPanel.getXDeleteQuery Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21299,6 +22670,9 @@
 						"name": "text"
 					},
 					"returns": "",
+					"key": "M_Blueshirt_Core_Crm_Panels_QueryPanel_getXQuery",
+					"filename": "M_Blueshirt_Core_Crm_Panels_QueryPanel_getXQuery.htm",
+					"title": "QueryPanel.getXQuery Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21317,6 +22691,9 @@
 				{
 					"name": "M:Blueshirt.Core.BBIS.BBISHomePage.Logon",
 					"summary": "Logon with the credentials specified in the config file.",
+					"key": "M_Blueshirt_Core_BBIS_BBISHomePage_Logon",
+					"filename": "M_Blueshirt_Core_BBIS_BBISHomePage_Logon.htm",
+					"title": "BBISHomePage.Logon Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21335,6 +22712,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.BBCRMHomePage",
 					"summary": "A class for handling interactions and actions on the main BBCRM page.",
+					"key": "T_Blueshirt_Core_Crm_BBCRMHomePage",
+					"filename": "T_Blueshirt_Core_Crm_BBCRMHomePage.htm",
+					"title": "BBCRMHomePage Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21703,6 +23083,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BBCRMHomePage.getXMenuMore",
 					"summary": "Returns an Xpath for the more button icon on the toolbar.",
+					"key": "F_Blueshirt_Core_Crm_BBCRMHomePage_getXMenuMore",
+					"filename": "F_Blueshirt_Core_Crm_BBCRMHomePage_getXMenuMore.htm",
+					"title": "BBCRMHomePage.getXMenuMore Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21725,6 +23108,9 @@
 						"_": "The caption of the task.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_getXTask",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_getXTask.htm",
+					"title": "BBCRMHomePage.getXTask Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21747,6 +23133,9 @@
 						"_": "The caption of the tab.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_getXExtTab",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_getXExtTab.htm",
+					"title": "BBCRMHomePage.getXExtTab Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21765,6 +23154,9 @@
 				{
 					"name": "F:Blueshirt.Core.Crm.BBCRMHomePage.getXWaitBar",
 					"summary": "Returns an Xpath for the WaitBar",
+					"key": "F_Blueshirt_Core_Crm_BBCRMHomePage_getXWaitBar",
+					"filename": "F_Blueshirt_Core_Crm_BBCRMHomePage_getXWaitBar.htm",
+					"title": "BBCRMHomePage.getXWaitBar Field",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21783,6 +23175,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenConstituentsFA",
 					"summary": "Navigate to the 'Constituents' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenConstituentsFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenConstituentsFA.htm",
+					"title": "BBCRMHomePage.OpenConstituentsFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21801,6 +23196,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenFundraisingFA",
 					"summary": "Navigate to the 'Fundraising' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFundraisingFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFundraisingFA.htm",
+					"title": "BBCRMHomePage.OpenFundraisingFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21819,6 +23217,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenRevenueFA",
 					"summary": "Navigate to the 'Revenue' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenRevenueFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenRevenueFA.htm",
+					"title": "BBCRMHomePage.OpenRevenueFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21837,6 +23238,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenEventsFA",
 					"summary": "Navigate to the 'Events' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenEventsFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenEventsFA.htm",
+					"title": "BBCRMHomePage.OpenEventsFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21855,6 +23259,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenProspectsFA",
 					"summary": "Navigate to the 'Prospects' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenProspectsFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenProspectsFA.htm",
+					"title": "BBCRMHomePage.OpenProspectsFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21873,6 +23280,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenAnalysisFA",
 					"summary": "Navigate to the 'Analysis' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenAnalysisFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenAnalysisFA.htm",
+					"title": "BBCRMHomePage.OpenAnalysisFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21891,6 +23301,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenMembershipsFA",
 					"summary": "Navigate to the 'Memberships' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenMembershipsFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenMembershipsFA.htm",
+					"title": "BBCRMHomePage.OpenMembershipsFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21909,6 +23322,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.OpenMarketingAndCommunicationsFA",
 					"summary": "Navigate to the 'Marketing and Communications' functional area.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA.htm",
+					"title": "BBCRMHomePage.OpenMarketingAndCommunicationsFA Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21937,6 +23353,9 @@
 							"name": "imageName"
 						}
 					],
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFunctionalArea",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm",
+					"title": "BBCRMHomePage.OpenFunctionalArea Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21959,6 +23378,9 @@
 						"_": "The caption(name) of the Functional Area to open.",
 						"name": "caption"
 					},
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFunctionalArea",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm",
+					"title": "BBCRMHomePage.OpenFunctionalArea Method (String)",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21977,6 +23399,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.BBCRMHomePage.Logon",
 					"summary": "Logon with the credentials specified in the config file.",
+					"key": "M_Blueshirt_Core_Crm_BBCRMHomePage_Logon",
+					"filename": "M_Blueshirt_Core_Crm_BBCRMHomePage_Logon.htm",
+					"title": "BBCRMHomePage.Logon Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -21995,6 +23420,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.ReceiptsPanel",
 					"summary": "Class to handle interactions for the 'Receipts' panel.",
+					"key": "T_Blueshirt_Core_Crm_ReceiptsPanel",
+					"filename": "T_Blueshirt_Core_Crm_ReceiptsPanel.htm",
+					"title": "ReceiptsPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22142,6 +23570,9 @@
 						"_": "Mapping of the field captions to their desired values.",
 						"name": "receipt"
 					},
+					"key": "M_Blueshirt_Core_Crm_ReceiptsPanel_AddReceipt",
+					"filename": "M_Blueshirt_Core_Crm_ReceiptsPanel_AddReceipt.htm",
+					"title": "ReceiptsPanel.AddReceipt Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22164,6 +23595,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "receiptProcess"
 					},
+					"key": "M_Blueshirt_Core_Crm_ReceiptsPanel_RunReceiptProcess",
+					"filename": "M_Blueshirt_Core_Crm_ReceiptsPanel_RunReceiptProcess.htm",
+					"title": "ReceiptsPanel.RunReceiptProcess Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22182,6 +23616,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.RecurringGiftPanel",
 					"summary": "Class to handle interactions for the 'Recurring Gift' panel.",
+					"key": "T_Blueshirt_Core_Crm_RecurringGiftPanel",
+					"filename": "T_Blueshirt_Core_Crm_RecurringGiftPanel.htm",
+					"title": "RecurringGiftPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22315,6 +23752,9 @@
 						"name": "designation"
 					},
 					"returns": "True if the designation exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_RecurringGiftPanel_DesignationExists",
+					"filename": "M_Blueshirt_Core_Crm_RecurringGiftPanel_DesignationExists.htm",
+					"title": "RecurringGiftPanel.DesignationExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22333,6 +23773,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.RegistrantPanel",
 					"summary": "Class to handle interactions for the 'Event Registrant' panel.",
+					"key": "T_Blueshirt_Core_Crm_RegistrantPanel",
+					"filename": "T_Blueshirt_Core_Crm_RegistrantPanel.htm",
+					"title": "RegistrantPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22496,6 +23939,9 @@
 						"name": "registrant"
 					},
 					"returns": "True if the provided name is the name of the registrant.",
+					"key": "M_Blueshirt_Core_Crm_RegistrantPanel_IsRegistrant",
+					"filename": "M_Blueshirt_Core_Crm_RegistrantPanel_IsRegistrant.htm",
+					"title": "RegistrantPanel.IsRegistrant Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22519,6 +23965,9 @@
 						"name": "eventName"
 					},
 					"returns": "True if the provided name is the name of the associated event.",
+					"key": "M_Blueshirt_Core_Crm_RegistrantPanel_IsEvent",
+					"filename": "M_Blueshirt_Core_Crm_RegistrantPanel_IsEvent.htm",
+					"title": "RegistrantPanel.IsEvent Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22542,6 +23991,9 @@
 						"name": "numGuests"
 					},
 					"returns": "True if the provided number is the listed number of guests.",
+					"key": "M_Blueshirt_Core_Crm_RegistrantPanel_IsNumGuests",
+					"filename": "M_Blueshirt_Core_Crm_RegistrantPanel_IsNumGuests.htm",
+					"title": "RegistrantPanel.IsNumGuests Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22560,6 +24012,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.RevenueRecordPanel",
 					"summary": "Class to handle interactions for the 'Revenue Record' panel.",
+					"key": "T_Blueshirt_Core_Crm_RevenueRecordPanel",
+					"filename": "T_Blueshirt_Core_Crm_RevenueRecordPanel.htm",
+					"title": "RevenueRecordPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22738,6 +24193,9 @@
 						"name": "subtype"
 					},
 					"returns": "True if the subtype is the expected value, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsSubtype",
+					"filename": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsSubtype.htm",
+					"title": "RevenueRecordPanel.IsSubtype Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22761,6 +24219,9 @@
 						"name": "donation"
 					},
 					"returns": "True if the donation exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_RevenueRecordPanel_PaymentExists",
+					"filename": "M_Blueshirt_Core_Crm_RevenueRecordPanel_PaymentExists.htm",
+					"title": "RevenueRecordPanel.PaymentExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22780,6 +24241,9 @@
 					"name": "M:Blueshirt.Core.Crm.RevenueRecordPanel.IsReceipted",
 					"summary": "Check if a payment is marked as 'Receipted'",
 					"returns": "True if the payment is 'Receipted', false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsReceipted",
+					"filename": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsReceipted.htm",
+					"title": "RevenueRecordPanel.IsReceipted Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22799,6 +24263,9 @@
 					"name": "M:Blueshirt.Core.Crm.RevenueRecordPanel.IsAcknowledged",
 					"summary": "Check if a payment is marked as 'Acknowledged'",
 					"returns": "True if the payment is 'Acknowledged', false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsAcknowledged",
+					"filename": "M_Blueshirt_Core_Crm_RevenueRecordPanel_IsAcknowledged.htm",
+					"title": "RevenueRecordPanel.IsAcknowledged Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22817,6 +24284,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.SegmentPanel",
 					"summary": "Class to handle interactions for the 'Segment' panel.",
+					"key": "T_Blueshirt_Core_Crm_SegmentPanel",
+					"filename": "T_Blueshirt_Core_Crm_SegmentPanel.htm",
+					"title": "SegmentPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -22980,6 +24450,9 @@
 						"name": "effort"
 					},
 					"returns": "True if the effort exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists",
+					"filename": "M_Blueshirt_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists.htm",
+					"title": "SegmentPanel.ActivatedMarketingEffortExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23002,6 +24475,9 @@
 						"_": "The name of the template that the effort uses.",
 						"name": "marketingTemplate"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort",
+					"filename": "M_Blueshirt_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort.htm",
+					"title": "SegmentPanel.DeleteActivatedMarketingEffort Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23020,6 +24496,9 @@
 				{
 					"name": "M:Blueshirt.Core.Crm.SegmentPanel.DeleteSegment",
 					"summary": "Delete the current segment.",
+					"key": "M_Blueshirt_Core_Crm_SegmentPanel_DeleteSegment",
+					"filename": "M_Blueshirt_Core_Crm_SegmentPanel_DeleteSegment.htm",
+					"title": "SegmentPanel.DeleteSegment Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23038,6 +24517,9 @@
 				{
 					"name": "T:Blueshirt.Core.Crm.SegmentsPanel",
 					"summary": "Class to handle interactions for the 'Segments' panel.",
+					"key": "T_Blueshirt_Core_Crm_SegmentsPanel",
+					"filename": "T_Blueshirt_Core_Crm_SegmentsPanel.htm",
+					"title": "SegmentsPanel Class",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23215,6 +24697,9 @@
 						"_": "The type of segment to add.  Corresponds to the caption of Add menu items.",
 						"name": "segmentType"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentsPanel_AddSegment",
+					"filename": "M_Blueshirt_Core_Crm_SegmentsPanel_AddSegment.htm",
+					"title": "SegmentsPanel.AddSegment Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23237,6 +24722,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "segment"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentsPanel_DeleteSegment",
+					"filename": "M_Blueshirt_Core_Crm_SegmentsPanel_DeleteSegment.htm",
+					"title": "SegmentsPanel.DeleteSegment Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23260,6 +24748,9 @@
 						"name": "segment"
 					},
 					"returns": "True if the segment exists, false otherwise.",
+					"key": "M_Blueshirt_Core_Crm_SegmentsPanel_SegmentExists",
+					"filename": "M_Blueshirt_Core_Crm_SegmentsPanel_SegmentExists.htm",
+					"title": "SegmentsPanel.SegmentExists Method ",
 					"syntax": [
 						{
 							"type": "C#",
@@ -23282,6 +24773,9 @@
 						"_": "Mapping of the column captions to a single row's values.",
 						"name": "segment"
 					},
+					"key": "M_Blueshirt_Core_Crm_SegmentsPanel_GoToSegment",
+					"filename": "M_Blueshirt_Core_Crm_SegmentsPanel_GoToSegment.htm",
+					"title": "SegmentsPanel.GoToSegment Method ",
 					"syntax": [
 						{
 							"type": "C#",

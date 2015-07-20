@@ -1,0 +1,1066 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Title="Blackbaud UAT Quick Start" Url="html/f52e699b-de1d-4242-bd0a-ab85261f9c93.htm" />
+  <HelpTOCNode Id="daa92b83-8ad5-4112-b686-c247fa6d475d" Title="Delving Deeper" Url="html/d48ef890-924b-44ec-8ce1-856896c0abec.htm">
+    <HelpTOCNode Title="Using the Selenium WebDriver" Url="html/aa9d7059-e8f6-4e72-a741-a9fa2e5411f0.htm" />
+    <HelpTOCNode Title="XPath Guidelines" Url="html/8f3ad4c4-e6cf-4411-8d1a-7ca773037e33.htm" />
+    <HelpTOCNode Title="SpecFlow&#39;s Table and TableRow Guidelines" Url="html/0990eabd-be52-47c5-8273-0467c26eb79b.htm" />
+    <HelpTOCNode Title="Setting Custom Fields" Url="html/4d721943-df97-4c91-aed1-7aeea9372876.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="973ced7f-223f-4ed0-a600-d2337001625b" Title="Version History" Url="html/48fdba0e-bf5f-4870-9c25-746bd3cedcb3.htm">
+    <HelpTOCNode Title="Version 1.0.0.0" Url="html/83e4ed97-1714-41f0-a719-94ba1bf767dc.htm" />
+  </HelpTOCNode>
+  <HelpTOCNode Id="24763b7e-e68f-4f25-ba5f-df5a24e9265a" Title="Blue API" Url="html/R_Project_Blackbaud_UAT_Doc.htm">
+    <HelpTOCNode Id="4306779c-c242-4517-8626-4912f5c293e6" Title="Blackbaud.UAT.Base" Url="html/N_Blackbaud_UAT_Base.htm">
+      <HelpTOCNode Id="f3711c75-f1ab-4051-b00c-aa53111ea4cb" Title="BaseComponent Class" Url="html/T_Blackbaud_UAT_Base_BaseComponent.htm">
+        <HelpTOCNode Title="BaseComponent Constructor " Url="html/M_Blackbaud_UAT_Base_BaseComponent__ctor.htm" />
+        <HelpTOCNode Id="da80ceb9-fff5-4708-a3e7-b9451c157deb" Title="BaseComponent Methods" Url="html/Methods_T_Blackbaud_UAT_Base_BaseComponent.htm">
+          <HelpTOCNode Title="ClickButton Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ClickButton.htm" />
+          <HelpTOCNode Title="ConvertToBool Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ConvertToBool.htm" />
+          <HelpTOCNode Title="CopyToClipBoard Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_CopyToClipBoard.htm" />
+          <HelpTOCNode Title="ElementValueIsNotNullOrEmpty Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsNotNullOrEmpty.htm" />
+          <HelpTOCNode Title="ElementValueIsSet Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsSet.htm" />
+          <HelpTOCNode Title="Exists Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_Exists.htm" />
+          <HelpTOCNode Title="ExistsNow Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ExistsNow.htm" />
+          <HelpTOCNode Title="GetDatalistColumnIndex Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDatalistColumnIndex.htm" />
+          <HelpTOCNode Title="GetDisplayedElement Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDisplayedElement.htm" />
+          <HelpTOCNode Title="GetEnabledElement Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetEnabledElement.htm" />
+          <HelpTOCNode Title="getXButton Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXButton.htm" />
+          <HelpTOCNode Title="getXMenuItem Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXMenuItem.htm" />
+          <HelpTOCNode Title="MapColumnCaptionsToIndex Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_MapColumnCaptionsToIndex.htm" />
+          <HelpTOCNode Id="6a90db8a-6570-4ba5-a300-29d4862d7e3b" Title="SetCheckbox Method " Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_SetCheckbox.htm">
+            <HelpTOCNode Title="SetCheckbox Method (String, Boolean)" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetCheckbox.htm" />
+            <HelpTOCNode Title="SetCheckbox Method (String, String)" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetCheckbox_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetCredentailsField Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetCredentailsField.htm" />
+          <HelpTOCNode Title="SetTextField Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetTextField.htm" />
+          <HelpTOCNode Id="7cf5fbd6-4a12-4ea0-9087-d39dbee4b789" Title="WaitClick Method " Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_WaitClick.htm">
+            <HelpTOCNode Title="WaitClick Method (String)" Url="html/M_Blackbaud_UAT_Base_BaseComponent_WaitClick.htm" />
+            <HelpTOCNode Title="WaitClick Method (String, Double)" Url="html/M_Blackbaud_UAT_Base_BaseComponent_WaitClick_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Id="64716049-cfc5-4ae8-9e3a-f8c6ecb6b65f" Title="BaseComponent Properties" Url="html/Properties_T_Blackbaud_UAT_Base_BaseComponent.htm">
+          <HelpTOCNode Title="Driver Property " Url="html/P_Blackbaud_UAT_Base_BaseComponent_Driver.htm" />
+          <HelpTOCNode Title="TimeoutSecs Property " Url="html/P_Blackbaud_UAT_Base_BaseComponent_TimeoutSecs.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_Blackbaud_UAT_Base_BaseComponent_Title.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="8de8411a-2c37-4e96-82d8-92a5ff189ff5" Title="CrmField Class" Url="html/T_Blackbaud_UAT_Base_CrmField.htm">
+        <HelpTOCNode Id="51e78d41-f39d-4709-aa13-b03a8bcc2816" Title="CrmField Constructor " Url="html/Overload_Blackbaud_UAT_Base_CrmField__ctor.htm">
+          <HelpTOCNode Title="CrmField Constructor (String, FieldType)" Url="html/M_Blackbaud_UAT_Base_CrmField__ctor.htm" />
+          <HelpTOCNode Title="CrmField Constructor (String, FieldType, String, String)" Url="html/M_Blackbaud_UAT_Base_CrmField__ctor_1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="30922250-092a-4e10-adde-96a5ca187c6c" Title="CrmField Fields" Url="html/Fields_T_Blackbaud_UAT_Base_CrmField.htm">
+          <HelpTOCNode Title="CellType Field" Url="html/F_Blackbaud_UAT_Base_CrmField_CellType.htm" />
+          <HelpTOCNode Title="Id Field" Url="html/F_Blackbaud_UAT_Base_CrmField_Id.htm" />
+          <HelpTOCNode Title="SearchDialogFieldId Field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogFieldId.htm" />
+          <HelpTOCNode Title="SearchDialogId Field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogId.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CrmField Methods" Url="html/Methods_T_Blackbaud_UAT_Base_CrmField.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Title="FieldType Enumeration" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+    </HelpTOCNode>
+    <HelpTOCNode Id="d93a1868-3dcf-4399-b845-c909c7b07b30" Title="Blackbaud.UAT.Core.Base" Url="html/N_Blackbaud_UAT_Core_Base.htm">
+      <HelpTOCNode Id="9ad9c963-a6f8-4522-bb24-8c307735ddc4" Title="BaseSteps Class" Url="html/T_Blackbaud_UAT_Core_Base_BaseSteps.htm">
+        <HelpTOCNode Title="BaseSteps Constructor " Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps__ctor.htm" />
+        <HelpTOCNode Id="8926e169-da68-49ac-a7a1-6ec7b20a95ed" Title="BaseSteps Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Base_BaseSteps.htm">
+          <HelpTOCNode Title="testStamp Field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_testStamp.htm" />
+          <HelpTOCNode Title="uniqueStamp Field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_uniqueStamp.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="447f43a1-a709-4e48-87e3-b6a0bf8be6b1" Title="BaseSteps Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Base_BaseSteps.htm">
+          <HelpTOCNode Title="FailTest Method " Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps_FailTest.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="6fbb9c19-619a-457e-a578-617ea6a2a798" Title="Blackbaud.UAT.Core.Bbis.Pages" Url="html/N_Blackbaud_UAT_Core_Bbis_Pages.htm">
+      <HelpTOCNode Id="e6678f48-3002-48a3-afc6-c3af742b42b0" Title="BBISHomePage Class" Url="html/T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm">
+        <HelpTOCNode Title="BBISHomePage Constructor " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage__ctor.htm" />
+        <HelpTOCNode Id="4ea26697-b558-4c27-8155-eca336b2dc4c" Title="BBISHomePage Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm">
+          <HelpTOCNode Title="getXFilterByNameButton Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameButton.htm" />
+          <HelpTOCNode Title="getXFilterByNameField Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameField.htm" />
+          <HelpTOCNode Title="getXLayoutGridNameField Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutGridNameField.htm" />
+          <HelpTOCNode Title="getXLayoutSearchResultsLine Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutSearchResultsLine.htm" />
+          <HelpTOCNode Title="getXLoginButton Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLoginButton.htm" />
+          <HelpTOCNode Title="getXNewLayoutButton Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutButton.htm" />
+          <HelpTOCNode Title="getXNewLayoutLayoutDescription Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutDescription.htm" />
+          <HelpTOCNode Title="getXNewLayoutLayoutName Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutName.htm" />
+          <HelpTOCNode Title="getXNewLayoutNextButton Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutNextButton.htm" />
+          <HelpTOCNode Title="getXNewLayoutSaveButton Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutSaveButton.htm" />
+          <HelpTOCNode Title="getXPasswordField Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXPasswordField.htm" />
+          <HelpTOCNode Title="getXUserNameField Field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXUserNameField.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="d01fd954-a2b3-4a03-b945-95331cc21730" Title="BBISHomePage Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm">
+          <HelpTOCNode Title="CheckLayoutSearchResultsContain Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_CheckLayoutSearchResultsContain.htm" />
+          <HelpTOCNode Title="DeleteLayout Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_DeleteLayout.htm" />
+          <HelpTOCNode Title="FilterLayoutByName Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_FilterLayoutByName.htm" />
+          <HelpTOCNode Title="Login Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Login.htm" />
+          <HelpTOCNode Title="LoginAs Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_LoginAs.htm" />
+          <HelpTOCNode Title="NewLayout Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_NewLayout.htm" />
+          <HelpTOCNode Title="OpenImageLibrary Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenImageLibrary.htm" />
+          <HelpTOCNode Title="OpenLayoutGallery Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenLayoutGallery.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3dc84cef-7411-46cf-9812-7cd170b6f521" Title="BBISHomePage Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm">
+          <HelpTOCNode Title="BaseUrl Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_BaseUrl.htm" />
+          <HelpTOCNode Title="Title Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Title.htm" />
+          <HelpTOCNode Title="VirtualPath Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_VirtualPath.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="f7548197-e4ef-4871-a52e-7bdfee269fbb" Title="Blackbaud.UAT.Core.Crm" Url="html/N_Blackbaud_UAT_Core_Crm.htm">
+      <HelpTOCNode Id="67482529-ae94-4470-9770-ed79f3dd6c6a" Title="AdHocQueryDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm">
+        <HelpTOCNode Title="AdHocQueryDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog__ctor.htm" />
+        <HelpTOCNode Id="b33809d4-d111-4e4b-9997-9e4c8aa49133" Title="AdHocQueryDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e4406aa6-f292-4595-a135-bf508dd4096f" Title="AdHocQueryDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm">
+          <HelpTOCNode Title="AddFilterField Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddFilterField.htm" />
+          <HelpTOCNode Title="AddOutputField Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddOutputField.htm" />
+          <HelpTOCNode Title="ApplyCriteria Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ApplyCriteria.htm" />
+          <HelpTOCNode Title="ExpandNode Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ExpandNode.htm" />
+          <HelpTOCNode Title="FilterBy Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_FilterBy.htm" />
+          <HelpTOCNode Title="SaveAndClose Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SaveAndClose.htm" />
+          <HelpTOCNode Title="SetSaveOptions Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SetSaveOptions.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AdHocQueryDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="421ae558-45ac-48b2-81d5-e9659d4a5e3d" Title="AdHocQueryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm">
+        <HelpTOCNode Title="AdHocQueryPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel__ctor.htm" />
+        <HelpTOCNode Id="da08b0f6-a5c6-4222-acf3-73c39fb8671d" Title="AdHocQueryPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm">
+          <HelpTOCNode Title="IsPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel_IsPanelHeader.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AdHocQueryPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="231cfc38-72cc-4837-99d1-4c9b674ddc97" Title="AnalysisFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm">
+        <HelpTOCNode Title="AnalysisFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="dc351ebd-dd34-4c22-9ab1-20a79c3d0eb7" Title="AnalysisFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm">
+          <HelpTOCNode Title="InformationLibrary Method " Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_InformationLibrary.htm" />
+          <HelpTOCNode Title="OpenQueryPanel Method " Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AnalysisFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="19b44f83-8048-4322-a91b-fe79b4f8dbcd" Title="BatchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchDialog.htm">
+        <HelpTOCNode Title="BatchDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog__ctor.htm" />
+        <HelpTOCNode Id="e9717ec2-a1d5-4994-be73-665f6abedc02" Title="BatchDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm">
+          <HelpTOCNode Title="BatchDialogGridId Field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogGridId.htm" />
+          <HelpTOCNode Title="BatchDialogId Field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogId.htm" />
+          <HelpTOCNode Title="ColumnToBatchColumn Field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_ColumnToBatchColumn.htm" />
+          <HelpTOCNode Title="getXBatchGridHeaders Field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_getXBatchGridHeaders.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="64d9b947-226c-4ac2-8654-5c3449a55500" Title="BatchDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm">
+          <HelpTOCNode Title="EditConstituent Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_EditConstituent.htm" />
+          <HelpTOCNode Title="GetColumnIndexByCaption Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexByCaption.htm" />
+          <HelpTOCNode Title="GetColumnIndexById Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexById.htm" />
+          <HelpTOCNode Title="GetGridCellValue Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetGridCellValue.htm" />
+          <HelpTOCNode Title="SaveAndClose Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SaveAndClose.htm" />
+          <HelpTOCNode Title="SetGridCell Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridCell.htm" />
+          <HelpTOCNode Title="SetGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRow.htm" />
+          <HelpTOCNode Title="SetGridRows Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRows.htm" />
+          <HelpTOCNode Title="Validate Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_Validate.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BatchDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eadf164f-9276-4f9b-af78-efe09386548f" Title="BatchEntryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm">
+        <HelpTOCNode Title="BatchEntryPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel__ctor.htm" />
+        <HelpTOCNode Id="b2fccb07-d897-426a-b12a-832a17db52bb" Title="BatchEntryPanel Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm">
+          <HelpTOCNode Title="getXSearchInput Field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchEntryPanel_getXSearchInput.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bbe8c84c-de12-44b4-a495-0ec5aed5c55a" Title="BatchEntryPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm">
+          <HelpTOCNode Id="e8965f0e-1a0a-4bc3-b18a-db3642b88fd9" Title="AddBatch Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch.htm">
+            <HelpTOCNode Title="AddBatch Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch.htm" />
+            <HelpTOCNode Title="AddBatch Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CommitSelectedBatch Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_CommitSelectedBatch.htm" />
+          <HelpTOCNode Title="SelectUncommittedBatch Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_SelectUncommittedBatch.htm" />
+          <HelpTOCNode Title="UncommittedBatchExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_UncommittedBatchExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BatchEntryPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d4d4b14d-b44e-407e-a200-72d2f8483c96" Title="BBCRMHomePage Class" Url="html/T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm">
+        <HelpTOCNode Title="BBCRMHomePage Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage__ctor.htm" />
+        <HelpTOCNode Id="7a3b484c-ea5a-4cd3-8b91-2eca79119209" Title="BBCRMHomePage Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm">
+          <HelpTOCNode Title="getXMenuMore Field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXMenuMore.htm" />
+          <HelpTOCNode Title="getXWaitBar Field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXWaitBar.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="78efd081-6a6f-4bc2-8e17-02d1cf595215" Title="BBCRMHomePage Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm">
+          <HelpTOCNode Title="getXExtMenuTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtMenuTab.htm" />
+          <HelpTOCNode Title="getXExtTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtTab.htm" />
+          <HelpTOCNode Title="getXTask Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXTask.htm" />
+          <HelpTOCNode Title="Login Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_Login.htm" />
+          <HelpTOCNode Title="LoginAs Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_LoginAs.htm" />
+          <HelpTOCNode Title="OpenAnalysisFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenAnalysisFA.htm" />
+          <HelpTOCNode Title="OpenConstituentsFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenConstituentsFA.htm" />
+          <HelpTOCNode Title="OpenEventsFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenEventsFA.htm" />
+          <HelpTOCNode Id="b1a97ee1-17ad-4272-b395-78368206c4a6" Title="OpenFunctionalArea Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm">
+            <HelpTOCNode Title="OpenFunctionalArea Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm" />
+            <HelpTOCNode Title="OpenFunctionalArea Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="OpenFundraisingFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFundraisingFA.htm" />
+          <HelpTOCNode Title="OpenMarketingAndCommunicationsFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA.htm" />
+          <HelpTOCNode Title="OpenMembershipsFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMembershipsFA.htm" />
+          <HelpTOCNode Title="OpenProspectsFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenProspectsFA.htm" />
+          <HelpTOCNode Title="OpenRevenueFA Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenRevenueFA.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="6ba10937-746a-45d1-a540-dc724791e11d" Title="BBCRMHomePage Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm">
+          <HelpTOCNode Title="BaseUrl Property " Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_BaseUrl.htm" />
+          <HelpTOCNode Title="VirtualPath Property " Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_VirtualPath.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="57b10863-3af6-4f50-9665-7f4e740d9322" Title="BusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm">
+        <HelpTOCNode Title="BusinessProcess Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess__ctor.htm" />
+        <HelpTOCNode Id="4a3b7044-6ec9-45f1-bbd7-1530e4c34fb1" Title="BusinessProcess Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm">
+          <HelpTOCNode Title="getXCommitStatus Field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXCommitStatus.htm" />
+          <HelpTOCNode Title="getXRecordsProcessed Field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXRecordsProcessed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="a30983e8-6fe1-468f-9874-9853cdad5d17" Title="BusinessProcess Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm">
+          <HelpTOCNode Title="IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsCompleted.htm" />
+          <HelpTOCNode Title="IsNumRecordsProcessed Method " Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsNumRecordsProcessed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="BusinessProcess Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e96ddf98-b1ac-41a9-9a5c-20491a89ebb2" Title="CommitmentsDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm">
+        <HelpTOCNode Title="CommitmentsDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog__ctor.htm" />
+        <HelpTOCNode Id="818e0314-478d-4ed7-b3d1-91c083f2bada" Title="CommitmentsDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedAddtionalApplicationsGridFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="1486b674-47f6-4405-b1a4-d7b8f3a77ed8" Title="CommitmentsDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm">
+          <HelpTOCNode Title="SetAdditionalApplicationsGridRows Method " Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="CommitmentsDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a5e53307-5d88-4dca-a9d1-019bd3e83f01" Title="ConstituentPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm">
+        <HelpTOCNode Title="ConstituentPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel__ctor.htm" />
+        <HelpTOCNode Id="96aa5af7-02b0-4417-b97c-83739c596fc6" Title="ConstituentPanel Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm">
+          <HelpTOCNode Title="getXYesReallyDelete Field" Url="html/F_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXYesReallyDelete.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="9a9ce950-e32e-415c-a2a0-bd3273bbd71a" Title="ConstituentPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm">
+          <HelpTOCNode Title="AddConstituency Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddConstituency.htm" />
+          <HelpTOCNode Title="AddMajorGivingPlan Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddMajorGivingPlan.htm" />
+          <HelpTOCNode Title="AddNote Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNote.htm" />
+          <HelpTOCNode Title="AddNotification Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNotification.htm" />
+          <HelpTOCNode Title="AddTeamMember Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamMember.htm" />
+          <HelpTOCNode Title="AddTeamRole Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamRole.htm" />
+          <HelpTOCNode Title="ClickConstituentLink Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ClickConstituentLink.htm" />
+          <HelpTOCNode Title="ConstituencyExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ConstituencyExists.htm" />
+          <HelpTOCNode Title="DeleteConstituency Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_DeleteConstituency.htm" />
+          <HelpTOCNode Title="GetConstituentTypeText Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GetConstituentTypeText.htm" />
+          <HelpTOCNode Title="getXNotification Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXNotification.htm" />
+          <HelpTOCNode Title="GoToPlan Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GoToPlan.htm" />
+          <HelpTOCNode Title="IsBirthDate Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsBirthDate.htm" />
+          <HelpTOCNode Title="IsConstituentPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsConstituentPanelHeader.htm" />
+          <HelpTOCNode Title="IsLastName Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsLastName.htm" />
+          <HelpTOCNode Title="IsStateAddress Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsStateAddress.htm" />
+          <HelpTOCNode Title="IsTitle Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsTitle.htm" />
+          <HelpTOCNode Title="NotificationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_NotificationExists.htm" />
+          <HelpTOCNode Title="PlanExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_PlanExists.htm" />
+          <HelpTOCNode Title="SelectInfoTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectInfoTab.htm" />
+          <HelpTOCNode Title="SelectNote Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectNote.htm" />
+          <HelpTOCNode Title="StartToAddAPlan Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_StartToAddAPlan.htm" />
+          <HelpTOCNode Title="TeamMemberExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamMemberExists.htm" />
+          <HelpTOCNode Title="TeamRoleExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamRoleExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ConstituentPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="ef9842d9-7161-4665-b9f5-acbe6d38deca" Title="ConstituentsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm">
+        <HelpTOCNode Title="ConstituentsFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="0433460e-fe3c-4726-b0db-563c5cc3163f" Title="ConstituentsFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm">
+          <HelpTOCNode Id="f0a9f110-eb41-4399-b831-86e32d845fbe" Title="AddAnIndividual Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm">
+            <HelpTOCNode Title="AddAnIndividual Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm" />
+            <HelpTOCNode Title="AddAnIndividual Method (TableRow, String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="ConstituentExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentExists.htm" />
+          <HelpTOCNode Title="ConstituentSearch Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch.htm" />
+          <HelpTOCNode Title="OpenConstituentSearchDialog Method " Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_OpenConstituentSearchDialog.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ConstituentsFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0f5cb04f-d426-4421-8699-59d9ed6788ed" Title="DesignationsDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm">
+        <HelpTOCNode Title="DesignationsDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog__ctor.htm" />
+        <HelpTOCNode Id="ecb73a80-4042-49bc-812b-7fd6412e674a" Title="DesignationsDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="570f0ed7-d1bf-4cce-8d6a-a7046eed70e2" Title="DesignationsDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm">
+          <HelpTOCNode Title="SplitDesignations Method " Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignations.htm" />
+          <HelpTOCNode Title="SplitDesignationsEvenly Method " Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignationsEvenly.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="DesignationsDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e7674c98-fca2-4ebb-bc38-6d98d7206da6" Title="Dialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialog.htm">
+        <HelpTOCNode Title="Dialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog__ctor.htm" />
+        <HelpTOCNode Id="216516e2-8e22-4e73-ab78-7b3dede9f229" Title="Dialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialog.htm">
+          <HelpTOCNode Title="getXCancelButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXCancelButton.htm" />
+          <HelpTOCNode Title="getXDropdownList Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownList.htm" />
+          <HelpTOCNode Title="getXDropdownListItems Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownListItems.htm" />
+          <HelpTOCNode Title="getXGridEditCell Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCell.htm" />
+          <HelpTOCNode Title="getXGridEditCellDropdownArrow Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellDropdownArrow.htm" />
+          <HelpTOCNode Title="getXGridEditCellSearchlist Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellSearchlist.htm" />
+          <HelpTOCNode Title="getXGridFocusedEditCell Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridFocusedEditCell.htm" />
+          <HelpTOCNode Title="getXIFrameHtmlBodyP Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXIFrameHtmlBodyP.htm" />
+          <HelpTOCNode Title="getXOKButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXOKButton.htm" />
+          <HelpTOCNode Title="getXSaveAndCloseButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveAndCloseButton.htm" />
+          <HelpTOCNode Title="getXSaveButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveButton.htm" />
+          <HelpTOCNode Title="getXTabStrip Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXTabStrip.htm" />
+          <HelpTOCNode Title="getXYesButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXYesButton.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e06bed48-2257-472a-b601-027271c49729" Title="Dialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialog.htm">
+          <HelpTOCNode Title="Cancel Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Cancel.htm" />
+          <HelpTOCNode Id="247c0d9c-05e0-4718-b03d-3dc1e3bb6152" Title="ClickButton Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_ClickButton.htm">
+            <HelpTOCNode Title="ClickButton Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton.htm" />
+            <HelpTOCNode Title="ClickButton Method (String, Double)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton_1.htm" />
+            <HelpTOCNode Title="ClickButton Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_ClickButton_2.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="CloseDialog Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_CloseDialog.htm" />
+          <HelpTOCNode Title="DropdownValueExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_DropdownValueExists.htm" />
+          <HelpTOCNode Title="GetDialogId Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_GetDialogId.htm" />
+          <HelpTOCNode Title="getXButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXButton.htm" />
+          <HelpTOCNode Title="getXCloseX Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXCloseX.htm" />
+          <HelpTOCNode Id="5f05413e-4c85-4cfa-8acf-1718951e06f1" Title="getXDialogButton Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton.htm">
+            <HelpTOCNode Title="getXDialogButton Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton.htm" />
+            <HelpTOCNode Title="getXDialogButton Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXDialogByClass Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogByClass.htm" />
+          <HelpTOCNode Title="getXDialogById Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogById.htm" />
+          <HelpTOCNode Title="getXDiv Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDiv.htm" />
+          <HelpTOCNode Title="getXDropdownArrow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownArrow.htm" />
+          <HelpTOCNode Title="getXDropdownItem Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownItem.htm" />
+          <HelpTOCNode Title="getXEntireDialogButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXEntireDialogButton.htm" />
+          <HelpTOCNode Title="getXGridCell Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridCell.htm" />
+          <HelpTOCNode Title="getXGridHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridHeaders.htm" />
+          <HelpTOCNode Title="getXGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRow.htm" />
+          <HelpTOCNode Title="getXGridRowSelector Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRowSelector.htm" />
+          <HelpTOCNode Title="getXIFrame Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXIFrame.htm" />
+          <HelpTOCNode Title="getXInput Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInput.htm" />
+          <HelpTOCNode Title="getXInputNewFormTrigger Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputNewFormTrigger.htm" />
+          <HelpTOCNode Title="getXInputSearchTrigger Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputSearchTrigger.htm" />
+          <HelpTOCNode Title="getXLinkByAction Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByAction.htm" />
+          <HelpTOCNode Title="getXLinkByCaption Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByCaption.htm" />
+          <HelpTOCNode Title="getXSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXSpan.htm" />
+          <HelpTOCNode Id="d4180b95-7189-4313-944c-7cbfc8987fb2" Title="getXTab Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXTab.htm">
+            <HelpTOCNode Title="getXTab Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXTab.htm" />
+            <HelpTOCNode Title="getXTab Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXTab_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXTextArea Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXTextArea.htm" />
+          <HelpTOCNode Title="getXVisibleDialog Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXVisibleDialog.htm" />
+          <HelpTOCNode Title="OK Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_OK.htm" />
+          <HelpTOCNode Id="bda4898c-0157-4eca-b39a-a89f9ec80cf3" Title="OpenTab Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_OpenTab.htm">
+            <HelpTOCNode Title="OpenTab Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_OpenTab.htm" />
+            <HelpTOCNode Title="OpenTab Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_OpenTab_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Save.htm" />
+          <HelpTOCNode Title="SetDropDown Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetDropDown.htm" />
+          <HelpTOCNode Title="SetField Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetField.htm" />
+          <HelpTOCNode Id="40a65461-b0ea-4b7f-9f9f-43e5b29173a0" Title="SetFields Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetFields.htm">
+            <HelpTOCNode Title="SetFields Method (String, TableRow, IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetFields.htm" />
+            <HelpTOCNode Title="SetFields Method (String, TableRow, IDictionary(String, CrmField), IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetFields_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetGridDropDown Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridDropDown.htm" />
+          <HelpTOCNode Id="47520e22-ffb9-41dc-a7bc-fd15f5780aa2" Title="SetGridRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow.htm">
+            <HelpTOCNode Title="SetGridRow Method (String, String, TableRow, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow.htm" />
+            <HelpTOCNode Title="SetGridRow Method (String, String, TableRow, Int32, IDictionary(String, Int32), IDictionary(String, CrmField), IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="c9facb47-02b5-4f01-9b0f-f7abacb4fde3" Title="SetGridRows Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows.htm">
+            <HelpTOCNode Title="SetGridRows Method (String, String, Table, Int32, IDictionary(String, Int32), IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows.htm" />
+            <HelpTOCNode Title="SetGridRows Method (String, String, Table, Int32, IDictionary(String, Int32), IDictionary(String, CrmField), IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetGridSearchList Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridSearchList.htm" />
+          <HelpTOCNode Title="SetGridTextField Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridTextField.htm" />
+          <HelpTOCNode Title="SetHtmlField Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetHtmlField.htm" />
+          <HelpTOCNode Title="SetSearchList Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetSearchList.htm" />
+          <HelpTOCNode Title="Yes Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Yes.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Dialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="467fdf4f-67c4-4851-9350-5cf910a27308" Title="EnhancedRevenueBatchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm">
+        <HelpTOCNode Title="EnhancedRevenueBatchDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog__ctor.htm" />
+        <HelpTOCNode Id="078ae137-878a-4e4f-b903-edd74dd81631" Title="EnhancedRevenueBatchDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm">
+          <HelpTOCNode Title="Apply Method " Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_Apply.htm" />
+          <HelpTOCNode Title="SplitDesignations Method " Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations.htm" />
+          <HelpTOCNode Title="UpdateProjectedTotals Method " Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EnhancedRevenueBatchDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8dd52daa-295c-4598-8394-685ce5b50fe3" Title="EventDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventDialog.htm">
+        <HelpTOCNode Title="EventDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog__ctor.htm" />
+        <HelpTOCNode Id="d66f894e-a917-4b89-a954-ffdedb5d5ee9" Title="EventDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_EventDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="fffdfd03-d53e-4094-a089-bac598bf0936" Title="EventDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventDialog.htm">
+          <HelpTOCNode Title="SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog_SetFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EventDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="169fbc90-cba2-4437-8180-0e378f2841f9" Title="EventManagementTemplatesPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm">
+        <HelpTOCNode Title="EventManagementTemplatesPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel__ctor.htm" />
+        <HelpTOCNode Id="7ec07acf-77e9-4332-9ef3-7110449bff3f" Title="EventManagementTemplatesPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm">
+          <HelpTOCNode Title="AddTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_AddTemplate.htm" />
+          <HelpTOCNode Title="TemplateExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_TemplateExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EventManagementTemplatesPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f1ae13a3-a10c-4e90-b87b-11dab63a6648" Title="EventPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventPanel.htm">
+        <HelpTOCNode Title="EventPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel__ctor.htm" />
+        <HelpTOCNode Id="5aa2b637-ec3d-4b22-becc-0570647b8fad" Title="EventPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventPanel.htm">
+          <HelpTOCNode Title="AddCoordinator Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddCoordinator.htm" />
+          <HelpTOCNode Title="AddExpense Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddExpense.htm" />
+          <HelpTOCNode Title="AddPreference Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddPreference.htm" />
+          <HelpTOCNode Title="AddRegistrant Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrant.htm" />
+          <HelpTOCNode Title="AddRegistrationOption Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrationOption.htm" />
+          <HelpTOCNode Title="AddTaskDialog Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddTaskDialog.htm" />
+          <HelpTOCNode Title="CoordinatorExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CoordinatorExists.htm" />
+          <HelpTOCNode Title="CopyRegistrationOptions Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CopyRegistrationOptions.htm" />
+          <HelpTOCNode Title="EditTask Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_EditTask.htm" />
+          <HelpTOCNode Title="ExpenseExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ExpenseExists.htm" />
+          <HelpTOCNode Title="IsEventName Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsEventName.htm" />
+          <HelpTOCNode Title="IsLocation Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsLocation.htm" />
+          <HelpTOCNode Title="IsStartDate Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsStartDate.htm" />
+          <HelpTOCNode Title="PreferenceExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_PreferenceExists.htm" />
+          <HelpTOCNode Title="RegistrationOptionExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_RegistrationOptionExists.htm" />
+          <HelpTOCNode Title="ReminderExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ReminderExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EventPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="807f81ed-e132-4034-a0f4-81b4cdf39eff" Title="EventsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm">
+        <HelpTOCNode Title="EventsFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="c5185f3d-d6a6-4095-862d-e495df30cf0a" Title="EventsFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm">
+          <HelpTOCNode Id="1ba013d5-8186-46db-b8b4-7f0d39200fc4" Title="AddEvent Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent.htm">
+            <HelpTOCNode Title="AddEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent.htm" />
+            <HelpTOCNode Title="AddEvent Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="AddMultiEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddMultiEvent.htm" />
+          <HelpTOCNode Title="CollapseCalendar Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_CollapseCalendar.htm" />
+          <HelpTOCNode Title="EventManagementTemplates Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventManagementTemplates.htm" />
+          <HelpTOCNode Title="EventSearch Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventSearch.htm" />
+          <HelpTOCNode Title="Locations Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_Locations.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="EventsFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="746be32b-e8df-4eb1-b319-8983571643cb" Title="FunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm">
+        <HelpTOCNode Title="FunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="93d36704-a7a2-4a22-8d2f-52e1144d59eb" Title="FunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm">
+          <HelpTOCNode Title="getXAddMenu Method " Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXAddMenu.htm" />
+          <HelpTOCNode Title="getXFaLink Method " Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFaLink.htm" />
+          <HelpTOCNode Id="65918045-a5be-4fff-b2ed-3a71ca9d98c8" Title="getXFunctionalAreaTask Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm">
+            <HelpTOCNode Title="getXFunctionalAreaTask Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm" />
+            <HelpTOCNode Title="getXFunctionalAreaTask Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="5aaf151b-fd7b-4b16-8e9f-388bb08f60c1" Title="OpenLink Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink.htm">
+            <HelpTOCNode Title="OpenLink Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink.htm" />
+            <HelpTOCNode Title="OpenLink Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="OpenLinkToPanel Method " Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLinkToPanel.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="FunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="d9418793-b577-46cd-8c16-0d82fe7ea2b2" Title="FundraisingFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm">
+        <HelpTOCNode Title="FundraisingFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="b8f361a5-0c32-466d-90b0-9b8f15c04628" Title="FundraisingFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm">
+          <HelpTOCNode Title="DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea_DesignationExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="FundraisingFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="838a3a22-e12f-41d0-81c9-126d29eff50d" Title="HomeFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm">
+        <HelpTOCNode Title="HomeFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_HomeFunctionalArea__ctor.htm" />
+        <HelpTOCNode Title="HomeFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+        <HelpTOCNode Title="HomeFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a6e147c6-dc50-4a1e-abb5-a1f3f2d1f9b4" Title="IndividualDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm">
+        <HelpTOCNode Title="IndividualDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog__ctor.htm" />
+        <HelpTOCNode Id="fcfc7836-b4c9-481b-affd-219fd128108e" Title="IndividualDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8b616299-b353-4ea6-b0ea-238ef1838348" Title="IndividualDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm">
+          <HelpTOCNode Title="Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_Save.htm" />
+          <HelpTOCNode Title="SetHouseholdFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetHouseholdFields.htm" />
+          <HelpTOCNode Id="f4fc337d-8843-486a-b7b9-d1b4bd073fec" Title="SetIndividualFields Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields.htm">
+            <HelpTOCNode Title="SetIndividualFields Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields.htm" />
+            <HelpTOCNode Title="SetIndividualFields Method (TableRow, IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetLastName Method " Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetLastName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="IndividualDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="eb04adbe-9e45-46e1-8f8e-f4d20f597437" Title="InformationLibraryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm">
+        <HelpTOCNode Title="InformationLibraryPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel__ctor.htm" />
+        <HelpTOCNode Id="a75bd7fd-8182-4a32-a65e-94b6cf4b9b97" Title="InformationLibraryPanel Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm">
+          <HelpTOCNode Title="getXAllQueriesTreeRoot Field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXAllQueriesTreeRoot.htm" />
+          <HelpTOCNode Title="getXDeleteQuery Field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDeleteQuery.htm" />
+          <HelpTOCNode Title="getXFilterQueryField Field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXFilterQueryField.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ef699a1d-9e56-4172-87f2-a2429d364616" Title="InformationLibraryPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm">
+          <HelpTOCNode Title="AddAdHocQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_AddAdHocQuery.htm" />
+          <HelpTOCNode Title="CopyQueryAsStaticSelection Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection.htm" />
+          <HelpTOCNode Id="fd323db4-4126-4c50-a134-a34d419ea033" Title="DeleteQuery Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery.htm">
+            <HelpTOCNode Title="DeleteQuery Method (IDictionary(String, String))" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery.htm" />
+            <HelpTOCNode Title="DeleteQuery Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXDataListColumnValue Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDataListColumnValue.htm" />
+          <HelpTOCNode Title="getXQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXQuery.htm" />
+          <HelpTOCNode Title="getXSectionDatalistRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow.htm" />
+          <HelpTOCNode Id="2d7c0e55-f307-4e7e-8033-d7b7b4944347" Title="QueryExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists.htm">
+            <HelpTOCNode Title="QueryExists Method (IDictionary(String, String))" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists.htm" />
+            <HelpTOCNode Title="QueryExists Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="6f3199c1-9c95-4e17-afa7-6448509f7dff" Title="SectionDatalistRowExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm">
+            <HelpTOCNode Title="SectionDatalistRowExists Method (IDictionary(String, String), String)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm" />
+            <HelpTOCNode Title="SectionDatalistRowExists Method (TableRow, String)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="afc3499f-6746-46a3-8c45-37dd5b78d7e7" Title="SelectSectionDatalistRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm">
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (IDictionary(String, String), String)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm" />
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (TableRow, String)" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SetFilter Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SetFilter.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="InformationLibraryPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5486f598-af47-4dd1-aaa4-ee9104dd204f" Title="LocationsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm">
+        <HelpTOCNode Title="LocationsPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel__ctor.htm" />
+        <HelpTOCNode Id="a05e3594-d99f-4c4c-88ac-0ef54973cb2f" Title="LocationsPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm">
+          <HelpTOCNode Title="AddLocation Method " Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel_AddLocation.htm" />
+          <HelpTOCNode Id="25384e92-49ec-4972-931f-304b3155e284" Title="LocationExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists.htm">
+            <HelpTOCNode Title="LocationExists Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists.htm" />
+            <HelpTOCNode Title="LocationExists Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="LocationsPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bd3cbcbc-4b9e-43b4-b77e-3d729f3a889d" Title="MajorGivingPlanDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm">
+        <HelpTOCNode Title="MajorGivingPlanDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog__ctor.htm" />
+        <HelpTOCNode Id="099670fa-fc49-4f4a-94a1-4349415f3624" Title="MajorGivingPlanDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm">
+          <HelpTOCNode Title="AddDialogId Field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_AddDialogId.htm" />
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e4463dc1-4cb6-408d-af36-c2af3c624f0a" Title="MajorGivingPlanDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm">
+          <HelpTOCNode Title="InsertStep Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_InsertStep.htm" />
+          <HelpTOCNode Title="Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_Save.htm" />
+          <HelpTOCNode Title="SelectStepRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SelectStepRow.htm" />
+          <HelpTOCNode Title="SetDetails Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetDetails.htm" />
+          <HelpTOCNode Title="SetOutline Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetOutline.htm" />
+          <HelpTOCNode Title="SetParticipants Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetParticipants.htm" />
+          <HelpTOCNode Title="SetPlanStartDate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate.htm" />
+          <HelpTOCNode Title="SetPrimaryManagerStartDate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate.htm" />
+          <HelpTOCNode Title="SetSecondaryManagerStartDate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate.htm" />
+          <HelpTOCNode Title="SetStepRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetStepRow.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MajorGivingPlanDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6e6f6ddf-2337-483e-b2a5-43764199f0b7" Title="MajorGivingSetupPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm">
+        <HelpTOCNode Title="MajorGivingSetupPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel__ctor.htm" />
+        <HelpTOCNode Id="a73dae61-1205-4af4-8a4f-fd809a55699d" Title="MajorGivingSetupPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm">
+          <HelpTOCNode Title="AddPlanOutline Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_AddPlanOutline.htm" />
+          <HelpTOCNode Title="PlanOutlineExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MajorGivingSetupPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="958fdfcd-fb1e-44bf-bf4d-9572ed0e4df8" Title="MarketingAcknowledgementBusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm">
+        <HelpTOCNode Title="MarketingAcknowledgementBusinessProcess Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess__ctor.htm" />
+        <HelpTOCNode Id="dea6b9b2-1b17-4537-ad24-4f2cda3c9619" Title="MarketingAcknowledgementBusinessProcess Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm">
+          <HelpTOCNode Title="IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted.htm" />
+          <HelpTOCNode Title="IsNumRecordsProcessed Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAcknowledgementBusinessProcess Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1d6f28c7-d6d4-4722-bc22-ca1a45692b94" Title="MarketingAcknowledgementRuleDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm">
+        <HelpTOCNode Title="MarketingAcknowledgementRuleDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog__ctor.htm" />
+        <HelpTOCNode Id="ccaafccd-9315-422b-b645-21c197a78728" Title="MarketingAcknowledgementRuleDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cf231fe2-9f9c-4169-8b6d-76bed4f3bbb1" Title="MarketingAcknowledgementRuleDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm">
+          <HelpTOCNode Title="Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_Save.htm" />
+          <HelpTOCNode Title="SetDetailsTabFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAcknowledgementRuleDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="0860c7a1-2a87-449c-8bd4-0cf81c5fdc52" Title="MarketingAcknowledgementsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm">
+        <HelpTOCNode Title="MarketingAcknowledgementsPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel__ctor.htm" />
+        <HelpTOCNode Id="ba2d0ae5-2931-442e-878f-03cb3662506c" Title="MarketingAcknowledgementsPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm">
+          <HelpTOCNode Title="AddTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate.htm" />
+          <HelpTOCNode Title="DeleteTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate.htm" />
+          <HelpTOCNode Title="TemplateExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAcknowledgementsPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="5a8fe10a-d624-4bf2-9996-57ffa6d45d6f" Title="MarketingAcknowledgementTemplatePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm">
+        <HelpTOCNode Title="MarketingAcknowledgementTemplatePanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel__ctor.htm" />
+        <HelpTOCNode Id="519ca1b2-0652-4e66-8644-d6de10363b97" Title="MarketingAcknowledgementTemplatePanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm">
+          <HelpTOCNode Title="AddAcknowledgementRule Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule.htm" />
+          <HelpTOCNode Title="ProcessAcknowledgement Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAcknowledgementTemplatePanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="8680efe0-ff7e-4c9d-b0ab-512418997df0" Title="MarketingAndCommFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm">
+        <HelpTOCNode Title="MarketingAndCommFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="374b3aa6-7647-4a2a-b211-89ca985f65e6" Title="MarketingAndCommFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm">
+          <HelpTOCNode Title="MarketingAcknowledgements Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements.htm" />
+          <HelpTOCNode Title="Packages Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Packages.htm" />
+          <HelpTOCNode Title="Receipts Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Receipts.htm" />
+          <HelpTOCNode Title="Segments Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Segments.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAndCommFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7388e718-e7b2-4cfe-8460-cde72fd15cae" Title="MultiEventPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm">
+        <HelpTOCNode Title="MultiEventPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel__ctor.htm" />
+        <HelpTOCNode Id="de09730f-a403-4c3c-b210-036771dc4572" Title="MultiEventPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm">
+          <HelpTOCNode Title="IsHierarchy Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsHierarchy.htm" />
+          <HelpTOCNode Title="IsMultiEventName Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsMultiEventName.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MultiEventPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="445f19a5-2b8b-4696-b785-5613645e69f3" Title="MultiLevelEventDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm">
+        <HelpTOCNode Title="MultiLevelEventDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog__ctor.htm" />
+        <HelpTOCNode Id="eab8c45c-391b-4fb0-acca-4875335d6c74" Title="MultiLevelEventDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_DialogIds.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="7fbe5d40-799e-4e65-95e7-f12a590034a6" Title="MultiLevelEventDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm">
+          <HelpTOCNode Title="AddChildEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddChildEvent.htm" />
+          <HelpTOCNode Title="AddExistingEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddExistingEvent.htm" />
+          <HelpTOCNode Title="CopyFrom Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_CopyFrom.htm" />
+          <HelpTOCNode Title="getXAddedEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_getXAddedEvent.htm" />
+          <HelpTOCNode Title="SetTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_SetTemplate.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MultiLevelEventDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="57f65a48-1569-42c6-bcfd-080808d28fd5" Title="NewAdhocQueryDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm">
+        <HelpTOCNode Title="NewAdhocQueryDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog__ctor.htm" />
+        <HelpTOCNode Id="1fc98fa2-9e53-40e3-b777-52acc2a7a414" Title="NewAdhocQueryDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm">
+          <HelpTOCNode Title="getXAddFilterArrow Field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow.htm" />
+          <HelpTOCNode Title="getXAddOutputFieldArrow Field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow.htm" />
+          <HelpTOCNode Title="getXFindField Field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFindField.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="8db02a64-f25c-4858-ae3a-6912a2b14918" Title="NewAdhocQueryDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm">
+          <HelpTOCNode Title="ApplyCriteria Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_ApplyCriteria.htm" />
+          <HelpTOCNode Title="getXCriteriaInput Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput.htm" />
+          <HelpTOCNode Title="getXFieldResult Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFieldResult.htm" />
+          <HelpTOCNode Title="getXSaveOptionsInput Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput.htm" />
+          <HelpTOCNode Title="getXSaveOptionsTextArea Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea.htm" />
+          <HelpTOCNode Title="getXTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXTab.htm" />
+          <HelpTOCNode Title="IncludeDisplayField Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeDisplayField.htm" />
+          <HelpTOCNode Title="IncludeRecordCriteria Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeRecordCriteria.htm" />
+          <HelpTOCNode Title="SetFindField Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetFindField.htm" />
+          <HelpTOCNode Title="SetSaveOptions Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetSaveOptions.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="NewAdhocQueryDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="07229c08-8161-4ebe-8ece-6dc84132d796" Title="PackageDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PackageDialog.htm">
+        <HelpTOCNode Title="PackageDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog__ctor.htm" />
+        <HelpTOCNode Id="2e54cee1-5e73-41fa-9896-1e04405ae13d" Title="PackageDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="bc86d892-ac50-4b6a-b354-172a6bfee1b3" Title="PackageDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm">
+          <HelpTOCNode Title="SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog_SetFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PackageDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="945fd847-0758-400e-8dd5-d204b2e272a9" Title="PackagesPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm">
+        <HelpTOCNode Title="PackagesPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel__ctor.htm" />
+        <HelpTOCNode Id="785f32e3-4a7e-420c-9c1d-8a3081e5a06f" Title="PackagesPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm">
+          <HelpTOCNode Title="AddMailPackage Method " Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_AddMailPackage.htm" />
+          <HelpTOCNode Id="e0e1566a-85ed-472b-b071-479daf8128d0" Title="DeletePackage Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage.htm">
+            <HelpTOCNode Title="DeletePackage Method (IDictionary(String, String))" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage.htm" />
+            <HelpTOCNode Title="DeletePackage Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="67fb5c3d-25b8-46c4-b160-31d557547f63" Title="PackageExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists.htm">
+            <HelpTOCNode Title="PackageExists Method (IDictionary(String, String))" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists.htm" />
+            <HelpTOCNode Title="PackageExists Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="PackagesPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="09c6f519-50ef-4db4-9210-b864adc749e4" Title="Panel Class" Url="html/T_Blackbaud_UAT_Core_Crm_Panel.htm">
+        <HelpTOCNode Title="Panel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_Panel__ctor.htm" />
+        <HelpTOCNode Id="36d6a97b-9e6f-4760-98c0-d1da50283fb4" Title="Panel Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Panel.htm">
+          <HelpTOCNode Title="getxEventSearchResultsBar Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getxEventSearchResultsBar.htm" />
+          <HelpTOCNode Title="getXEventSearchresultsGridNameFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXEventSearchresultsGridNameFields.htm" />
+          <HelpTOCNode Title="getXInnerTabsBar Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXInnerTabsBar.htm" />
+          <HelpTOCNode Title="getXSearchResultsGrid Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXSearchResultsGrid.htm" />
+          <HelpTOCNode Title="getXTabsBar Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBar.htm" />
+          <HelpTOCNode Title="getXTabsBarActiveTab Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarActiveTab.htm" />
+          <HelpTOCNode Title="getXTabsBarRightScroller Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarRightScroller.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3d9fd2f6-24d8-44d7-b212-7509730d5a8c" Title="Panel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Panel.htm">
+          <HelpTOCNode Title="AdditionalDatalistPagesExist Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_AdditionalDatalistPagesExist.htm" />
+          <HelpTOCNode Title="CheckGridResultsContain Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CheckGridResultsContain.htm" />
+          <HelpTOCNode Title="ClickSectionAddButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ClickSectionAddButton.htm" />
+          <HelpTOCNode Title="CollapseSection Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CollapseSection.htm" />
+          <HelpTOCNode Title="ExpandRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ExpandRow.htm" />
+          <HelpTOCNode Title="getXDataListColumnValue Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDataListColumnValue.htm" />
+          <HelpTOCNode Title="getXDatalistRowLinkByActionAndCaption Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption.htm" />
+          <HelpTOCNode Title="getXDatalistSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistSpan.htm" />
+          <HelpTOCNode Title="getXDiv Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDiv.htm" />
+          <HelpTOCNode Title="getXDuplicateSectionDatalistColumnHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders.htm" />
+          <HelpTOCNode Title="getXGrid Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGrid.htm" />
+          <HelpTOCNode Title="getXGridHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridHeaders.htm" />
+          <HelpTOCNode Title="getXGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRow.htm" />
+          <HelpTOCNode Title="getXGridRows Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRows.htm" />
+          <HelpTOCNode Title="getXInnerTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXInnerTab.htm" />
+          <HelpTOCNode Id="d58685a7-d669-47ee-aacf-59231a2c2de2" Title="getXPanelHeader Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader.htm">
+            <HelpTOCNode Title="getXPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader.htm" />
+            <HelpTOCNode Title="getXPanelHeader Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXPanelHeaderByText Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderByText.htm" />
+          <HelpTOCNode Id="7ee67bfc-bb47-49b8-9d74-3f14b89839be" Title="getXPanelHeaderLink Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink.htm">
+            <HelpTOCNode Title="getXPanelHeaderLink Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink.htm" />
+            <HelpTOCNode Title="getXPanelHeaderLink Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXPanelTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelTab.htm" />
+          <HelpTOCNode Title="getXSection Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSection.htm" />
+          <HelpTOCNode Title="getXSectionAddButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionAddButton.htm" />
+          <HelpTOCNode Title="getXSectionDatalistColumnHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistColumnHeaders.htm" />
+          <HelpTOCNode Title="getXSectionDatalistCurrentPageIndex Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex.htm" />
+          <HelpTOCNode Title="getXSectionDatalistPageIndexButtons Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistPageIndexButtons.htm" />
+          <HelpTOCNode Title="getXSectionDatalistRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRow.htm" />
+          <HelpTOCNode Title="getXSectionDatalistRows Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRows.htm" />
+          <HelpTOCNode Title="getXSectionExpandButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionExpandButton.htm" />
+          <HelpTOCNode Title="getXSectionViewForm Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewForm.htm" />
+          <HelpTOCNode Title="getXSectionViewFormSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewFormSpan.htm" />
+          <HelpTOCNode Title="getXSectionWidget Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionWidget.htm" />
+          <HelpTOCNode Title="getXSelectedDatalistRowButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowButton.htm" />
+          <HelpTOCNode Title="getXSelectedDatalistRowLinkByAction Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction.htm" />
+          <HelpTOCNode Title="getXSelectedDatalistRowLinkByCaption Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption.htm" />
+          <HelpTOCNode Title="getXSelectedDatalistRowLinkById Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkById.htm" />
+          <HelpTOCNode Title="getXSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSpan.htm" />
+          <HelpTOCNode Title="getXTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXTab.htm" />
+          <HelpTOCNode Title="getXViewForm Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXViewForm.htm" />
+          <HelpTOCNode Id="2ff90f2e-3b92-4853-a408-0e308fefa710" Title="GridRowExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_GridRowExists.htm">
+            <HelpTOCNode Title="GridRowExists Method (IDictionary(String, String), String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_GridRowExists.htm" />
+            <HelpTOCNode Title="GridRowExists Method (TableRow, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_GridRowExists_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="IsPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelHeader.htm" />
+          <HelpTOCNode Title="IsPanelType Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelType.htm" />
+          <HelpTOCNode Title="OpenTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_OpenTab.htm" />
+          <HelpTOCNode Id="bb8a0abd-7c80-4ceb-869a-07fe0d2914d2" Title="SectionDatalistRowExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists.htm">
+            <HelpTOCNode Title="SectionDatalistRowExists Method (IDictionary(String, String), String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists.htm" />
+            <HelpTOCNode Title="SectionDatalistRowExists Method (TableRow, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_2.htm" />
+            <HelpTOCNode Title="SectionDatalistRowExists Method (IDictionary(String, String), String, IDictionary(String, Int32))" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_1.htm" />
+            <HelpTOCNode Title="SectionDatalistRowExists Method (TableRow, String, IDictionary(String, Int32))" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists_3.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="bc245bc6-a1c0-479d-a1b8-6f2e84fef9bf" Title="SectionViewFormExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists.htm">
+            <HelpTOCNode Title="SectionViewFormExists Method (IDictionary(String, String), String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists.htm" />
+            <HelpTOCNode Title="SectionViewFormExists Method (TableRow, String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SelectInnerTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectInnerTab.htm" />
+          <HelpTOCNode Id="7b5df294-4a98-4a17-a006-ca13fd94f654" Title="SelectSectionDatalistRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow.htm">
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (IDictionary(String, String), String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow.htm" />
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (TableRow, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_2.htm" />
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (IDictionary(String, String), String, IDictionary(String, Int32))" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_1.htm" />
+            <HelpTOCNode Title="SelectSectionDatalistRow Method (TableRow, String, IDictionary(String, Int32))" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow_3.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SelectTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectTab.htm" />
+          <HelpTOCNode Title="WaitForPanelHeaderNotContain Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelHeaderNotContain.htm" />
+          <HelpTOCNode Title="WaitForPanelType Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Panel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="116ded7c-8bb8-4eb9-beb7-f91c625b68de" Title="PaymentDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm">
+        <HelpTOCNode Title="PaymentDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog__ctor.htm" />
+        <HelpTOCNode Id="df960d42-7c1a-4594-96a2-b577198816e8" Title="PaymentDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="f3d6a8b6-87f5-4230-ada4-f39e1658222d" Title="PaymentDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm">
+          <HelpTOCNode Title="AddApplication Method " Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_AddApplication.htm" />
+          <HelpTOCNode Title="SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_SetFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PaymentDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="dec9c7bd-e8d3-41e8-9eb4-f8e044c4787d" Title="PlanPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PlanPanel.htm">
+        <HelpTOCNode Title="PlanPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel__ctor.htm" />
+        <HelpTOCNode Id="0693ff57-85a3-416f-98cc-5b3705cc8053" Title="PlanPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PlanPanel.htm">
+          <HelpTOCNode Title="AddCompletedStep Method " Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_AddCompletedStep.htm" />
+          <HelpTOCNode Title="CompletedStepExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_CompletedStepExists.htm" />
+          <HelpTOCNode Title="EditSteps Method " Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_EditSteps.htm" />
+          <HelpTOCNode Title="PlannedStepExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_PlannedStepExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PlanPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="1508d71c-a4ad-4af2-ae34-5ddab910a275" Title="PledgeDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm">
+        <HelpTOCNode Title="PledgeDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog__ctor.htm" />
+        <HelpTOCNode Id="2cf5137f-c78a-4b72-8552-db8cdea40fda" Title="PledgeDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="46c84bc5-daf4-450b-9a6a-7deafcec8839" Title="PledgeDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm">
+          <HelpTOCNode Title="EditInstallmentDesignations Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_EditInstallmentDesignations.htm" />
+          <HelpTOCNode Title="SetAccountSystem Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetAccountSystem.htm" />
+          <HelpTOCNode Id="1b18d70f-ec4e-459c-af41-3578903220c3" Title="SetFields Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields.htm">
+            <HelpTOCNode Title="SetFields Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields.htm" />
+            <HelpTOCNode Title="SetFields Method (TableRow, IDictionary(String, CrmField))" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="SplitDesignationsEvenly Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SplitDesignationsEvenly.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PledgeDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="597aa4d6-8b01-4323-8ade-6a11a93f8643" Title="PledgePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgePanel.htm">
+        <HelpTOCNode Title="PledgePanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel__ctor.htm" />
+        <HelpTOCNode Id="114d713a-f162-4721-a1b0-134e6dbcabcb" Title="PledgePanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgePanel.htm">
+          <HelpTOCNode Title="DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_DesignationExists.htm" />
+          <HelpTOCNode Title="IsPledgeAmount Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeAmount.htm" />
+          <HelpTOCNode Title="IsPledgeConstituent Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeConstituent.htm" />
+          <HelpTOCNode Title="IsPledgeSubtype Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeSubtype.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="PledgePanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="a66718e0-3558-4298-82e8-e841c271ba18" Title="PledgeSubtypePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm">
+        <HelpTOCNode Title="PledgeSubtypePanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel__ctor.htm" />
+        <HelpTOCNode Id="b55bbf87-423a-4f33-aabb-adc5b15676c5" Title="PledgeSubtypePanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm">
+          <HelpTOCNode Id="3232f736-5ac7-4896-9c22-d05c80cd0ce2" Title="AddSubtype Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype.htm">
+            <HelpTOCNode Title="AddSubtype Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype_1.htm" />
+            <HelpTOCNode Title="AddSubtype Method (String, Boolean)" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Id="68b27bc7-6a76-4f28-9986-84dc6c9120b1" Title="SubtypeExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm">
+            <HelpTOCNode Title="SubtypeExists Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm" />
+            <HelpTOCNode Title="SubtypeExists Method (TableRow)" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists_1.htm" />
+          </HelpTOCNode>
+        </HelpTOCNode>
+        <HelpTOCNode Title="PledgeSubtypePanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="b6014329-76b1-4c9d-ae73-d7fc630069c0" Title="ProspectsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm">
+        <HelpTOCNode Title="ProspectsFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="99d0362d-6f33-459f-9e45-f0b232bbc2bb" Title="ProspectsFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm">
+          <HelpTOCNode Title="CollapseResearchLists Method " Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists.htm" />
+          <HelpTOCNode Title="MajorGivingSetup Method " Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ProspectsFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="612af994-0fd2-44c9-803e-c0a137e6558d" Title="QuerySourceViewDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm">
+        <HelpTOCNode Title="QuerySourceViewDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog__ctor.htm" />
+        <HelpTOCNode Id="a02226ec-8ea0-4ddf-a1e2-3916a6bdeef4" Title="QuerySourceViewDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm">
+          <HelpTOCNode Title="getXRecordTypeField Field" Url="html/F_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeField.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="0f768189-469c-43a5-a5a4-8b1174421b07" Title="QuerySourceViewDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm">
+          <HelpTOCNode Title="getXRecordTypeNameColumn Method " Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn.htm" />
+          <HelpTOCNode Title="SelectRecordTypeName Method " Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName.htm" />
+          <HelpTOCNode Title="SetRecordType Method " Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SetRecordType.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="QuerySourceViewDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="caaa36b1-b32f-40dc-a756-b5a71699ef21" Title="ReceiptBusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm">
+        <HelpTOCNode Title="ReceiptBusinessProcess Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess__ctor.htm" />
+        <HelpTOCNode Id="0a4c7212-a181-4bc7-85c6-486b193a97b2" Title="ReceiptBusinessProcess Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm">
+          <HelpTOCNode Title="IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess_IsCompleted.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReceiptBusinessProcess Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="14ecc1cb-ceef-419d-9984-9ad217c7ad72" Title="ReceiptsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm">
+        <HelpTOCNode Title="ReceiptsPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel__ctor.htm" />
+        <HelpTOCNode Id="30a21aca-bccc-4a14-ac63-4ac1ba15bcdf" Title="ReceiptsPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm">
+          <HelpTOCNode Title="AddReceipt Method " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_AddReceipt.htm" />
+          <HelpTOCNode Title="RunReceiptProcess Method " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_RunReceiptProcess.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ReceiptsPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="fd50b637-bddf-44e2-aa2f-a589e437dbde" Title="RecurringGiftPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm">
+        <HelpTOCNode Title="RecurringGiftPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel__ctor.htm" />
+        <HelpTOCNode Id="cae7aa53-cb39-43f4-a0f2-a3465b4b7ae8" Title="RecurringGiftPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm">
+          <HelpTOCNode Title="DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel_DesignationExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RecurringGiftPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="e4cb0e6d-9f18-4a18-8bdd-c1a2ed155f15" Title="RegistrantDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm">
+        <HelpTOCNode Title="RegistrantDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog__ctor.htm" />
+        <HelpTOCNode Id="ab39fadc-ee90-4334-ad93-4103bd7a0387" Title="RegistrantDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="276dbe0c-fa05-469d-8b14-49ec4ac2f926" Title="RegistrantDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm">
+          <HelpTOCNode Title="SetRegistrant Method " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrant.htm" />
+          <HelpTOCNode Title="SetRegistrants Method " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrants.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RegistrantDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="22ff4180-7b75-46fa-bd88-955f6f2c792c" Title="RegistrantPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm">
+        <HelpTOCNode Title="RegistrantPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel__ctor.htm" />
+        <HelpTOCNode Id="65793aa1-4150-4b45-8164-a72878c1204c" Title="RegistrantPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm">
+          <HelpTOCNode Title="IsEvent Method " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsEvent.htm" />
+          <HelpTOCNode Title="IsNumGuests Method " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsNumGuests.htm" />
+          <HelpTOCNode Title="IsRegistrant Method " Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsRegistrant.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RegistrantPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="50bdf93a-8dc4-4d46-83ac-e2638fed6b63" Title="RevenueFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm">
+        <HelpTOCNode Title="RevenueFunctionalArea Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea__ctor.htm" />
+        <HelpTOCNode Id="e9c081e9-85ce-4f63-a677-35208aca6b04" Title="RevenueFunctionalArea Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm">
+          <HelpTOCNode Title="AddAPayment Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPayment.htm" />
+          <HelpTOCNode Id="46b2d6d9-ae3a-4f39-b58d-114ab8cbf97a" Title="AddAPledge Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge.htm">
+            <HelpTOCNode Title="AddAPledge Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge.htm" />
+            <HelpTOCNode Title="AddAPledge Method (TableRow, String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="BatchEntry Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_BatchEntry.htm" />
+          <HelpTOCNode Title="PledgeSubtypes Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_PledgeSubtypes.htm" />
+          <HelpTOCNode Title="TransactionSearchByConstituent Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RevenueFunctionalArea Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="003f1821-20ab-4a1b-977c-02ffdbf8da09" Title="RevenueRecordPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm">
+        <HelpTOCNode Title="RevenueRecordPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel__ctor.htm" />
+        <HelpTOCNode Id="c0ee9cb3-7d3e-446f-b65f-17804f81130c" Title="RevenueRecordPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm">
+          <HelpTOCNode Title="IsAcknowledged Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsAcknowledged.htm" />
+          <HelpTOCNode Title="IsReceipted Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsReceipted.htm" />
+          <HelpTOCNode Title="IsSubtype Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsSubtype.htm" />
+          <HelpTOCNode Title="PaymentExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_PaymentExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="RevenueRecordPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="46427295-9c63-493a-9d17-030c79f99d18" Title="SearchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_SearchDialog.htm">
+        <HelpTOCNode Title="SearchDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog__ctor.htm" />
+        <HelpTOCNode Id="ee53b544-de2a-4ab1-a833-5062c029afb3" Title="SearchDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm">
+          <HelpTOCNode Title="getXFirstNameField Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXFirstNameField.htm" />
+          <HelpTOCNode Title="getXGridNameField Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXGridNameField.htm" />
+          <HelpTOCNode Title="getXLastNameField Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXLastNameField.htm" />
+          <HelpTOCNode Title="getXNoRecordsFound Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXNoRecordsFound.htm" />
+          <HelpTOCNode Title="getXResultsBar Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXResultsBar.htm" />
+          <HelpTOCNode Title="getXSearchButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchButton.htm" />
+          <HelpTOCNode Title="getXSearchResultsGrid Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchResultsGrid.htm" />
+          <HelpTOCNode Title="getXSelectButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectButton.htm" />
+          <HelpTOCNode Title="getXSelectedResultsRow Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectedResultsRow.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="ef24a95a-932f-46ed-aaf2-ce768f8172d1" Title="SearchDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm">
+          <HelpTOCNode Title="CheckConstituentSearchResultsContain Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain.htm" />
+          <HelpTOCNode Title="CheckConstituentSearchResultsToolbarContains Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains.htm" />
+          <HelpTOCNode Title="Search Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Search.htm" />
+          <HelpTOCNode Title="Select Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Select.htm" />
+          <HelpTOCNode Title="SelectFirstResult Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SelectFirstResult.htm" />
+          <HelpTOCNode Title="SetFirstNameToSearch Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetFirstNameToSearch.htm" />
+          <HelpTOCNode Title="SetLastNameToSearch Method " Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetLastNameToSearch.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SearchDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="93bd1f1c-f461-46cd-9979-05ebfe2e0c97" Title="SegmentDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm">
+        <HelpTOCNode Title="SegmentDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog__ctor.htm" />
+        <HelpTOCNode Id="4910e812-2c27-4437-9993-09e9a6882986" Title="SegmentDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="36dd1674-8919-4b93-a35c-6df1a7fd7d8b" Title="SegmentDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm">
+          <HelpTOCNode Title="AddSelection Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_AddSelection.htm" />
+          <HelpTOCNode Title="SetDetailsFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_SetDetailsFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SegmentDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="f08625f0-8b7b-4aa7-a16b-ddd3dadd65f4" Title="SegmentPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm">
+        <HelpTOCNode Title="SegmentPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel__ctor.htm" />
+        <HelpTOCNode Id="43e00dd9-e868-4669-b179-6de1e939f0ea" Title="SegmentPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm">
+          <HelpTOCNode Title="ActivatedMarketingEffortExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists.htm" />
+          <HelpTOCNode Title="DeleteActivatedMarketingEffort Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort.htm" />
+          <HelpTOCNode Title="DeleteSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteSegment.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SegmentPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="bbeeac4f-197c-41c7-93fe-8e3ea1bb657e" Title="SegmentsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm">
+        <HelpTOCNode Title="SegmentsPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel__ctor.htm" />
+        <HelpTOCNode Id="c75a48bb-0176-4790-833e-14e9913ede1b" Title="SegmentsPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm">
+          <HelpTOCNode Title="AddSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_AddSegment.htm" />
+          <HelpTOCNode Title="DeleteSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_DeleteSegment.htm" />
+          <HelpTOCNode Title="GoToSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_GoToSegment.htm" />
+          <HelpTOCNode Title="SegmentExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_SegmentExists.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="SegmentsPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="7552d648-7b8c-4b2e-8b69-6be7d43f3e9e" Title="TaskDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_TaskDialog.htm">
+        <HelpTOCNode Title="TaskDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog__ctor.htm" />
+        <HelpTOCNode Id="6170b462-f204-4499-919f-ee32e270842b" Title="TaskDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedFields.htm" />
+          <HelpTOCNode Title="SupportedRemindersGridFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedRemindersGridFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c68bd7b0-423c-4354-915b-e3b0d53087fa" Title="TaskDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm">
+          <HelpTOCNode Title="SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetFields.htm" />
+          <HelpTOCNode Title="SetReminders Method " Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetReminders.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="TaskDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e009944c-64d5-4f45-bf2d-f0bc7470736d" Title="Blackbaud.UAT.Core.Crm.Dialogs" Url="html/N_Blackbaud_UAT_Core_Crm_Dialogs.htm">
+      <HelpTOCNode Id="b48089cb-9d92-41bf-ba1c-ebb9abb8ea8d" Title="AddMembershipProgramDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm">
+        <HelpTOCNode Title="AddMembershipProgramDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog__ctor.htm" />
+        <HelpTOCNode Id="516a14b3-e447-488e-b81e-dd973ece540e" Title="AddMembershipProgramDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm">
+          <HelpTOCNode Title="getXAddMembershipButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipButton.htm" />
+          <HelpTOCNode Title="getXAddMembershipNextButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipNextButton.htm" />
+          <HelpTOCNode Title="getXBenefitsCardFormatDropDown Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXBenefitsCardFormatDropDown.htm" />
+          <HelpTOCNode Title="getXDuesInstallments Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDuesInstallments.htm" />
+          <HelpTOCNode Title="getXHeaderPanel Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXHeaderPanel.htm" />
+          <HelpTOCNode Title="getXMembershipProgramButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipProgramButton.htm" />
+          <HelpTOCNode Title="getXMembershipTerm Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipTerm.htm" />
+          <HelpTOCNode Title="getXProgramKindAnnual Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramKindAnnual.htm" />
+          <HelpTOCNode Title="getXProgramLevelCurrentEdit Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelCurrentEdit.htm" />
+          <HelpTOCNode Title="getXProgramLevelNameHeader Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelNameHeader.htm" />
+          <HelpTOCNode Title="getXProgramLevelPriceHeader Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelPriceHeader.htm" />
+          <HelpTOCNode Title="getXProgramNameField Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramNameField.htm" />
+          <HelpTOCNode Title="getXProgramObtainDues Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramObtainDues.htm" />
+          <HelpTOCNode Title="getXReviewSave Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXReviewSave.htm" />
+          <HelpTOCNode Title="getXYesReallyDelete Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXYesReallyDelete.htm" />
+          <HelpTOCNode Title="ProgramLevelCurrentEditElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelCurrentEditElement.htm" />
+          <HelpTOCNode Title="ProgramLevelNameHeaderElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelNameHeaderElement.htm" />
+          <HelpTOCNode Title="ProgramLevelPriceHeaderElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelPriceHeaderElement.htm" />
+          <HelpTOCNode Title="ProgramLinkElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLinkElement.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="c0039ecf-373b-49a6-bbb9-c2b4123b2199" Title="AddMembershipProgramDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm">
+          <HelpTOCNode Title="CheckMembershipProgramExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CheckMembershipProgramExists.htm" />
+          <HelpTOCNode Title="CreateMembershipProgram Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgram.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramAnnual Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramAnnual.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramBenefitsOptionsFormat Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramBenefitsOptionsFormat.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramDues Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDues.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramDuesOptionsInstallments Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDuesOptionsInstallments.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramLevelName Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelName.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramLevelPrice Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelPrice.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramNext Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramNext.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramRenewalOptionsTerm Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramRenewalOptionsTerm.htm" />
+          <HelpTOCNode Title="CreateMembershipProgramReviewSave Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramReviewSave.htm" />
+          <HelpTOCNode Title="DeleteMembershipProgram Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_DeleteMembershipProgram.htm" />
+          <HelpTOCNode Title="getXDeleteProgramLink Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDeleteProgramLink.htm" />
+          <HelpTOCNode Title="getXProgramLink Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLink.htm" />
+          <HelpTOCNode Title="MembershipPrograms Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_MembershipPrograms.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AddMembershipProgramDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="05bad3b6-32bb-499d-bd47-ade252123e3d" Title="MarketingAcknowledgementTemplateDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm">
+        <HelpTOCNode Title="MarketingAcknowledgementTemplateDialog Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog__ctor.htm" />
+        <HelpTOCNode Id="3c2f2876-eb2f-4514-a262-bd0514d3cd6e" Title="MarketingAcknowledgementTemplateDialog Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm">
+          <HelpTOCNode Title="DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds.htm" />
+          <HelpTOCNode Title="SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="72e25e19-e77c-4a46-8f25-c66e8fd219f7" Title="MarketingAcknowledgementTemplateDialog Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm">
+          <HelpTOCNode Title="IncludeAllRecords Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords.htm" />
+          <HelpTOCNode Title="SetActivationTabFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields.htm" />
+          <HelpTOCNode Title="SetGeneralTabFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields.htm" />
+          <HelpTOCNode Title="SetSourceCode Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="MarketingAcknowledgementTemplateDialog Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="3a8f14e8-b7ad-40e5-beb1-5781bbd9e8b7" Title="Blackbaud.UAT.Core.Crm.Panels" Url="html/N_Blackbaud_UAT_Core_Crm_Panels.htm">
+      <HelpTOCNode Id="96a71791-3356-4aee-9b73-5e9aa1123855" Title="QueryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm">
+        <HelpTOCNode Title="QueryPanel Constructor " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel__ctor.htm" />
+        <HelpTOCNode Id="32485bf2-959a-4fc6-9052-8bca322cd268" Title="QueryPanel Fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm">
+          <HelpTOCNode Title="DeleteQueryLinkElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQueryLinkElement.htm" />
+          <HelpTOCNode Title="getXAddButton Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAddButton.htm" />
+          <HelpTOCNode Title="getXAdhocQuery Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAdhocQuery.htm" />
+          <HelpTOCNode Title="getXFilterQueryField Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXFilterQueryField.htm" />
+          <HelpTOCNode Title="QueryLinkElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_QueryLinkElement.htm" />
+          <HelpTOCNode Title="YesReallyDeleteElement Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_YesReallyDeleteElement.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="31fdafa7-bc2d-4fda-a77d-2baecc9b9a55" Title="QueryPanel Methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm">
+          <HelpTOCNode Title="AddQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_AddQuery.htm" />
+          <HelpTOCNode Title="CheckQueryPresent Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_CheckQueryPresent.htm" />
+          <HelpTOCNode Id="09992ded-8e3b-4189-a099-899f90182e65" Title="DeleteQuery Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery.htm">
+            <HelpTOCNode Title="DeleteQuery Method (String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery.htm" />
+            <HelpTOCNode Title="DeleteQuery Method (String, String)" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery_1.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="getXDeleteQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXDeleteQuery.htm" />
+          <HelpTOCNode Title="getXQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXQuery.htm" />
+          <HelpTOCNode Title="OpenQueriesTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenQueriesTab.htm" />
+          <HelpTOCNode Title="OpenSelectionsTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenSelectionsTab.htm" />
+          <HelpTOCNode Title="SetFilter Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_SetFilter.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="QueryPanel Properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>

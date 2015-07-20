@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="d48ef890-924b-44ec-8ce1-856896c0abec" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <introduction>
+      <para>
+        In the following walkthroughs you'll learn how to use the UAT SDK's (Blueshirt) underlying third-party tools to create custom logic 
+        and interactions with the browser.
+      </para>
+    </introduction>
+
+    <section>
+      <title>Walkthroughs</title>
+      <content>
+        <list class="bullet">
+          <listItem>
+            <para>
+              <link xlink:href="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0">Using the Selenium WebDriver</link>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <link xlink:href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">XPath Guidelines</link>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <link xlink:href="4d721943-df97-4c91-aed1-7aeea9372876">Setting Custom Fields</link>
+            </para>
+          </listItem>
+        </list>
+      </content>
+    </section>
+
+    <relatedTopics>
+      <externalLink>
+        <linkText>SpecFlow HomePage</linkText>
+        <linkUri>http://www.specflow.org/</linkUri>
+      </externalLink>
+      <externalLink>
+        <linkText>Selenium WebDriver</linkText>
+        <linkUri>http://docs.seleniumhq.org/docs/03_webdriver.jsp</linkUri>
+      </externalLink>
+      <externalLink>
+        <linkText>Introduction to XPaths</linkText>
+        <linkUri>http://www.toolsqa.com/selenium-webdriver/choosing-effective-xpath/</linkUri>
+      </externalLink>
+      <!-- One or more of the following:
+           - A local link
+           - An external link
+           - A code entity reference
+
+      <link xlink:href="Other Topic's ID">Link text</link>
+      <externalLink>
+          <linkText>Link text</linkText>
+          <linkAlternateText>Optional alternate link text</linkAlternateText>
+          <linkUri>URI</linkUri>
+      </externalLink>
+      <codeEntityReference>API member ID</codeEntityReference>
+
+      Examples:
+
+      <link xlink:href="00e97994-e9e6-46e0-b420-5be86b2f8278">Some other topic</link>
+
+      <externalLink>
+          <linkText>SHFB on GitHub</linkText>
+          <linkAlternateText>Go to GitHub</linkAlternateText>
+          <linkUri>https://GitHub.com/EWSoftware/SHFB</linkUri>
+      </externalLink>
+
+      <codeEntityReference>T:TestDoc.TestClass</codeEntityReference>
+      <codeEntityReference>P:TestDoc.TestClass.SomeProperty</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.#ctor(System.String,System.Int32)</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.ToString</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.FirstMethod</codeEntityReference>
+      <codeEntityReference>M:TestDoc.TestClass.SecondMethod(System.Int32,System.String)</codeEntityReference>
+      -->
+    </relatedTopics>
+  </developerWalkthroughDocument>
+</topic>

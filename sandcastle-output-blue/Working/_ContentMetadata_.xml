@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <topic id="f52e699b-de1d-4242-bd0a-ab85261f9c93" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Blackbaud UAT Quick Start</title>
+    <tableOfContentsTitle>Blackbaud UAT Quick Start</tableOfContentsTitle>
+    <keyword index="NamedUrlIndex">DefaultPage</keyword>
+    <keyword index="NamedUrlIndex">HomePage</keyword>
+  </topic>
+  <topic id="d48ef890-924b-44ec-8ce1-856896c0abec" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Delving Deeper</title>
+    <tableOfContentsTitle>Delving Deeper</tableOfContentsTitle>
+  </topic>
+  <topic id="aa9d7059-e8f6-4e72-a741-a9fa2e5411f0" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Using the Selenium WebDriver</title>
+    <tableOfContentsTitle>Using the Selenium WebDriver</tableOfContentsTitle>
+  </topic>
+  <topic id="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>XPath Guidelines</title>
+    <tableOfContentsTitle>XPath Guidelines</tableOfContentsTitle>
+  </topic>
+  <topic id="0990eabd-be52-47c5-8273-0467c26eb79b" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>SpecFlow's Table and TableRow Guidelines</title>
+    <tableOfContentsTitle>SpecFlow's Table and TableRow Guidelines</tableOfContentsTitle>
+  </topic>
+  <topic id="4d721943-df97-4c91-aed1-7aeea9372876" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Setting Custom Fields</title>
+    <tableOfContentsTitle>Setting Custom Fields</tableOfContentsTitle>
+  </topic>
+  <topic id="48fdba0e-bf5f-4870-9c25-746bd3cedcb3" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Version History</title>
+    <keyword index="K">version, history</keyword>
+  </topic>
+  <topic id="83e4ed97-1714-41f0-a719-94ba1bf767dc" revisionNumber="1">
+    <item id="PBM_FileVersion">1.0.0.0</item>
+    <title>Version 1.0.0.0</title>
+    <keyword index="K">version, 1.0.0.0</keyword>
+  </topic>
+</metadata>

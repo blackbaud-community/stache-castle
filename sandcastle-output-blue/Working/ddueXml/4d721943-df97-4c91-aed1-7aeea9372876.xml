@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<topic id="4d721943-df97-4c91-aed1-7aeea9372876" revisionNumber="1">
+  <developerWalkthroughDocument
+    xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5"
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+    <introduction>
+      <para>
+        In this walkthrough you'll gain experience setting a custom field on a dialog and overriding 
+        a default implementations.
+      </para>
+      <alert class="warning">
+        <para>
+          Examples follow customizations that you likely will not have on your application.  Either follow along
+          against your own customizations and modify steps accordingly, or follow the screenshots below.
+        </para>
+      </alert>
+    </introduction>
+
+     <prerequisites>
+       <content>
+         <list class="bullet">
+           <listItem>
+             <para>You have completed the "Using the Selenium WebDriver" walkthrough and have access to an Enterprise CRM application.</para>
+           </listItem>
+           <listItem>
+             <para>You have completed the "SpecFlow's Table and TableRow Guidelines" walkthrough.</para>
+           </listItem>
+           <listItem>
+             <para>You are comfortable adding tests and step implementations to existing feature and step files.</para>
+           </listItem>
+           <listItem>
+             <para>You are comfortable accessing the existing UAT SDK (Project Blue) Core API.</para>
+           </listItem>
+           <listItem>
+             <para>You are comfortable modifying the app.config to change which application the tests run against.</para>
+           </listItem>
+           <listItem>
+             <para>You are comfortable identifying the unique attribute values for the XPath constructors in the Core API 
+             and have completed the "XPath Guidelines" walkthrough.</para>
+           </listItem>
+         </list>
+       </content>
+     </prerequisites>
+
+    <section address="WalkthroughSection">
+      <title>Adding Support For Custom Fields</title>
+      <content>
+        <procedure>
+          <title>Adding Support For Custom Fields - Overload Approach</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>Identify Need for Custom Support</para>
+                <mediaLink>
+                  <caption placement="before">
+                    This is the Enterprise CRM standard "Add an individual" dialog.
+                  </caption>
+                  <image placement="near" xlink:href=  "OriginalAddIndividual"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Here is a customized "Add an individual" dialog containing new fields.
+                  </caption>
+                  <image placement="near" xlink:href=  "CustomAddIndividual"/>
+                </mediaLink>
+                <alert class="note">
+                  <para>Notice that there are also custom required fields as well.  We need to consider that when 
+                  setting the fields for adding an individual on this application.</para>
+                </alert>
+                <mediaLink>
+                  <caption placement="before">
+                    In our test project, if we create a scenario outlined and implemented like this...
+                  </caption>
+                  <image placement="near" xlink:href=  "FeatureGherkin"/>
+                </mediaLink>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\ImplementedSteps.cs" 
+                      title="Core API used to implement steps.">
+                </code>
+                <alert class="note">
+                  <para>The application with the custom field also had a custom group caption for the "Add an individual" task.  This 
+                  is why the ConstituentsFunctionalArea.AddAnIndividual() call overloads the 'groupCaption' parameter.</para>
+                </alert>
+                <mediaLink>
+                  <caption placement="before">
+                    ...and run the test against the application with the new custom field, then we get an error indicating a need to add 
+                    custom support for the new field.
+                  </caption>
+                  <image placement="near" xlink:href=  "NotImplemetedFieldAddIndividual"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Create Class Inheriting Core Class</para>
+                <para>To resolve this failure, we need to add support for the additional custom fields.  
+                Create a new class in your project.</para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\EmptyCustomIndividualDialog.cs" 
+                      title="Custom Individual Dialog Class Inheriting IndividualDialog">
+                </code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Create Custom Supported Fields Mapping</para>
+                <para>
+                  We need to map the custom field captions to their relevant XPath and Field Setter values.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\CustomSupportedFieldsIndividualDialog.cs"
+                      title="Custom Individual Dialog Class with mapped custom fields.">
+                </code>
+                <alert class="important">
+                  <para>
+                    You should be comfortable understanding how the unique id attributes for the fields
+                    were gathered from the UI.  These values are used for the XPath constructors that locate and interact with the fields.
+                    Review the <link xlink:href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">XPath Guidelines</link> if you do not follow where 
+                    the values "_ATTRIBUTECATEGORYVALUE0_value" and "_ATTRIBUTECATEGORYVALUE1_value" come from.
+                  </para>
+                </alert>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Pass Custom Supported Fields To Base.</para>
+                <para>
+                  We need to map the custom field captions to their relevant XPath and Field Setter values.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\CustomIndividualDialog.cs"
+                      title="Custom SetIndividualFields()">
+                </code>
+                <para>
+                  The custom class uses its inherited IndividualDialog values to pass the required values to the Dialog's SetFields() method. SetFields has an overload that takes in a second IDictionary mapping of field captions to CrmFields. We can pass our dictionary of custom fields to add additional support for custom fields.
+                </para>
+                <alert class="note">
+                  <para>
+                    If a mapping exists in our CustomSupportedFields where the string key is an already existing key for SupportedFields, 
+                    the mapped values for CustomSupportedFields is used.
+                  </para>
+                </alert>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Modify Your Step Implementation.</para>
+                <para>Modify your step definition to use the new CustomIndividualDIalog's SetIndividualFields() method.</para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\CustomStep.cs"
+                      title="Modified Step Implementation">
+                </code>
+                <alert class="caution">
+                  <para>Depending on your application, the Save step may cause a duplicate entry or error 
+                  dialog to appear in the application.  If this occurs, we advise adding a unique stamp to the last name of your 
+                  constituent's values as shown above.</para>
+                </alert>
+                <mediaLink>
+                  <caption placement="before">
+                    The test passes now!
+                  </caption>
+                  <image placement="near" xlink:href=  "PassingTest"/>
+                </mediaLink>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+        <procedure>
+          <title>Adding Support For Custom Fields - Custom Method Approach</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>Alternative Gherkin Syntax</para>
+                <mediaLink>
+                  <caption placement="before">
+                    An alternative Gherkin approach that drives a need for an entirely custom method.
+                  </caption>
+                  <image placement="near" xlink:href=  "2ndFeatureGherkin"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Add Method to Custom Class</para>
+                <para>
+                  In this approach we describe setting a single field's value for a step.  Add the following method to your 
+                  CustomIndividualDialog class.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\CustomMethodIndividualDialog.cs"
+                      title="Custom method.">
+                </code>
+                <alert class="note">
+                  <para>
+                    Notice how the custom method did not need the "new" attribute in the method declaration.  "new" is only needed when 
+                    overriding an inherited method.
+                  </para>
+                </alert>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>Implement The New Step Methods</para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\NewCustomSteps.cs"
+                      title="Implemetation of new steps.">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    The test passes now!
+                  </caption>
+                  <image placement="near" xlink:href=  "2ndPassingTest"/>
+                </mediaLink>
+                <alert class="note">
+                  <para>
+                    There are many ways to use the UAT SDK (Project Blue) API in order to achieve the same result. Above are two potential implementations to handle a dialog with a custom field, but these are not the only approaches. The methods and their underlying logic are totally defined by the user. You are free to create whatever helper methods you see fit. Look into the API documentation and see if you can come up with a different solution.
+                  </para>
+                </alert>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+      
+    </section>
+
+    <section>
+      <title>Overriding And Overloading Implementations</title>
+      <content>
+        <procedure>
+          <title>Overloading An Implementation</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>Identify Need To Overload Implementation</para>
+                <mediaLink>
+                  <caption placement="before">
+                    Let's start with the following test case.
+                  </caption>
+                  <image placement="near" xlink:href=  "OverrideTestCase"/>
+                </mediaLink>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\SearchFieldSteps.cs"
+                      title="Implemetation of steps.">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    When run against the standard CRM application, the test passes.
+                  </caption>
+                  <image placement="near" xlink:href=  "PassingDefaultConstituentSearch"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    The steps navigate to the Constituents functional area and click the "Constituent search" task.
+                  </caption>
+                  <image placement="near" xlink:href=  "DefaultConstituentSearchTask"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    The "Last/Org/Group name" field is set and validated as containing the desired value.
+                  </caption>
+                  <image placement="near" xlink:href=  "DefaultConstituentSearchDialog"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    If we run the test against a custom application whose Constituent functional area looks like this...
+                  </caption>
+                  <image placement="near" xlink:href=  "CustomConstituentSearchTask"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    ...we get the following error.
+                  </caption>
+                  <image placement="near" xlink:href=  "DefaultOnCustomSearchDialogError"/>
+                </mediaLink>
+                <para>This is resolved with the following code edit.</para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\EditGroupCaptionSearchFieldStep.cs"
+                      title="Edited step">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    Running the test now we get a new error.
+                  </caption>
+                  <image placement="near" xlink:href=  "DefaultOnCustomSearchDialogFieldError"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    Another must customization exist.  The error stack trace indicates that the XPath constructor
+                    for the "Last/Org/Group name" field is not compatible with this application.  NoSuchElementExceptions are thrown when
+                    Selenium's WebDriver times out looking for a web element using the XPath.  
+                  </caption>
+                  <image placement="near" xlink:href=  "CustomConstituentSearchDialog"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Identify The Customization
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    Let's take a look at the search dialogs between the default and custom applications.  
+                    Comparing the dialogs, clearly the dialog on the right has been customized.  Inspecting the "Last/Org/Group name" field
+                    between the two applications, we can see they share the same unique field id.
+                  </caption>
+                  <image placement="near" xlink:href=  "ComparingFieldIdSearchDialog"/>
+                </mediaLink>
+                <alert class="note">
+                  <para>
+                    If you do not know how to identify the field's unique id, please review the
+                    <link xlink:href="8f3ad4c4-e6cf-4411-8d1a-7ca773037e33">XPath Guidelines</link>
+                  </para>
+                </alert>
+                <mediaLink>
+                  <caption placement="before">
+                    Inspecting the unique dialog ids, we can see that they are different.  The supported XPath constructs an XPath using the
+                    dialog id "ConstituentSearchbyNameorLookupID".  We need to modify the dialog id to use the custom dialog id.
+                  </caption>
+                  <image placement="near" xlink:href=  "ComparingDialogIdsSearchDialog"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Edit Steps
+                </para>
+                <para>
+                  Update the step code so the XPath constructors use the custom dialog id.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\SearchFieldStepsCustomDialogId.cs"
+                      title="Edited steps for custom dialog id">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    The test passes now on the custom application.
+                  </caption>
+                  <image placement="near" xlink:href=  "PassingDefaultConstituentSearch"/>
+                </mediaLink>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+        <procedure>
+          <title>Overriding An Implementation</title>
+          <steps class="ordered">
+            <step>
+              <content>
+                <para>
+                  Identify Need For Overriding Implementation
+                </para>
+                <mediaLink>
+                  <caption placement="before">
+                    Let's start with the following test case that works against the standard CRM application.
+                  </caption>
+                  <image placement="near" xlink:href=  "OverrideWorkingFeatureTest"/>
+                </mediaLink>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\OverrideWorkingSteps.cs"
+                      title="Implemetation of steps.">
+                </code>
+                <mediaLink>
+                  <caption placement="before">
+                    At some point in the test, the 'Related individual' field on the Add an individual dialog is set 
+                    by using the associated searchlist.
+                  </caption>
+                  <image placement="near" xlink:href=  "RecordSearch"/>
+                </mediaLink>
+                <mediaLink>
+                  <caption placement="before">
+                    What if we wanted to set the field through the add button?  This would require us to override the default 
+                    implementation for how the 'Related individual' field is set.
+                  </caption>
+                  <image placement="near" xlink:href=  "AddIcon"/>
+                </mediaLink>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Create A Custom Method
+                </para>
+                <para>
+                  If you do not have a CustomIndividualDialog class created yet, add a new class to your project and implement it as 
+                  follows.
+                </para>
+                <para>
+                  First we make sure to select the 'Household' tab.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\SelectTab.cs"
+                     title="Selecting the right tab"></code>
+                <para>
+                  Next we specify custom logic if a value for the 'Related individual' field has been provided.  If a value has been 
+                  provided for this field, we click the button that brings up the add dialog.  Be sure to read the API documentation for 
+                  the XPath constructors.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\ClickAddFormTrigger.cs"
+                     title="Click the add button for the field"></code>
+                <mediaLink>
+                  <caption placement="before">
+                    The resuling dialog from clicking the add button on the 'Related individual' field.
+                  </caption>
+                  <image placement="near" xlink:href=  "TriggerDialog"/>
+                </mediaLink>
+                <para>
+                  We then set the 'Last name' field value to the value provided for 'Related individual' before hitting Ok.  We could have 
+                  defined any logic and interactions involving this dialog, but let's keep it simple.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\SetLastName.cs"
+                     title="Set the 'Last name' field"></code>
+                <para>
+                  Before we call the base implementation to handle setting the rest of the fields, we set 
+                  fields["Related individual"] to equal null.  We do this because we want the base SetHouseholdFields to skip 
+                  it's handling of the 'Related individual' field.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\ImplementedCustomIndividualDialog.cs"
+                     title="Set 'Related individual' to null and çall the base method."></code>
+                <para>
+                  Another solution would have been to remove the 'Related individual' key from the fields object.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\AlternateRemove.cs"
+                     title="Remove the 'Related individual' key"></code>
+              </content>
+            </step>
+            <step>
+              <content>
+                <para>
+                  Update The Steps
+                </para>
+                <para>
+                  Change the step setting the household tab fields.
+                </para>
+                <code language="c#" source=".\CodeExamples\SettingCustomFields\OverrideExample\UpdatedStep.cs"
+                     title="Updated step"></code>
+                <para>
+                  The test now sets the 'Related individual' field through the add button and not the search dialog.
+                </para>
+              </content>
+            </step>
+          </steps>
+        </procedure>
+      </content>
+    </section>
+    
+    <relatedTopics>
+      <externalLink>
+        <linkText>SpecFlow's Tables and TableRows</linkText>
+        <linkUri>https://github.com/techtalk/SpecFlow/wiki/SpecFlow-Assist-Helpers</linkUri>
+      </externalLink>
+      
+    </relatedTopics>
+  </developerWalkthroughDocument>
+</topic>

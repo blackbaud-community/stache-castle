@@ -1,0 +1,1678 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpKI>
+  <HelpKINode Title="ActivatedMarketingEffortExists method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists.htm" />
+  <HelpKINode Title="AddAcknowledgementRule method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule.htm" />
+  <HelpKINode Title="AddAdHocQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_AddAdHocQuery.htm" />
+  <HelpKINode Title="AddAnIndividual method" Url="html/Overload_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm" />
+  <HelpKINode Title="AddAPayment method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPayment.htm" />
+  <HelpKINode Title="AddAPledge method" Url="html/Overload_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge.htm" />
+  <HelpKINode Title="AddApplication method" Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_AddApplication.htm" />
+  <HelpKINode Title="AddBatch method" Url="html/Overload_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch.htm" />
+  <HelpKINode Title="AddChildEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddChildEvent.htm" />
+  <HelpKINode Title="AddCompletedStep method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_AddCompletedStep.htm" />
+  <HelpKINode Title="AddConstituency method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddConstituency.htm" />
+  <HelpKINode Title="AddCoordinator method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddCoordinator.htm" />
+  <HelpKINode Title="AddDialogId field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_AddDialogId.htm" />
+  <HelpKINode Title="AddEvent method" Url="html/Overload_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent.htm" />
+  <HelpKINode Title="AddExistingEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddExistingEvent.htm" />
+  <HelpKINode Title="AddExpense method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddExpense.htm" />
+  <HelpKINode Title="AddFilterField method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddFilterField.htm" />
+  <HelpKINode Title="AdditionalDatalistPagesExist method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_AdditionalDatalistPagesExist.htm" />
+  <HelpKINode Title="AddLocation method" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel_AddLocation.htm" />
+  <HelpKINode Title="AddMailPackage method" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_AddMailPackage.htm" />
+  <HelpKINode Title="AddMajorGivingPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddMajorGivingPlan.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog class">
+    <HelpKINode Title="AddMembershipProgramDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+    <HelpKINode Title="about AddMembershipProgramDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AddMembershipProgramDialog.AddMembershipProgramDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog__ctor.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CheckMembershipProgramExists method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CheckMembershipProgramExists.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgram method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgram.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramAnnual method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramAnnual.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramBenefitsOptionsFormat method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramBenefitsOptionsFormat.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramDues method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDues.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramDuesOptionsInstallments method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDuesOptionsInstallments.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramLevelName method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelName.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramLevelPrice method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelPrice.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramNext method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramNext.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramRenewalOptionsTerm method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramRenewalOptionsTerm.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.CreateMembershipProgramReviewSave method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramReviewSave.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.DeleteMembershipProgram method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_DeleteMembershipProgram.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXAddMembershipButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipButton.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXAddMembershipNextButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipNextButton.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXBenefitsCardFormatDropDown field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXBenefitsCardFormatDropDown.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXDeleteProgramLink method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDeleteProgramLink.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXDuesInstallments field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDuesInstallments.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXHeaderPanel field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXHeaderPanel.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXMembershipProgramButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipProgramButton.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXMembershipTerm field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipTerm.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramKindAnnual field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramKindAnnual.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramLevelCurrentEdit field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelCurrentEdit.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramLevelNameHeader field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelNameHeader.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramLevelPriceHeader field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelPriceHeader.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramLink method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLink.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramNameField.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXProgramObtainDues field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramObtainDues.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXReviewSave field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXReviewSave.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.getXYesReallyDelete field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXYesReallyDelete.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.MembershipPrograms method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_MembershipPrograms.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.ProgramLevelCurrentEditElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelCurrentEditElement.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.ProgramLevelNameHeaderElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelNameHeaderElement.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.ProgramLevelPriceHeaderElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelPriceHeaderElement.htm" />
+  <HelpKINode Title="AddMembershipProgramDialog.ProgramLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLinkElement.htm" />
+  <HelpKINode Title="AddMultiEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddMultiEvent.htm" />
+  <HelpKINode Title="AddNote method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNote.htm" />
+  <HelpKINode Title="AddNotification method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNotification.htm" />
+  <HelpKINode Title="AddOutputField method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddOutputField.htm" />
+  <HelpKINode Title="AddPlanOutline method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_AddPlanOutline.htm" />
+  <HelpKINode Title="AddPreference method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddPreference.htm" />
+  <HelpKINode Title="AddQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_AddQuery.htm" />
+  <HelpKINode Title="AddReceipt method" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_AddReceipt.htm" />
+  <HelpKINode Title="AddRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrant.htm" />
+  <HelpKINode Title="AddRegistrationOption method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrationOption.htm" />
+  <HelpKINode Title="AddSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_AddSegment.htm" />
+  <HelpKINode Title="AddSelection method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_AddSelection.htm" />
+  <HelpKINode Title="AddSubtype method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype.htm" />
+  <HelpKINode Title="AddTaskDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddTaskDialog.htm" />
+  <HelpKINode Title="AddTeamMember method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamMember.htm" />
+  <HelpKINode Title="AddTeamRole method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamRole.htm" />
+  <HelpKINode Title="AddTemplate method">
+    <HelpKINode Title="EventManagementTemplatesPanel.AddTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_AddTemplate.htm" />
+    <HelpKINode Title="MarketingAcknowledgementsPanel.AddTemplate Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdHocQueryDialog class">
+    <HelpKINode Title="AdHocQueryDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+    <HelpKINode Title="about AdHocQueryDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdHocQueryDialog.AddFilterField method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddFilterField.htm" />
+  <HelpKINode Title="AdHocQueryDialog.AddOutputField method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_AddOutputField.htm" />
+  <HelpKINode Title="AdHocQueryDialog.AdHocQueryDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog__ctor.htm" />
+  <HelpKINode Title="AdHocQueryDialog.ApplyCriteria method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ApplyCriteria.htm" />
+  <HelpKINode Title="AdHocQueryDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_DialogIds.htm" />
+  <HelpKINode Title="AdHocQueryDialog.ExpandNode method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ExpandNode.htm" />
+  <HelpKINode Title="AdHocQueryDialog.FilterBy method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_FilterBy.htm" />
+  <HelpKINode Title="AdHocQueryDialog.SaveAndClose method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SaveAndClose.htm" />
+  <HelpKINode Title="AdHocQueryDialog.SetSaveOptions method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SetSaveOptions.htm" />
+  <HelpKINode Title="AdHocQueryDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SupportedFields.htm" />
+  <HelpKINode Title="AdHocQueryPanel class">
+    <HelpKINode Title="AdHocQueryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+    <HelpKINode Title="about AdHocQueryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AdHocQueryPanel.AdHocQueryPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel__ctor.htm" />
+  <HelpKINode Title="AdHocQueryPanel.IsPanelHeader method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel_IsPanelHeader.htm" />
+  <HelpKINode Title="AnalysisFunctionalArea class">
+    <HelpKINode Title="AnalysisFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+    <HelpKINode Title="about AnalysisFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="AnalysisFunctionalArea.AnalysisFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea__ctor.htm" />
+  <HelpKINode Title="AnalysisFunctionalArea.InformationLibrary method" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_InformationLibrary.htm" />
+  <HelpKINode Title="AnalysisFunctionalArea.OpenQueryPanel method" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel.htm" />
+  <HelpKINode Title="Apply method" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_Apply.htm" />
+  <HelpKINode Title="ApplyCriteria method">
+    <HelpKINode Title="AdHocQueryDialog.ApplyCriteria Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ApplyCriteria.htm" />
+    <HelpKINode Title="NewAdhocQueryDialog.ApplyCriteria Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_ApplyCriteria.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseComponent class">
+    <HelpKINode Title="BaseComponent Class" Url="html/T_Blackbaud_UAT_Base_BaseComponent.htm" />
+    <HelpKINode Title="about BaseComponent class" Url="html/T_Blackbaud_UAT_Base_BaseComponent.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Base_BaseComponent__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Base_BaseComponent.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Base_BaseComponent.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseComponent.BaseComponent constructor" Url="html/M_Blackbaud_UAT_Base_BaseComponent__ctor.htm" />
+  <HelpKINode Title="BaseComponent.ClickButton method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ClickButton.htm" />
+  <HelpKINode Title="BaseComponent.ConvertToBool method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ConvertToBool.htm" />
+  <HelpKINode Title="BaseComponent.CopyToClipBoard method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_CopyToClipBoard.htm" />
+  <HelpKINode Title="BaseComponent.Driver property" Url="html/P_Blackbaud_UAT_Base_BaseComponent_Driver.htm" />
+  <HelpKINode Title="BaseComponent.ElementValueIsNotNullOrEmpty method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsNotNullOrEmpty.htm" />
+  <HelpKINode Title="BaseComponent.ElementValueIsSet method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsSet.htm" />
+  <HelpKINode Title="BaseComponent.Exists method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_Exists.htm" />
+  <HelpKINode Title="BaseComponent.ExistsNow method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ExistsNow.htm" />
+  <HelpKINode Title="BaseComponent.GetDatalistColumnIndex method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDatalistColumnIndex.htm" />
+  <HelpKINode Title="BaseComponent.GetDisplayedElement method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDisplayedElement.htm" />
+  <HelpKINode Title="BaseComponent.GetEnabledElement method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetEnabledElement.htm" />
+  <HelpKINode Title="BaseComponent.getXButton method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXButton.htm" />
+  <HelpKINode Title="BaseComponent.getXMenuItem method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXMenuItem.htm" />
+  <HelpKINode Title="BaseComponent.MapColumnCaptionsToIndex method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_MapColumnCaptionsToIndex.htm" />
+  <HelpKINode Title="BaseComponent.SetCheckbox method" Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_SetCheckbox.htm" />
+  <HelpKINode Title="BaseComponent.SetCredentailsField method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetCredentailsField.htm" />
+  <HelpKINode Title="BaseComponent.SetTextField method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetTextField.htm" />
+  <HelpKINode Title="BaseComponent.TimeoutSecs property" Url="html/P_Blackbaud_UAT_Base_BaseComponent_TimeoutSecs.htm" />
+  <HelpKINode Title="BaseComponent.Title property" Url="html/P_Blackbaud_UAT_Base_BaseComponent_Title.htm" />
+  <HelpKINode Title="BaseComponent.WaitClick method" Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_WaitClick.htm" />
+  <HelpKINode Title="BaseSteps class">
+    <HelpKINode Title="BaseSteps Class" Url="html/T_Blackbaud_UAT_Core_Base_BaseSteps.htm" />
+    <HelpKINode Title="about BaseSteps class" Url="html/T_Blackbaud_UAT_Core_Base_BaseSteps.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Base_BaseSteps.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Base_BaseSteps.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BaseSteps.BaseSteps constructor" Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps__ctor.htm" />
+  <HelpKINode Title="BaseSteps.FailTest method" Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps_FailTest.htm" />
+  <HelpKINode Title="BaseSteps.testStamp field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_testStamp.htm" />
+  <HelpKINode Title="BaseSteps.uniqueStamp field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_uniqueStamp.htm" />
+  <HelpKINode Title="BaseUrl property">
+    <HelpKINode Title="BBCRMHomePage.BaseUrl Property " Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_BaseUrl.htm" />
+    <HelpKINode Title="BBISHomePage.BaseUrl Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_BaseUrl.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BatchDialog class">
+    <HelpKINode Title="BatchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+    <HelpKINode Title="about BatchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BatchDialog.BatchDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog__ctor.htm" />
+  <HelpKINode Title="BatchDialog.BatchDialogGridId field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogGridId.htm" />
+  <HelpKINode Title="BatchDialog.BatchDialogId field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogId.htm" />
+  <HelpKINode Title="BatchDialog.ColumnToBatchColumn field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_ColumnToBatchColumn.htm" />
+  <HelpKINode Title="BatchDialog.EditConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_EditConstituent.htm" />
+  <HelpKINode Title="BatchDialog.GetColumnIndexByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexByCaption.htm" />
+  <HelpKINode Title="BatchDialog.GetColumnIndexById method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexById.htm" />
+  <HelpKINode Title="BatchDialog.GetGridCellValue method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetGridCellValue.htm" />
+  <HelpKINode Title="BatchDialog.getXBatchGridHeaders field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_getXBatchGridHeaders.htm" />
+  <HelpKINode Title="BatchDialog.SaveAndClose method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SaveAndClose.htm" />
+  <HelpKINode Title="BatchDialog.SetGridCell method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridCell.htm" />
+  <HelpKINode Title="BatchDialog.SetGridRow method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRow.htm" />
+  <HelpKINode Title="BatchDialog.SetGridRows method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRows.htm" />
+  <HelpKINode Title="BatchDialog.Validate method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_Validate.htm" />
+  <HelpKINode Title="BatchDialogGridId field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogGridId.htm" />
+  <HelpKINode Title="BatchDialogId field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_BatchDialogId.htm" />
+  <HelpKINode Title="BatchEntry method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_BatchEntry.htm" />
+  <HelpKINode Title="BatchEntryPanel class">
+    <HelpKINode Title="BatchEntryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+    <HelpKINode Title="about BatchEntryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BatchEntryPanel.AddBatch method" Url="html/Overload_Blackbaud_UAT_Core_Crm_BatchEntryPanel_AddBatch.htm" />
+  <HelpKINode Title="BatchEntryPanel.BatchEntryPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel__ctor.htm" />
+  <HelpKINode Title="BatchEntryPanel.CommitSelectedBatch method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_CommitSelectedBatch.htm" />
+  <HelpKINode Title="BatchEntryPanel.getXSearchInput field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchEntryPanel_getXSearchInput.htm" />
+  <HelpKINode Title="BatchEntryPanel.SelectUncommittedBatch method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_SelectUncommittedBatch.htm" />
+  <HelpKINode Title="BatchEntryPanel.UncommittedBatchExists method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_UncommittedBatchExists.htm" />
+  <HelpKINode Title="BBCRMHomePage class">
+    <HelpKINode Title="BBCRMHomePage Class" Url="html/T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+    <HelpKINode Title="about BBCRMHomePage class" Url="html/T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BBCRMHomePage.BaseUrl property" Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_BaseUrl.htm" />
+  <HelpKINode Title="BBCRMHomePage.BBCRMHomePage constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage__ctor.htm" />
+  <HelpKINode Title="BBCRMHomePage.getXExtMenuTab method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtMenuTab.htm" />
+  <HelpKINode Title="BBCRMHomePage.getXExtTab method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtTab.htm" />
+  <HelpKINode Title="BBCRMHomePage.getXMenuMore field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXMenuMore.htm" />
+  <HelpKINode Title="BBCRMHomePage.getXTask method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXTask.htm" />
+  <HelpKINode Title="BBCRMHomePage.getXWaitBar field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXWaitBar.htm" />
+  <HelpKINode Title="BBCRMHomePage.Login method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_Login.htm" />
+  <HelpKINode Title="BBCRMHomePage.LoginAs method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_LoginAs.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenAnalysisFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenAnalysisFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenConstituentsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenConstituentsFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenEventsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenEventsFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenFunctionalArea method" Url="html/Overload_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenFundraisingFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFundraisingFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenMarketingAndCommunicationsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenMembershipsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMembershipsFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenProspectsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenProspectsFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.OpenRevenueFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenRevenueFA.htm" />
+  <HelpKINode Title="BBCRMHomePage.VirtualPath property" Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_VirtualPath.htm" />
+  <HelpKINode Title="BBISHomePage class">
+    <HelpKINode Title="BBISHomePage Class" Url="html/T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+    <HelpKINode Title="about BBISHomePage class" Url="html/T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BBISHomePage.BaseUrl property" Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_BaseUrl.htm" />
+  <HelpKINode Title="BBISHomePage.BBISHomePage constructor" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage__ctor.htm" />
+  <HelpKINode Title="BBISHomePage.CheckLayoutSearchResultsContain method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_CheckLayoutSearchResultsContain.htm" />
+  <HelpKINode Title="BBISHomePage.DeleteLayout method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_DeleteLayout.htm" />
+  <HelpKINode Title="BBISHomePage.FilterLayoutByName method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_FilterLayoutByName.htm" />
+  <HelpKINode Title="BBISHomePage.getXFilterByNameButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameButton.htm" />
+  <HelpKINode Title="BBISHomePage.getXFilterByNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameField.htm" />
+  <HelpKINode Title="BBISHomePage.getXLayoutGridNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutGridNameField.htm" />
+  <HelpKINode Title="BBISHomePage.getXLayoutSearchResultsLine field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutSearchResultsLine.htm" />
+  <HelpKINode Title="BBISHomePage.getXLoginButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLoginButton.htm" />
+  <HelpKINode Title="BBISHomePage.getXNewLayoutButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutButton.htm" />
+  <HelpKINode Title="BBISHomePage.getXNewLayoutLayoutDescription field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutDescription.htm" />
+  <HelpKINode Title="BBISHomePage.getXNewLayoutLayoutName field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutName.htm" />
+  <HelpKINode Title="BBISHomePage.getXNewLayoutNextButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutNextButton.htm" />
+  <HelpKINode Title="BBISHomePage.getXNewLayoutSaveButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutSaveButton.htm" />
+  <HelpKINode Title="BBISHomePage.getXPasswordField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXPasswordField.htm" />
+  <HelpKINode Title="BBISHomePage.getXUserNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXUserNameField.htm" />
+  <HelpKINode Title="BBISHomePage.Login method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Login.htm" />
+  <HelpKINode Title="BBISHomePage.LoginAs method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_LoginAs.htm" />
+  <HelpKINode Title="BBISHomePage.NewLayout method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_NewLayout.htm" />
+  <HelpKINode Title="BBISHomePage.OpenImageLibrary method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenImageLibrary.htm" />
+  <HelpKINode Title="BBISHomePage.OpenLayoutGallery method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenLayoutGallery.htm" />
+  <HelpKINode Title="BBISHomePage.Title property" Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Title.htm" />
+  <HelpKINode Title="BBISHomePage.VirtualPath property" Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_VirtualPath.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Base namespace" Url="html/N_Blackbaud_UAT_Base.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Base.BaseComponent class" Url="html/T_Blackbaud_UAT_Base_BaseComponent.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Base.CrmField class" Url="html/T_Blackbaud_UAT_Base_CrmField.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Base.FieldType enumeration" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Base namespace" Url="html/N_Blackbaud_UAT_Core_Base.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Base.BaseSteps class" Url="html/T_Blackbaud_UAT_Core_Base_BaseSteps.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Bbis.Pages namespace" Url="html/N_Blackbaud_UAT_Core_Bbis_Pages.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Bbis.Pages.BBISHomePage class" Url="html/T_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm namespace" Url="html/N_Blackbaud_UAT_Core_Crm.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.AdHocQueryDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.AdHocQueryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_AdHocQueryPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.AnalysisFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.BatchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.BatchEntryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_BatchEntryPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.BBCRMHomePage class" Url="html/T_Blackbaud_UAT_Core_Crm_BBCRMHomePage.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.BusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.CommitmentsDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.ConstituentPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.ConstituentsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.DesignationsDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Dialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Dialogs namespace" Url="html/N_Blackbaud_UAT_Core_Crm_Dialogs.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Dialogs.AddMembershipProgramDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Dialogs.MarketingAcknowledgementTemplateDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.EnhancedRevenueBatchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.EventDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.EventManagementTemplatesPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.EventPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.EventsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.FunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.FundraisingFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.HomeFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.IndividualDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.InformationLibraryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.LocationsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MajorGivingPlanDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MajorGivingSetupPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MarketingAcknowledgementBusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MarketingAcknowledgementRuleDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MarketingAcknowledgementsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MarketingAcknowledgementTemplatePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MarketingAndCommFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MultiEventPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.MultiLevelEventDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.NewAdhocQueryDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PackageDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PackagesPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Panel class" Url="html/T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Panels namespace" Url="html/N_Blackbaud_UAT_Core_Crm_Panels.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.Panels.QueryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PaymentDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PlanPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PledgeDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PledgePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.PledgeSubtypePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.ProspectsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.QuerySourceViewDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.ReceiptBusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.ReceiptsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.RecurringGiftPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.RegistrantDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.RegistrantPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.RevenueFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.RevenueRecordPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.SearchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.SegmentDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.SegmentPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.SegmentsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+  <HelpKINode Title="Blackbaud.UAT.Core.Crm.TaskDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+  <HelpKINode Title="BusinessProcess class">
+    <HelpKINode Title="BusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+    <HelpKINode Title="about BusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_BusinessProcess.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BusinessProcess.BusinessProcess constructor" Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess__ctor.htm" />
+  <HelpKINode Title="BusinessProcess.getXCommitStatus field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXCommitStatus.htm" />
+  <HelpKINode Title="BusinessProcess.getXRecordsProcessed field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXRecordsProcessed.htm" />
+  <HelpKINode Title="BusinessProcess.IsCompleted method" Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsCompleted.htm" />
+  <HelpKINode Title="BusinessProcess.IsNumRecordsProcessed method" Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsNumRecordsProcessed.htm" />
+  <HelpKINode Title="Cancel method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Cancel.htm" />
+  <HelpKINode Title="CellType field" Url="html/F_Blackbaud_UAT_Base_CrmField_CellType.htm" />
+  <HelpKINode Title="Checkbox enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="CheckConstituentSearchResultsContain method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain.htm" />
+  <HelpKINode Title="CheckConstituentSearchResultsToolbarContains method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains.htm" />
+  <HelpKINode Title="CheckGridResultsContain method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CheckGridResultsContain.htm" />
+  <HelpKINode Title="CheckLayoutSearchResultsContain method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_CheckLayoutSearchResultsContain.htm" />
+  <HelpKINode Title="CheckMembershipProgramExists method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CheckMembershipProgramExists.htm" />
+  <HelpKINode Title="CheckQueryPresent method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_CheckQueryPresent.htm" />
+  <HelpKINode Title="ClickButton method">
+    <HelpKINode Title="BaseComponent.ClickButton Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_ClickButton.htm" />
+    <HelpKINode Title="Dialog.ClickButton Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_ClickButton.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ClickConstituentLink method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ClickConstituentLink.htm" />
+  <HelpKINode Title="ClickSectionAddButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ClickSectionAddButton.htm" />
+  <HelpKINode Title="CloseDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_CloseDialog.htm" />
+  <HelpKINode Title="CollapseCalendar method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_CollapseCalendar.htm" />
+  <HelpKINode Title="CollapseResearchLists method" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists.htm" />
+  <HelpKINode Title="CollapseSection method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CollapseSection.htm" />
+  <HelpKINode Title="ColumnToBatchColumn field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_ColumnToBatchColumn.htm" />
+  <HelpKINode Title="CommitmentsDialog class">
+    <HelpKINode Title="CommitmentsDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+    <HelpKINode Title="about CommitmentsDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_CommitmentsDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CommitmentsDialog.CommitmentsDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog__ctor.htm" />
+  <HelpKINode Title="CommitmentsDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_DialogIds.htm" />
+  <HelpKINode Title="CommitmentsDialog.SetAdditionalApplicationsGridRows method" Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows.htm" />
+  <HelpKINode Title="CommitmentsDialog.SupportedAddtionalApplicationsGridFields field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields.htm" />
+  <HelpKINode Title="CommitSelectedBatch method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_CommitSelectedBatch.htm" />
+  <HelpKINode Title="CompletedStepExists method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_CompletedStepExists.htm" />
+  <HelpKINode Title="ConstituencyExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ConstituencyExists.htm" />
+  <HelpKINode Title="ConstituentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentExists.htm" />
+  <HelpKINode Title="ConstituentPanel class">
+    <HelpKINode Title="ConstituentPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+    <HelpKINode Title="about ConstituentPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ConstituentPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstituentPanel.AddConstituency method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddConstituency.htm" />
+  <HelpKINode Title="ConstituentPanel.AddMajorGivingPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddMajorGivingPlan.htm" />
+  <HelpKINode Title="ConstituentPanel.AddNote method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNote.htm" />
+  <HelpKINode Title="ConstituentPanel.AddNotification method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddNotification.htm" />
+  <HelpKINode Title="ConstituentPanel.AddTeamMember method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamMember.htm" />
+  <HelpKINode Title="ConstituentPanel.AddTeamRole method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_AddTeamRole.htm" />
+  <HelpKINode Title="ConstituentPanel.ClickConstituentLink method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ClickConstituentLink.htm" />
+  <HelpKINode Title="ConstituentPanel.ConstituencyExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_ConstituencyExists.htm" />
+  <HelpKINode Title="ConstituentPanel.ConstituentPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel__ctor.htm" />
+  <HelpKINode Title="ConstituentPanel.DeleteConstituency method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_DeleteConstituency.htm" />
+  <HelpKINode Title="ConstituentPanel.GetConstituentTypeText method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GetConstituentTypeText.htm" />
+  <HelpKINode Title="ConstituentPanel.getXNotification method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXNotification.htm" />
+  <HelpKINode Title="ConstituentPanel.getXYesReallyDelete field" Url="html/F_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXYesReallyDelete.htm" />
+  <HelpKINode Title="ConstituentPanel.GoToPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GoToPlan.htm" />
+  <HelpKINode Title="ConstituentPanel.IsBirthDate method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsBirthDate.htm" />
+  <HelpKINode Title="ConstituentPanel.IsConstituentPanelHeader method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsConstituentPanelHeader.htm" />
+  <HelpKINode Title="ConstituentPanel.IsLastName method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsLastName.htm" />
+  <HelpKINode Title="ConstituentPanel.IsStateAddress method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsStateAddress.htm" />
+  <HelpKINode Title="ConstituentPanel.IsTitle method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsTitle.htm" />
+  <HelpKINode Title="ConstituentPanel.NotificationExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_NotificationExists.htm" />
+  <HelpKINode Title="ConstituentPanel.PlanExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_PlanExists.htm" />
+  <HelpKINode Title="ConstituentPanel.SelectInfoTab method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectInfoTab.htm" />
+  <HelpKINode Title="ConstituentPanel.SelectNote method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectNote.htm" />
+  <HelpKINode Title="ConstituentPanel.StartToAddAPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_StartToAddAPlan.htm" />
+  <HelpKINode Title="ConstituentPanel.TeamMemberExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamMemberExists.htm" />
+  <HelpKINode Title="ConstituentPanel.TeamRoleExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamRoleExists.htm" />
+  <HelpKINode Title="ConstituentSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch.htm" />
+  <HelpKINode Title="ConstituentsFunctionalArea class">
+    <HelpKINode Title="ConstituentsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+    <HelpKINode Title="about ConstituentsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ConstituentsFunctionalArea.AddAnIndividual method" Url="html/Overload_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm" />
+  <HelpKINode Title="ConstituentsFunctionalArea.ConstituentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentExists.htm" />
+  <HelpKINode Title="ConstituentsFunctionalArea.ConstituentSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_ConstituentSearch.htm" />
+  <HelpKINode Title="ConstituentsFunctionalArea.ConstituentsFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea__ctor.htm" />
+  <HelpKINode Title="ConstituentsFunctionalArea.OpenConstituentSearchDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_OpenConstituentSearchDialog.htm" />
+  <HelpKINode Title="ConvertToBool method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ConvertToBool.htm" />
+  <HelpKINode Title="CoordinatorExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CoordinatorExists.htm" />
+  <HelpKINode Title="CopyFrom method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_CopyFrom.htm" />
+  <HelpKINode Title="CopyQueryAsStaticSelection method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection.htm" />
+  <HelpKINode Title="CopyRegistrationOptions method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CopyRegistrationOptions.htm" />
+  <HelpKINode Title="CopyToClipBoard method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_CopyToClipBoard.htm" />
+  <HelpKINode Title="CreateMembershipProgram method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgram.htm" />
+  <HelpKINode Title="CreateMembershipProgramAnnual method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramAnnual.htm" />
+  <HelpKINode Title="CreateMembershipProgramBenefitsOptionsFormat method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramBenefitsOptionsFormat.htm" />
+  <HelpKINode Title="CreateMembershipProgramDues method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDues.htm" />
+  <HelpKINode Title="CreateMembershipProgramDuesOptionsInstallments method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramDuesOptionsInstallments.htm" />
+  <HelpKINode Title="CreateMembershipProgramLevelName method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelName.htm" />
+  <HelpKINode Title="CreateMembershipProgramLevelPrice method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramLevelPrice.htm" />
+  <HelpKINode Title="CreateMembershipProgramNext method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramNext.htm" />
+  <HelpKINode Title="CreateMembershipProgramRenewalOptionsTerm method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramRenewalOptionsTerm.htm" />
+  <HelpKINode Title="CreateMembershipProgramReviewSave method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_CreateMembershipProgramReviewSave.htm" />
+  <HelpKINode Title="CrmField class">
+    <HelpKINode Title="CrmField Class" Url="html/T_Blackbaud_UAT_Base_CrmField.htm" />
+    <HelpKINode Title="about CrmField class" Url="html/T_Blackbaud_UAT_Base_CrmField.htm" />
+    <HelpKINode Title="constructor" Url="html/Overload_Blackbaud_UAT_Base_CrmField__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Base_CrmField.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Base_CrmField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="CrmField.CellType field" Url="html/F_Blackbaud_UAT_Base_CrmField_CellType.htm" />
+  <HelpKINode Title="CrmField.CrmField constructor" Url="html/Overload_Blackbaud_UAT_Base_CrmField__ctor.htm" />
+  <HelpKINode Title="CrmField.Id field" Url="html/F_Blackbaud_UAT_Base_CrmField_Id.htm" />
+  <HelpKINode Title="CrmField.SearchDialogFieldId field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogFieldId.htm" />
+  <HelpKINode Title="CrmField.SearchDialogId field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogId.htm" />
+  <HelpKINode Title="DeleteActivatedMarketingEffort method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort.htm" />
+  <HelpKINode Title="DeleteConstituency method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_DeleteConstituency.htm" />
+  <HelpKINode Title="DeleteLayout method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_DeleteLayout.htm" />
+  <HelpKINode Title="DeleteMembershipProgram method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_DeleteMembershipProgram.htm" />
+  <HelpKINode Title="DeletePackage method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage.htm" />
+  <HelpKINode Title="DeleteQuery method">
+    <HelpKINode Title="InformationLibraryPanel.DeleteQuery Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery.htm" />
+    <HelpKINode Title="QueryPanel.DeleteQuery Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteQueryLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQueryLinkElement.htm" />
+  <HelpKINode Title="DeleteSegment method">
+    <HelpKINode Title="SegmentPanel.DeleteSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteSegment.htm" />
+    <HelpKINode Title="SegmentsPanel.DeleteSegment Method " Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_DeleteSegment.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DeleteTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate.htm" />
+  <HelpKINode Title="DesignationExists method">
+    <HelpKINode Title="FundraisingFunctionalArea.DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea_DesignationExists.htm" />
+    <HelpKINode Title="PledgePanel.DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_DesignationExists.htm" />
+    <HelpKINode Title="RecurringGiftPanel.DesignationExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel_DesignationExists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesignationsDialog class">
+    <HelpKINode Title="DesignationsDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+    <HelpKINode Title="about DesignationsDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_DesignationsDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="DesignationsDialog.DesignationsDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog__ctor.htm" />
+  <HelpKINode Title="DesignationsDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_DialogIds.htm" />
+  <HelpKINode Title="DesignationsDialog.SplitDesignations method" Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignations.htm" />
+  <HelpKINode Title="DesignationsDialog.SplitDesignationsEvenly method" Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignationsEvenly.htm" />
+  <HelpKINode Title="DesignationsDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_SupportedFields.htm" />
+  <HelpKINode Title="Dialog class">
+    <HelpKINode Title="Dialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+    <HelpKINode Title="about Dialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Dialog.Cancel method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Cancel.htm" />
+  <HelpKINode Title="Dialog.ClickButton method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_ClickButton.htm" />
+  <HelpKINode Title="Dialog.CloseDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_CloseDialog.htm" />
+  <HelpKINode Title="Dialog.Dialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog__ctor.htm" />
+  <HelpKINode Title="Dialog.DropdownValueExists method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_DropdownValueExists.htm" />
+  <HelpKINode Title="Dialog.GetDialogId method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_GetDialogId.htm" />
+  <HelpKINode Title="Dialog.getXButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXButton.htm" />
+  <HelpKINode Title="Dialog.getXCancelButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXCancelButton.htm" />
+  <HelpKINode Title="Dialog.getXCloseX method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXCloseX.htm" />
+  <HelpKINode Title="Dialog.getXDialogButton method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton.htm" />
+  <HelpKINode Title="Dialog.getXDialogByClass method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogByClass.htm" />
+  <HelpKINode Title="Dialog.getXDialogById method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogById.htm" />
+  <HelpKINode Title="Dialog.getXDiv method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDiv.htm" />
+  <HelpKINode Title="Dialog.getXDropdownArrow method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownArrow.htm" />
+  <HelpKINode Title="Dialog.getXDropdownItem method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownItem.htm" />
+  <HelpKINode Title="Dialog.getXDropdownList field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownList.htm" />
+  <HelpKINode Title="Dialog.getXDropdownListItems field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownListItems.htm" />
+  <HelpKINode Title="Dialog.getXEntireDialogButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXEntireDialogButton.htm" />
+  <HelpKINode Title="Dialog.getXGridCell method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridCell.htm" />
+  <HelpKINode Title="Dialog.getXGridEditCell field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCell.htm" />
+  <HelpKINode Title="Dialog.getXGridEditCellDropdownArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellDropdownArrow.htm" />
+  <HelpKINode Title="Dialog.getXGridEditCellSearchlist field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellSearchlist.htm" />
+  <HelpKINode Title="Dialog.getXGridFocusedEditCell field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridFocusedEditCell.htm" />
+  <HelpKINode Title="Dialog.getXGridHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridHeaders.htm" />
+  <HelpKINode Title="Dialog.getXGridRow method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRow.htm" />
+  <HelpKINode Title="Dialog.getXGridRowSelector method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRowSelector.htm" />
+  <HelpKINode Title="Dialog.getXIFrame method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXIFrame.htm" />
+  <HelpKINode Title="Dialog.getXIFrameHtmlBodyP field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXIFrameHtmlBodyP.htm" />
+  <HelpKINode Title="Dialog.getXInput method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInput.htm" />
+  <HelpKINode Title="Dialog.getXInputNewFormTrigger method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputNewFormTrigger.htm" />
+  <HelpKINode Title="Dialog.getXInputSearchTrigger method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputSearchTrigger.htm" />
+  <HelpKINode Title="Dialog.getXLinkByAction method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByAction.htm" />
+  <HelpKINode Title="Dialog.getXLinkByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByCaption.htm" />
+  <HelpKINode Title="Dialog.getXOKButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXOKButton.htm" />
+  <HelpKINode Title="Dialog.getXSaveAndCloseButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveAndCloseButton.htm" />
+  <HelpKINode Title="Dialog.getXSaveButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveButton.htm" />
+  <HelpKINode Title="Dialog.getXSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXSpan.htm" />
+  <HelpKINode Title="Dialog.getXTab method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXTab.htm" />
+  <HelpKINode Title="Dialog.getXTabStrip field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXTabStrip.htm" />
+  <HelpKINode Title="Dialog.getXTextArea method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXTextArea.htm" />
+  <HelpKINode Title="Dialog.getXVisibleDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXVisibleDialog.htm" />
+  <HelpKINode Title="Dialog.getXYesButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXYesButton.htm" />
+  <HelpKINode Title="Dialog.OK method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_OK.htm" />
+  <HelpKINode Title="Dialog.OpenTab method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_OpenTab.htm" />
+  <HelpKINode Title="Dialog.Save method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Save.htm" />
+  <HelpKINode Title="Dialog.SetDropDown method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetDropDown.htm" />
+  <HelpKINode Title="Dialog.SetField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetField.htm" />
+  <HelpKINode Title="Dialog.SetFields method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetFields.htm" />
+  <HelpKINode Title="Dialog.SetGridDropDown method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridDropDown.htm" />
+  <HelpKINode Title="Dialog.SetGridRow method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow.htm" />
+  <HelpKINode Title="Dialog.SetGridRows method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows.htm" />
+  <HelpKINode Title="Dialog.SetGridSearchList method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridSearchList.htm" />
+  <HelpKINode Title="Dialog.SetGridTextField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridTextField.htm" />
+  <HelpKINode Title="Dialog.SetHtmlField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetHtmlField.htm" />
+  <HelpKINode Title="Dialog.SetSearchList method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetSearchList.htm" />
+  <HelpKINode Title="Dialog.Yes method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Yes.htm" />
+  <HelpKINode Title="DialogIds field">
+    <HelpKINode Title="AdHocQueryDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_DialogIds.htm" />
+    <HelpKINode Title="CommitmentsDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_DialogIds.htm" />
+    <HelpKINode Title="DesignationsDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_DialogIds.htm" />
+    <HelpKINode Title="EventDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_DialogIds.htm" />
+    <HelpKINode Title="IndividualDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_DialogIds.htm" />
+    <HelpKINode Title="MajorGivingPlanDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_DialogIds.htm" />
+    <HelpKINode Title="MarketingAcknowledgementRuleDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds.htm" />
+    <HelpKINode Title="MarketingAcknowledgementTemplateDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds.htm" />
+    <HelpKINode Title="MultiLevelEventDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_DialogIds.htm" />
+    <HelpKINode Title="PackageDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_DialogIds.htm" />
+    <HelpKINode Title="PaymentDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_DialogIds.htm" />
+    <HelpKINode Title="PledgeDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_DialogIds.htm" />
+    <HelpKINode Title="RegistrantDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_DialogIds.htm" />
+    <HelpKINode Title="SegmentDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_DialogIds.htm" />
+    <HelpKINode Title="TaskDialog.DialogIds Field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_DialogIds.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Driver property" Url="html/P_Blackbaud_UAT_Base_BaseComponent_Driver.htm" />
+  <HelpKINode Title="Dropdown enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="DropdownValueExists method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_DropdownValueExists.htm" />
+  <HelpKINode Title="EditConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_EditConstituent.htm" />
+  <HelpKINode Title="EditInstallmentDesignations method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_EditInstallmentDesignations.htm" />
+  <HelpKINode Title="EditSteps method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_EditSteps.htm" />
+  <HelpKINode Title="EditTask method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_EditTask.htm" />
+  <HelpKINode Title="ElementValueIsNotNullOrEmpty method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsNotNullOrEmpty.htm" />
+  <HelpKINode Title="ElementValueIsSet method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ElementValueIsSet.htm" />
+  <HelpKINode Title="EnhancedRevenueBatchDialog class">
+    <HelpKINode Title="EnhancedRevenueBatchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+    <HelpKINode Title="about EnhancedRevenueBatchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EnhancedRevenueBatchDialog.Apply method" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_Apply.htm" />
+  <HelpKINode Title="EnhancedRevenueBatchDialog.EnhancedRevenueBatchDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog__ctor.htm" />
+  <HelpKINode Title="EnhancedRevenueBatchDialog.SplitDesignations method" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations.htm" />
+  <HelpKINode Title="EnhancedRevenueBatchDialog.UpdateProjectedTotals method" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals.htm" />
+  <HelpKINode Title="EventDialog class">
+    <HelpKINode Title="EventDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+    <HelpKINode Title="about EventDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_DialogIds.htm" />
+  <HelpKINode Title="EventDialog.EventDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog__ctor.htm" />
+  <HelpKINode Title="EventDialog.SetFields method" Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog_SetFields.htm" />
+  <HelpKINode Title="EventDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_SupportedFields.htm" />
+  <HelpKINode Title="EventManagementTemplates method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventManagementTemplates.htm" />
+  <HelpKINode Title="EventManagementTemplatesPanel class">
+    <HelpKINode Title="EventManagementTemplatesPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+    <HelpKINode Title="about EventManagementTemplatesPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventManagementTemplatesPanel.AddTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_AddTemplate.htm" />
+  <HelpKINode Title="EventManagementTemplatesPanel.EventManagementTemplatesPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel__ctor.htm" />
+  <HelpKINode Title="EventManagementTemplatesPanel.TemplateExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_TemplateExists.htm" />
+  <HelpKINode Title="EventPanel class">
+    <HelpKINode Title="EventPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+    <HelpKINode Title="about EventPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventPanel.AddCoordinator method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddCoordinator.htm" />
+  <HelpKINode Title="EventPanel.AddExpense method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddExpense.htm" />
+  <HelpKINode Title="EventPanel.AddPreference method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddPreference.htm" />
+  <HelpKINode Title="EventPanel.AddRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrant.htm" />
+  <HelpKINode Title="EventPanel.AddRegistrationOption method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddRegistrationOption.htm" />
+  <HelpKINode Title="EventPanel.AddTaskDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_AddTaskDialog.htm" />
+  <HelpKINode Title="EventPanel.CoordinatorExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CoordinatorExists.htm" />
+  <HelpKINode Title="EventPanel.CopyRegistrationOptions method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_CopyRegistrationOptions.htm" />
+  <HelpKINode Title="EventPanel.EditTask method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_EditTask.htm" />
+  <HelpKINode Title="EventPanel.EventPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel__ctor.htm" />
+  <HelpKINode Title="EventPanel.ExpenseExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ExpenseExists.htm" />
+  <HelpKINode Title="EventPanel.IsEventName method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsEventName.htm" />
+  <HelpKINode Title="EventPanel.IsLocation method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsLocation.htm" />
+  <HelpKINode Title="EventPanel.IsStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsStartDate.htm" />
+  <HelpKINode Title="EventPanel.PreferenceExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_PreferenceExists.htm" />
+  <HelpKINode Title="EventPanel.RegistrationOptionExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_RegistrationOptionExists.htm" />
+  <HelpKINode Title="EventPanel.ReminderExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ReminderExists.htm" />
+  <HelpKINode Title="EventSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventSearch.htm" />
+  <HelpKINode Title="EventsFunctionalArea class">
+    <HelpKINode Title="EventsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+    <HelpKINode Title="about EventsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_EventsFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="EventsFunctionalArea.AddEvent method" Url="html/Overload_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddEvent.htm" />
+  <HelpKINode Title="EventsFunctionalArea.AddMultiEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_AddMultiEvent.htm" />
+  <HelpKINode Title="EventsFunctionalArea.CollapseCalendar method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_CollapseCalendar.htm" />
+  <HelpKINode Title="EventsFunctionalArea.EventManagementTemplates method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventManagementTemplates.htm" />
+  <HelpKINode Title="EventsFunctionalArea.EventSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_EventSearch.htm" />
+  <HelpKINode Title="EventsFunctionalArea.EventsFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea__ctor.htm" />
+  <HelpKINode Title="EventsFunctionalArea.Locations method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_Locations.htm" />
+  <HelpKINode Title="Exists method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_Exists.htm" />
+  <HelpKINode Title="ExistsNow method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_ExistsNow.htm" />
+  <HelpKINode Title="ExpandNode method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_ExpandNode.htm" />
+  <HelpKINode Title="ExpandRow method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ExpandRow.htm" />
+  <HelpKINode Title="ExpenseExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ExpenseExists.htm" />
+  <HelpKINode Title="FailTest method" Url="html/M_Blackbaud_UAT_Core_Base_BaseSteps_FailTest.htm" />
+  <HelpKINode Title="FieldType enumeration" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="FilterBy method" Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_FilterBy.htm" />
+  <HelpKINode Title="FilterLayoutByName method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_FilterLayoutByName.htm" />
+  <HelpKINode Title="FunctionalArea class">
+    <HelpKINode Title="FunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+    <HelpKINode Title="about FunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_FunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FunctionalArea.FunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea__ctor.htm" />
+  <HelpKINode Title="FunctionalArea.getXAddMenu method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXAddMenu.htm" />
+  <HelpKINode Title="FunctionalArea.getXFaLink method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFaLink.htm" />
+  <HelpKINode Title="FunctionalArea.getXFunctionalAreaTask method" Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm" />
+  <HelpKINode Title="FunctionalArea.OpenLink method" Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink.htm" />
+  <HelpKINode Title="FunctionalArea.OpenLinkToPanel method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLinkToPanel.htm" />
+  <HelpKINode Title="FundraisingFunctionalArea class">
+    <HelpKINode Title="FundraisingFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+    <HelpKINode Title="about FundraisingFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FundraisingFunctionalArea.DesignationExists method" Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea_DesignationExists.htm" />
+  <HelpKINode Title="FundraisingFunctionalArea.FundraisingFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_FundraisingFunctionalArea__ctor.htm" />
+  <HelpKINode Title="GetColumnIndexByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexByCaption.htm" />
+  <HelpKINode Title="GetColumnIndexById method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetColumnIndexById.htm" />
+  <HelpKINode Title="GetConstituentTypeText method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GetConstituentTypeText.htm" />
+  <HelpKINode Title="GetDatalistColumnIndex method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDatalistColumnIndex.htm" />
+  <HelpKINode Title="GetDialogId method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_GetDialogId.htm" />
+  <HelpKINode Title="GetDisplayedElement method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetDisplayedElement.htm" />
+  <HelpKINode Title="GetEnabledElement method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_GetEnabledElement.htm" />
+  <HelpKINode Title="GetGridCellValue method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_GetGridCellValue.htm" />
+  <HelpKINode Title="getXAddButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAddButton.htm" />
+  <HelpKINode Title="getXAddedEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_getXAddedEvent.htm" />
+  <HelpKINode Title="getXAddFilterArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow.htm" />
+  <HelpKINode Title="getXAddMembershipButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipButton.htm" />
+  <HelpKINode Title="getXAddMembershipNextButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipNextButton.htm" />
+  <HelpKINode Title="getXAddMenu method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXAddMenu.htm" />
+  <HelpKINode Title="getXAddOutputFieldArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow.htm" />
+  <HelpKINode Title="getXAdhocQuery field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAdhocQuery.htm" />
+  <HelpKINode Title="getXAllQueriesTreeRoot field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXAllQueriesTreeRoot.htm" />
+  <HelpKINode Title="getXBatchGridHeaders field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchDialog_getXBatchGridHeaders.htm" />
+  <HelpKINode Title="getXBenefitsCardFormatDropDown field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXBenefitsCardFormatDropDown.htm" />
+  <HelpKINode Title="getXButton method">
+    <HelpKINode Title="BaseComponent.getXButton Method " Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXButton.htm" />
+    <HelpKINode Title="Dialog.getXButton Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXButton.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXCancelButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXCancelButton.htm" />
+  <HelpKINode Title="getXCloseX method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXCloseX.htm" />
+  <HelpKINode Title="getXCommitStatus field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXCommitStatus.htm" />
+  <HelpKINode Title="getXCriteriaInput method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput.htm" />
+  <HelpKINode Title="getXDataListColumnValue method">
+    <HelpKINode Title="InformationLibraryPanel.getXDataListColumnValue Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDataListColumnValue.htm" />
+    <HelpKINode Title="Panel.getXDataListColumnValue Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDataListColumnValue.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXDatalistRowLinkByActionAndCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption.htm" />
+  <HelpKINode Title="getXDatalistSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistSpan.htm" />
+  <HelpKINode Title="getXDeleteProgramLink method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDeleteProgramLink.htm" />
+  <HelpKINode Title="getXDeleteQuery field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDeleteQuery.htm" />
+  <HelpKINode Title="getXDeleteQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXDeleteQuery.htm" />
+  <HelpKINode Title="getXDialogButton method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXDialogButton.htm" />
+  <HelpKINode Title="getXDialogByClass method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogByClass.htm" />
+  <HelpKINode Title="getXDialogById method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDialogById.htm" />
+  <HelpKINode Title="getXDiv method">
+    <HelpKINode Title="Dialog.getXDiv Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDiv.htm" />
+    <HelpKINode Title="Panel.getXDiv Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDiv.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXDropdownArrow method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownArrow.htm" />
+  <HelpKINode Title="getXDropdownItem method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownItem.htm" />
+  <HelpKINode Title="getXDropdownList field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownList.htm" />
+  <HelpKINode Title="getXDropdownListItems field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXDropdownListItems.htm" />
+  <HelpKINode Title="getXDuesInstallments field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXDuesInstallments.htm" />
+  <HelpKINode Title="getXDuplicateSectionDatalistColumnHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders.htm" />
+  <HelpKINode Title="getXEntireDialogButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXEntireDialogButton.htm" />
+  <HelpKINode Title="getxEventSearchResultsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getxEventSearchResultsBar.htm" />
+  <HelpKINode Title="getXEventSearchresultsGridNameFields field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXEventSearchresultsGridNameFields.htm" />
+  <HelpKINode Title="getXExtMenuTab method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtMenuTab.htm" />
+  <HelpKINode Title="getXExtTab method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXExtTab.htm" />
+  <HelpKINode Title="getXFaLink method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFaLink.htm" />
+  <HelpKINode Title="getXFieldResult method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFieldResult.htm" />
+  <HelpKINode Title="getXFilterByNameButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameButton.htm" />
+  <HelpKINode Title="getXFilterByNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXFilterByNameField.htm" />
+  <HelpKINode Title="getXFilterQueryField field">
+    <HelpKINode Title="InformationLibraryPanel.getXFilterQueryField Field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXFilterQueryField.htm" />
+    <HelpKINode Title="QueryPanel.getXFilterQueryField Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXFilterQueryField.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXFindField field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFindField.htm" />
+  <HelpKINode Title="getXFirstNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXFirstNameField.htm" />
+  <HelpKINode Title="getXFunctionalAreaTask method" Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_getXFunctionalAreaTask.htm" />
+  <HelpKINode Title="getXGrid method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGrid.htm" />
+  <HelpKINode Title="getXGridCell method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridCell.htm" />
+  <HelpKINode Title="getXGridEditCell field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCell.htm" />
+  <HelpKINode Title="getXGridEditCellDropdownArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellDropdownArrow.htm" />
+  <HelpKINode Title="getXGridEditCellSearchlist field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridEditCellSearchlist.htm" />
+  <HelpKINode Title="getXGridFocusedEditCell field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXGridFocusedEditCell.htm" />
+  <HelpKINode Title="getXGridHeaders method">
+    <HelpKINode Title="Dialog.getXGridHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridHeaders.htm" />
+    <HelpKINode Title="Panel.getXGridHeaders Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridHeaders.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXGridNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXGridNameField.htm" />
+  <HelpKINode Title="getXGridRow method">
+    <HelpKINode Title="Dialog.getXGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRow.htm" />
+    <HelpKINode Title="Panel.getXGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXGridRows method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRows.htm" />
+  <HelpKINode Title="getXGridRowSelector method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXGridRowSelector.htm" />
+  <HelpKINode Title="getXHeaderPanel field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXHeaderPanel.htm" />
+  <HelpKINode Title="getXIFrame method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXIFrame.htm" />
+  <HelpKINode Title="getXIFrameHtmlBodyP field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXIFrameHtmlBodyP.htm" />
+  <HelpKINode Title="getXInnerTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXInnerTab.htm" />
+  <HelpKINode Title="getXInnerTabsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXInnerTabsBar.htm" />
+  <HelpKINode Title="getXInput method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInput.htm" />
+  <HelpKINode Title="getXInputNewFormTrigger method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputNewFormTrigger.htm" />
+  <HelpKINode Title="getXInputSearchTrigger method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXInputSearchTrigger.htm" />
+  <HelpKINode Title="getXLastNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXLastNameField.htm" />
+  <HelpKINode Title="getXLayoutGridNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutGridNameField.htm" />
+  <HelpKINode Title="getXLayoutSearchResultsLine field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLayoutSearchResultsLine.htm" />
+  <HelpKINode Title="getXLinkByAction method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByAction.htm" />
+  <HelpKINode Title="getXLinkByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXLinkByCaption.htm" />
+  <HelpKINode Title="getXLoginButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXLoginButton.htm" />
+  <HelpKINode Title="getXMembershipProgramButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipProgramButton.htm" />
+  <HelpKINode Title="getXMembershipTerm field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXMembershipTerm.htm" />
+  <HelpKINode Title="getXMenuItem method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_getXMenuItem.htm" />
+  <HelpKINode Title="getXMenuMore field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXMenuMore.htm" />
+  <HelpKINode Title="getXNewLayoutButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutButton.htm" />
+  <HelpKINode Title="getXNewLayoutLayoutDescription field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutDescription.htm" />
+  <HelpKINode Title="getXNewLayoutLayoutName field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutLayoutName.htm" />
+  <HelpKINode Title="getXNewLayoutNextButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutNextButton.htm" />
+  <HelpKINode Title="getXNewLayoutSaveButton field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXNewLayoutSaveButton.htm" />
+  <HelpKINode Title="getXNoRecordsFound field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXNoRecordsFound.htm" />
+  <HelpKINode Title="getXNotification method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXNotification.htm" />
+  <HelpKINode Title="getXOKButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXOKButton.htm" />
+  <HelpKINode Title="getXPanelHeader method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader.htm" />
+  <HelpKINode Title="getXPanelHeaderByText method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderByText.htm" />
+  <HelpKINode Title="getXPanelHeaderLink method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink.htm" />
+  <HelpKINode Title="getXPanelTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelTab.htm" />
+  <HelpKINode Title="getXPasswordField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXPasswordField.htm" />
+  <HelpKINode Title="getXProgramKindAnnual field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramKindAnnual.htm" />
+  <HelpKINode Title="getXProgramLevelCurrentEdit field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelCurrentEdit.htm" />
+  <HelpKINode Title="getXProgramLevelNameHeader field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelNameHeader.htm" />
+  <HelpKINode Title="getXProgramLevelPriceHeader field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLevelPriceHeader.htm" />
+  <HelpKINode Title="getXProgramLink method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramLink.htm" />
+  <HelpKINode Title="getXProgramNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramNameField.htm" />
+  <HelpKINode Title="getXProgramObtainDues field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXProgramObtainDues.htm" />
+  <HelpKINode Title="getXQuery method">
+    <HelpKINode Title="InformationLibraryPanel.getXQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXQuery.htm" />
+    <HelpKINode Title="QueryPanel.getXQuery Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXQuery.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXRecordsProcessed field" Url="html/F_Blackbaud_UAT_Core_Crm_BusinessProcess_getXRecordsProcessed.htm" />
+  <HelpKINode Title="getXRecordTypeField field" Url="html/F_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeField.htm" />
+  <HelpKINode Title="getXRecordTypeNameColumn method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn.htm" />
+  <HelpKINode Title="getXResultsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXResultsBar.htm" />
+  <HelpKINode Title="getXReviewSave field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXReviewSave.htm" />
+  <HelpKINode Title="getXSaveAndCloseButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveAndCloseButton.htm" />
+  <HelpKINode Title="getXSaveButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXSaveButton.htm" />
+  <HelpKINode Title="getXSaveOptionsInput method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput.htm" />
+  <HelpKINode Title="getXSaveOptionsTextArea method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea.htm" />
+  <HelpKINode Title="getXSearchButton field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchButton.htm" />
+  <HelpKINode Title="getXSearchInput field" Url="html/F_Blackbaud_UAT_Core_Crm_BatchEntryPanel_getXSearchInput.htm" />
+  <HelpKINode Title="getXSearchResultsGrid field">
+    <HelpKINode Title="Panel.getXSearchResultsGrid Field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXSearchResultsGrid.htm" />
+    <HelpKINode Title="SearchDialog.getXSearchResultsGrid Field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchResultsGrid.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXSection method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSection.htm" />
+  <HelpKINode Title="getXSectionAddButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionAddButton.htm" />
+  <HelpKINode Title="getXSectionDatalistColumnHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistColumnHeaders.htm" />
+  <HelpKINode Title="getXSectionDatalistCurrentPageIndex method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex.htm" />
+  <HelpKINode Title="getXSectionDatalistPageIndexButtons method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistPageIndexButtons.htm" />
+  <HelpKINode Title="getXSectionDatalistRow method">
+    <HelpKINode Title="InformationLibraryPanel.getXSectionDatalistRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow.htm" />
+    <HelpKINode Title="Panel.getXSectionDatalistRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXSectionDatalistRows method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRows.htm" />
+  <HelpKINode Title="getXSectionExpandButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionExpandButton.htm" />
+  <HelpKINode Title="getXSectionViewForm method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewForm.htm" />
+  <HelpKINode Title="getXSectionViewFormSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewFormSpan.htm" />
+  <HelpKINode Title="getXSectionWidget method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionWidget.htm" />
+  <HelpKINode Title="getXSelectButton field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectButton.htm" />
+  <HelpKINode Title="getXSelectedDatalistRowButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowButton.htm" />
+  <HelpKINode Title="getXSelectedDatalistRowLinkByAction method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction.htm" />
+  <HelpKINode Title="getXSelectedDatalistRowLinkByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption.htm" />
+  <HelpKINode Title="getXSelectedDatalistRowLinkById method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkById.htm" />
+  <HelpKINode Title="getXSelectedResultsRow field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectedResultsRow.htm" />
+  <HelpKINode Title="getXSpan method">
+    <HelpKINode Title="Dialog.getXSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXSpan.htm" />
+    <HelpKINode Title="Panel.getXSpan Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSpan.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXTab method">
+    <HelpKINode Title="Dialog.getXTab Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_getXTab.htm" />
+    <HelpKINode Title="NewAdhocQueryDialog.getXTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXTab.htm" />
+    <HelpKINode Title="Panel.getXTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXTab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="getXTabsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBar.htm" />
+  <HelpKINode Title="getXTabsBarActiveTab field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarActiveTab.htm" />
+  <HelpKINode Title="getXTabsBarRightScroller field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarRightScroller.htm" />
+  <HelpKINode Title="getXTabStrip field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXTabStrip.htm" />
+  <HelpKINode Title="getXTask method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXTask.htm" />
+  <HelpKINode Title="getXTextArea method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXTextArea.htm" />
+  <HelpKINode Title="getXUserNameField field" Url="html/F_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_getXUserNameField.htm" />
+  <HelpKINode Title="getXViewForm method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXViewForm.htm" />
+  <HelpKINode Title="getXVisibleDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_getXVisibleDialog.htm" />
+  <HelpKINode Title="getXWaitBar field" Url="html/F_Blackbaud_UAT_Core_Crm_BBCRMHomePage_getXWaitBar.htm" />
+  <HelpKINode Title="getXYesButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialog_getXYesButton.htm" />
+  <HelpKINode Title="getXYesReallyDelete field">
+    <HelpKINode Title="AddMembershipProgramDialog.getXYesReallyDelete Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_getXYesReallyDelete.htm" />
+    <HelpKINode Title="ConstituentPanel.getXYesReallyDelete Field" Url="html/F_Blackbaud_UAT_Core_Crm_ConstituentPanel_getXYesReallyDelete.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GoToPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_GoToPlan.htm" />
+  <HelpKINode Title="GoToSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_GoToSegment.htm" />
+  <HelpKINode Title="GridRowExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_GridRowExists.htm" />
+  <HelpKINode Title="HomeFunctionalArea class">
+    <HelpKINode Title="HomeFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+    <HelpKINode Title="about HomeFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_HomeFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_HomeFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="HomeFunctionalArea.HomeFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_HomeFunctionalArea__ctor.htm" />
+  <HelpKINode Title="Id field" Url="html/F_Blackbaud_UAT_Base_CrmField_Id.htm" />
+  <HelpKINode Title="IncludeAllRecords method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords.htm" />
+  <HelpKINode Title="IncludeDisplayField method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeDisplayField.htm" />
+  <HelpKINode Title="IncludeRecordCriteria method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeRecordCriteria.htm" />
+  <HelpKINode Title="IndividualDialog class">
+    <HelpKINode Title="IndividualDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+    <HelpKINode Title="about IndividualDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_IndividualDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IndividualDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_DialogIds.htm" />
+  <HelpKINode Title="IndividualDialog.IndividualDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog__ctor.htm" />
+  <HelpKINode Title="IndividualDialog.Save method" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_Save.htm" />
+  <HelpKINode Title="IndividualDialog.SetHouseholdFields method" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetHouseholdFields.htm" />
+  <HelpKINode Title="IndividualDialog.SetIndividualFields method" Url="html/Overload_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields.htm" />
+  <HelpKINode Title="IndividualDialog.SetLastName method" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetLastName.htm" />
+  <HelpKINode Title="IndividualDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_SupportedFields.htm" />
+  <HelpKINode Title="InformationLibrary method" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_InformationLibrary.htm" />
+  <HelpKINode Title="InformationLibraryPanel class">
+    <HelpKINode Title="InformationLibraryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+    <HelpKINode Title="about InformationLibraryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_InformationLibraryPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InformationLibraryPanel.AddAdHocQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_AddAdHocQuery.htm" />
+  <HelpKINode Title="InformationLibraryPanel.CopyQueryAsStaticSelection method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_CopyQueryAsStaticSelection.htm" />
+  <HelpKINode Title="InformationLibraryPanel.DeleteQuery method" Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_DeleteQuery.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXAllQueriesTreeRoot field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXAllQueriesTreeRoot.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXDataListColumnValue method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDataListColumnValue.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXDeleteQuery field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXDeleteQuery.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXFilterQueryField field" Url="html/F_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXFilterQueryField.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXQuery.htm" />
+  <HelpKINode Title="InformationLibraryPanel.getXSectionDatalistRow method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_getXSectionDatalistRow.htm" />
+  <HelpKINode Title="InformationLibraryPanel.InformationLibraryPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel__ctor.htm" />
+  <HelpKINode Title="InformationLibraryPanel.QueryExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists.htm" />
+  <HelpKINode Title="InformationLibraryPanel.SectionDatalistRowExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm" />
+  <HelpKINode Title="InformationLibraryPanel.SelectSectionDatalistRow method" Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm" />
+  <HelpKINode Title="InformationLibraryPanel.SetFilter method" Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SetFilter.htm" />
+  <HelpKINode Title="InsertStep method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_InsertStep.htm" />
+  <HelpKINode Title="IsAcknowledged method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsAcknowledged.htm" />
+  <HelpKINode Title="IsBirthDate method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsBirthDate.htm" />
+  <HelpKINode Title="IsCompleted method">
+    <HelpKINode Title="BusinessProcess.IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsCompleted.htm" />
+    <HelpKINode Title="MarketingAcknowledgementBusinessProcess.IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted.htm" />
+    <HelpKINode Title="ReceiptBusinessProcess.IsCompleted Method " Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess_IsCompleted.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsConstituentPanelHeader method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsConstituentPanelHeader.htm" />
+  <HelpKINode Title="IsEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsEvent.htm" />
+  <HelpKINode Title="IsEventName method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsEventName.htm" />
+  <HelpKINode Title="IsHierarchy method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsHierarchy.htm" />
+  <HelpKINode Title="IsLastName method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsLastName.htm" />
+  <HelpKINode Title="IsLocation method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsLocation.htm" />
+  <HelpKINode Title="IsMultiEventName method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsMultiEventName.htm" />
+  <HelpKINode Title="IsNumGuests method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsNumGuests.htm" />
+  <HelpKINode Title="IsNumRecordsProcessed method">
+    <HelpKINode Title="BusinessProcess.IsNumRecordsProcessed Method " Url="html/M_Blackbaud_UAT_Core_Crm_BusinessProcess_IsNumRecordsProcessed.htm" />
+    <HelpKINode Title="MarketingAcknowledgementBusinessProcess.IsNumRecordsProcessed Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsPanelHeader method">
+    <HelpKINode Title="AdHocQueryPanel.IsPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryPanel_IsPanelHeader.htm" />
+    <HelpKINode Title="Panel.IsPanelHeader Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelHeader.htm" />
+  </HelpKINode>
+  <HelpKINode Title="IsPanelType method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelType.htm" />
+  <HelpKINode Title="IsPledgeAmount method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeAmount.htm" />
+  <HelpKINode Title="IsPledgeConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeConstituent.htm" />
+  <HelpKINode Title="IsPledgeSubtype method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeSubtype.htm" />
+  <HelpKINode Title="IsReceipted method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsReceipted.htm" />
+  <HelpKINode Title="IsRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsRegistrant.htm" />
+  <HelpKINode Title="IsStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_IsStartDate.htm" />
+  <HelpKINode Title="IsStateAddress method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsStateAddress.htm" />
+  <HelpKINode Title="IsSubtype method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsSubtype.htm" />
+  <HelpKINode Title="IsTitle method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_IsTitle.htm" />
+  <HelpKINode Title="LocationExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists.htm" />
+  <HelpKINode Title="Locations method" Url="html/M_Blackbaud_UAT_Core_Crm_EventsFunctionalArea_Locations.htm" />
+  <HelpKINode Title="LocationsPanel class">
+    <HelpKINode Title="LocationsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+    <HelpKINode Title="about LocationsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_LocationsPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LocationsPanel.AddLocation method" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel_AddLocation.htm" />
+  <HelpKINode Title="LocationsPanel.LocationExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_LocationsPanel_LocationExists.htm" />
+  <HelpKINode Title="LocationsPanel.LocationsPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_LocationsPanel__ctor.htm" />
+  <HelpKINode Title="Login method">
+    <HelpKINode Title="BBCRMHomePage.Login Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_Login.htm" />
+    <HelpKINode Title="BBISHomePage.Login Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Login.htm" />
+  </HelpKINode>
+  <HelpKINode Title="LoginAs method">
+    <HelpKINode Title="BBCRMHomePage.LoginAs Method " Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_LoginAs.htm" />
+    <HelpKINode Title="BBISHomePage.LoginAs Method " Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_LoginAs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MajorGivingPlanDialog class">
+    <HelpKINode Title="MajorGivingPlanDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+    <HelpKINode Title="about MajorGivingPlanDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MajorGivingPlanDialog.AddDialogId field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_AddDialogId.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_DialogIds.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.InsertStep method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_InsertStep.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.MajorGivingPlanDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog__ctor.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.Save method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_Save.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SelectStepRow method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SelectStepRow.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetDetails method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetDetails.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetOutline method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetOutline.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetParticipants method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetParticipants.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetPlanStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetPrimaryManagerStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetSecondaryManagerStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SetStepRow method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetStepRow.htm" />
+  <HelpKINode Title="MajorGivingPlanDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SupportedFields.htm" />
+  <HelpKINode Title="MajorGivingSetup method" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup.htm" />
+  <HelpKINode Title="MajorGivingSetupPanel class">
+    <HelpKINode Title="MajorGivingSetupPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+    <HelpKINode Title="about MajorGivingSetupPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MajorGivingSetupPanel.AddPlanOutline method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_AddPlanOutline.htm" />
+  <HelpKINode Title="MajorGivingSetupPanel.MajorGivingSetupPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel__ctor.htm" />
+  <HelpKINode Title="MajorGivingSetupPanel.PlanOutlineExists method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists.htm" />
+  <HelpKINode Title="MapColumnCaptionsToIndex method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_MapColumnCaptionsToIndex.htm" />
+  <HelpKINode Title="MarketingAcknowledgementBusinessProcess class">
+    <HelpKINode Title="MarketingAcknowledgementBusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+    <HelpKINode Title="about MarketingAcknowledgementBusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAcknowledgementBusinessProcess.IsCompleted method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsCompleted.htm" />
+  <HelpKINode Title="MarketingAcknowledgementBusinessProcess.IsNumRecordsProcessed method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess_IsNumRecordsProcessed.htm" />
+  <HelpKINode Title="MarketingAcknowledgementBusinessProcess.MarketingAcknowledgementBusinessProcess constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementBusinessProcess__ctor.htm" />
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog class">
+    <HelpKINode Title="MarketingAcknowledgementRuleDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+    <HelpKINode Title="about MarketingAcknowledgementRuleDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds.htm" />
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog.MarketingAcknowledgementRuleDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog__ctor.htm" />
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog.Save method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_Save.htm" />
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog.SetDetailsTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields.htm" />
+  <HelpKINode Title="MarketingAcknowledgementRuleDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields.htm" />
+  <HelpKINode Title="MarketingAcknowledgements method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements.htm" />
+  <HelpKINode Title="MarketingAcknowledgementsPanel class">
+    <HelpKINode Title="MarketingAcknowledgementsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+    <HelpKINode Title="about MarketingAcknowledgementsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAcknowledgementsPanel.AddTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate.htm" />
+  <HelpKINode Title="MarketingAcknowledgementsPanel.DeleteTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_DeleteTemplate.htm" />
+  <HelpKINode Title="MarketingAcknowledgementsPanel.MarketingAcknowledgementsPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel__ctor.htm" />
+  <HelpKINode Title="MarketingAcknowledgementsPanel.TemplateExists method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog class">
+    <HelpKINode Title="MarketingAcknowledgementTemplateDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+    <HelpKINode Title="about MarketingAcknowledgementTemplateDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.IncludeAllRecords method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_IncludeAllRecords.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.MarketingAcknowledgementTemplateDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog__ctor.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.SetActivationTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.SetGeneralTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.SetSourceCode method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplateDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplatePanel class">
+    <HelpKINode Title="MarketingAcknowledgementTemplatePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+    <HelpKINode Title="about MarketingAcknowledgementTemplatePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAcknowledgementTemplatePanel.AddAcknowledgementRule method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplatePanel.MarketingAcknowledgementTemplatePanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel__ctor.htm" />
+  <HelpKINode Title="MarketingAcknowledgementTemplatePanel.ProcessAcknowledgement method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement.htm" />
+  <HelpKINode Title="MarketingAndCommFunctionalArea class">
+    <HelpKINode Title="MarketingAndCommFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+    <HelpKINode Title="about MarketingAndCommFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MarketingAndCommFunctionalArea.MarketingAcknowledgements method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_MarketingAcknowledgements.htm" />
+  <HelpKINode Title="MarketingAndCommFunctionalArea.MarketingAndCommFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea__ctor.htm" />
+  <HelpKINode Title="MarketingAndCommFunctionalArea.Packages method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Packages.htm" />
+  <HelpKINode Title="MarketingAndCommFunctionalArea.Receipts method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Receipts.htm" />
+  <HelpKINode Title="MarketingAndCommFunctionalArea.Segments method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Segments.htm" />
+  <HelpKINode Title="MembershipPrograms method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_MembershipPrograms.htm" />
+  <HelpKINode Title="MultiEventPanel class">
+    <HelpKINode Title="MultiEventPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+    <HelpKINode Title="about MultiEventPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MultiEventPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultiEventPanel.IsHierarchy method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsHierarchy.htm" />
+  <HelpKINode Title="MultiEventPanel.IsMultiEventName method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel_IsMultiEventName.htm" />
+  <HelpKINode Title="MultiEventPanel.MultiEventPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MultiEventPanel__ctor.htm" />
+  <HelpKINode Title="MultiLevelEventDialog class">
+    <HelpKINode Title="MultiLevelEventDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+    <HelpKINode Title="about MultiLevelEventDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="MultiLevelEventDialog.AddChildEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddChildEvent.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.AddExistingEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_AddExistingEvent.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.CopyFrom method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_CopyFrom.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_DialogIds.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.getXAddedEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_getXAddedEvent.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.MultiLevelEventDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog__ctor.htm" />
+  <HelpKINode Title="MultiLevelEventDialog.SetTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_SetTemplate.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog class">
+    <HelpKINode Title="NewAdhocQueryDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+    <HelpKINode Title="about NewAdhocQueryDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="NewAdhocQueryDialog.ApplyCriteria method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_ApplyCriteria.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXAddFilterArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXAddOutputFieldArrow field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXAddOutputFieldArrow.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXCriteriaInput method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXCriteriaInput.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXFieldResult method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFieldResult.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXFindField field" Url="html/F_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXFindField.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXSaveOptionsInput method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsInput.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXSaveOptionsTextArea method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXSaveOptionsTextArea.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.getXTab method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_getXTab.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.IncludeDisplayField method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeDisplayField.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.IncludeRecordCriteria method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_IncludeRecordCriteria.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.NewAdhocQueryDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog__ctor.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.SetFindField method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetFindField.htm" />
+  <HelpKINode Title="NewAdhocQueryDialog.SetSaveOptions method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetSaveOptions.htm" />
+  <HelpKINode Title="NewLayout method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_NewLayout.htm" />
+  <HelpKINode Title="NotificationExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_NotificationExists.htm" />
+  <HelpKINode Title="OK method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_OK.htm" />
+  <HelpKINode Title="OpenAnalysisFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenAnalysisFA.htm" />
+  <HelpKINode Title="OpenConstituentSearchDialog method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentsFunctionalArea_OpenConstituentSearchDialog.htm" />
+  <HelpKINode Title="OpenConstituentsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenConstituentsFA.htm" />
+  <HelpKINode Title="OpenEventsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenEventsFA.htm" />
+  <HelpKINode Title="OpenFunctionalArea method" Url="html/Overload_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFunctionalArea.htm" />
+  <HelpKINode Title="OpenFundraisingFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenFundraisingFA.htm" />
+  <HelpKINode Title="OpenImageLibrary method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenImageLibrary.htm" />
+  <HelpKINode Title="OpenLayoutGallery method" Url="html/M_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_OpenLayoutGallery.htm" />
+  <HelpKINode Title="OpenLink method" Url="html/Overload_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLink.htm" />
+  <HelpKINode Title="OpenLinkToPanel method" Url="html/M_Blackbaud_UAT_Core_Crm_FunctionalArea_OpenLinkToPanel.htm" />
+  <HelpKINode Title="OpenMarketingAndCommunicationsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMarketingAndCommunicationsFA.htm" />
+  <HelpKINode Title="OpenMembershipsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenMembershipsFA.htm" />
+  <HelpKINode Title="OpenProspectsFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenProspectsFA.htm" />
+  <HelpKINode Title="OpenQueriesTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenQueriesTab.htm" />
+  <HelpKINode Title="OpenQueryPanel method" Url="html/M_Blackbaud_UAT_Core_Crm_AnalysisFunctionalArea_OpenQueryPanel.htm" />
+  <HelpKINode Title="OpenRevenueFA method" Url="html/M_Blackbaud_UAT_Core_Crm_BBCRMHomePage_OpenRevenueFA.htm" />
+  <HelpKINode Title="OpenSelectionsTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenSelectionsTab.htm" />
+  <HelpKINode Title="OpenTab method">
+    <HelpKINode Title="Dialog.OpenTab Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_OpenTab.htm" />
+    <HelpKINode Title="Panel.OpenTab Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panel_OpenTab.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackageDialog class">
+    <HelpKINode Title="PackageDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+    <HelpKINode Title="about PackageDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PackageDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackageDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_DialogIds.htm" />
+  <HelpKINode Title="PackageDialog.PackageDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog__ctor.htm" />
+  <HelpKINode Title="PackageDialog.SetFields method" Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog_SetFields.htm" />
+  <HelpKINode Title="PackageDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_SupportedFields.htm" />
+  <HelpKINode Title="PackageExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists.htm" />
+  <HelpKINode Title="Packages method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Packages.htm" />
+  <HelpKINode Title="PackagesPanel class">
+    <HelpKINode Title="PackagesPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+    <HelpKINode Title="about PackagesPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PackagesPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PackagesPanel.AddMailPackage method" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel_AddMailPackage.htm" />
+  <HelpKINode Title="PackagesPanel.DeletePackage method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_DeletePackage.htm" />
+  <HelpKINode Title="PackagesPanel.PackageExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PackagesPanel_PackageExists.htm" />
+  <HelpKINode Title="PackagesPanel.PackagesPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PackagesPanel__ctor.htm" />
+  <HelpKINode Title="Panel class">
+    <HelpKINode Title="Panel Class" Url="html/T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+    <HelpKINode Title="about Panel class" Url="html/T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Panel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Panel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Panel.AdditionalDatalistPagesExist method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_AdditionalDatalistPagesExist.htm" />
+  <HelpKINode Title="Panel.CheckGridResultsContain method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CheckGridResultsContain.htm" />
+  <HelpKINode Title="Panel.ClickSectionAddButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ClickSectionAddButton.htm" />
+  <HelpKINode Title="Panel.CollapseSection method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_CollapseSection.htm" />
+  <HelpKINode Title="Panel.ExpandRow method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_ExpandRow.htm" />
+  <HelpKINode Title="Panel.getXDataListColumnValue method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDataListColumnValue.htm" />
+  <HelpKINode Title="Panel.getXDatalistRowLinkByActionAndCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistRowLinkByActionAndCaption.htm" />
+  <HelpKINode Title="Panel.getXDatalistSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDatalistSpan.htm" />
+  <HelpKINode Title="Panel.getXDiv method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDiv.htm" />
+  <HelpKINode Title="Panel.getXDuplicateSectionDatalistColumnHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXDuplicateSectionDatalistColumnHeaders.htm" />
+  <HelpKINode Title="Panel.getxEventSearchResultsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getxEventSearchResultsBar.htm" />
+  <HelpKINode Title="Panel.getXEventSearchresultsGridNameFields field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXEventSearchresultsGridNameFields.htm" />
+  <HelpKINode Title="Panel.getXGrid method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGrid.htm" />
+  <HelpKINode Title="Panel.getXGridHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridHeaders.htm" />
+  <HelpKINode Title="Panel.getXGridRow method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRow.htm" />
+  <HelpKINode Title="Panel.getXGridRows method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXGridRows.htm" />
+  <HelpKINode Title="Panel.getXInnerTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXInnerTab.htm" />
+  <HelpKINode Title="Panel.getXInnerTabsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXInnerTabsBar.htm" />
+  <HelpKINode Title="Panel.getXPanelHeader method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeader.htm" />
+  <HelpKINode Title="Panel.getXPanelHeaderByText method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderByText.htm" />
+  <HelpKINode Title="Panel.getXPanelHeaderLink method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_getXPanelHeaderLink.htm" />
+  <HelpKINode Title="Panel.getXPanelTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXPanelTab.htm" />
+  <HelpKINode Title="Panel.getXSearchResultsGrid field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXSearchResultsGrid.htm" />
+  <HelpKINode Title="Panel.getXSection method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSection.htm" />
+  <HelpKINode Title="Panel.getXSectionAddButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionAddButton.htm" />
+  <HelpKINode Title="Panel.getXSectionDatalistColumnHeaders method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistColumnHeaders.htm" />
+  <HelpKINode Title="Panel.getXSectionDatalistCurrentPageIndex method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistCurrentPageIndex.htm" />
+  <HelpKINode Title="Panel.getXSectionDatalistPageIndexButtons method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistPageIndexButtons.htm" />
+  <HelpKINode Title="Panel.getXSectionDatalistRow method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRow.htm" />
+  <HelpKINode Title="Panel.getXSectionDatalistRows method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionDatalistRows.htm" />
+  <HelpKINode Title="Panel.getXSectionExpandButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionExpandButton.htm" />
+  <HelpKINode Title="Panel.getXSectionViewForm method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewForm.htm" />
+  <HelpKINode Title="Panel.getXSectionViewFormSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionViewFormSpan.htm" />
+  <HelpKINode Title="Panel.getXSectionWidget method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSectionWidget.htm" />
+  <HelpKINode Title="Panel.getXSelectedDatalistRowButton method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowButton.htm" />
+  <HelpKINode Title="Panel.getXSelectedDatalistRowLinkByAction method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByAction.htm" />
+  <HelpKINode Title="Panel.getXSelectedDatalistRowLinkByCaption method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkByCaption.htm" />
+  <HelpKINode Title="Panel.getXSelectedDatalistRowLinkById method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSelectedDatalistRowLinkById.htm" />
+  <HelpKINode Title="Panel.getXSpan method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXSpan.htm" />
+  <HelpKINode Title="Panel.getXTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXTab.htm" />
+  <HelpKINode Title="Panel.getXTabsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBar.htm" />
+  <HelpKINode Title="Panel.getXTabsBarActiveTab field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarActiveTab.htm" />
+  <HelpKINode Title="Panel.getXTabsBarRightScroller field" Url="html/F_Blackbaud_UAT_Core_Crm_Panel_getXTabsBarRightScroller.htm" />
+  <HelpKINode Title="Panel.getXViewForm method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_getXViewForm.htm" />
+  <HelpKINode Title="Panel.GridRowExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_GridRowExists.htm" />
+  <HelpKINode Title="Panel.IsPanelHeader method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelHeader.htm" />
+  <HelpKINode Title="Panel.IsPanelType method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_IsPanelType.htm" />
+  <HelpKINode Title="Panel.OpenTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_OpenTab.htm" />
+  <HelpKINode Title="Panel.Panel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Panel__ctor.htm" />
+  <HelpKINode Title="Panel.SectionDatalistRowExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists.htm" />
+  <HelpKINode Title="Panel.SectionViewFormExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists.htm" />
+  <HelpKINode Title="Panel.SelectInnerTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectInnerTab.htm" />
+  <HelpKINode Title="Panel.SelectSectionDatalistRow method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow.htm" />
+  <HelpKINode Title="Panel.SelectTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectTab.htm" />
+  <HelpKINode Title="Panel.WaitForPanelHeaderNotContain method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelHeaderNotContain.htm" />
+  <HelpKINode Title="Panel.WaitForPanelType method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelType.htm" />
+  <HelpKINode Title="PaymentDialog class">
+    <HelpKINode Title="PaymentDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+    <HelpKINode Title="about PaymentDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PaymentDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PaymentDialog.AddApplication method" Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_AddApplication.htm" />
+  <HelpKINode Title="PaymentDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_DialogIds.htm" />
+  <HelpKINode Title="PaymentDialog.PaymentDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog__ctor.htm" />
+  <HelpKINode Title="PaymentDialog.SetFields method" Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_SetFields.htm" />
+  <HelpKINode Title="PaymentDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_SupportedFields.htm" />
+  <HelpKINode Title="PaymentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_PaymentExists.htm" />
+  <HelpKINode Title="PlanExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_PlanExists.htm" />
+  <HelpKINode Title="PlannedStepExists method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_PlannedStepExists.htm" />
+  <HelpKINode Title="PlanOutlineExists method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingSetupPanel_PlanOutlineExists.htm" />
+  <HelpKINode Title="PlanPanel class">
+    <HelpKINode Title="PlanPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+    <HelpKINode Title="about PlanPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PlanPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PlanPanel.AddCompletedStep method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_AddCompletedStep.htm" />
+  <HelpKINode Title="PlanPanel.CompletedStepExists method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_CompletedStepExists.htm" />
+  <HelpKINode Title="PlanPanel.EditSteps method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_EditSteps.htm" />
+  <HelpKINode Title="PlanPanel.PlannedStepExists method" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel_PlannedStepExists.htm" />
+  <HelpKINode Title="PlanPanel.PlanPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PlanPanel__ctor.htm" />
+  <HelpKINode Title="PledgeDialog class">
+    <HelpKINode Title="PledgeDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+    <HelpKINode Title="about PledgeDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgeDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PledgeDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_DialogIds.htm" />
+  <HelpKINode Title="PledgeDialog.EditInstallmentDesignations method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_EditInstallmentDesignations.htm" />
+  <HelpKINode Title="PledgeDialog.PledgeDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog__ctor.htm" />
+  <HelpKINode Title="PledgeDialog.SetAccountSystem method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetAccountSystem.htm" />
+  <HelpKINode Title="PledgeDialog.SetFields method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields.htm" />
+  <HelpKINode Title="PledgeDialog.SplitDesignationsEvenly method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SplitDesignationsEvenly.htm" />
+  <HelpKINode Title="PledgeDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_SupportedFields.htm" />
+  <HelpKINode Title="PledgePanel class">
+    <HelpKINode Title="PledgePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+    <HelpKINode Title="about PledgePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgePanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PledgePanel.DesignationExists method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_DesignationExists.htm" />
+  <HelpKINode Title="PledgePanel.IsPledgeAmount method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeAmount.htm" />
+  <HelpKINode Title="PledgePanel.IsPledgeConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeConstituent.htm" />
+  <HelpKINode Title="PledgePanel.IsPledgeSubtype method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel_IsPledgeSubtype.htm" />
+  <HelpKINode Title="PledgePanel.PledgePanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgePanel__ctor.htm" />
+  <HelpKINode Title="PledgeSubtypePanel class">
+    <HelpKINode Title="PledgeSubtypePanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+    <HelpKINode Title="about PledgeSubtypePanel class" Url="html/T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PledgeSubtypePanel.AddSubtype method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_AddSubtype.htm" />
+  <HelpKINode Title="PledgeSubtypePanel.PledgeSubtypePanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel__ctor.htm" />
+  <HelpKINode Title="PledgeSubtypePanel.SubtypeExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm" />
+  <HelpKINode Title="PledgeSubtypes method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_PledgeSubtypes.htm" />
+  <HelpKINode Title="PreferenceExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_PreferenceExists.htm" />
+  <HelpKINode Title="ProcessAcknowledgement method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementTemplatePanel_ProcessAcknowledgement.htm" />
+  <HelpKINode Title="ProgramLevelCurrentEditElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelCurrentEditElement.htm" />
+  <HelpKINode Title="ProgramLevelNameHeaderElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelNameHeaderElement.htm" />
+  <HelpKINode Title="ProgramLevelPriceHeaderElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLevelPriceHeaderElement.htm" />
+  <HelpKINode Title="ProgramLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_AddMembershipProgramDialog_ProgramLinkElement.htm" />
+  <HelpKINode Title="ProspectsFunctionalArea class">
+    <HelpKINode Title="ProspectsFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+    <HelpKINode Title="about ProspectsFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ProspectsFunctionalArea.CollapseResearchLists method" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists.htm" />
+  <HelpKINode Title="ProspectsFunctionalArea.MajorGivingSetup method" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea_MajorGivingSetup.htm" />
+  <HelpKINode Title="ProspectsFunctionalArea.ProspectsFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ProspectsFunctionalArea__ctor.htm" />
+  <HelpKINode Title="QueryExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_QueryExists.htm" />
+  <HelpKINode Title="QueryLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_QueryLinkElement.htm" />
+  <HelpKINode Title="QueryPanel class">
+    <HelpKINode Title="QueryPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+    <HelpKINode Title="about QueryPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_Panels_QueryPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QueryPanel.AddQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_AddQuery.htm" />
+  <HelpKINode Title="QueryPanel.CheckQueryPresent method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_CheckQueryPresent.htm" />
+  <HelpKINode Title="QueryPanel.DeleteQuery method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQuery.htm" />
+  <HelpKINode Title="QueryPanel.DeleteQueryLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_DeleteQueryLinkElement.htm" />
+  <HelpKINode Title="QueryPanel.getXAddButton field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAddButton.htm" />
+  <HelpKINode Title="QueryPanel.getXAdhocQuery field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXAdhocQuery.htm" />
+  <HelpKINode Title="QueryPanel.getXDeleteQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXDeleteQuery.htm" />
+  <HelpKINode Title="QueryPanel.getXFilterQueryField field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXFilterQueryField.htm" />
+  <HelpKINode Title="QueryPanel.getXQuery method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_getXQuery.htm" />
+  <HelpKINode Title="QueryPanel.OpenQueriesTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenQueriesTab.htm" />
+  <HelpKINode Title="QueryPanel.OpenSelectionsTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_OpenSelectionsTab.htm" />
+  <HelpKINode Title="QueryPanel.QueryLinkElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_QueryLinkElement.htm" />
+  <HelpKINode Title="QueryPanel.QueryPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel__ctor.htm" />
+  <HelpKINode Title="QueryPanel.SetFilter method" Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_SetFilter.htm" />
+  <HelpKINode Title="QueryPanel.YesReallyDeleteElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_YesReallyDeleteElement.htm" />
+  <HelpKINode Title="QuerySourceViewDialog class">
+    <HelpKINode Title="QuerySourceViewDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+    <HelpKINode Title="about QuerySourceViewDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="QuerySourceViewDialog.getXRecordTypeField field" Url="html/F_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeField.htm" />
+  <HelpKINode Title="QuerySourceViewDialog.getXRecordTypeNameColumn method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_getXRecordTypeNameColumn.htm" />
+  <HelpKINode Title="QuerySourceViewDialog.QuerySourceViewDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog__ctor.htm" />
+  <HelpKINode Title="QuerySourceViewDialog.SelectRecordTypeName method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName.htm" />
+  <HelpKINode Title="QuerySourceViewDialog.SetRecordType method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SetRecordType.htm" />
+  <HelpKINode Title="ReceiptBusinessProcess class">
+    <HelpKINode Title="ReceiptBusinessProcess Class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+    <HelpKINode Title="about ReceiptBusinessProcess class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReceiptBusinessProcess.IsCompleted method" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess_IsCompleted.htm" />
+  <HelpKINode Title="ReceiptBusinessProcess.ReceiptBusinessProcess constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptBusinessProcess__ctor.htm" />
+  <HelpKINode Title="Receipts method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Receipts.htm" />
+  <HelpKINode Title="ReceiptsPanel class">
+    <HelpKINode Title="ReceiptsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+    <HelpKINode Title="about ReceiptsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_ReceiptsPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="ReceiptsPanel.AddReceipt method" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_AddReceipt.htm" />
+  <HelpKINode Title="ReceiptsPanel.ReceiptsPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel__ctor.htm" />
+  <HelpKINode Title="ReceiptsPanel.RunReceiptProcess method" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_RunReceiptProcess.htm" />
+  <HelpKINode Title="RecurringGiftPanel class">
+    <HelpKINode Title="RecurringGiftPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+    <HelpKINode Title="about RecurringGiftPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RecurringGiftPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RecurringGiftPanel.DesignationExists method" Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel_DesignationExists.htm" />
+  <HelpKINode Title="RecurringGiftPanel.RecurringGiftPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RecurringGiftPanel__ctor.htm" />
+  <HelpKINode Title="RegistrantDialog class">
+    <HelpKINode Title="RegistrantDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+    <HelpKINode Title="about RegistrantDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RegistrantDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegistrantDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_DialogIds.htm" />
+  <HelpKINode Title="RegistrantDialog.RegistrantDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog__ctor.htm" />
+  <HelpKINode Title="RegistrantDialog.SetRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrant.htm" />
+  <HelpKINode Title="RegistrantDialog.SetRegistrants method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrants.htm" />
+  <HelpKINode Title="RegistrantDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_SupportedFields.htm" />
+  <HelpKINode Title="RegistrantPanel class">
+    <HelpKINode Title="RegistrantPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+    <HelpKINode Title="about RegistrantPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RegistrantPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RegistrantPanel.IsEvent method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsEvent.htm" />
+  <HelpKINode Title="RegistrantPanel.IsNumGuests method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsNumGuests.htm" />
+  <HelpKINode Title="RegistrantPanel.IsRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel_IsRegistrant.htm" />
+  <HelpKINode Title="RegistrantPanel.RegistrantPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantPanel__ctor.htm" />
+  <HelpKINode Title="RegistrationOptionExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_RegistrationOptionExists.htm" />
+  <HelpKINode Title="ReminderExists method" Url="html/M_Blackbaud_UAT_Core_Crm_EventPanel_ReminderExists.htm" />
+  <HelpKINode Title="RevenueFunctionalArea class">
+    <HelpKINode Title="RevenueFunctionalArea Class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+    <HelpKINode Title="about RevenueFunctionalArea class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RevenueFunctionalArea.AddAPayment method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPayment.htm" />
+  <HelpKINode Title="RevenueFunctionalArea.AddAPledge method" Url="html/Overload_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_AddAPledge.htm" />
+  <HelpKINode Title="RevenueFunctionalArea.BatchEntry method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_BatchEntry.htm" />
+  <HelpKINode Title="RevenueFunctionalArea.PledgeSubtypes method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_PledgeSubtypes.htm" />
+  <HelpKINode Title="RevenueFunctionalArea.RevenueFunctionalArea constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea__ctor.htm" />
+  <HelpKINode Title="RevenueFunctionalArea.TransactionSearchByConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent.htm" />
+  <HelpKINode Title="RevenueRecordPanel class">
+    <HelpKINode Title="RevenueRecordPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+    <HelpKINode Title="about RevenueRecordPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_RevenueRecordPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="RevenueRecordPanel.IsAcknowledged method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsAcknowledged.htm" />
+  <HelpKINode Title="RevenueRecordPanel.IsReceipted method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsReceipted.htm" />
+  <HelpKINode Title="RevenueRecordPanel.IsSubtype method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_IsSubtype.htm" />
+  <HelpKINode Title="RevenueRecordPanel.PaymentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel_PaymentExists.htm" />
+  <HelpKINode Title="RevenueRecordPanel.RevenueRecordPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueRecordPanel__ctor.htm" />
+  <HelpKINode Title="RunReceiptProcess method" Url="html/M_Blackbaud_UAT_Core_Crm_ReceiptsPanel_RunReceiptProcess.htm" />
+  <HelpKINode Title="Save method">
+    <HelpKINode Title="Dialog.Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Save.htm" />
+    <HelpKINode Title="IndividualDialog.Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_Save.htm" />
+    <HelpKINode Title="MajorGivingPlanDialog.Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_Save.htm" />
+    <HelpKINode Title="MarketingAcknowledgementRuleDialog.Save Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_Save.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SaveAndClose method">
+    <HelpKINode Title="AdHocQueryDialog.SaveAndClose Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SaveAndClose.htm" />
+    <HelpKINode Title="BatchDialog.SaveAndClose Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SaveAndClose.htm" />
+  </HelpKINode>
+  <HelpKINode Title="Search method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Search.htm" />
+  <HelpKINode Title="SearchDialog class">
+    <HelpKINode Title="SearchDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+    <HelpKINode Title="about SearchDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SearchDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SearchDialog.CheckConstituentSearchResultsContain method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain.htm" />
+  <HelpKINode Title="SearchDialog.CheckConstituentSearchResultsToolbarContains method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_CheckConstituentSearchResultsToolbarContains.htm" />
+  <HelpKINode Title="SearchDialog.getXFirstNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXFirstNameField.htm" />
+  <HelpKINode Title="SearchDialog.getXGridNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXGridNameField.htm" />
+  <HelpKINode Title="SearchDialog.getXLastNameField field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXLastNameField.htm" />
+  <HelpKINode Title="SearchDialog.getXNoRecordsFound field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXNoRecordsFound.htm" />
+  <HelpKINode Title="SearchDialog.getXResultsBar field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXResultsBar.htm" />
+  <HelpKINode Title="SearchDialog.getXSearchButton field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchButton.htm" />
+  <HelpKINode Title="SearchDialog.getXSearchResultsGrid field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSearchResultsGrid.htm" />
+  <HelpKINode Title="SearchDialog.getXSelectButton field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectButton.htm" />
+  <HelpKINode Title="SearchDialog.getXSelectedResultsRow field" Url="html/F_Blackbaud_UAT_Core_Crm_SearchDialog_getXSelectedResultsRow.htm" />
+  <HelpKINode Title="SearchDialog.Search method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Search.htm" />
+  <HelpKINode Title="SearchDialog.SearchDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog__ctor.htm" />
+  <HelpKINode Title="SearchDialog.Select method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Select.htm" />
+  <HelpKINode Title="SearchDialog.SelectFirstResult method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SelectFirstResult.htm" />
+  <HelpKINode Title="SearchDialog.SetFirstNameToSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetFirstNameToSearch.htm" />
+  <HelpKINode Title="SearchDialog.SetLastNameToSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetLastNameToSearch.htm" />
+  <HelpKINode Title="SearchDialogFieldId field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogFieldId.htm" />
+  <HelpKINode Title="SearchDialogId field" Url="html/F_Blackbaud_UAT_Base_CrmField_SearchDialogId.htm" />
+  <HelpKINode Title="Searchlist enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="SectionDatalistRowExists method">
+    <HelpKINode Title="InformationLibraryPanel.SectionDatalistRowExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SectionDatalistRowExists.htm" />
+    <HelpKINode Title="Panel.SectionDatalistRowExists Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionDatalistRowExists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SectionViewFormExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SectionViewFormExists.htm" />
+  <HelpKINode Title="SegmentDialog class">
+    <HelpKINode Title="SegmentDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+    <HelpKINode Title="about SegmentDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SegmentDialog.AddSelection method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_AddSelection.htm" />
+  <HelpKINode Title="SegmentDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_DialogIds.htm" />
+  <HelpKINode Title="SegmentDialog.SegmentDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog__ctor.htm" />
+  <HelpKINode Title="SegmentDialog.SetDetailsFields method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_SetDetailsFields.htm" />
+  <HelpKINode Title="SegmentDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_SupportedFields.htm" />
+  <HelpKINode Title="SegmentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_SegmentExists.htm" />
+  <HelpKINode Title="SegmentPanel class">
+    <HelpKINode Title="SegmentPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+    <HelpKINode Title="about SegmentPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SegmentPanel.ActivatedMarketingEffortExists method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists.htm" />
+  <HelpKINode Title="SegmentPanel.DeleteActivatedMarketingEffort method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteActivatedMarketingEffort.htm" />
+  <HelpKINode Title="SegmentPanel.DeleteSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel_DeleteSegment.htm" />
+  <HelpKINode Title="SegmentPanel.SegmentPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentPanel__ctor.htm" />
+  <HelpKINode Title="Segments method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAndCommFunctionalArea_Segments.htm" />
+  <HelpKINode Title="SegmentsPanel class">
+    <HelpKINode Title="SegmentsPanel Class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+    <HelpKINode Title="about SegmentsPanel class" Url="html/T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_SegmentsPanel.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SegmentsPanel.AddSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_AddSegment.htm" />
+  <HelpKINode Title="SegmentsPanel.DeleteSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_DeleteSegment.htm" />
+  <HelpKINode Title="SegmentsPanel.GoToSegment method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_GoToSegment.htm" />
+  <HelpKINode Title="SegmentsPanel.SegmentExists method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel_SegmentExists.htm" />
+  <HelpKINode Title="SegmentsPanel.SegmentsPanel constructor" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentsPanel__ctor.htm" />
+  <HelpKINode Title="Select method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_Select.htm" />
+  <HelpKINode Title="SelectFirstResult method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SelectFirstResult.htm" />
+  <HelpKINode Title="SelectInfoTab method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectInfoTab.htm" />
+  <HelpKINode Title="SelectInnerTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectInnerTab.htm" />
+  <HelpKINode Title="SelectNote method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_SelectNote.htm" />
+  <HelpKINode Title="SelectRecordTypeName method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SelectRecordTypeName.htm" />
+  <HelpKINode Title="SelectSectionDatalistRow method">
+    <HelpKINode Title="InformationLibraryPanel.SelectSectionDatalistRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SelectSectionDatalistRow.htm" />
+    <HelpKINode Title="Panel.SelectSectionDatalistRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Panel_SelectSectionDatalistRow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SelectStepRow method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SelectStepRow.htm" />
+  <HelpKINode Title="SelectTab method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_SelectTab.htm" />
+  <HelpKINode Title="SelectUncommittedBatch method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_SelectUncommittedBatch.htm" />
+  <HelpKINode Title="SetAccountSystem method" Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SetAccountSystem.htm" />
+  <HelpKINode Title="SetActivationTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetActivationTabFields.htm" />
+  <HelpKINode Title="SetAdditionalApplicationsGridRows method" Url="html/M_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SetAdditionalApplicationsGridRows.htm" />
+  <HelpKINode Title="SetCheckbox method" Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_SetCheckbox.htm" />
+  <HelpKINode Title="SetCredentailsField method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetCredentailsField.htm" />
+  <HelpKINode Title="SetDetails method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetDetails.htm" />
+  <HelpKINode Title="SetDetailsFields method" Url="html/M_Blackbaud_UAT_Core_Crm_SegmentDialog_SetDetailsFields.htm" />
+  <HelpKINode Title="SetDetailsTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SetDetailsTabFields.htm" />
+  <HelpKINode Title="SetDropDown method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetDropDown.htm" />
+  <HelpKINode Title="SetField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetField.htm" />
+  <HelpKINode Title="SetFields method">
+    <HelpKINode Title="Dialog.SetFields Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetFields.htm" />
+    <HelpKINode Title="EventDialog.SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventDialog_SetFields.htm" />
+    <HelpKINode Title="PackageDialog.SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_PackageDialog_SetFields.htm" />
+    <HelpKINode Title="PaymentDialog.SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_PaymentDialog_SetFields.htm" />
+    <HelpKINode Title="PledgeDialog.SetFields Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeDialog_SetFields.htm" />
+    <HelpKINode Title="TaskDialog.SetFields Method " Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetFields.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetFilter method">
+    <HelpKINode Title="InformationLibraryPanel.SetFilter Method " Url="html/M_Blackbaud_UAT_Core_Crm_InformationLibraryPanel_SetFilter.htm" />
+    <HelpKINode Title="QueryPanel.SetFilter Method " Url="html/M_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_SetFilter.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetFindField method" Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetFindField.htm" />
+  <HelpKINode Title="SetFirstNameToSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetFirstNameToSearch.htm" />
+  <HelpKINode Title="SetGeneralTabFields method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetGeneralTabFields.htm" />
+  <HelpKINode Title="SetGridCell method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridCell.htm" />
+  <HelpKINode Title="SetGridDropDown method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridDropDown.htm" />
+  <HelpKINode Title="SetGridRow method">
+    <HelpKINode Title="BatchDialog.SetGridRow Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRow.htm" />
+    <HelpKINode Title="Dialog.SetGridRow Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRow.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetGridRows method">
+    <HelpKINode Title="BatchDialog.SetGridRows Method " Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_SetGridRows.htm" />
+    <HelpKINode Title="Dialog.SetGridRows Method " Url="html/Overload_Blackbaud_UAT_Core_Crm_Dialog_SetGridRows.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetGridSearchList method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridSearchList.htm" />
+  <HelpKINode Title="SetGridTextField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetGridTextField.htm" />
+  <HelpKINode Title="SetHouseholdFields method" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetHouseholdFields.htm" />
+  <HelpKINode Title="SetHtmlField method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetHtmlField.htm" />
+  <HelpKINode Title="SetIndividualFields method" Url="html/Overload_Blackbaud_UAT_Core_Crm_IndividualDialog_SetIndividualFields.htm" />
+  <HelpKINode Title="SetLastName method" Url="html/M_Blackbaud_UAT_Core_Crm_IndividualDialog_SetLastName.htm" />
+  <HelpKINode Title="SetLastNameToSearch method" Url="html/M_Blackbaud_UAT_Core_Crm_SearchDialog_SetLastNameToSearch.htm" />
+  <HelpKINode Title="SetOutline method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetOutline.htm" />
+  <HelpKINode Title="SetParticipants method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetParticipants.htm" />
+  <HelpKINode Title="SetPlanStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPlanStartDate.htm" />
+  <HelpKINode Title="SetPrimaryManagerStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetPrimaryManagerStartDate.htm" />
+  <HelpKINode Title="SetRecordType method" Url="html/M_Blackbaud_UAT_Core_Crm_QuerySourceViewDialog_SetRecordType.htm" />
+  <HelpKINode Title="SetRegistrant method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrant.htm" />
+  <HelpKINode Title="SetRegistrants method" Url="html/M_Blackbaud_UAT_Core_Crm_RegistrantDialog_SetRegistrants.htm" />
+  <HelpKINode Title="SetReminders method" Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetReminders.htm" />
+  <HelpKINode Title="SetSaveOptions method">
+    <HelpKINode Title="AdHocQueryDialog.SetSaveOptions Method " Url="html/M_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SetSaveOptions.htm" />
+    <HelpKINode Title="NewAdhocQueryDialog.SetSaveOptions Method " Url="html/M_Blackbaud_UAT_Core_Crm_NewAdhocQueryDialog_SetSaveOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SetSearchList method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_SetSearchList.htm" />
+  <HelpKINode Title="SetSecondaryManagerStartDate method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetSecondaryManagerStartDate.htm" />
+  <HelpKINode Title="SetSourceCode method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SetSourceCode.htm" />
+  <HelpKINode Title="SetStepRow method" Url="html/M_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SetStepRow.htm" />
+  <HelpKINode Title="SetTemplate method" Url="html/M_Blackbaud_UAT_Core_Crm_MultiLevelEventDialog_SetTemplate.htm" />
+  <HelpKINode Title="SetTextField method" Url="html/M_Blackbaud_UAT_Base_BaseComponent_SetTextField.htm" />
+  <HelpKINode Title="SplitDesignations method">
+    <HelpKINode Title="DesignationsDialog.SplitDesignations Method " Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignations.htm" />
+    <HelpKINode Title="EnhancedRevenueBatchDialog.SplitDesignations Method " Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_SplitDesignations.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SplitDesignationsEvenly method">
+    <HelpKINode Title="DesignationsDialog.SplitDesignationsEvenly Method " Url="html/M_Blackbaud_UAT_Core_Crm_DesignationsDialog_SplitDesignationsEvenly.htm" />
+    <HelpKINode Title="PledgeDialog.SplitDesignationsEvenly Method " Url="html/M_Blackbaud_UAT_Core_Crm_PledgeDialog_SplitDesignationsEvenly.htm" />
+  </HelpKINode>
+  <HelpKINode Title="StartToAddAPlan method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_StartToAddAPlan.htm" />
+  <HelpKINode Title="SubtypeExists method" Url="html/Overload_Blackbaud_UAT_Core_Crm_PledgeSubtypePanel_SubtypeExists.htm" />
+  <HelpKINode Title="SupportedAddtionalApplicationsGridFields field" Url="html/F_Blackbaud_UAT_Core_Crm_CommitmentsDialog_SupportedAddtionalApplicationsGridFields.htm" />
+  <HelpKINode Title="SupportedFields field">
+    <HelpKINode Title="AdHocQueryDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_AdHocQueryDialog_SupportedFields.htm" />
+    <HelpKINode Title="DesignationsDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_DesignationsDialog_SupportedFields.htm" />
+    <HelpKINode Title="EventDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_EventDialog_SupportedFields.htm" />
+    <HelpKINode Title="IndividualDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_IndividualDialog_SupportedFields.htm" />
+    <HelpKINode Title="MajorGivingPlanDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_MajorGivingPlanDialog_SupportedFields.htm" />
+    <HelpKINode Title="MarketingAcknowledgementRuleDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementRuleDialog_SupportedFields.htm" />
+    <HelpKINode Title="MarketingAcknowledgementTemplateDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_SupportedFields.htm" />
+    <HelpKINode Title="PackageDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PackageDialog_SupportedFields.htm" />
+    <HelpKINode Title="PaymentDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PaymentDialog_SupportedFields.htm" />
+    <HelpKINode Title="PledgeDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_PledgeDialog_SupportedFields.htm" />
+    <HelpKINode Title="RegistrantDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_RegistrantDialog_SupportedFields.htm" />
+    <HelpKINode Title="SegmentDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_SegmentDialog_SupportedFields.htm" />
+    <HelpKINode Title="TaskDialog.SupportedFields Field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedFields.htm" />
+  </HelpKINode>
+  <HelpKINode Title="SupportedRemindersGridFields field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedRemindersGridFields.htm" />
+  <HelpKINode Title="TaskDialog class">
+    <HelpKINode Title="TaskDialog Class" Url="html/T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+    <HelpKINode Title="about TaskDialog class" Url="html/T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog__ctor.htm" />
+    <HelpKINode Title="fields" Url="html/Fields_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Blackbaud_UAT_Core_Crm_TaskDialog.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TaskDialog.DialogIds field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_DialogIds.htm" />
+  <HelpKINode Title="TaskDialog.SetFields method" Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetFields.htm" />
+  <HelpKINode Title="TaskDialog.SetReminders method" Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog_SetReminders.htm" />
+  <HelpKINode Title="TaskDialog.SupportedFields field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedFields.htm" />
+  <HelpKINode Title="TaskDialog.SupportedRemindersGridFields field" Url="html/F_Blackbaud_UAT_Core_Crm_TaskDialog_SupportedRemindersGridFields.htm" />
+  <HelpKINode Title="TaskDialog.TaskDialog constructor" Url="html/M_Blackbaud_UAT_Core_Crm_TaskDialog__ctor.htm" />
+  <HelpKINode Title="TeamMemberExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamMemberExists.htm" />
+  <HelpKINode Title="TeamRoleExists method" Url="html/M_Blackbaud_UAT_Core_Crm_ConstituentPanel_TeamRoleExists.htm" />
+  <HelpKINode Title="TemplateExists method">
+    <HelpKINode Title="EventManagementTemplatesPanel.TemplateExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_EventManagementTemplatesPanel_TemplateExists.htm" />
+    <HelpKINode Title="MarketingAcknowledgementsPanel.TemplateExists Method " Url="html/M_Blackbaud_UAT_Core_Crm_MarketingAcknowledgementsPanel_TemplateExists.htm" />
+  </HelpKINode>
+  <HelpKINode Title="testStamp field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_testStamp.htm" />
+  <HelpKINode Title="TextArea enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="TextIframe enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="TextInput enumeration member" Url="html/T_Blackbaud_UAT_Base_FieldType.htm" />
+  <HelpKINode Title="TimeoutSecs property" Url="html/P_Blackbaud_UAT_Base_BaseComponent_TimeoutSecs.htm" />
+  <HelpKINode Title="Title property">
+    <HelpKINode Title="BaseComponent.Title Property " Url="html/P_Blackbaud_UAT_Base_BaseComponent_Title.htm" />
+    <HelpKINode Title="BBISHomePage.Title Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_Title.htm" />
+  </HelpKINode>
+  <HelpKINode Title="TransactionSearchByConstituent method" Url="html/M_Blackbaud_UAT_Core_Crm_RevenueFunctionalArea_TransactionSearchByConstituent.htm" />
+  <HelpKINode Title="UncommittedBatchExists method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchEntryPanel_UncommittedBatchExists.htm" />
+  <HelpKINode Title="uniqueStamp field" Url="html/F_Blackbaud_UAT_Core_Base_BaseSteps_uniqueStamp.htm" />
+  <HelpKINode Title="UpdateProjectedTotals method" Url="html/M_Blackbaud_UAT_Core_Crm_EnhancedRevenueBatchDialog_UpdateProjectedTotals.htm" />
+  <HelpKINode Title="Validate method" Url="html/M_Blackbaud_UAT_Core_Crm_BatchDialog_Validate.htm" />
+  <HelpKINode Title="version">
+    <HelpKINode Title="1.0.0.0" Url="html/83e4ed97-1714-41f0-a719-94ba1bf767dc.htm" />
+    <HelpKINode Title="history" Url="html/48fdba0e-bf5f-4870-9c25-746bd3cedcb3.htm" />
+  </HelpKINode>
+  <HelpKINode Title="VirtualPath property">
+    <HelpKINode Title="BBCRMHomePage.VirtualPath Property " Url="html/P_Blackbaud_UAT_Core_Crm_BBCRMHomePage_VirtualPath.htm" />
+    <HelpKINode Title="BBISHomePage.VirtualPath Property " Url="html/P_Blackbaud_UAT_Core_Bbis_Pages_BBISHomePage_VirtualPath.htm" />
+  </HelpKINode>
+  <HelpKINode Title="WaitClick method" Url="html/Overload_Blackbaud_UAT_Base_BaseComponent_WaitClick.htm" />
+  <HelpKINode Title="WaitForPanelHeaderNotContain method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelHeaderNotContain.htm" />
+  <HelpKINode Title="WaitForPanelType method" Url="html/M_Blackbaud_UAT_Core_Crm_Panel_WaitForPanelType.htm" />
+  <HelpKINode Title="Yes method" Url="html/M_Blackbaud_UAT_Core_Crm_Dialog_Yes.htm" />
+  <HelpKINode Title="YesReallyDeleteElement field" Url="html/F_Blackbaud_UAT_Core_Crm_Panels_QueryPanel_YesReallyDeleteElement.htm" />
+</HelpKI>
