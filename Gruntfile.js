@@ -55,15 +55,12 @@ module.exports = function(grunt) {
 		
 			if(large_t){
 				$(this).find('td').first().remove();
-				$(this).find('td').last().find('script').remove();
-				$(this).find('td').first().next().find('script').remove();
 				member.params[choice][$(this).find('td').first().text()] = {"value": $(this).find('td').first().next().text(), "description": $(this).find('td').last().text()};
 			}
 			else {
 				var key = $(this).find('td a').first();
 				if($(key).children().length){
 				
-					$(key).find('script').remove();
 					key = $(key).html();
 				
 				}
@@ -72,7 +69,6 @@ module.exports = function(grunt) {
 					key = $(key).text();
 				
 				}
-				$(this).find('td').last().find('script').remove();
 				member.params[choice][key] =  {"link": $(this).find('td a').first().attr('href'), "description": $(this).find('td').last().text()};
 
 				var visibility = $(this).attr('data');
@@ -194,12 +190,10 @@ module.exports = function(grunt) {
 				
 				}
 			
-				$(this).find('script').remove();
 				member.params.inheritance[$(this).attr('href')] =  $(this).text();
 				
 				if($(this).next('br').next('span').length != 0) {
 				
-					$(this).next('br').next('span').first().find('script').remove();
 					member.params.inheritance['#'] = $(this).next('br').next('span').first().text();
 				
 				}
@@ -209,12 +203,10 @@ module.exports = function(grunt) {
 				var count = $("div[id*='RBSection']").length;
 				$("#ID" + count + "RBSection").find('a').each(function() {
 				
-					$(this).find('script').remove();
 					member.params.inheritance[$(this).attr('href')] =  $(this).text();
 					
 					if($(this).next('br').next('span').length != 0) {
 					
-						$(this).next('br').next('span').first().find('script').remove();
 						member.params.inheritance['#'] = $(this).next('br').next('span').first().text();
 					
 					}
@@ -308,16 +300,7 @@ module.exports = function(grunt) {
 					var type = "";
 					if($(this).next('dd').children('a').length) {
 					
-						$(this).next('dd').find('script').remove();
-						$(this).next('dd').children().each(function() {
-						
-							if($(this).is('span')){
-								type += $(this);
-							}
-							else
-								type += $(this).text();
-						
-						});
+						type += $(this).next('dd').html().split("Type:")[1].split("<br>")[0];
 					
 					}
 					else {
@@ -339,15 +322,14 @@ module.exports = function(grunt) {
 		if($("h4:contains('Return Value')").length) {
 				
 			member.params.return_val = {};
-			$('#ID1RBSection').find('script').remove();
 			var stuff = $('#ID1RBSection').html().split("Type:");
 
 			stuff = stuff[stuff.length - 1];
 			
 			stuff = stuff.split("<br>")[0];
-			stuff = "<html><body>" + stuff + "</body></html>";
+			stuff = "<html>" + stuff + "</html>";
 			
-			member.params.return_val["type"] = $(stuff).text();
+			member.params.return_val["type"] = $(stuff).html();
 			
 			var split = $('#ID1RBSection').html().split("<br>");
 			
@@ -378,9 +360,8 @@ module.exports = function(grunt) {
 		}
 		
 		
-		if($("h4:contains('Property Value')").length || $('h4').filter(function() {return $(this).text() == 'Value';})) {
+		if($("h4:contains('Property Value')").length || $('h4').filter(function() {return $(this).text() == 'Value';}).length) {
 		
-			$('#ID1RBSection').find('script').remove();
 			member.params.type = $('#ID1RBSection').text().split("Type:")[1];
 		
 		}
