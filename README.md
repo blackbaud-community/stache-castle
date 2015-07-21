@@ -382,13 +382,13 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 - There are a few other keys worth mentioning, although it should be taken with a grain of salt. Sandcastle is expected to have standard output, but that's not always the case, so these keys might not always be present or might be named differently.  Regardless, these are typical keys for the more recent recursive files:
 
 ```
-										"Id": "e9717ec2-a1d5-4994-be73-665f6abedc02",
-										"Title": "BatchDialog Fields",
-										"Url": "html/Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm"
+"Id": "e9717ec2-a1d5-4994-be73-665f6abedc02",
+"Title": "BatchDialog Fields",
+"Url": "html/Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm"
 ```
 
-	- The `Id` key is a guid. 
-	- The `Title` key is the title which appears at the top of webpage.
-	- The `Url` key holds the url for the HTML file related to the object.
+- The `Id` key is a guid. 
+- The `Title` key is the title which appears at the top of webpage.
+- The `Url` key holds the url for the HTML file related to the object.
 
 - Other information will be added as necessary.
