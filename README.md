@@ -1,6 +1,20 @@
 # stache-castle
 Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 
+## Table of Contents
+[Instructions](#Instructions)
+[Class Format](#Class)
+	[Class Notes](#Class Notes)
+[Method Format](#Method)
+	[Method Notes](#Method Notes)
+[Field Format](#Field)
+	[Field Notes](#Field Notes)
+[Property Format](#Property)
+[Event Format](#Event)
+[Listed Format](#Listed)
+	[Listed Notes](#Listed Notes)
+[Miscellaneous Info](#Misc)
+
 ## Instructions <a name="Instructions"></a>
 
 - the task is a default so all you have to do is run grunt.
