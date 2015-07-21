@@ -373,3 +373,22 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 - The `See Also` key is not of any importance.
 
 - See [Class Notes](#referencesnote) for more information on the `references` key.
+
+## Miscellaneous Information<a name="Misc"></a>
+##### Notes about the output for this tool and other tidbits that might of interest to users
+
+- More recent SandCastle output is recursive so this format will still stand, but there will be some nested formats within other formats.  So, an object for a class might also have an object for a Method page within it which then might have an object for a Field within it.  The information and the keys mentioned above will still stand, but it's important to know that this README is more of a guide than a one-to-one match up of all possible output.
+
+- There are a few other keys worth mentioning, although it should be taken with a grain of salt. Sandcastle is expected to have standard output, but that's not always the case, so these keys might not always be present or might be named differently.  Regardless, these are typical keys for the more recent recursive files:
+
+```
+										"Id": "e9717ec2-a1d5-4994-be73-665f6abedc02",
+										"Title": "BatchDialog Fields",
+										"Url": "html/Fields_T_Blackbaud_UAT_Core_Crm_BatchDialog.htm"
+```
+
+	- The `Id` key is a guid. 
+	- The `Title` key is the title which appears at the top of webpage.
+	- The `Url` key holds the url for the HTML file related to the object.
+
+- Other information will be added as necessary.
