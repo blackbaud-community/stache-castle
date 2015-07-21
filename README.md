@@ -187,18 +187,21 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 - Within the `syntax` object there are two bits of information to know
   - Each key is a tab within the Syntax section, named for the language that tab represents.
   - Each value is the text within that tab.
-
-- Next there are the `constructors`, `methods`, `fields`, and `properties` sections.  These are lumped together because they're all formatted similarly
+<a name="cmfpnote"></a>
+- Next there are the `constructors`, `methods`, `fields`, and `properties` sections.  These are lumped together because they're all formatted similarly.
   - Each key within these sections is the name of an item in that list.  For example, `"Panel": {}` is the name of the constructor for `T:Blueshirt.Core.Crm.Panel`.  
   - Within this object is the `link` key whose value is the url to the page which coordinates to this object.  So `M_Blueshirt_Core_Crm_Panel__ctor.htm` is a link for the `Panel` constructor.  
   - The `description` key gives the text in the description column under the respective section for that item. The description for `Panel` is `Initializes a new instance of the Panel class`.  
   - Each subsequent key is related to the access and/or visibility of the item.  So `Panel` is `public`.  Others can be `public`, `private`, `static`, or `inherited`.  Other items are less important such as `declared` and `notNetfw`.
   - It's worth noting that some of the keys of items in the list of `methods`, `fields`, `properties`, or `constructors` might have HTML in them because there is text that doesn't show until the page is loaded.  Similarly to the 3rd bullet point under the inheritance section above.
+ 
 <a name="referencesnote"></a>
 - The `references` section has any references for that class.  It is formatted like the `inheritance` section in that the keys are the links and the value is the text on the page.  The `reference` section exists in many other JSON objects within the file.
 
+- Not all keys will be present in all objects.  Some may not have `fields` and/or `properties`.  There are many variations.
+
 ## Method JSON Format <a name='Method'></a>
-######(Files beginning in M_, generally pages with all information regarding a class)
+######(Files beginning in M_, generally pages with all information regarding a method)
 ```
 `{
 					"name": "M:Blueshirt.Core.Crm.Panel.getXDataListColumnValue(System.Int32,System.String)",
@@ -247,10 +250,112 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 - Next is the `params` section which all objects will have if there's a matching HTML file.  See related info under [Class Notes](#paramsnote)
 	- All method pages will have a syntax section marked by the `syntax` key.  See related info under [Class Notes] (#syntaxnote)
 	- The `arguments` key marks an object holding information about every parameter accepted by the method.
-		- Each key within `arguments` is an object itself whose key is the name of the parameter.
+		- Each key within `arguments` is an object itself whose key is the name of the parameter.<a name="argtype"></a>
 			- The `type` key is the data type of the parameter.  These will typically have HTML because they link to external pages, but may also have content that is not added until `onLoad()`.  By simply using the HTML it should be easy to use in any case.
 			- The `description` key is the description of the parameter as it relates to the method's purpose.
 	- The `return_val` key is formatted the same as each argument within the `arguments` object. See above for information on the format of `return_val`
 	- See [Class Notes](#referencesnote) for more information on the `references` key.
 
 - This is the most expanded format for Method pages, not all JSON objects will have `return_val` and/or `arguments` sections.
+
+## Field JSON Format <a name='Field'></a>
+######(Files beginning in F_, generally pages with all information regarding a field)
+
+```
+			}
+					"name": "F:Blueshirt.Core.Crm.CommitmentsDialog.SupportedAddtionalApplicationsGridFields",
+					"summary": "\r\n            Static mapping of supported field captions to CrmField objects encapsulating all relevant variables\r\n            needed to set the field's value.\r\n            ",
+					"params": {
+						"syntax": {
+							"C#": "protected static readonly IDictionary<string, CrmField> SupportedAddtionalApplicationsGridFields",
+							"VB": "Protected Shared ReadOnly SupportedAddtionalApplicationsGridFields As IDictionary(Of String, CrmField)",
+							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedAddtionalApplicationsGridFields"
+						},
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTD5D8E5A6_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD5D8E5A6_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTD5D8E5A6_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD5D8E5A6_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
+						"references": {
+							"T_Blueshirt_Core_Crm_CommitmentsDialog.htm": "CommitmentsDialog Class",
+							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
+						}
+					}
+				}
+```
+
+#####Notes on Field JSON Format: <a name="Field Notes"></a>
+- For information on the `name` and `summary` keys, see [Class Notes](#namenote)
+
+- Next is the `params` section which all objects will have if there's a matching HTML file.  See related info under [Class Notes](#paramsnote)
+	- All method pages will have a syntax section marked by the `syntax` key.  See related info under [Class Notes](#syntaxnote)
+	- The `type` key is similar to the `type` key in the `arguments` object of a Method (M_) page.  See [Method Notes](#argtype) for a complete description.
+	- See [Class Notes](#referencesnote) for more information on the `references` key.
+	
+- This is the most complete JSON for a Field page.  Others may not have HTML in the `type` key.
+
+## Property JSON Format <a name='Property'></a>
+######(Files beginning in P_, generally pages with all information regarding a Property)
+
+- To prevent redundancy, the format of the JSON is identical to the format of Field JSON objects.  See [Field Notes](#Field) for information on this format.
+
+## Event JSON Format <a name='Event'></a>
+######(Files beginning in Event_, generally pages with all information regarding a Event)
+
+- An exception to consider with Events is that it can take arguments because they are methods.
+
+- To prevent redundancy, the format of the JSON is identical to the format of Method JSON objects. See [Method Notes](#Method) for information on this format.
+
+## Listed Method/Properties/Fields/Namespace/Events/etc. JSON Format <a name='Listed'></a>
+######(Files beginning in Methods_ , Properties_ , Fields_ , Events_ , Overload_ , N_ , or R_ . Generally pages that have a listing as it relates to the parent Class or Namespace.  So `Properties_T_Blackbaud_UAT_Base_BaseComponent` would list all properties of the class `Blackbaud_UAT_Base_BaseComponent` and likewise for any of the other files.  the N_ and R_ files are differen in that the N_ files list all classes under that namespace and the R_ file lists all namespaces under the API)
+
+```
+				{
+					"name": "Fields_T_Blueshirt_Core_Base_CrmField",
+					"params": {
+						"summary": "The CrmField type exposes the following members.",
+						"Fields": {
+							"CellType": {
+								"link": "F_Blueshirt_Core_Base_CrmField_CellType.htm",
+								"description": "\n            The type of field.  Used to associate the field with a setter utility method.\n            ",
+								"public": "",
+								"declared": "",
+								"notNetfw": ""
+							},
+							"Id": {
+								"link": "F_Blueshirt_Core_Base_CrmField_Id.htm",
+								"description": "\n            The unique Id contained in the id attribute.\n            i.e. '_CONSTITUENTID_value'\n            ",
+								"public": "",
+								"declared": "",
+								"notNetfw": ""
+							},
+							"SearchDialogFieldId": {
+								"link": "F_Blueshirt_Core_Base_CrmField_SearchDialogFieldId.htm",
+								"description": "\n            The unique id of the search dialog field that would appear upon clicking the search icon of\n            the associated grid cell.\n            i.e. 'COMBINEDSEARCH'\n            Used for fields associated with 'BatchGridCellType.Searchlist'.\n            ",
+								"public": "",
+								"declared": "",
+								"notNetfw": ""
+							},
+							"SearchDialogId": {
+								"link": "F_Blueshirt_Core_Base_CrmField_SearchDialogId.htm",
+								"description": "\n            The unique id of the search dialog that would appear upon clicking the search icon of\n            the associated grid cell.\n            i.e. 'DesignationSearch'\n            Used for fields associated with 'BatchGridCellType.Searchlist'.\n            ",
+								"public": "",
+								"declared": "",
+								"notNetfw": ""
+							}
+						},
+						"See Also": {},
+						"references": {
+							"T_Blueshirt_Core_Base_CrmField.htm": "CrmField Class",
+							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
+						}
+					}
+				},
+```
+
+#####Notes on Listed  JSON Format: <a name="Listed Notes"></a>
+- For information on the `name` and `summary` keys, see [Class Notes](#namenote)
+	- Note that the `summary` key here is within the `params` object because it is not already pre-existing in the XML which is how other `summary` keys are populated.
+
+- The Listings are formatted the same as any of the `methods`, `fields`, `constructors`, or `properties` keys in Class Notes.  The key of these listings, here it is `"Fields": {}`, is determined by the title above the collapsible region on the HTML page.  See [Class Notes](#cmfpnote) for detailed information about the format of each object within this listing.
+	- This format is the same for every Listed JSON, with the exception being the key will be named differently.  For example, if the page lists all the Events than the key will be `Events`.  
+
+- The `See Also` key is not of any importance.
+
+- See [Class Notes](#referencesnote) for more information on the `references` key.
