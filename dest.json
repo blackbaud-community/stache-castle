@@ -18,11 +18,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1A5DC84E_5?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1A5DC84E_6?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel"
 						},
+						"lower_syntax_text": "The BaseComponent type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BaseComponent type exposes the following members.",
+						"syntax": {
+							"C#": "public class BaseComponent",
+							"VB": "Public Class BaseComponent",
+							"C++": "public ref class BaseComponent"
+						},
 						"constructors": {
 							"BaseComponent": {
 								"link": "M_Blueshirt_Core_Base_BaseComponent__ctor.htm",
@@ -889,10 +894,16 @@
 					"summary": "\r\n            Represents the various type of fields with supported setter utility methods.\r\n            ",
 					"params": {
 						"inheritance": {},
+						"lower_syntax_text": "",
 						"namespace": {
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
+						"syntax": {
+							"C#": "public enum FieldType",
+							"VB": "Public Enumeration FieldType",
+							"C++": "public enum class FieldType"
+						},
 						"members": {
 							"TextInput": {
 								"value": "0",
@@ -956,11 +967,16 @@
 							"http://msdn2.microsoft.com/en-us/library/e5kfa45b": "SystemAddLanguageSpecificTextSet(\"LSTCE2357F8_0?cs=.|vb=.|cpp=::|nu=.|fs=.\");Object",
 							"#": "Blueshirt.Core.BaseAddLanguageSpecificTextSet(\"LSTCE2357F8_1?cs=.|vb=.|cpp=::|nu=.|fs=.\");CrmField"
 						},
+						"lower_syntax_text": "The CrmField type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The CrmField type exposes the following members.",
+						"syntax": {
+							"C#": "public class CrmField",
+							"VB": "Public Class CrmField",
+							"C++": "public ref class CrmField"
+						},
 						"constructors": {
 							"CrmField(String, FieldType)": {
 								"link": "M_Blueshirt_Core_Base_CrmField__ctor.htm",
@@ -1065,7 +1081,7 @@
 							"VB": "Public ReadOnly Id As String",
 							"C++": "public:\ninitonly String^ Id"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_CrmField.htm": "CrmField Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -1081,7 +1097,7 @@
 							"VB": "Public ReadOnly CellType As FieldType",
 							"C++": "public:\ninitonly FieldType CellType"
 						},
-						"type": "FieldType",
+						"type": "&#xA0;<a href=\"T_Blueshirt_Core_Base_FieldType.htm\">FieldType</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_CrmField.htm": "CrmField Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -1097,7 +1113,7 @@
 							"VB": "Public ReadOnly SearchDialogId As String",
 							"C++": "public:\ninitonly String^ SearchDialogId"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_CrmField.htm": "CrmField Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -1113,7 +1129,7 @@
 							"VB": "Public ReadOnly SearchDialogFieldId As String",
 							"C++": "public:\ninitonly String^ SearchDialogFieldId"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_CrmField.htm": "CrmField Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -1164,11 +1180,16 @@
 							"http://msdn2.microsoft.com/en-us/library/e5kfa45b": "SystemAddLanguageSpecificTextSet(\"LSTA29A5FA8_0?cs=.|vb=.|cpp=::|nu=.|fs=.\");Object",
 							"#": "Blueshirt.Core.BaseAddLanguageSpecificTextSet(\"LSTA29A5FA8_1?cs=.|vb=.|cpp=::|nu=.|fs=.\");BaseSteps"
 						},
+						"lower_syntax_text": "The BaseSteps type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BaseSteps type exposes the following members.",
+						"syntax": {
+							"C#": "public class BaseSteps",
+							"VB": "Public Class BaseSteps",
+							"C++": "public ref class BaseSteps"
+						},
 						"constructors": {
 							"BaseSteps": {
 								"link": "M_Blueshirt_Core_Base_BaseSteps__ctor.htm",
@@ -1261,7 +1282,7 @@
 							"VB": "Protected Shared uniqueStamp As String",
 							"C++": "protected:\nstatic String^ uniqueStamp"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_BaseSteps.htm": "BaseSteps Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -1303,11 +1324,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1A7D28CA_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1A7D28CA_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");CommitmentsDialog"
 						},
+						"lower_syntax_text": "The CommitmentsDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The CommitmentsDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class CommitmentsDialog : Dialog",
+							"VB": "Public Class CommitmentsDialog\n\tInherits Dialog",
+							"C++": "public ref class CommitmentsDialog : public Dialog"
+						},
 						"constructors": {
 							"CommitmentsDialog": {
 								"link": "M_Blueshirt_Core_Crm_CommitmentsDialog__ctor.htm",
@@ -1437,11 +1463,16 @@
 							"T_Blueshirt_Core_Crm_SegmentDialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC51B8326_50?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentDialog",
 							"T_Blueshirt_Core_Crm_TaskDialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC51B8326_51?cs=.|vb=.|cpp=::|nu=.|fs=.\");TaskDialog"
 						},
+						"lower_syntax_text": "The Dialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The Dialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class Dialog : BaseComponent",
+							"VB": "Public Class Dialog\n\tInherits BaseComponent",
+							"C++": "public ref class Dialog : public BaseComponent"
+						},
 						"constructors": {
 							"Dialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog__ctor.htm",
@@ -2023,7 +2054,7 @@
 							"VB": "Public Const getXTabStrip As String",
 							"C++": "public:\nliteral String^ getXTabStrip"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2039,7 +2070,7 @@
 							"VB": "Public Const getXGridEditCellSearchlist As String",
 							"C++": "public:\nliteral String^ getXGridEditCellSearchlist"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2055,7 +2086,7 @@
 							"VB": "Public Const getXGridEditCellDropdownArrow As String",
 							"C++": "public:\nliteral String^ getXGridEditCellDropdownArrow"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2071,7 +2102,7 @@
 							"VB": "Public Const getXGridEditCell As String",
 							"C++": "public:\nliteral String^ getXGridEditCell"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2087,7 +2118,7 @@
 							"VB": "Public Const getXGridFocusedEditCell As String",
 							"C++": "public:\nliteral String^ getXGridFocusedEditCell"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2103,7 +2134,7 @@
 							"VB": "Public Const getXIFrameHtmlBodyP As String",
 							"C++": "public:\nliteral String^ getXIFrameHtmlBodyP"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2119,7 +2150,7 @@
 							"VB": "Public Const getXSaveAndCloseButton As String",
 							"C++": "public:\nliteral String^ getXSaveAndCloseButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2135,7 +2166,7 @@
 							"VB": "Public Const getXYesButton As String",
 							"C++": "public:\nliteral String^ getXYesButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2151,7 +2182,7 @@
 							"VB": "Public Const getXOKButton As String",
 							"C++": "public:\nliteral String^ getXOKButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2167,7 +2198,7 @@
 							"VB": "Public Const getXCancelButton As String",
 							"C++": "public:\nliteral String^ getXCancelButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2183,7 +2214,7 @@
 							"VB": "Public Const getXSaveButton As String",
 							"C++": "public:\nliteral String^ getXSaveButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2199,7 +2230,7 @@
 							"VB": "Public Const getXDropdownList As String",
 							"C++": "public:\nliteral String^ getXDropdownList"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -2215,7 +2246,7 @@
 							"VB": "Public Const getXDropdownListItems As String",
 							"C++": "public:\nliteral String^ getXDropdownListItems"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Dialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4073,7 +4104,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTAFBBF00F_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTAFBBF00F_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTAFBBF00F_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTAFBBF00F_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_CommitmentsDialog.htm": "CommitmentsDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4089,7 +4120,7 @@
 							"VB": "Protected Shared ReadOnly SupportedAddtionalApplicationsGridFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedAddtionalApplicationsGridFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTD5D8E5A6_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD5D8E5A6_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTD5D8E5A6_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD5D8E5A6_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_CommitmentsDialog.htm": "CommitmentsDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4131,11 +4162,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTED578308_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTED578308_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");DesignationsDialog"
 						},
+						"lower_syntax_text": "The DesignationsDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The DesignationsDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class DesignationsDialog : Dialog",
+							"VB": "Public Class DesignationsDialog\n\tInherits Dialog",
+							"C++": "public ref class DesignationsDialog : public Dialog"
+						},
 						"constructors": {
 							"DesignationsDialog": {
 								"link": "M_Blueshirt_Core_Crm_DesignationsDialog__ctor.htm",
@@ -4253,7 +4289,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST95EFBF3B_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST95EFBF3B_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST95EFBF3B_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST95EFBF3B_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_DesignationsDialog.htm": "DesignationsDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4330,11 +4366,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD74FD2C5_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD74FD2C5_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");EventDialog"
 						},
+						"lower_syntax_text": "The EventDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The EventDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class EventDialog : Dialog",
+							"VB": "Public Class EventDialog\n\tInherits Dialog",
+							"C++": "public ref class EventDialog : public Dialog"
+						},
 						"constructors": {
 							"EventDialog": {
 								"link": "M_Blueshirt_Core_Crm_EventDialog__ctor.htm",
@@ -4444,7 +4485,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST3E6E303C_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3E6E303C_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST3E6E303C_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3E6E303C_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_EventDialog.htm": "EventDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4460,7 +4501,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTC45A271B_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTC45A271B_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTC45A271B_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTC45A271B_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_EventDialog.htm": "EventDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4502,11 +4543,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST96512ADF_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST96512ADF_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PledgeDialog"
 						},
+						"lower_syntax_text": "The PledgeDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PledgeDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class PledgeDialog : Dialog",
+							"VB": "Public Class PledgeDialog\n\tInherits Dialog",
+							"C++": "public ref class PledgeDialog : public Dialog"
+						},
 						"constructors": {
 							"PledgeDialog": {
 								"link": "M_Blueshirt_Core_Crm_PledgeDialog__ctor.htm",
@@ -4648,7 +4694,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTCA5BD993_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTCA5BD993_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTCA5BD993_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTCA5BD993_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PledgeDialog.htm": "PledgeDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4664,7 +4710,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST4B283A6B_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST4B283A6B_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST4B283A6B_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST4B283A6B_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PledgeDialog.htm": "PledgeDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -4808,11 +4854,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST695BE1C1_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.Crm.DialogsAddLanguageSpecificTextSet(\"LST695BE1C1_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");AddMembershipProgramDialog"
 						},
+						"lower_syntax_text": "The AddMembershipProgramDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The AddMembershipProgramDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class AddMembershipProgramDialog : Dialog",
+							"VB": "Public Class AddMembershipProgramDialog\n\tInherits Dialog",
+							"C++": "public ref class AddMembershipProgramDialog : public Dialog"
+						},
 						"constructors": {
 							"AddMembershipProgramDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog__ctor.htm",
@@ -5172,11 +5223,16 @@
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2FF09BBB_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");BatchDialog",
 							"T_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2FF09BBB_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");EnhancedRevenueBatchDialog"
 						},
+						"lower_syntax_text": "The BatchDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BatchDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class BatchDialog : Dialog",
+							"VB": "Public Class BatchDialog\n\tInherits Dialog",
+							"C++": "public ref class BatchDialog : public Dialog"
+						},
 						"constructors": {
 							"BatchDialog": {
 								"link": "M_Blueshirt_Core_Crm_BatchDialog__ctor.htm",
@@ -5366,7 +5422,7 @@
 							"VB": "Public Const getXBatchGridHeaders As String",
 							"C++": "public:\nliteral String^ getXBatchGridHeaders"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BatchDialog.htm": "BatchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -5382,7 +5438,7 @@
 							"VB": "Protected Shared ReadOnly ColumnToBatchColumn As Dictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly Dictionary<String^, CrmField^>^ ColumnToBatchColumn"
 						},
-						"type": "DictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/xfhwa508\" target=\"_blank\">Dictionary</a><span id=\"LST4945A6E4_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST4945A6E4_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST4945A6E4_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST4945A6E4_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BatchDialog.htm": "BatchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -5658,11 +5714,16 @@
 							"T_Blueshirt_Core_Crm_BatchDialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST4A3D9482_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");BatchDialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST4A3D9482_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");EnhancedRevenueBatchDialog"
 						},
+						"lower_syntax_text": "The EnhancedRevenueBatchDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The EnhancedRevenueBatchDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class EnhancedRevenueBatchDialog : BatchDialog",
+							"VB": "Public Class EnhancedRevenueBatchDialog\n\tInherits BatchDialog",
+							"C++": "public ref class EnhancedRevenueBatchDialog : public BatchDialog"
+						},
 						"constructors": {
 							"EnhancedRevenueBatchDialog": {
 								"link": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog__ctor.htm",
@@ -5846,11 +5907,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST81CF9BDE_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST81CF9BDE_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");IndividualDialog"
 						},
+						"lower_syntax_text": "The IndividualDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The IndividualDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class IndividualDialog : Dialog",
+							"VB": "Public Class IndividualDialog\n\tInherits Dialog",
+							"C++": "public ref class IndividualDialog : public Dialog"
+						},
 						"constructors": {
 							"IndividualDialog": {
 								"link": "M_Blueshirt_Core_Crm_IndividualDialog__ctor.htm",
@@ -5992,7 +6058,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST205D0A7E_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST205D0A7E_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST205D0A7E_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST205D0A7E_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_IndividualDialog.htm": "IndividualDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6008,7 +6074,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST1EE752F0_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST1EE752F0_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST1EE752F0_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST1EE752F0_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_IndividualDialog.htm": "IndividualDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6152,11 +6218,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD30F2586_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD30F2586_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementRuleDialog"
 						},
+						"lower_syntax_text": "The MarketingAcknowledgementRuleDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAcknowledgementRuleDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAcknowledgementRuleDialog : Dialog",
+							"VB": "Public Class MarketingAcknowledgementRuleDialog\n\tInherits Dialog",
+							"C++": "public ref class MarketingAcknowledgementRuleDialog : public Dialog"
+						},
 						"constructors": {
 							"MarketingAcknowledgementRuleDialog": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog__ctor.htm",
@@ -6274,7 +6345,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST3EE1209E_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3EE1209E_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST3EE1209E_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3EE1209E_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog.htm": "MarketingAcknowledgementRuleDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6290,7 +6361,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST78EC3DD0_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST78EC3DD0_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST78EC3DD0_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST78EC3DD0_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog.htm": "MarketingAcknowledgementRuleDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6357,11 +6428,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTF5676001_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.Crm.DialogsAddLanguageSpecificTextSet(\"LSTF5676001_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementTemplateDialog"
 						},
+						"lower_syntax_text": "The MarketingAcknowledgementTemplateDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAcknowledgementTemplateDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAcknowledgementTemplateDialog : Dialog",
+							"VB": "Public Class MarketingAcknowledgementTemplateDialog\n\tInherits Dialog",
+							"C++": "public ref class MarketingAcknowledgementTemplateDialog : public Dialog"
+						},
 						"constructors": {
 							"MarketingAcknowledgementTemplateDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog__ctor.htm",
@@ -6495,7 +6571,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTBB0DCDBC_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTBB0DCDBC_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTBB0DCDBC_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTBB0DCDBC_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm": "MarketingAcknowledgementTemplateDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -6511,7 +6587,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTDDB72999_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTDDB72999_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTDDB72999_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTDDB72999_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog.htm": "MarketingAcknowledgementTemplateDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -6618,11 +6694,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC8A535FC_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC8A535FC_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");NewAdhocQueryDialog"
 						},
+						"lower_syntax_text": "The NewAdhocQueryDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The NewAdhocQueryDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class NewAdhocQueryDialog : Dialog",
+							"VB": "Public Class NewAdhocQueryDialog\n\tInherits Dialog",
+							"C++": "public ref class NewAdhocQueryDialog : public Dialog"
+						},
 						"constructors": {
 							"NewAdhocQueryDialog": {
 								"link": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog__ctor.htm",
@@ -6870,7 +6951,7 @@
 							"VB": "Public Shared getXFindField As String",
 							"C++": "public:\nstatic String^ getXFindField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_NewAdhocQueryDialog.htm": "NewAdhocQueryDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6944,7 +7025,7 @@
 							"VB": "Protected Shared getXAddFilterArrow As String",
 							"C++": "protected:\nstatic String^ getXAddFilterArrow"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_NewAdhocQueryDialog.htm": "NewAdhocQueryDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -6960,7 +7041,7 @@
 							"VB": "Protected Shared getXAddOutputFieldArrow As String",
 							"C++": "protected:\nstatic String^ getXAddOutputFieldArrow"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_NewAdhocQueryDialog.htm": "NewAdhocQueryDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7031,11 +7112,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA1CB0E95_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA1CB0E95_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PackageDialog"
 						},
+						"lower_syntax_text": "The PackageDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PackageDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class PackageDialog : Dialog",
+							"VB": "Public Class PackageDialog\n\tInherits Dialog",
+							"C++": "public ref class PackageDialog : public Dialog"
+						},
 						"constructors": {
 							"PackageDialog": {
 								"link": "M_Blueshirt_Core_Crm_PackageDialog__ctor.htm",
@@ -7145,7 +7231,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTBE5A7292_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTBE5A7292_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTBE5A7292_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTBE5A7292_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PackageDialog.htm": "PackageDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7161,7 +7247,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST39871BCA_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST39871BCA_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST39871BCA_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST39871BCA_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PackageDialog.htm": "PackageDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7203,11 +7289,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST16DE8B9A_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST16DE8B9A_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PaymentDialog"
 						},
+						"lower_syntax_text": "The PaymentDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PaymentDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class PaymentDialog : Dialog",
+							"VB": "Public Class PaymentDialog\n\tInherits Dialog",
+							"C++": "public ref class PaymentDialog : public Dialog"
+						},
 						"constructors": {
 							"PaymentDialog": {
 								"link": "M_Blueshirt_Core_Crm_PaymentDialog__ctor.htm",
@@ -7325,7 +7416,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTD61D3874_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD61D3874_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTD61D3874_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD61D3874_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PaymentDialog.htm": "PaymentDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7341,7 +7432,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTD324F917_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD324F917_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTD324F917_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD324F917_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_PaymentDialog.htm": "PaymentDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7412,11 +7503,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA875AE43_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA875AE43_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MajorGivingPlanDialog"
 						},
+						"lower_syntax_text": "The MajorGivingPlanDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MajorGivingPlanDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class MajorGivingPlanDialog : Dialog",
+							"VB": "Public Class MajorGivingPlanDialog\n\tInherits Dialog",
+							"C++": "public ref class MajorGivingPlanDialog : public Dialog"
+						},
 						"constructors": {
 							"MajorGivingPlanDialog": {
 								"link": "M_Blueshirt_Core_Crm_MajorGivingPlanDialog__ctor.htm",
@@ -7606,7 +7702,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST97063705_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST97063705_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST97063705_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST97063705_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MajorGivingPlanDialog.htm": "MajorGivingPlanDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7622,7 +7718,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST16C8D0D6_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST16C8D0D6_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST16C8D0D6_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST16C8D0D6_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MajorGivingPlanDialog.htm": "MajorGivingPlanDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -7913,11 +8009,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB1799CA9_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB1799CA9_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");QuerySourceViewDialog"
 						},
+						"lower_syntax_text": "The QuerySourceViewDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The QuerySourceViewDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class QuerySourceViewDialog : Dialog",
+							"VB": "Public Class QuerySourceViewDialog\n\tInherits Dialog",
+							"C++": "public ref class QuerySourceViewDialog : public Dialog"
+						},
 						"constructors": {
 							"QuerySourceViewDialog": {
 								"link": "M_Blueshirt_Core_Crm_QuerySourceViewDialog__ctor.htm",
@@ -8035,7 +8136,7 @@
 							"VB": "Public Const getXRecordTypeField As String",
 							"C++": "public:\nliteral String^ getXRecordTypeField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_QuerySourceViewDialog.htm": "QuerySourceViewDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8131,11 +8232,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST9F2D88E2_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST9F2D88E2_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");RegistrantDialog"
 						},
+						"lower_syntax_text": "The RegistrantDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The RegistrantDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class RegistrantDialog : Dialog",
+							"VB": "Public Class RegistrantDialog\n\tInherits Dialog",
+							"C++": "public ref class RegistrantDialog : public Dialog"
+						},
 						"constructors": {
 							"RegistrantDialog": {
 								"link": "M_Blueshirt_Core_Crm_RegistrantDialog__ctor.htm",
@@ -8253,7 +8359,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST29FE3550_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST29FE3550_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST29FE3550_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST29FE3550_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_RegistrantDialog.htm": "RegistrantDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8269,7 +8375,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST190D1958_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST190D1958_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST190D1958_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST190D1958_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_RegistrantDialog.htm": "RegistrantDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8335,11 +8441,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST48F1690C_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST48F1690C_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentDialog"
 						},
+						"lower_syntax_text": "The SegmentDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The SegmentDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class SegmentDialog : Dialog",
+							"VB": "Public Class SegmentDialog\n\tInherits Dialog",
+							"C++": "public ref class SegmentDialog : public Dialog"
+						},
 						"constructors": {
 							"SegmentDialog": {
 								"link": "M_Blueshirt_Core_Crm_SegmentDialog__ctor.htm",
@@ -8457,7 +8568,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST2A75F1BA_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST2A75F1BA_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST2A75F1BA_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST2A75F1BA_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SegmentDialog.htm": "SegmentDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8473,7 +8584,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST16D9443D_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST16D9443D_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST16D9443D_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST16D9443D_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SegmentDialog.htm": "SegmentDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8540,11 +8651,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTDF280195_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTDF280195_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");SearchDialog"
 						},
+						"lower_syntax_text": "The SearchDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The SearchDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class SearchDialog : Dialog",
+							"VB": "Public Class SearchDialog\n\tInherits Dialog",
+							"C++": "public ref class SearchDialog : public Dialog"
+						},
 						"constructors": {
 							"SearchDialog": {
 								"link": "M_Blueshirt_Core_Crm_SearchDialog__ctor.htm",
@@ -8758,7 +8874,7 @@
 							"VB": "Public Const getXFirstNameField As String",
 							"C++": "public:\nliteral String^ getXFirstNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8774,7 +8890,7 @@
 							"VB": "Public Const getXResultsBar As String",
 							"C++": "public:\nliteral String^ getXResultsBar"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8790,7 +8906,7 @@
 							"VB": "Public Const getXLastNameField As String",
 							"C++": "public:\nliteral String^ getXLastNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8806,7 +8922,7 @@
 							"VB": "Public Const getXGridNameField As String",
 							"C++": "public:\nliteral String^ getXGridNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8822,7 +8938,7 @@
 							"VB": "Public Const getXSelectedResultsRow As String",
 							"C++": "public:\nliteral String^ getXSelectedResultsRow"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8838,7 +8954,7 @@
 							"VB": "Public Const getXNoRecordsFound As String",
 							"C++": "public:\nliteral String^ getXNoRecordsFound"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8854,7 +8970,7 @@
 							"VB": "Public Const getXSearchButton As String",
 							"C++": "public:\nliteral String^ getXSearchButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8870,7 +8986,7 @@
 							"VB": "Public Const getXSelectButton As String",
 							"C++": "public:\nliteral String^ getXSelectButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -8886,7 +9002,7 @@
 							"VB": "Protected Shared getXSearchResultsGrid As String",
 							"C++": "protected:\nstatic String^ getXSearchResultsGrid"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_SearchDialog.htm": "SearchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9048,11 +9164,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST94635BCC_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST94635BCC_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");AdHocQueryDialog"
 						},
+						"lower_syntax_text": "The AdHocQueryDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The AdHocQueryDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class AdHocQueryDialog : Dialog",
+							"VB": "Public Class AdHocQueryDialog\n\tInherits Dialog",
+							"C++": "public ref class AdHocQueryDialog : public Dialog"
+						},
 						"constructors": {
 							"AdHocQueryDialog": {
 								"link": "M_Blueshirt_Core_Crm_AdHocQueryDialog__ctor.htm",
@@ -9210,7 +9331,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST91AC0ACE_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST91AC0ACE_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST91AC0ACE_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST91AC0ACE_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_AdHocQueryDialog.htm": "AdHocQueryDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9226,7 +9347,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST3153AF0B_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3153AF0B_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST3153AF0B_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST3153AF0B_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_AdHocQueryDialog.htm": "AdHocQueryDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9414,11 +9535,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1FCB52C5_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST1FCB52C5_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MultiLevelEventDialog"
 						},
+						"lower_syntax_text": "The MultiLevelEventDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MultiLevelEventDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class MultiLevelEventDialog : Dialog",
+							"VB": "Public Class MultiLevelEventDialog\n\tInherits Dialog",
+							"C++": "public ref class MultiLevelEventDialog : public Dialog"
+						},
 						"constructors": {
 							"MultiLevelEventDialog": {
 								"link": "M_Blueshirt_Core_Crm_MultiLevelEventDialog__ctor.htm",
@@ -9552,7 +9678,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LSTA4A9C66_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTA4A9C66_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LSTA4A9C66_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTA4A9C66_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MultiLevelEventDialog.htm": "MultiLevelEventDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9722,11 +9848,16 @@
 							"T_Blueshirt_Core_Crm_Dialog.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2C08EAD0_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Dialog",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2C08EAD0_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");TaskDialog"
 						},
+						"lower_syntax_text": "The TaskDialog type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The TaskDialog type exposes the following members.",
+						"syntax": {
+							"C#": "public class TaskDialog : Dialog",
+							"VB": "Public Class TaskDialog\n\tInherits Dialog",
+							"C++": "public ref class TaskDialog : public Dialog"
+						},
 						"constructors": {
 							"TaskDialog": {
 								"link": "M_Blueshirt_Core_Crm_TaskDialog__ctor.htm",
@@ -9852,7 +9983,7 @@
 							"VB": "Protected Shared ReadOnly DialogIds As String()",
 							"C++": "protected:\nstatic initonly array<String^>^ DialogIds"
 						},
-						"type": "String",
+						"type": "&#xA0;<span id=\"LST194287A0_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST194287A0_1?cpp=array&lt;\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a><span id=\"LST194287A0_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST194287A0_2?cpp=&gt;|vb=()|nu=[]\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_TaskDialog.htm": "TaskDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9868,7 +9999,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTD9F70DBB_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD9F70DBB_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTD9F70DBB_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTD9F70DBB_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_TaskDialog.htm": "TaskDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9884,7 +10015,7 @@
 							"VB": "Protected Shared ReadOnly SupportedRemindersGridFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedRemindersGridFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LSTAAC48B44_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTAAC48B44_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LSTAAC48B44_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LSTAAC48B44_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_TaskDialog.htm": "TaskDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -9951,11 +10082,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB62EC9D5_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB62EC9D5_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");AnalysisFunctionalArea"
 						},
+						"lower_syntax_text": "The AnalysisFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The AnalysisFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class AnalysisFunctionalArea : FunctionalArea",
+							"VB": "Public Class AnalysisFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class AnalysisFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"AnalysisFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_AnalysisFunctionalArea__ctor.htm",
@@ -10056,11 +10192,16 @@
 							"T_Blueshirt_Core_Crm_ProspectsFunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTAFB9391A_12?cs=.|vb=.|cpp=::|nu=.|fs=.\");ProspectsFunctionalArea",
 							"T_Blueshirt_Core_Crm_RevenueFunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTAFB9391A_13?cs=.|vb=.|cpp=::|nu=.|fs=.\");RevenueFunctionalArea"
 						},
+						"lower_syntax_text": "The FunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The FunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class FunctionalArea : BaseComponent",
+							"VB": "Public Class FunctionalArea\n\tInherits BaseComponent",
+							"C++": "public ref class FunctionalArea : public BaseComponent"
+						},
 						"constructors": {
 							"FunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_FunctionalArea__ctor.htm",
@@ -10445,11 +10586,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST67D8BE32_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST67D8BE32_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");ConstituentsFunctionalArea"
 						},
+						"lower_syntax_text": "The ConstituentsFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The ConstituentsFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class ConstituentsFunctionalArea : FunctionalArea",
+							"VB": "Public Class ConstituentsFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class ConstituentsFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"ConstituentsFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea__ctor.htm",
@@ -10770,11 +10916,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB473993A_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB473993A_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");EventsFunctionalArea"
 						},
+						"lower_syntax_text": "The EventsFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The EventsFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class EventsFunctionalArea : FunctionalArea",
+							"VB": "Public Class EventsFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class EventsFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"EventsFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_EventsFunctionalArea__ctor.htm",
@@ -11109,11 +11260,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST5A9C5AC1_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST5A9C5AC1_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");FundraisingFunctionalArea"
 						},
+						"lower_syntax_text": "The FundraisingFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The FundraisingFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class FundraisingFunctionalArea : FunctionalArea",
+							"VB": "Public Class FundraisingFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class FundraisingFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"FundraisingFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_FundraisingFunctionalArea__ctor.htm",
@@ -11263,11 +11419,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST45593F41_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST45593F41_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");HomeFunctionalArea"
 						},
+						"lower_syntax_text": "The HomeFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The HomeFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class HomeFunctionalArea : FunctionalArea",
+							"VB": "Public Class HomeFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class HomeFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"HomeFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_HomeFunctionalArea__ctor.htm",
@@ -11345,11 +11506,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST73B3EAC8_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST73B3EAC8_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAndCommFunctionalArea"
 						},
+						"lower_syntax_text": "The MarketingAndCommFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAndCommFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAndCommFunctionalArea : FunctionalArea",
+							"VB": "Public Class MarketingAndCommFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class MarketingAndCommFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"MarketingAndCommFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea__ctor.htm",
@@ -11599,11 +11765,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST8C7D27F7_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST8C7D27F7_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");ProspectsFunctionalArea"
 						},
+						"lower_syntax_text": "The ProspectsFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The ProspectsFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class ProspectsFunctionalArea : FunctionalArea",
+							"VB": "Public Class ProspectsFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class ProspectsFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"ProspectsFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea__ctor.htm",
@@ -11747,11 +11918,16 @@
 							"T_Blueshirt_Core_Crm_FunctionalArea.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTDC27B271_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");FunctionalArea",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTDC27B271_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");RevenueFunctionalArea"
 						},
+						"lower_syntax_text": "The RevenueFunctionalArea type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The RevenueFunctionalArea type exposes the following members.",
+						"syntax": {
+							"C#": "public class RevenueFunctionalArea : FunctionalArea",
+							"VB": "Public Class RevenueFunctionalArea\n\tInherits FunctionalArea",
+							"C++": "public ref class RevenueFunctionalArea : public FunctionalArea"
+						},
 						"constructors": {
 							"RevenueFunctionalArea": {
 								"link": "M_Blueshirt_Core_Crm_RevenueFunctionalArea__ctor.htm",
@@ -12105,11 +12281,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST52203705_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST52203705_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");AdHocQueryPanel"
 						},
+						"lower_syntax_text": "The AdHocQueryPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The AdHocQueryPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class AdHocQueryPanel : Panel",
+							"VB": "Public Class AdHocQueryPanel\n\tInherits Panel",
+							"C++": "public ref class AdHocQueryPanel : public Panel"
+						},
 						"constructors": {
 							"AdHocQueryPanel": {
 								"link": "M_Blueshirt_Core_Crm_AdHocQueryPanel__ctor.htm",
@@ -12217,11 +12398,16 @@
 							"T_Blueshirt_Core_Crm_SegmentPanel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST7F1E7F6D_49?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentPanel",
 							"T_Blueshirt_Core_Crm_SegmentsPanel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST7F1E7F6D_50?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentsPanel"
 						},
+						"lower_syntax_text": "The Panel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The Panel type exposes the following members.",
+						"syntax": {
+							"C#": "public class Panel : BaseComponent",
+							"VB": "Public Class Panel\n\tInherits BaseComponent",
+							"C++": "public ref class Panel : public BaseComponent"
+						},
 						"constructors": {
 							"Panel": {
 								"link": "M_Blueshirt_Core_Crm_Panel__ctor.htm",
@@ -12820,7 +13006,7 @@
 							"VB": "Public Const getXTabsBarRightScroller As String",
 							"C++": "public:\nliteral String^ getXTabsBarRightScroller"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -12836,7 +13022,7 @@
 							"VB": "Public Const getXTabsBar As String",
 							"C++": "public:\nliteral String^ getXTabsBar"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -12852,7 +13038,7 @@
 							"VB": "Public Const getXTabsBarActiveTab As String",
 							"C++": "public:\nliteral String^ getXTabsBarActiveTab"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -12868,7 +13054,7 @@
 							"VB": "Public Const getXInnerTabsBar As String",
 							"C++": "public:\nliteral String^ getXInnerTabsBar"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -14786,11 +14972,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTE75FB653_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTE75FB653_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");BatchEntryPanel"
 						},
+						"lower_syntax_text": "The BatchEntryPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BatchEntryPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class BatchEntryPanel : Panel",
+							"VB": "Public Class BatchEntryPanel\n\tInherits Panel",
+							"C++": "public ref class BatchEntryPanel : public Panel"
+						},
 						"constructors": {
 							"BatchEntryPanel": {
 								"link": "M_Blueshirt_Core_Crm_BatchEntryPanel__ctor.htm",
@@ -15053,11 +15244,16 @@
 							"T_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST841094C4_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementBusinessProcess",
 							"T_Blueshirt_Core_Crm_ReceiptBusinessProcess.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST841094C4_5?cs=.|vb=.|cpp=::|nu=.|fs=.\");ReceiptBusinessProcess"
 						},
+						"lower_syntax_text": "The BusinessProcess type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BusinessProcess type exposes the following members.",
+						"syntax": {
+							"C#": "public class BusinessProcess : Panel",
+							"VB": "Public Class BusinessProcess\n\tInherits Panel",
+							"C++": "public ref class BusinessProcess : public Panel"
+						},
 						"constructors": {
 							"BusinessProcess": {
 								"link": "M_Blueshirt_Core_Crm_BusinessProcess__ctor.htm",
@@ -15168,7 +15364,7 @@
 							"VB": "Public Shared getXCommitStatus As String",
 							"C++": "public:\nstatic String^ getXCommitStatus"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BusinessProcess.htm": "BusinessProcess Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -15184,7 +15380,7 @@
 							"VB": "Public Shared getXRecordsProcessed As String",
 							"C++": "public:\nstatic String^ getXRecordsProcessed"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BusinessProcess.htm": "BusinessProcess Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -15252,11 +15448,16 @@
 							"T_Blueshirt_Core_Crm_BusinessProcess.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST585CABE4_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");BusinessProcess",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST585CABE4_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementBusinessProcess"
 						},
+						"lower_syntax_text": "The MarketingAcknowledgementBusinessProcess type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAcknowledgementBusinessProcess type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAcknowledgementBusinessProcess : BusinessProcess",
+							"VB": "Public Class MarketingAcknowledgementBusinessProcess\n\tInherits BusinessProcess",
+							"C++": "public ref class MarketingAcknowledgementBusinessProcess : public BusinessProcess"
+						},
 						"constructors": {
 							"MarketingAcknowledgementBusinessProcess": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess__ctor.htm",
@@ -15401,11 +15602,16 @@
 							"T_Blueshirt_Core_Crm_BusinessProcess.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD5BF5ED7_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");BusinessProcess",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTD5BF5ED7_4?cs=.|vb=.|cpp=::|nu=.|fs=.\");ReceiptBusinessProcess"
 						},
+						"lower_syntax_text": "The ReceiptBusinessProcess type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The ReceiptBusinessProcess type exposes the following members.",
+						"syntax": {
+							"C#": "public class ReceiptBusinessProcess : BusinessProcess",
+							"VB": "Public Class ReceiptBusinessProcess\n\tInherits BusinessProcess",
+							"C++": "public ref class ReceiptBusinessProcess : public BusinessProcess"
+						},
 						"constructors": {
 							"ReceiptBusinessProcess": {
 								"link": "M_Blueshirt_Core_Crm_ReceiptBusinessProcess__ctor.htm",
@@ -15511,11 +15717,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC638BEB3_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC638BEB3_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");ConstituentPanel"
 						},
+						"lower_syntax_text": "The ConstituentPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The ConstituentPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class ConstituentPanel : Panel",
+							"VB": "Public Class ConstituentPanel\n\tInherits Panel",
+							"C++": "public ref class ConstituentPanel : public Panel"
+						},
 						"constructors": {
 							"ConstituentPanel": {
 								"link": "M_Blueshirt_Core_Crm_ConstituentPanel__ctor.htm",
@@ -16379,11 +16590,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTE1862B5D_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTE1862B5D_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");EventManagementTemplatesPanel"
 						},
+						"lower_syntax_text": "The EventManagementTemplatesPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The EventManagementTemplatesPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class EventManagementTemplatesPanel : Panel",
+							"VB": "Public Class EventManagementTemplatesPanel\n\tInherits Panel",
+							"C++": "public ref class EventManagementTemplatesPanel : public Panel"
+						},
 						"constructors": {
 							"EventManagementTemplatesPanel": {
 								"link": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel__ctor.htm",
@@ -16532,11 +16748,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST84FCBF55_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST84FCBF55_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");EventPanel"
 						},
+						"lower_syntax_text": "The EventPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The EventPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class EventPanel : Panel",
+							"VB": "Public Class EventPanel\n\tInherits Panel",
+							"C++": "public ref class EventPanel : public Panel"
+						},
 						"constructors": {
 							"EventPanel": {
 								"link": "M_Blueshirt_Core_Crm_EventPanel__ctor.htm",
@@ -17190,11 +17411,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2707115D_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2707115D_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");InformationLibraryPanel"
 						},
+						"lower_syntax_text": "The InformationLibraryPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The InformationLibraryPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class InformationLibraryPanel : Panel",
+							"VB": "Public Class InformationLibraryPanel\n\tInherits Panel",
+							"C++": "public ref class InformationLibraryPanel : public Panel"
+						},
 						"constructors": {
 							"InformationLibraryPanel": {
 								"link": "M_Blueshirt_Core_Crm_InformationLibraryPanel__ctor.htm",
@@ -17434,7 +17660,7 @@
 							"VB": "Protected Shared getXFilterQueryField As String",
 							"C++": "protected:\nstatic String^ getXFilterQueryField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_InformationLibraryPanel.htm": "InformationLibraryPanel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -17450,7 +17676,7 @@
 							"VB": "Public Shared getXDeleteQuery As String",
 							"C++": "public:\nstatic String^ getXDeleteQuery"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_InformationLibraryPanel.htm": "InformationLibraryPanel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -17886,11 +18112,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC5408243_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTC5408243_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");LocationsPanel"
 						},
+						"lower_syntax_text": "The LocationsPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The LocationsPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class LocationsPanel : Panel",
+							"VB": "Public Class LocationsPanel\n\tInherits Panel",
+							"C++": "public ref class LocationsPanel : public Panel"
+						},
 						"constructors": {
 							"LocationsPanel": {
 								"link": "M_Blueshirt_Core_Crm_LocationsPanel__ctor.htm",
@@ -18079,11 +18310,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST644182E7_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST644182E7_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MajorGivingSetupPanel"
 						},
+						"lower_syntax_text": "The MajorGivingSetupPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MajorGivingSetupPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class MajorGivingSetupPanel : Panel",
+							"VB": "Public Class MajorGivingSetupPanel\n\tInherits Panel",
+							"C++": "public ref class MajorGivingSetupPanel : public Panel"
+						},
 						"constructors": {
 							"MajorGivingSetupPanel": {
 								"link": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel__ctor.htm",
@@ -18242,11 +18478,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST99B7ED6C_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST99B7ED6C_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementsPanel"
 						},
+						"lower_syntax_text": "The MarketingAcknowledgementsPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAcknowledgementsPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAcknowledgementsPanel : Panel",
+							"VB": "Public Class MarketingAcknowledgementsPanel\n\tInherits Panel",
+							"C++": "public ref class MarketingAcknowledgementsPanel : public Panel"
+						},
 						"constructors": {
 							"MarketingAcknowledgementsPanel": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel__ctor.htm",
@@ -18418,11 +18659,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST62306475_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST62306475_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MarketingAcknowledgementTemplatePanel"
 						},
+						"lower_syntax_text": "The MarketingAcknowledgementTemplatePanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MarketingAcknowledgementTemplatePanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class MarketingAcknowledgementTemplatePanel : Panel",
+							"VB": "Public Class MarketingAcknowledgementTemplatePanel\n\tInherits Panel",
+							"C++": "public ref class MarketingAcknowledgementTemplatePanel : public Panel"
+						},
 						"constructors": {
 							"MarketingAcknowledgementTemplatePanel": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel__ctor.htm",
@@ -18546,11 +18792,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTED901537_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTED901537_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");MultiEventPanel"
 						},
+						"lower_syntax_text": "The MultiEventPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The MultiEventPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class MultiEventPanel : Panel",
+							"VB": "Public Class MultiEventPanel\n\tInherits Panel",
+							"C++": "public ref class MultiEventPanel : public Panel"
+						},
 						"constructors": {
 							"MultiEventPanel": {
 								"link": "M_Blueshirt_Core_Crm_MultiEventPanel__ctor.htm",
@@ -18712,11 +18963,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST920513D2_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST920513D2_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PackagesPanel"
 						},
+						"lower_syntax_text": "The PackagesPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PackagesPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class PackagesPanel : Panel",
+							"VB": "Public Class PackagesPanel\n\tInherits Panel",
+							"C++": "public ref class PackagesPanel : public Panel"
+						},
 						"constructors": {
 							"PackagesPanel": {
 								"link": "M_Blueshirt_Core_Crm_PackagesPanel__ctor.htm",
@@ -18967,11 +19223,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST195F148A_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST195F148A_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PlanPanel"
 						},
+						"lower_syntax_text": "The PlanPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PlanPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class PlanPanel : Panel",
+							"VB": "Public Class PlanPanel\n\tInherits Panel",
+							"C++": "public ref class PlanPanel : public Panel"
+						},
 						"constructors": {
 							"PlanPanel": {
 								"link": "M_Blueshirt_Core_Crm_PlanPanel__ctor.htm",
@@ -19181,11 +19442,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA54682D5_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTA54682D5_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PledgePanel"
 						},
+						"lower_syntax_text": "The PledgePanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PledgePanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class PledgePanel : Panel",
+							"VB": "Public Class PledgePanel\n\tInherits Panel",
+							"C++": "public ref class PledgePanel : public Panel"
+						},
 						"constructors": {
 							"PledgePanel": {
 								"link": "M_Blueshirt_Core_Crm_PledgePanel__ctor.htm",
@@ -19415,11 +19681,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB1DAA712_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTB1DAA712_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");PledgeSubtypePanel"
 						},
+						"lower_syntax_text": "The PledgeSubtypePanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The PledgeSubtypePanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class PledgeSubtypePanel : Panel",
+							"VB": "Public Class PledgeSubtypePanel\n\tInherits Panel",
+							"C++": "public ref class PledgeSubtypePanel : public Panel"
+						},
 						"constructors": {
 							"PledgeSubtypePanel": {
 								"link": "M_Blueshirt_Core_Crm_PledgeSubtypePanel__ctor.htm",
@@ -19653,11 +19924,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTABF0FF7_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.Crm.PanelsAddLanguageSpecificTextSet(\"LSTABF0FF7_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");QueryPanel"
 						},
+						"lower_syntax_text": "The QueryPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The QueryPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class QueryPanel : Panel",
+							"VB": "Public Class QueryPanel\n\tInherits Panel",
+							"C++": "public ref class QueryPanel : public Panel"
+						},
 						"constructors": {
 							"QueryPanel": {
 								"link": "M_Blueshirt_Core_Crm_Panels_QueryPanel__ctor.htm",
@@ -19856,7 +20132,7 @@
 							"VB": "Public Const getXAddButton As String",
 							"C++": "public:\nliteral String^ getXAddButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -19872,7 +20148,7 @@
 							"VB": "Public Const getXAdhocQuery As String",
 							"C++": "public:\nliteral String^ getXAdhocQuery"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -19888,7 +20164,7 @@
 							"VB": "Public Const getXFilterQueryField As String",
 							"C++": "public:\nliteral String^ getXFilterQueryField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -19968,11 +20244,16 @@
 							"T_Blueshirt_Core_Base_BaseComponent.htm": "Blueshirt.Core.BaseAddLanguageSpecificTextSet(\"LST12A39129_1?cs=.|vb=.|cpp=::|nu=.|fs=.\");BaseComponent",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST12A39129_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");BBCRMHomePage"
 						},
+						"lower_syntax_text": "The BBCRMHomePage type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BBCRMHomePage type exposes the following members.",
+						"syntax": {
+							"C#": "public class BBCRMHomePage : BaseComponent",
+							"VB": "Public Class BBCRMHomePage\n\tInherits BaseComponent",
+							"C++": "public ref class BBCRMHomePage : public BaseComponent"
+						},
 						"constructors": {
 							"BBCRMHomePage": {
 								"link": "M_Blueshirt_Core_Crm_BBCRMHomePage__ctor.htm",
@@ -20203,7 +20484,7 @@
 							"VB": "Public Const getXMenuMore As String",
 							"C++": "public:\nliteral String^ getXMenuMore"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BBCRMHomePage.htm": "BBCRMHomePage Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -20277,7 +20558,7 @@
 							"VB": "Public Shared getXWaitBar As String",
 							"C++": "public:\nstatic String^ getXWaitBar"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BBCRMHomePage.htm": "BBCRMHomePage Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -20480,11 +20761,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTCCB0430A_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LSTCCB0430A_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");ReceiptsPanel"
 						},
+						"lower_syntax_text": "The ReceiptsPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The ReceiptsPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class ReceiptsPanel : Panel",
+							"VB": "Public Class ReceiptsPanel\n\tInherits Panel",
+							"C++": "public ref class ReceiptsPanel : public Panel"
+						},
 						"constructors": {
 							"ReceiptsPanel": {
 								"link": "M_Blueshirt_Core_Crm_ReceiptsPanel__ctor.htm",
@@ -20628,11 +20914,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST730B7B3D_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST730B7B3D_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");RecurringGiftPanel"
 						},
+						"lower_syntax_text": "The RecurringGiftPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The RecurringGiftPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class RecurringGiftPanel : Panel",
+							"VB": "Public Class RecurringGiftPanel\n\tInherits Panel",
+							"C++": "public ref class RecurringGiftPanel : public Panel"
+						},
 						"constructors": {
 							"RecurringGiftPanel": {
 								"link": "M_Blueshirt_Core_Crm_RecurringGiftPanel__ctor.htm",
@@ -20748,11 +21039,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST81ABBFB2_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST81ABBFB2_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");RegistrantPanel"
 						},
+						"lower_syntax_text": "The RegistrantPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The RegistrantPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class RegistrantPanel : Panel",
+							"VB": "Public Class RegistrantPanel\n\tInherits Panel",
+							"C++": "public ref class RegistrantPanel : public Panel"
+						},
 						"constructors": {
 							"RegistrantPanel": {
 								"link": "M_Blueshirt_Core_Crm_RegistrantPanel__ctor.htm",
@@ -20944,11 +21240,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST4B0EB547_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST4B0EB547_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");RevenueRecordPanel"
 						},
+						"lower_syntax_text": "The RevenueRecordPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The RevenueRecordPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class RevenueRecordPanel : Panel",
+							"VB": "Public Class RevenueRecordPanel\n\tInherits Panel",
+							"C++": "public ref class RevenueRecordPanel : public Panel"
+						},
 						"constructors": {
 							"RevenueRecordPanel": {
 								"link": "M_Blueshirt_Core_Crm_RevenueRecordPanel__ctor.htm",
@@ -21158,11 +21459,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2FD70DC6_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST2FD70DC6_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentPanel"
 						},
+						"lower_syntax_text": "The SegmentPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The SegmentPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class SegmentPanel : Panel",
+							"VB": "Public Class SegmentPanel\n\tInherits Panel",
+							"C++": "public ref class SegmentPanel : public Panel"
+						},
 						"constructors": {
 							"SegmentPanel": {
 								"link": "M_Blueshirt_Core_Crm_SegmentPanel__ctor.htm",
@@ -21334,11 +21640,16 @@
 							"T_Blueshirt_Core_Crm_Panel.htm": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST33D56ED5_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");Panel",
 							"#": "Blueshirt.Core.CrmAddLanguageSpecificTextSet(\"LST33D56ED5_3?cs=.|vb=.|cpp=::|nu=.|fs=.\");SegmentsPanel"
 						},
+						"lower_syntax_text": "The SegmentsPanel type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The SegmentsPanel type exposes the following members.",
+						"syntax": {
+							"C#": "public class SegmentsPanel : Panel",
+							"VB": "Public Class SegmentsPanel\n\tInherits Panel",
+							"C++": "public ref class SegmentsPanel : public Panel"
+						},
 						"constructors": {
 							"SegmentsPanel": {
 								"link": "M_Blueshirt_Core_Crm_SegmentsPanel__ctor.htm",
@@ -21655,6 +21966,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Base_BaseSteps",
 					"params": {
+						"summary": "The BaseSteps type exposes the following members.",
 						"Fields": {
 							"testStamp": {
 								"link": "F_Blueshirt_Core_Base_BaseSteps_testStamp.htm",
@@ -21682,6 +21994,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Base_CrmField",
 					"params": {
+						"summary": "The CrmField type exposes the following members.",
 						"Fields": {
 							"CellType": {
 								"link": "F_Blueshirt_Core_Base_CrmField_CellType.htm",
@@ -21722,6 +22035,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Bbis_Pages_BBISHomePage",
 					"params": {
+						"summary": "The BBISHomePage type exposes the following members.",
 						"Fields": {
 							"getXFilterByNameButton": {
 								"link": "F_Blueshirt_Core_Bbis_Pages_BBISHomePage_getXFilterByNameButton.htm",
@@ -21830,6 +22144,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_AdHocQueryDialog",
 					"params": {
+						"summary": "The AdHocQueryDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_AdHocQueryDialog_DialogIds.htm",
@@ -21858,6 +22173,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_BatchDialog",
 					"params": {
+						"summary": "The BatchDialog type exposes the following members.",
 						"Fields": {
 							"BatchDialogGridId": {
 								"link": "F_Blueshirt_Core_Crm_BatchDialog_BatchDialogGridId.htm",
@@ -21902,6 +22218,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_BatchEntryPanel",
 					"params": {
+						"summary": "The BatchEntryPanel type exposes the following members.",
 						"Fields": {
 							"getXSearchInput": {
 								"link": "F_Blueshirt_Core_Crm_BatchEntryPanel_getXSearchInput.htm",
@@ -21922,6 +22239,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_BBCRMHomePage",
 					"params": {
+						"summary": "The BBCRMHomePage type exposes the following members.",
 						"Fields": {
 							"getXMenuMore": {
 								"link": "F_Blueshirt_Core_Crm_BBCRMHomePage_getXMenuMore.htm",
@@ -21950,6 +22268,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_BusinessProcess",
 					"params": {
+						"summary": "The BusinessProcess type exposes the following members.",
 						"Fields": {
 							"getXCommitStatus": {
 								"link": "F_Blueshirt_Core_Crm_BusinessProcess_getXCommitStatus.htm",
@@ -21978,6 +22297,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_CommitmentsDialog",
 					"params": {
+						"summary": "The CommitmentsDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_CommitmentsDialog_DialogIds.htm",
@@ -22006,6 +22326,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_ConstituentPanel",
 					"params": {
+						"summary": "The ConstituentPanel type exposes the following members.",
 						"Fields": {
 							"getXYesReallyDelete": {
 								"link": "F_Blueshirt_Core_Crm_ConstituentPanel_getXYesReallyDelete.htm",
@@ -22026,6 +22347,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_DesignationsDialog",
 					"params": {
+						"summary": "The DesignationsDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_DesignationsDialog_DialogIds.htm",
@@ -22054,6 +22376,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_Dialog",
 					"params": {
+						"summary": "The Dialog type exposes the following members.",
 						"Fields": {
 							"getXCancelButton": {
 								"link": "F_Blueshirt_Core_Crm_Dialog_getXCancelButton.htm",
@@ -22170,6 +22493,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog",
 					"params": {
+						"summary": "The AddMembershipProgramDialog type exposes the following members.",
 						"Fields": {
 							"getXAddMembershipButton": {
 								"link": "F_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog_getXAddMembershipButton.htm",
@@ -22334,6 +22658,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementTemplateDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog_DialogIds.htm",
@@ -22362,6 +22687,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_EventDialog",
 					"params": {
+						"summary": "The EventDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_EventDialog_DialogIds.htm",
@@ -22390,6 +22716,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_IndividualDialog",
 					"params": {
+						"summary": "The IndividualDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_IndividualDialog_DialogIds.htm",
@@ -22418,6 +22745,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_InformationLibraryPanel",
 					"params": {
+						"summary": "The InformationLibraryPanel type exposes the following members.",
 						"Fields": {
 							"getXAllQueriesTreeRoot": {
 								"link": "F_Blueshirt_Core_Crm_InformationLibraryPanel_getXAllQueriesTreeRoot.htm",
@@ -22454,6 +22782,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_MajorGivingPlanDialog",
 					"params": {
+						"summary": "The MajorGivingPlanDialog type exposes the following members.",
 						"Fields": {
 							"AddDialogId": {
 								"link": "F_Blueshirt_Core_Crm_MajorGivingPlanDialog_AddDialogId.htm",
@@ -22490,6 +22819,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementRuleDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog_DialogIds.htm",
@@ -22518,6 +22848,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_MultiLevelEventDialog",
 					"params": {
+						"summary": "The MultiLevelEventDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_MultiLevelEventDialog_DialogIds.htm",
@@ -22538,6 +22869,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_NewAdhocQueryDialog",
 					"params": {
+						"summary": "The NewAdhocQueryDialog type exposes the following members.",
 						"Fields": {
 							"getXAddFilterArrow": {
 								"link": "F_Blueshirt_Core_Crm_NewAdhocQueryDialog_getXAddFilterArrow.htm",
@@ -22574,6 +22906,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_PackageDialog",
 					"params": {
+						"summary": "The PackageDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_PackageDialog_DialogIds.htm",
@@ -22602,6 +22935,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_Panel",
 					"params": {
+						"summary": "The Panel type exposes the following members.",
 						"Fields": {
 							"getxEventSearchResultsBar": {
 								"link": "F_Blueshirt_Core_Crm_Panel_getxEventSearchResultsBar.htm",
@@ -22670,6 +23004,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_Panels_QueryPanel",
 					"params": {
+						"summary": "The QueryPanel type exposes the following members.",
 						"Fields": {
 							"DeleteQueryLinkElement": {
 								"link": "F_Blueshirt_Core_Crm_Panels_QueryPanel_DeleteQueryLinkElement.htm",
@@ -22730,6 +23065,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_PaymentDialog",
 					"params": {
+						"summary": "The PaymentDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_PaymentDialog_DialogIds.htm",
@@ -22758,6 +23094,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_PledgeDialog",
 					"params": {
+						"summary": "The PledgeDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_PledgeDialog_DialogIds.htm",
@@ -22786,6 +23123,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_QuerySourceViewDialog",
 					"params": {
+						"summary": "The QuerySourceViewDialog type exposes the following members.",
 						"Fields": {
 							"getXRecordTypeField": {
 								"link": "F_Blueshirt_Core_Crm_QuerySourceViewDialog_getXRecordTypeField.htm",
@@ -22806,6 +23144,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_RegistrantDialog",
 					"params": {
+						"summary": "The RegistrantDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_RegistrantDialog_DialogIds.htm",
@@ -22834,6 +23173,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_SearchDialog",
 					"params": {
+						"summary": "The SearchDialog type exposes the following members.",
 						"Fields": {
 							"getXFirstNameField": {
 								"link": "F_Blueshirt_Core_Crm_SearchDialog_getXFirstNameField.htm",
@@ -22918,6 +23258,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_SegmentDialog",
 					"params": {
+						"summary": "The SegmentDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_SegmentDialog_DialogIds.htm",
@@ -22946,6 +23287,7 @@
 				{
 					"name": "Fields_T_Blueshirt_Core_Crm_TaskDialog",
 					"params": {
+						"summary": "The TaskDialog type exposes the following members.",
 						"Fields": {
 							"DialogIds": {
 								"link": "F_Blueshirt_Core_Crm_TaskDialog_DialogIds.htm",
@@ -22987,7 +23329,7 @@
 							"VB": "Protected testStamp As String",
 							"C++": "protected:\nString^ testStamp"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Base_BaseSteps.htm": "BaseSteps Class",
 							"N_Blueshirt_Core_Base.htm": "Blueshirt.Core.Base Namespace"
@@ -23002,7 +23344,7 @@
 							"VB": "Public Const getXFilterByNameButton As String",
 							"C++": "public:\nliteral String^ getXFilterByNameButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23017,7 +23359,7 @@
 							"VB": "Public Const getXFilterByNameField As String",
 							"C++": "public:\nliteral String^ getXFilterByNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23032,7 +23374,7 @@
 							"VB": "Public Const getXLayoutGridNameField As String",
 							"C++": "public:\nliteral String^ getXLayoutGridNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23047,7 +23389,7 @@
 							"VB": "Public Const getXLayoutSearchResultsLine As String",
 							"C++": "public:\nliteral String^ getXLayoutSearchResultsLine"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23062,7 +23404,7 @@
 							"VB": "Public Const getXLoginButton As String",
 							"C++": "public:\nliteral String^ getXLoginButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23077,7 +23419,7 @@
 							"VB": "Public Const getXNewLayoutButton As String",
 							"C++": "public:\nliteral String^ getXNewLayoutButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23092,7 +23434,7 @@
 							"VB": "Public Const getXNewLayoutLayoutDescription As String",
 							"C++": "public:\nliteral String^ getXNewLayoutLayoutDescription"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23107,7 +23449,7 @@
 							"VB": "Public Const getXNewLayoutLayoutName As String",
 							"C++": "public:\nliteral String^ getXNewLayoutLayoutName"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23122,7 +23464,7 @@
 							"VB": "Public Const getXNewLayoutNextButton As String",
 							"C++": "public:\nliteral String^ getXNewLayoutNextButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23137,7 +23479,7 @@
 							"VB": "Public Const getXNewLayoutSaveButton As String",
 							"C++": "public:\nliteral String^ getXNewLayoutSaveButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23152,7 +23494,7 @@
 							"VB": "Public Const getXPasswordField As String",
 							"C++": "public:\nliteral String^ getXPasswordField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23167,7 +23509,7 @@
 							"VB": "Public Const getXUserNameField As String",
 							"C++": "public:\nliteral String^ getXUserNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Bbis_Pages_BBISHomePage.htm": "BBISHomePage Class",
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
@@ -23182,7 +23524,7 @@
 							"VB": "Protected Const BatchDialogGridId As String",
 							"C++": "protected:\nliteral String^ BatchDialogGridId"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BatchDialog.htm": "BatchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23197,7 +23539,7 @@
 							"VB": "Protected Const BatchDialogId As String",
 							"C++": "protected:\nliteral String^ BatchDialogId"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BatchDialog.htm": "BatchDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23212,7 +23554,7 @@
 							"VB": "Protected Const getXSearchInput As String",
 							"C++": "protected:\nliteral String^ getXSearchInput"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_BatchEntryPanel.htm": "BatchEntryPanel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23227,7 +23569,7 @@
 							"VB": "Public Const getXYesReallyDelete As String",
 							"C++": "public:\nliteral String^ getXYesReallyDelete"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_ConstituentPanel.htm": "ConstituentPanel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23242,7 +23584,7 @@
 							"VB": "Protected Shared ReadOnly SupportedFields As IDictionary(Of String, CrmField)",
 							"C++": "protected:\nstatic initonly IDictionary<String^, CrmField^>^ SupportedFields"
 						},
-						"type": "IDictionaryStringCrmField",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s4ys34ea\" target=\"_blank\">IDictionary</a><span id=\"LST8FCAD26D_1\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST8FCAD26D_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(\");</script><a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>, <a href=\"T_Blueshirt_Core_Base_CrmField.htm\">CrmField</a><span id=\"LST8FCAD26D_2\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST8FCAD26D_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)\");</script>",
 						"references": {
 							"T_Blueshirt_Core_Crm_DesignationsDialog.htm": "DesignationsDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23257,7 +23599,7 @@
 							"VB": "Public Const getXAddMembershipButton As String",
 							"C++": "public:\nliteral String^ getXAddMembershipButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23272,7 +23614,7 @@
 							"VB": "Public Const getXAddMembershipNextButton As String",
 							"C++": "public:\nliteral String^ getXAddMembershipNextButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23287,7 +23629,7 @@
 							"VB": "Public Const getXBenefitsCardFormatDropDown As String",
 							"C++": "public:\nliteral String^ getXBenefitsCardFormatDropDown"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23302,7 +23644,7 @@
 							"VB": "Public Const getXDuesInstallments As String",
 							"C++": "public:\nliteral String^ getXDuesInstallments"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23317,7 +23659,7 @@
 							"VB": "Public Const getXHeaderPanel As String",
 							"C++": "public:\nliteral String^ getXHeaderPanel"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23332,7 +23674,7 @@
 							"VB": "Public Const getXMembershipProgramButton As String",
 							"C++": "public:\nliteral String^ getXMembershipProgramButton"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23347,7 +23689,7 @@
 							"VB": "Public Const getXMembershipTerm As String",
 							"C++": "public:\nliteral String^ getXMembershipTerm"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23362,7 +23704,7 @@
 							"VB": "Public Const getXProgramKindAnnual As String",
 							"C++": "public:\nliteral String^ getXProgramKindAnnual"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23377,7 +23719,7 @@
 							"VB": "Public Const getXProgramLevelCurrentEdit As String",
 							"C++": "public:\nliteral String^ getXProgramLevelCurrentEdit"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23392,7 +23734,7 @@
 							"VB": "Public Const getXProgramLevelNameHeader As String",
 							"C++": "public:\nliteral String^ getXProgramLevelNameHeader"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23407,7 +23749,7 @@
 							"VB": "Public Const getXProgramLevelPriceHeader As String",
 							"C++": "public:\nliteral String^ getXProgramLevelPriceHeader"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23422,7 +23764,7 @@
 							"VB": "Public Const getXProgramNameField As String",
 							"C++": "public:\nliteral String^ getXProgramNameField"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23437,7 +23779,7 @@
 							"VB": "Public Const getXProgramObtainDues As String",
 							"C++": "public:\nliteral String^ getXProgramObtainDues"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23452,7 +23794,7 @@
 							"VB": "Public Const getXReviewSave As String",
 							"C++": "public:\nliteral String^ getXReviewSave"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23467,7 +23809,7 @@
 							"VB": "Public Const getXYesReallyDelete As String",
 							"C++": "public:\nliteral String^ getXYesReallyDelete"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23482,7 +23824,7 @@
 							"VB": "Public Shared ProgramLevelCurrentEditElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ ProgramLevelCurrentEditElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23497,7 +23839,7 @@
 							"VB": "Public Shared ProgramLevelNameHeaderElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ ProgramLevelNameHeaderElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23512,7 +23854,7 @@
 							"VB": "Public Shared ProgramLevelPriceHeaderElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ ProgramLevelPriceHeaderElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23527,7 +23869,7 @@
 							"VB": "Public Shared ProgramLinkElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ ProgramLinkElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog.htm": "AddMembershipProgramDialog Class",
 							"N_Blueshirt_Core_Crm_Dialogs.htm": "Blueshirt.Core.Crm.Dialogs Namespace"
@@ -23542,7 +23884,7 @@
 							"VB": "Public Shared getXAllQueriesTreeRoot As String",
 							"C++": "public:\nstatic String^ getXAllQueriesTreeRoot"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_InformationLibraryPanel.htm": "InformationLibraryPanel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23557,7 +23899,7 @@
 							"VB": "Protected Const AddDialogId As String",
 							"C++": "protected:\nliteral String^ AddDialogId"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_MajorGivingPlanDialog.htm": "MajorGivingPlanDialog Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23572,7 +23914,7 @@
 							"VB": "Public Shared DeleteQueryLinkElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ DeleteQueryLinkElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -23587,7 +23929,7 @@
 							"VB": "Public Shared QueryLinkElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ QueryLinkElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -23602,7 +23944,7 @@
 							"VB": "Public Shared YesReallyDeleteElement As IWebElement",
 							"C++": "public:\nstatic IWebElement^ YesReallyDeleteElement"
 						},
-						"type": "IWebElement",
+						"type": "&#xA0;<span class=\"nolink\">IWebElement</span>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panels_QueryPanel.htm": "QueryPanel Class",
 							"N_Blueshirt_Core_Crm_Panels.htm": "Blueshirt.Core.Crm.Panels Namespace"
@@ -23617,7 +23959,7 @@
 							"VB": "Protected Const getxEventSearchResultsBar As String",
 							"C++": "protected:\nliteral String^ getxEventSearchResultsBar"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23632,7 +23974,7 @@
 							"VB": "Protected Const getXEventSearchresultsGridNameFields As String",
 							"C++": "protected:\nliteral String^ getXEventSearchresultsGridNameFields"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23647,7 +23989,7 @@
 							"VB": "Protected Const getXSearchResultsGrid As String",
 							"C++": "protected:\nliteral String^ getXSearchResultsGrid"
 						},
-						"type": "String",
+						"type": "&#xA0;<a href=\"http://msdn2.microsoft.com/en-us/library/s1wwdcbf\" target=\"_blank\">String</a>",
 						"references": {
 							"T_Blueshirt_Core_Crm_Panel.htm": "Panel Class",
 							"N_Blueshirt_Core_Crm.htm": "Blueshirt.Core.Crm Namespace"
@@ -23657,6 +23999,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Base_BaseComponent",
 					"params": {
+						"summary": "The BaseComponent type exposes the following members.",
 						"Methods": {
 							"ClickButton": {
 								"link": "M_Blueshirt_Core_Base_BaseComponent_ClickButton.htm",
@@ -23863,6 +24206,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Base_BaseSteps",
 					"params": {
+						"summary": "The BaseSteps type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -23925,6 +24269,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Base_CrmField",
 					"params": {
+						"summary": "The CrmField type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -23979,6 +24324,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Bbis_Pages_BBISHomePage",
 					"params": {
+						"summary": "The BBISHomePage type exposes the following members.",
 						"Methods": {
 							"CheckLayoutSearchResultsContain": {
 								"link": "M_Blueshirt_Core_Bbis_Pages_BBISHomePage_CheckLayoutSearchResultsContain.htm",
@@ -24097,6 +24443,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_AdHocQueryDialog",
 					"params": {
+						"summary": "The AdHocQueryDialog type exposes the following members.",
 						"Methods": {
 							"AddFilterField": {
 								"link": "M_Blueshirt_Core_Crm_AdHocQueryDialog_AddFilterField.htm",
@@ -24214,6 +24561,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_AdHocQueryPanel",
 					"params": {
+						"summary": "The AdHocQueryPanel type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -24276,6 +24624,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_AnalysisFunctionalArea",
 					"params": {
+						"summary": "The AnalysisFunctionalArea type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -24346,6 +24695,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_BatchDialog",
 					"params": {
+						"summary": "The BatchDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -24479,6 +24829,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_BatchEntryPanel",
 					"params": {
+						"summary": "The BatchEntryPanel type exposes the following members.",
 						"Methods": {
 							"AddBatch(String)": {
 								"link": "M_Blueshirt_Core_Crm_BatchEntryPanel_AddBatch.htm",
@@ -24573,6 +24924,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_BBCRMHomePage",
 					"params": {
+						"summary": "The BBCRMHomePage type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -24747,6 +25099,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_BusinessProcess",
 					"params": {
+						"summary": "The BusinessProcess type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -24817,6 +25170,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_CommitmentsDialog",
 					"params": {
+						"summary": "The CommitmentsDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -24886,6 +25240,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_ConstituentPanel",
 					"params": {
+						"summary": "The ConstituentPanel type exposes the following members.",
 						"Methods": {
 							"AddConstituency": {
 								"link": "M_Blueshirt_Core_Crm_ConstituentPanel_AddConstituency.htm",
@@ -25132,6 +25487,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_ConstituentsFunctionalArea",
 					"params": {
+						"summary": "The ConstituentsFunctionalArea type exposes the following members.",
 						"Methods": {
 							"AddAnIndividual(String, String)": {
 								"link": "M_Blueshirt_Core_Crm_ConstituentsFunctionalArea_AddAnIndividual.htm",
@@ -25226,6 +25582,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_DesignationsDialog",
 					"params": {
+						"summary": "The DesignationsDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -25303,6 +25660,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_Dialog",
 					"params": {
+						"summary": "The Dialog type exposes the following members.",
 						"Methods": {
 							"Cancel": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_Cancel.htm",
@@ -25756,6 +26114,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog",
 					"params": {
+						"summary": "The AddMembershipProgramDialog type exposes the following members.",
 						"Methods": {
 							"CheckMembershipProgramExists": {
 								"link": "M_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog_CheckMembershipProgramExists.htm",
@@ -25937,6 +26296,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementTemplateDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -26030,6 +26390,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog",
 					"params": {
+						"summary": "The EnhancedRevenueBatchDialog type exposes the following members.",
 						"Methods": {
 							"Apply": {
 								"link": "M_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog_Apply.htm",
@@ -26115,6 +26476,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_EventDialog",
 					"params": {
+						"summary": "The EventDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -26184,6 +26546,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_EventManagementTemplatesPanel",
 					"params": {
+						"summary": "The EventManagementTemplatesPanel type exposes the following members.",
 						"Methods": {
 							"AddTemplate": {
 								"link": "M_Blueshirt_Core_Crm_EventManagementTemplatesPanel_AddTemplate.htm",
@@ -26254,6 +26617,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_EventPanel",
 					"params": {
+						"summary": "The EventPanel type exposes the following members.",
 						"Methods": {
 							"AddCoordinator": {
 								"link": "M_Blueshirt_Core_Crm_EventPanel_AddCoordinator.htm",
@@ -26436,6 +26800,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_EventsFunctionalArea",
 					"params": {
+						"summary": "The EventsFunctionalArea type exposes the following members.",
 						"Methods": {
 							"AddEvent<span id=\"LST657C455C_0\"></span><script type=\"text/javascript\">AddLanguageSpecificTextSet(\"LST657C455C_0?cs=()|vb=|cpp=()|nu=()|fs=()\");</script>": {
 								"link": "M_Blueshirt_Core_Crm_EventsFunctionalArea_AddEvent.htm",
@@ -26546,6 +26911,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_FunctionalArea",
 					"params": {
+						"summary": "The FunctionalArea type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -26656,6 +27022,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_FundraisingFunctionalArea",
 					"params": {
+						"summary": "The FundraisingFunctionalArea type exposes the following members.",
 						"Methods": {
 							"DesignationExists": {
 								"link": "M_Blueshirt_Core_Crm_FundraisingFunctionalArea_DesignationExists.htm",
@@ -26718,6 +27085,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_HomeFunctionalArea",
 					"params": {
+						"summary": "The HomeFunctionalArea type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -26772,6 +27140,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_IndividualDialog",
 					"params": {
+						"summary": "The IndividualDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -26873,6 +27242,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_InformationLibraryPanel",
 					"params": {
+						"summary": "The InformationLibraryPanel type exposes the following members.",
 						"Methods": {
 							"AddAdHocQuery": {
 								"link": "M_Blueshirt_Core_Crm_InformationLibraryPanel_AddAdHocQuery.htm",
@@ -27039,6 +27409,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_LocationsPanel",
 					"params": {
+						"summary": "The LocationsPanel type exposes the following members.",
 						"Methods": {
 							"AddLocation": {
 								"link": "M_Blueshirt_Core_Crm_LocationsPanel_AddLocation.htm",
@@ -27117,6 +27488,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MajorGivingPlanDialog",
 					"params": {
+						"summary": "The MajorGivingPlanDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -27258,6 +27630,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MajorGivingSetupPanel",
 					"params": {
+						"summary": "The MajorGivingSetupPanel type exposes the following members.",
 						"Methods": {
 							"AddPlanOutline": {
 								"link": "M_Blueshirt_Core_Crm_MajorGivingSetupPanel_AddPlanOutline.htm",
@@ -27328,6 +27701,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess",
 					"params": {
+						"summary": "The MarketingAcknowledgementBusinessProcess type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -27398,6 +27772,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementRuleDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -27475,6 +27850,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel",
 					"params": {
+						"summary": "The MarketingAcknowledgementsPanel type exposes the following members.",
 						"Methods": {
 							"AddTemplate": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel_AddTemplate.htm",
@@ -27553,6 +27929,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel",
 					"params": {
+						"summary": "The MarketingAcknowledgementTemplatePanel type exposes the following members.",
 						"Methods": {
 							"AddAcknowledgementRule": {
 								"link": "M_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel_AddAcknowledgementRule.htm",
@@ -27623,6 +28000,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea",
 					"params": {
+						"summary": "The MarketingAndCommFunctionalArea type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -27709,6 +28087,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MultiEventPanel",
 					"params": {
+						"summary": "The MultiEventPanel type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -27779,6 +28158,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_MultiLevelEventDialog",
 					"params": {
+						"summary": "The MultiLevelEventDialog type exposes the following members.",
 						"Methods": {
 							"AddChildEvent": {
 								"link": "M_Blueshirt_Core_Crm_MultiLevelEventDialog_AddChildEvent.htm",
@@ -27880,6 +28260,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_NewAdhocQueryDialog",
 					"params": {
+						"summary": "The NewAdhocQueryDialog type exposes the following members.",
 						"Methods": {
 							"ApplyCriteria": {
 								"link": "M_Blueshirt_Core_Crm_NewAdhocQueryDialog_ApplyCriteria.htm",
@@ -28021,6 +28402,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PackageDialog",
 					"params": {
+						"summary": "The PackageDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -28090,6 +28472,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PackagesPanel",
 					"params": {
+						"summary": "The PackagesPanel type exposes the following members.",
 						"Methods": {
 							"AddMailPackage": {
 								"link": "M_Blueshirt_Core_Crm_PackagesPanel_AddMailPackage.htm",
@@ -28184,6 +28567,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_Panel",
 					"params": {
+						"summary": "The Panel type exposes the following members.",
 						"Methods": {
 							"AdditionalDatalistPagesExist": {
 								"link": "M_Blueshirt_Core_Crm_Panel_AdditionalDatalistPagesExist.htm",
@@ -28702,6 +29086,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_Panels_QueryPanel",
 					"params": {
+						"summary": "The QueryPanel type exposes the following members.",
 						"Methods": {
 							"AddQuery": {
 								"link": "M_Blueshirt_Core_Crm_Panels_QueryPanel_AddQuery.htm",
@@ -28828,6 +29213,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PaymentDialog",
 					"params": {
+						"summary": "The PaymentDialog type exposes the following members.",
 						"Methods": {
 							"AddApplication": {
 								"link": "M_Blueshirt_Core_Crm_PaymentDialog_AddApplication.htm",
@@ -28905,6 +29291,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PlanPanel",
 					"params": {
+						"summary": "The PlanPanel type exposes the following members.",
 						"Methods": {
 							"AddCompletedStep": {
 								"link": "M_Blueshirt_Core_Crm_PlanPanel_AddCompletedStep.htm",
@@ -28991,6 +29378,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PledgeDialog",
 					"params": {
+						"summary": "The PledgeDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -29092,6 +29480,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PledgePanel",
 					"params": {
+						"summary": "The PledgePanel type exposes the following members.",
 						"Methods": {
 							"DesignationExists": {
 								"link": "M_Blueshirt_Core_Crm_PledgePanel_DesignationExists.htm",
@@ -29178,6 +29567,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_PledgeSubtypePanel",
 					"params": {
+						"summary": "The PledgeSubtypePanel type exposes the following members.",
 						"Methods": {
 							"AddSubtype(TableRow)": {
 								"link": "M_Blueshirt_Core_Crm_PledgeSubtypePanel_AddSubtype_1.htm",
@@ -29264,6 +29654,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_ProspectsFunctionalArea",
 					"params": {
+						"summary": "The ProspectsFunctionalArea type exposes the following members.",
 						"Methods": {
 							"CollapseResearchLists": {
 								"link": "M_Blueshirt_Core_Crm_ProspectsFunctionalArea_CollapseResearchLists.htm",
@@ -29334,6 +29725,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_QuerySourceViewDialog",
 					"params": {
+						"summary": "The QuerySourceViewDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -29419,6 +29811,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_ReceiptBusinessProcess",
 					"params": {
+						"summary": "The ReceiptBusinessProcess type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -29481,6 +29874,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_ReceiptsPanel",
 					"params": {
+						"summary": "The ReceiptsPanel type exposes the following members.",
 						"Methods": {
 							"AddReceipt": {
 								"link": "M_Blueshirt_Core_Crm_ReceiptsPanel_AddReceipt.htm",
@@ -29551,6 +29945,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_RecurringGiftPanel",
 					"params": {
+						"summary": "The RecurringGiftPanel type exposes the following members.",
 						"Methods": {
 							"DesignationExists": {
 								"link": "M_Blueshirt_Core_Crm_RecurringGiftPanel_DesignationExists.htm",
@@ -29613,6 +30008,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_RegistrantDialog",
 					"params": {
+						"summary": "The RegistrantDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -29690,6 +30086,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_RegistrantPanel",
 					"params": {
+						"summary": "The RegistrantPanel type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -29768,6 +30165,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_RevenueFunctionalArea",
 					"params": {
+						"summary": "The RevenueFunctionalArea type exposes the following members.",
 						"Methods": {
 							"AddAPayment": {
 								"link": "M_Blueshirt_Core_Crm_RevenueFunctionalArea_AddAPayment.htm",
@@ -29870,6 +30268,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_RevenueRecordPanel",
 					"params": {
+						"summary": "The RevenueRecordPanel type exposes the following members.",
 						"Methods": {
 							"Equals": {
 								"link": "http://msdn2.microsoft.com/en-us/library/bsc2ak47",
@@ -29956,6 +30355,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_SearchDialog",
 					"params": {
+						"summary": "The SearchDialog type exposes the following members.",
 						"Methods": {
 							"CheckConstituentSearchResultsContain": {
 								"link": "M_Blueshirt_Core_Crm_SearchDialog_CheckConstituentSearchResultsContain.htm",
@@ -30073,6 +30473,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_SegmentDialog",
 					"params": {
+						"summary": "The SegmentDialog type exposes the following members.",
 						"Methods": {
 							"AddSelection": {
 								"link": "M_Blueshirt_Core_Crm_SegmentDialog_AddSelection.htm",
@@ -30150,6 +30551,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_SegmentPanel",
 					"params": {
+						"summary": "The SegmentPanel type exposes the following members.",
 						"Methods": {
 							"ActivatedMarketingEffortExists": {
 								"link": "M_Blueshirt_Core_Crm_SegmentPanel_ActivatedMarketingEffortExists.htm",
@@ -30228,6 +30630,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_SegmentsPanel",
 					"params": {
+						"summary": "The SegmentsPanel type exposes the following members.",
 						"Methods": {
 							"AddSegment": {
 								"link": "M_Blueshirt_Core_Crm_SegmentsPanel_AddSegment.htm",
@@ -30314,6 +30717,7 @@
 				{
 					"name": "Methods_T_Blueshirt_Core_Crm_TaskDialog",
 					"params": {
+						"summary": "The TaskDialog type exposes the following members.",
 						"Methods": {
 							"CloseDialog": {
 								"link": "M_Blueshirt_Core_Crm_Dialog_CloseDialog.htm",
@@ -33704,6 +34108,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Base_BaseComponent",
 					"params": {
+						"summary": "The BaseComponent type exposes the following members.",
 						"Properties": {
 							"Driver": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Driver.htm",
@@ -33739,6 +34144,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Bbis_Pages_BBISHomePage",
 					"params": {
+						"summary": "The BBISHomePage type exposes the following members.",
 						"Properties": {
 							"BaseUrl": {
 								"link": "P_Blueshirt_Core_Bbis_Pages_BBISHomePage_BaseUrl.htm",
@@ -33774,6 +34180,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_AdHocQueryDialog",
 					"params": {
+						"summary": "The AdHocQueryDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33793,6 +34200,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_AdHocQueryPanel",
 					"params": {
+						"summary": "The AdHocQueryPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33812,6 +34220,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_AnalysisFunctionalArea",
 					"params": {
+						"summary": "The AnalysisFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33831,6 +34240,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_BatchDialog",
 					"params": {
+						"summary": "The BatchDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33850,6 +34260,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_BatchEntryPanel",
 					"params": {
+						"summary": "The BatchEntryPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33869,6 +34280,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_BBCRMHomePage",
 					"params": {
+						"summary": "The BBCRMHomePage type exposes the following members.",
 						"Properties": {
 							"BaseUrl": {
 								"link": "P_Blueshirt_Core_Crm_BBCRMHomePage_BaseUrl.htm",
@@ -33904,6 +34316,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_BusinessProcess",
 					"params": {
+						"summary": "The BusinessProcess type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33923,6 +34336,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_CommitmentsDialog",
 					"params": {
+						"summary": "The CommitmentsDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33942,6 +34356,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_ConstituentPanel",
 					"params": {
+						"summary": "The ConstituentPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33961,6 +34376,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_ConstituentsFunctionalArea",
 					"params": {
+						"summary": "The ConstituentsFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33980,6 +34396,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_DesignationsDialog",
 					"params": {
+						"summary": "The DesignationsDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -33999,6 +34416,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_Dialog",
 					"params": {
+						"summary": "The Dialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34018,6 +34436,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_Dialogs_AddMembershipProgramDialog",
 					"params": {
+						"summary": "The AddMembershipProgramDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34037,6 +34456,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_Dialogs_MarketingAcknowledgementTemplateDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementTemplateDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34056,6 +34476,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_EnhancedRevenueBatchDialog",
 					"params": {
+						"summary": "The EnhancedRevenueBatchDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34075,6 +34496,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_EventDialog",
 					"params": {
+						"summary": "The EventDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34094,6 +34516,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_EventManagementTemplatesPanel",
 					"params": {
+						"summary": "The EventManagementTemplatesPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34113,6 +34536,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_EventPanel",
 					"params": {
+						"summary": "The EventPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34132,6 +34556,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_EventsFunctionalArea",
 					"params": {
+						"summary": "The EventsFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34151,6 +34576,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_FunctionalArea",
 					"params": {
+						"summary": "The FunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34170,6 +34596,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_FundraisingFunctionalArea",
 					"params": {
+						"summary": "The FundraisingFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34189,6 +34616,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_HomeFunctionalArea",
 					"params": {
+						"summary": "The HomeFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34208,6 +34636,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_IndividualDialog",
 					"params": {
+						"summary": "The IndividualDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34227,6 +34656,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_InformationLibraryPanel",
 					"params": {
+						"summary": "The InformationLibraryPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34246,6 +34676,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_LocationsPanel",
 					"params": {
+						"summary": "The LocationsPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34265,6 +34696,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MajorGivingPlanDialog",
 					"params": {
+						"summary": "The MajorGivingPlanDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34284,6 +34716,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MajorGivingSetupPanel",
 					"params": {
+						"summary": "The MajorGivingSetupPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34303,6 +34736,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MarketingAcknowledgementBusinessProcess",
 					"params": {
+						"summary": "The MarketingAcknowledgementBusinessProcess type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34322,6 +34756,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MarketingAcknowledgementRuleDialog",
 					"params": {
+						"summary": "The MarketingAcknowledgementRuleDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34341,6 +34776,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MarketingAcknowledgementsPanel",
 					"params": {
+						"summary": "The MarketingAcknowledgementsPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34360,6 +34796,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MarketingAcknowledgementTemplatePanel",
 					"params": {
+						"summary": "The MarketingAcknowledgementTemplatePanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34379,6 +34816,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MarketingAndCommFunctionalArea",
 					"params": {
+						"summary": "The MarketingAndCommFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34398,6 +34836,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MultiEventPanel",
 					"params": {
+						"summary": "The MultiEventPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34417,6 +34856,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_MultiLevelEventDialog",
 					"params": {
+						"summary": "The MultiLevelEventDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34436,6 +34876,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_NewAdhocQueryDialog",
 					"params": {
+						"summary": "The NewAdhocQueryDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34455,6 +34896,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PackageDialog",
 					"params": {
+						"summary": "The PackageDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34474,6 +34916,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PackagesPanel",
 					"params": {
+						"summary": "The PackagesPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34493,6 +34936,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_Panel",
 					"params": {
+						"summary": "The Panel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34512,6 +34956,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_Panels_QueryPanel",
 					"params": {
+						"summary": "The QueryPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34531,6 +34976,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PaymentDialog",
 					"params": {
+						"summary": "The PaymentDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34550,6 +34996,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PlanPanel",
 					"params": {
+						"summary": "The PlanPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34569,6 +35016,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PledgeDialog",
 					"params": {
+						"summary": "The PledgeDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34588,6 +35036,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PledgePanel",
 					"params": {
+						"summary": "The PledgePanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34607,6 +35056,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_PledgeSubtypePanel",
 					"params": {
+						"summary": "The PledgeSubtypePanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34626,6 +35076,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_ProspectsFunctionalArea",
 					"params": {
+						"summary": "The ProspectsFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34645,6 +35096,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_QuerySourceViewDialog",
 					"params": {
+						"summary": "The QuerySourceViewDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34664,6 +35116,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_ReceiptBusinessProcess",
 					"params": {
+						"summary": "The ReceiptBusinessProcess type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34683,6 +35136,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_ReceiptsPanel",
 					"params": {
+						"summary": "The ReceiptsPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34702,6 +35156,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_RecurringGiftPanel",
 					"params": {
+						"summary": "The RecurringGiftPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34721,6 +35176,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_RegistrantDialog",
 					"params": {
+						"summary": "The RegistrantDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34740,6 +35196,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_RegistrantPanel",
 					"params": {
+						"summary": "The RegistrantPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34759,6 +35216,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_RevenueFunctionalArea",
 					"params": {
+						"summary": "The RevenueFunctionalArea type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34778,6 +35236,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_RevenueRecordPanel",
 					"params": {
+						"summary": "The RevenueRecordPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34797,6 +35256,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_SearchDialog",
 					"params": {
+						"summary": "The SearchDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34816,6 +35276,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_SegmentDialog",
 					"params": {
+						"summary": "The SegmentDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34835,6 +35296,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_SegmentPanel",
 					"params": {
+						"summary": "The SegmentPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34854,6 +35316,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_SegmentsPanel",
 					"params": {
+						"summary": "The SegmentsPanel type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -34873,6 +35336,7 @@
 				{
 					"name": "Properties_T_Blueshirt_Core_Crm_TaskDialog",
 					"params": {
+						"summary": "The TaskDialog type exposes the following members.",
 						"Properties": {
 							"Title": {
 								"link": "P_Blueshirt_Core_Base_BaseComponent_Title.htm",
@@ -35014,11 +35478,16 @@
 							"T_Blueshirt_Core_Base_BaseComponent.htm": "Blueshirt.Core.BaseAddLanguageSpecificTextSet(\"LST7146C9A_1?cs=.|vb=.|cpp=::|nu=.|fs=.\");BaseComponent",
 							"#": "Blueshirt.Core.Bbis.PagesAddLanguageSpecificTextSet(\"LST7146C9A_2?cs=.|vb=.|cpp=::|nu=.|fs=.\");BBISHomePage"
 						},
+						"lower_syntax_text": "The BBISHomePage type exposes the following members.",
 						"namespace": {
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages"
 						},
 						"assembly": " Blueshirt.Core (in Blueshirt.Core.dll) Version: 1.0.647.3 (1.0.647.3)",
-						"lower_syntax_text": "The BBISHomePage type exposes the following members.",
+						"syntax": {
+							"C#": "public class BBISHomePage : BaseComponent",
+							"VB": "Public Class BBISHomePage\n\tInherits BaseComponent",
+							"C++": "public ref class BBISHomePage : public BaseComponent"
+						},
 						"constructors": {
 							"BBISHomePage": {
 								"link": "M_Blueshirt_Core_Bbis_Pages_BBISHomePage__ctor.htm",
@@ -35263,17 +35732,6 @@
 							"N_Blueshirt_Core_Bbis_Pages.htm": "Blueshirt.Core.Bbis.Pages Namespace"
 						}
 					}
-				}
-			],
-			"scripts": [
-				{
-					"src": "../scripts/branding.js"
-				},
-				{
-					"src": "../scripts/jquery-1.11.0.min.js"
-				},
-				{
-					"src": "../scripts/branding-Website.js"
 				}
 			]
 		}
