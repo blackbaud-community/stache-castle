@@ -168,9 +168,10 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 				},
 ```
 #####Notes on Class JSON Format: <a name="Class Notes"></a>
+<a name="paramsnote"></a>
 - All extracted date from the HTML files are inserted into the `params` object.  Some objects already have a `param` section, but this only contains parameters accepted by methods.  It is content extracted from the XML.
-
-- The `name` is simply the name of the class.  This holds true for any other page for methods, fields, properties, events, overload methods, enumerations, etc. <a name="namenote"></a>
+<a name="namenote"></a>
+- The `name` is simply the name of the class.  This holds true for any other page for methods, fields, properties, events, overload methods, enumerations, etc.
 
 - The `summary` section is the text that appears at the top of the page which describes the class.  This exists in other objects as well.
 
@@ -182,7 +183,7 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 - The `lower_syntax_text` tag is exactly that, the text placed below the Syntax box.
 
 - Both the `namespace` and `assembly` hold the text for this information.  The `namespace` object has a key which is a link to the namespace page.
-
+<a name="syntaxnote"></a>
 - Within the `syntax` object there are two bits of information to know
   - Each key is a tab within the Syntax section, named for the language that tab represents.
   - Each value is the text within that tab.
@@ -193,7 +194,7 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
   - The `description` key gives the text in the description column under the respective section for that item. The description for `Panel` is `Initializes a new instance of the Panel class`.  
   - Each subsequent key is related to the access and/or visibility of the item.  So `Panel` is `public`.  Others can be `public`, `private`, `static`, or `inherited`.  Other items are less important such as `declared` and `notNetfw`.
   - It's worth noting that some of the keys of items in the list of `methods`, `fields`, `properties`, or `constructors` might have HTML in them because there is text that doesn't show until the page is loaded.  Similarly to the 3rd bullet point under the inheritance section above.
-
+<a name="referencesnote"></a>
 - The `references` section has any references for that class.  It is formatted like the `inheritance` section in that the keys are the links and the value is the text on the page.  The `reference` section exists in many other JSON objects within the file.
 
 ## Method JSON Format <a name='Method'></a>
@@ -240,3 +241,16 @@ Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)
 ```
 #####Notes on Method JSON Format: <a name="Method Notes"></a>
 - For information on the `name` and `summary` keys, see [Class Notes](#namenote)
+
+- The `param` key, which many objects that relate to methods will have, holds XML data for parameters accepted by the method. The `_` key gives the description for that parameter, and the `name` key gives the name of the parameter.
+
+- Next is the `params` section which all objects will have if there's a matching HTML file.  See related info under [Class Notes](#paramsnote)
+	- All method pages will have a syntax section marked by the `syntax` key.  See related info under [Class Notes] (#syntaxnote)
+	- The `arguments` key marks an object holding information about every parameter accepted by the method.
+		- Each key within `arguments` is an object itself whose key is the name of the parameter.
+			- The `type` key is the data type of the parameter.  These will typically have HTML because they link to external pages, but may also have content that is not added until `onLoad()`.  By simply using the HTML it should be easy to use in any case.
+			- The `description` key is the description of the parameter as it relates to the method's purpose.
+	- The `return_val` key is formatted the same as each argument within the `arguments` object. See above for information on the format of `return_val`
+	- See [Class Notes](#referencesnote) for more information on the `references` key.
+
+- This is the most expanded format for Method pages, not all JSON objects will have `return_val` and/or `arguments` sections.
