@@ -1,14 +1,14 @@
-var html_file = require('fs');
-var cheerio = require('cheerio');
-var r_url;
 
 module.exports = function(grunt) {
 
-	grunt.config.merge({
+	grunt.config.init({
 		stache_castle: {
-			src: ['test/WebTOC.xml'],
-			dest: 'test/WebTOC.json',
-        	dir: 'test/html/'
+			options: {
+				src: 'WebTOC.xml',
+				dest: 'WebTOC.json',
+	        	dir: 'test/',
+				html_dir: 'test/html/'
+			}
 		}
 	});
 

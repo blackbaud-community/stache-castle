@@ -5,9 +5,11 @@
  */
 module.exports = function (grunt) {
 
+    var html_file = require('fs');
+    var cheerio = require('cheerio');
+    var r_url;
     var defaults = {
         html_dir: 'html/',
-        dest: 'dest.json',
         has_url: true,
         url_attr: 'Url',
         convert: {
@@ -23,10 +25,8 @@ module.exports = function (grunt) {
 				src: ['<%= stache_castle.src %>'],
 				dest: '<%= stache_castle.dest %>'
 			}
-		},
+		}
     };
-
-
 
     function add_scripts($, t) {
 
@@ -84,7 +84,7 @@ module.exports = function (grunt) {
 				if(visibility){ //this block gets the data specifics (i.e.: public, static, private, etc.)
 					var visibility = visibility.split(";");
 
-					for (type of visibility) {
+					for (var type of visibility) {
 
 						if(type != "")
 							member.params[choice][key][type] = "";
@@ -108,14 +108,14 @@ module.exports = function (grunt) {
 
 		if(t instanceof Object && Object.keys(t).length >= 1) { //if t is an object and also has a key (implying it's not a lowest level key/value pair or an array
 
-			for(key in t){ //recursively call read_files on each key
+			for(var key in t){ //recursively call read_files on each key
 				var lowest = read_files(t[key]); //if true than we've reached a lowest level key/value pair
-				if(grunt.config.get('cash_stache.has_url') && lowest) { //if there is a url param and we're at the lowest level we can open the file at the url location and call
+				if(grunt.config.get('stache_castle.has_url') && lowest) { //if there is a url param and we're at the lowest level we can open the file at the url location and call
 																		//process html on the parent object
 
-					var url = grunt.config.get('cash_stache.url_attr'); //the name of the attribute which holds the url
-					if(grunt.file.exists(grunt.config.get('cash_stache.dir') + '/' + t[url])){
-						$ = cheerio.load(html_file.readFileSync(grunt.config.get('cash_stache.dir') + '/' + t[url]));
+					var url = grunt.config.get('stache_castle.url_attr'); //the name of the attribute which holds the url
+					if(grunt.file.exists(grunt.config.get('stache_castle.dir') + '/' + t[url])){
+						$ = cheerio.load(html_file.readFileSync(grunt.config.get('stache_castle.dir') + '/' + t[url]));
 						process_html(t, t[url], $);
 						r_url = $;
 
@@ -131,7 +131,7 @@ module.exports = function (grunt) {
 
 
 				}
-				/*else if(!grunt.config.get('cash_stache.has_url') && lowest){
+				/*else if(!grunt.config.get('stache_castle.has_url') && lowest){
 
 					if(t.name.indexOf('(') != -1)
 						t.name = t.name.slice(0, t.name.indexOf('(')); //remove parameters from title to better find HTML file
@@ -139,7 +139,7 @@ module.exports = function (grunt) {
 					console.log("Title: " + t.name);
 
 
-					var file = grunt.config.get('cash_stache.dir')  + '/' + grunt.config.get('cash_stache.html_dir') + t.name + '.htm';
+					var file = grunt.config.get('stache_castle.dir')  + '/' + grunt.config.get('stache_castle.html_dir') + t.name + '.htm';
 
 					if(grunt.file.exists(file)){
 						$ = cheerio.load(html_file.readFileSync(file));
@@ -418,7 +418,10 @@ module.exports = function (grunt) {
         'Convert SandCastle to Blackbaud Stache',
         function () {
             grunt.config.set('stache_castle', this.options(defaults));
-            grunt.config.set('convert', grunt.config.get('stache_jsdoc.convert'));
+            grunt.config.set('convert', grunt.config.get('stache_castle.convert'));
+
+            console.log(grunt.config.get('stache_castle.src'));
+
             grunt.task.run([
                 'convert',
                 'stache-castle-post'
@@ -433,13 +436,13 @@ module.exports = function (grunt) {
 
         grunt.task.requires('convert'); //need to ensure xml2json gets ran before anything else
 
-        var dir = grunt.config.get('cash_stache.dir'); //directory where XML's will be
-        var htmldir = grunt.config.get('cash_stache.html_dir'); //directory where html will be
+        var dir = grunt.config.get('stache_castle.dir'); //directory where XML's will be
+        var htmldir = grunt.config.get('stache_castle.html_dir'); //directory where html will be
 
-        var t = grunt.file.readJSON(dir + "/" + grunt.config.get('cash_stache.dest')); //read previously generated JSON file
+        var t = grunt.file.readJSON(dir + "/" + grunt.config.get('stache_castle.dest')); //read previously generated JSON file
 
         var $;
-        if(grunt.config.get('cash_stache.has_url')){ //if there is a URL run recursively.  This is a bad way to do it because i'm working under the assumption that if there's a
+        if(grunt.config.get('stache_castle.has_url')){ //if there is a URL run recursively.  This is a bad way to do it because i'm working under the assumption that if there's a
                                                     //than the file is probably recursive.  Most SandCastle output tested against seems to support this assumption, but i am actively
                                                     //thinking of a way to support recursivity whether or not there is a URL.
             read_files(t, $);
@@ -528,8 +531,8 @@ module.exports = function (grunt) {
         }
 
 
-        grunt.file.write(grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest'), JSON.stringify(t, null, '\t'));
-        var output = grunt.config.get('cash_stache.dir') + "/" + grunt.config.get('cash_stache.dest');
+        grunt.file.write(grunt.config.get('stache_castle.dir') + "/" + grunt.config.get('stache_castle.dest'), JSON.stringify(t, null, '\t'));
+        var output = grunt.config.get('stache_castle.dir') + "/" + grunt.config.get('stache_castle.dest');
         var output = output.split(" ");
         grunt.log.ok("Sandcastle output converted! Output is in " + grunt.log.wordlist(output, {separator: ' ', color: 'cyan',}) + '.');
 
