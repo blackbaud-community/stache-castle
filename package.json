@@ -1,6 +1,6 @@
 {
   "name": "stache-castle",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
