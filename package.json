@@ -1,5 +1,5 @@
 {
-  "name": "stache-castle",
+  "name": "blackbaud-stache-castle",
   "version": "0.0.1",
   "description": "Grunt task for converting Sandcastle Documentation to Stache (JSON + markdown)",
   "scripts": {
