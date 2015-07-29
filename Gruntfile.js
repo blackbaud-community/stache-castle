@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 		stache_castle: {
 			src: ['test/WebTOC.xml'],
 			dest: 'test/WebTOC.json',
-        	dir: 'test/'
+        	dir: 'test/html/'
 		}
 	});
 
