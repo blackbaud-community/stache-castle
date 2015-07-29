@@ -4,10 +4,7 @@ module.exports = function(grunt) {
 	grunt.config.init({
 		stache_castle: {
 			options: {
-				src: 'WebTOC.xml',
-				dest: 'WebTOC.json',
-	        	dir: 'test/',
-				html_dir: 'test/html/'
+        		sandcastleOutput: 'test/'
 			}
 		}
 	});
