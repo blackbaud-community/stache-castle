@@ -157,15 +157,48 @@ module.exports = function (grunt) {
                 // Field type if it exists
                 $('h4.subHeading').each(function (idx, el) {
                     var $el = $(el),
-                        $field;
-                    if ($el.text() === 'Field Value') {
-                        $field = $el.next('a');
-                        v.type = {
-                            name: $field.text(),
-                            href: $field.attr('href')
-                        };
+                        $next,
+                        $dts,
+                        $dds;
+
+                    switch ($el.text()) {
+                        case 'Field Value':
+                            $next = $el.next('a');
+                            v.type = {
+                                name: $next.text(),
+                                href: $next.attr('href')
+                            };
+                        break;
+                        case 'Return Value':
+                            $next = $el.next('a');
+                            v.return = {
+                                name: $next.text(),
+                                href: $next.attr('href')
+                            };
+                        break;
+                        case 'Parameters':
+                            $next = $el.next('dl');
+                            $dts = $next.children('dt');
+                            $dds = $next.children('dd');
+                            v.params = [];
+                            $dds.each(function (idx, p) {
+                                var $p = $(p),
+                                    $html = $p.html(),
+                                    $a = $p.find('a'),
+                                    $name = $a.text();
+
+                                v.params.push({
+                                    name: $dts.eq(idx).text(),
+                                    description: $($html.substr($html.indexOf('<br>'))).text(),
+                                    type: {
+                                        name: $name.substr($name.indexOf(';') + 1),
+                                        href: $a.attr('href')
+                                    }
+                                });
+                            });
+                        break;
                     }
-                })
+                });
 
                 // Namespaces, Classes, Methods, Enumerations, Properties
                 $('.collapsibleAreaRegion').each(function () {
