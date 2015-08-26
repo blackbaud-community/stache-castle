@@ -4,7 +4,8 @@
 module.exports = function (grunt) {
     'use strict';
 
-    var cheerio = require('cheerio'),
+    var cwd = process.cwd(),
+        cheerio = require('cheerio'),
         defaults = {
             sandcastleOutput: 'sandcastle-output/',
             sandcastleHtml: '<%= stache_castle.sandcastleOutput %>html/',
@@ -73,9 +74,15 @@ module.exports = function (grunt) {
 
         // Read our JSON file and parse what Sandcastle calls "members"
         var json = grunt.file.readJSON(grunt.config.get('convert.xml2json.dest'));
-        json.HelpTOC.HelpTOCNode.forEach(function (v) {
-            parseJsonNode(v);
-        });
+
+        // Sometimes we're an array, sometimes we're not.
+        if (grunt.util.kindOf(json.HelpTOC.HelpTOCNode) === 'array') {
+            json.HelpTOC.HelpTOCNode.forEach(function (v) {
+                parseJsonNode(v);
+            });
+        } else {
+            parseJsonNode(json.HelpTOC.HelpTOCNode);
+        }
 
         // Write our JSON to file in the pretty print format
         grunt.file.write(grunt.config.get('stache_castle.dest'), JSON.stringify(json, null, 2));
@@ -311,6 +318,9 @@ module.exports = function (grunt) {
     }
 
     // Load the grunt-convert task
+    process.chdir(__dirname + '/..');
     grunt.task.loadNpmTasks('grunt-convert');
+    process.chdir(cwd);
+
 
 };
