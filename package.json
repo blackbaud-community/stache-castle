@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/blackbaud-community/stache-castle.git"
+    "url": "git+https://github.com/blackbaud/stache-castle.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/blackbaud-community/stache-castle/issues"
+    "url": "https://github.com/blackbaud/stache-castle/issues"
   },
-  "homepage": "https://github.com/blackbaud-community/stache-castle#readme",
+  "homepage": "https://github.com/blackbaud/stache-castle#readme",
   "dependencies": {
     "cheerio": "^0.19.0",
     "grunt": "^0.4.5",
